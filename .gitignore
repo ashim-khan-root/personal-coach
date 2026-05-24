@@ -1,0 +1,24 @@
+# Sensitive credentials
+*.env
+.env.*
+**/docker-compose*.yml
+**/docker-compose*.yaml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Syncthing
+~/.config/syncthing/
+
+# Python cache
+__pycache__/
+*.pyc
+.coach/
+
+# Work artifacts (optional - uncomment if you don't want generated work files)
+# coach/work/
+
+# n8n config
+.n8n/
+.n8n_cache/

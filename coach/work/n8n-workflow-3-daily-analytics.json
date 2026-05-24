@@ -1,0 +1,271 @@
+{
+  "name": "Daily Analytics Tracker",
+  "nodes": [
+    {
+      "id": "daily-cron",
+      "name": "Daily at 9am",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [0, 0],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "days",
+              "daysInterval": 1
+            }
+          ]
+        },
+        "triggerTimes": {
+          "item": [
+            {
+              "mode": "everyDay",
+              "hour": 9,
+              "minute": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "get-insights",
+      "name": "Get Instagram Insights",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [250, 0],
+      "parameters": {
+        "method": "GET",
+        "url": "https://graph.facebook.com/v21.0/={{ $getWorkflowStaticData('global').igBusinessId }}/insights",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "metric",
+              "value": "follower_count,impressions,reach,profile_views"
+            },
+            {
+              "name": "period",
+              "value": "day"
+            },
+            {
+              "name": "since",
+              "value": "={{ $moment().subtract(2, 'days').format('YYYY-MM-DD') }}"
+            },
+            {
+              "name": "until",
+              "value": "={{ $moment().subtract(1, 'days').format('YYYY-MM-DD') }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "credentials": {
+        "httpQuery": {
+          "id": "__CREDENTIAL_META_GRAPH_API__",
+          "name": "Meta Graph API"
+        }
+      },
+      "onError": "continueRegularOutput"
+    },
+    {
+      "id": "process-metrics",
+      "name": "Process Metrics",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [500, 0],
+      "parameters": {
+        "jsCode": "const item = $input.first().json;\nconst igBusinessId = $getWorkflowStaticData('global').igBusinessId;\n\nif (!item || item.error) {\n  return [{ json: { error: 'Failed to fetch insights', raw: item } }];\n}\n\nconst data = item.data || [];\nconst metrics = {};\n\nfor (const metric of data) {\n  const values = metric.values || [];\n  if (values.length > 0) {\n    const latestValue = values[values.length - 1];\n    metrics[metric.name] = latestValue.value;\n  }\n}\n\nreturn [{\n  json: {\n    date: metrics.end_time || new Date().toISOString().split('T')[0],\n    igBusinessId: igBusinessId,\n    followerCount: metrics.follower_count || 0,\n    impressions: metrics.impressions || 0,\n    reach: metrics.reach || 0,\n    profileViews: metrics.profile_views || 0,\n    measuredAt: new Date().toISOString()\n  }\n}];"
+      }
+    },
+    {
+      "id": "store-sqlite",
+      "name": "Store in SQLite",
+      "type": "n8n-nodes-base.sqlite",
+      "typeVersion": 1,
+      "position": [750, 0],
+      "parameters": {
+        "operation": "insert",
+        "query": "INSERT OR REPLACE INTO daily_metrics (date, ig_business_id, follower_count, impressions, reach, profile_views, measured_at) VALUES ('{{ $json.date }}', '{{ $json.igBusinessId }}', {{ $json.followerCount }}, {{ $json.impressions }}, {{ $json.reach }}, {{ $json.profileViews }}, '{{ $json.measuredAt }}')",
+        "additionalFields": {
+          "createTable": true,
+          "createTableQuery": "CREATE TABLE IF NOT EXISTS daily_metrics (id INTEGER PRIMARY KEY AUTOINCREMENT, date TEXT NOT NULL, ig_business_id TEXT NOT NULL, follower_count INTEGER DEFAULT 0, impressions INTEGER DEFAULT 0, reach INTEGER DEFAULT 0, profile_views INTEGER DEFAULT 0, measured_at TEXT NOT NULL, UNIQUE(date, ig_business_id))"
+        }
+      },
+      "onError": "continueRegularOutput"
+    },
+    {
+      "id": "get-yesterday",
+      "name": "Get Yesterday's Metrics",
+      "type": "n8n-nodes-base.sqlite",
+      "typeVersion": 1,
+      "position": [1000, 0],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT * FROM daily_metrics WHERE ig_business_id = '{{ $json.igBusinessId }}' AND date < '{{ $json.date }}' ORDER BY date DESC LIMIT 1"
+      },
+      "onError": "continueRegularOutput"
+    },
+    {
+      "id": "detect-spike",
+      "name": "Detect Spikes",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1250, 0],
+      "parameters": {
+        "jsCode": "const current = $input.first().json;\nconst yesterday = $input.all()[1]?.json || null;\n\nif (!yesterday) {\n  return [{ json: { ...current, spikeDetected: false, reason: 'No prior data for comparison' } }];\n}\n\nconst thresholds = $getWorkflowStaticData('global').thresholds || {\n  followerSpikePct: 10,\n  reachSpikePct: 50,\n  impressionSpikePct: 50\n};\n\nconst changes = {};\nlet spikeDetected = false;\nlet spikeReasons = [];\n\nconst metrics = ['followerCount', 'impressions', 'reach', 'profileViews'];\nfor (const metric of metrics) {\n  const currentVal = current[metric] || 0;\n  const prevVal = yesterday[metric] || 0;\n  \n  if (prevVal > 0) {\n    const pctChange = ((currentVal - prevVal) / prevVal) * 100;\n    changes[metric + 'ChangePct'] = Math.round(pctChange * 10) / 10;\n    \n    if (metric === 'followerCount' && Math.abs(pctChange) >= thresholds.followerSpikePct) {\n      spikeDetected = true;\n      spikeReasons.push(`Followers ${pctChange > 0 ? 'up' : 'down'} ${Math.abs(pctChange).toFixed(1)}% (${currentVal} vs ${prevVal})`);\n    }\n    if (metric === 'reach' && Math.abs(pctChange) >= thresholds.reachSpikePct) {\n      spikeDetected = true;\n      spikeReasons.push(`Reach ${pctChange > 0 ? 'up' : 'down'} ${Math.abs(pctChange).toFixed(1)}%`);\n    }\n    if (metric === 'impressions' && Math.abs(pctChange) >= thresholds.impressionSpikePct) {\n      spikeDetected = true;\n      spikeReasons.push(`Impressions ${pctChange > 0 ? 'up' : 'down'} ${Math.abs(pctChange).toFixed(1)}%`);\n    }\n  }\n}\n\nreturn [{\n  json: {\n    ...current,\n    ...changes,\n    spikeDetected: spikeDetected,\n    spikeReasons: spikeReasons.join('; '),\n    yesterdayFollowers: yesterday.followerCount\n  }\n}];"
+      }
+    },
+    {
+      "id": "check-spike",
+      "name": "Spike Detected?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [1500, 0],
+      "parameters": {
+        "conditions": {
+          "boolean": [
+            {
+              "value1": "={{ $json.spikeDetected }}",
+              "operation": "equal",
+              "value2": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "send-alert",
+      "name": "Send Email Alert",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 1,
+      "position": [1750, -120],
+      "parameters": {
+        "fromEmail": "={{ $getWorkflowStaticData('global').alertFromEmail }}",
+        "toEmail": "={{ $getWorkflowStaticData('global').alertToEmail }}",
+        "subject": "={{ 'Instagram Analytics Alert — ' + $json.spikeReasons }}",
+        "text": "={{ 'Daily Instagram Analytics Report\\n\\nDate: ' + $json.date + '\\nFollowers: ' + $json.followerCount + ' (was ' + $json.yesterdayFollowers + ')\\nImpressions: ' + $json.impressions + ' (' + ($json.impressionsChangePct || 0) + '%)\\nReach: ' + $json.reach + ' (' + ($json.reachChangePct || 0) + '%)\\nProfile Views: ' + $json.profileViews + '\\n\\nSpike Detected: ' + $json.spikeReasons + '\\n\\nCheck your Instagram dashboard for details.' }}",
+        "options": {}
+      },
+      "credentials": {
+        "smtp": {
+          "id": "__CREDENTIAL_SMTP__",
+          "name": "SMTP (Gmail)"
+        }
+      }
+    },
+    {
+      "id": "daily-log",
+      "name": "Log Daily Summary",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1750, 120],
+      "parameters": {
+        "jsCode": "const item = $input.first().json;\n\nconst summary = `📊 Daily Analytics (${item.date})\nFollowers: ${item.followerCount}\nImpressions: ${item.impressions}\nReach: ${item.reach}\nProfile Views: ${item.profileViews}`;\n\nconst dailyLog = $getWorkflowStaticData('global').dailyLog || [];\ndailyLog.push({\n  date: item.date,\n  summary: summary,\n  recordedAt: new Date().toISOString()\n});\nif (dailyLog.length > 90) dailyLog.shift();\n$getWorkflowStaticData('global').dailyLog = dailyLog;\n\nconsole.log(summary);\nreturn [{ json: { status: 'logged', date: item.date } }];"
+      }
+    }
+  ],
+  "connections": {
+    "Daily at 9am": {
+      "main": [
+        [
+          {
+            "node": "Get Instagram Insights",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Instagram Insights": {
+      "main": [
+        [
+          {
+            "node": "Process Metrics",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Process Metrics": {
+      "main": [
+        [
+          {
+            "node": "Store in SQLite",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Store in SQLite": {
+      "main": [
+        [
+          {
+            "node": "Get Yesterday's Metrics",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Yesterday's Metrics": {
+      "main": [
+        [
+          {
+            "node": "Detect Spikes",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Detect Spikes": {
+      "main": [
+        [
+          {
+            "node": "Spike Detected?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Spike Detected?": {
+      "main": [
+        [
+          {
+            "node": "Send Email Alert",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Log Daily Summary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner"
+  },
+  "tags": [
+    {
+      "name": "analytics"
+    },
+    {
+      "name": "instagram"
+    },
+    {
+      "name": "monitoring"
+    }
+  ],
+  "staticData": null
+}
