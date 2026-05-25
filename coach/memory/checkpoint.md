@@ -1,7 +1,7 @@
 ---
-last_updated: 2026-05-21T09:10:28.404891+00:00
+last_updated: 2026-05-25T14:15:20.925080+00:00
 phase: "Phase 1 - Foundations"
-current_topic: "Hugo site audit completed — paused"
-next_task: "User will share GitHub repo later. Then: fix price bug → SEO meta → schema → domain → launch"
-notes: "Audited safehome (Hugo + Tailwind). 11 findings saved to work/hugo-site-audit-safehome.md. Price %!f bug is top priority when we resume."
+current_topic: "Reddit marketing + n8n workflows"
+next_task: "Fix Hugo price bug + add SEO meta tags to SafeHOME"
+notes: "Completed Day 1 Reddit posts (r/qatar, r/network). Created FB Comment-to-DM n8n workflow. WiFi Starter Kit Bundle already published."
 ---
