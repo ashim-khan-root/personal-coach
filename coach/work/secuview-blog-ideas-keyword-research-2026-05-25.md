@@ -149,6 +149,16 @@
 
 ---
 
+## Status
+
+| Idea | Status |
+|------|--------|
+| 1 | PoE Switch Buying Guide | ✅ **DONE** — saved at `secuview-blog-poe-switch-guide.md` |
+| 2 | 4G LTE Router Guide | ⏳ For later |
+| 3 | PA System Guide (Mosques, Schools, Offices) | ⏳ For later |
+| 4 | Access Control & Time Attendance | ⏳ For later |
+| 5 | Complete Home Security Pillar Post | ⏳ For later |
+
 ## Recommendation
 
 Start with **Idea 1 (PoE Switch Guide)** — it targets a clear product gap, has good keyword potential, and can be written in simple English suitable for Qatar audience. It also connects CCTV, networking, and home security — three of your main product categories.

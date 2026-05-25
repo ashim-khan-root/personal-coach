@@ -2,7 +2,7 @@
 
 ## 📋 Summary
 
-Today focused on **Reddit marketing strategy & content creation** for Secuview indirect promotion, plus n8n workflow improvements and SEO work on product pages.
+Today focused on **Reddit marketing, content creation & SEO** for Secuview. Built n8n workflows, created Reddit content calendar, published Day 1 posts, researched blog gaps, and wrote PoE Switch buying guide.
 
 ---
 
@@ -29,9 +29,14 @@ Today focused on **Reddit marketing strategy & content creation** for Secuview i
 - [x] SEO work done on product pages (meta tags, descriptions)
 - [x] Site submitted to Google Search Console
 
+### Blog Content
+- [x] **Researched 5 blog ideas** with keyword research for Secuview content gaps
+- [x] **Wrote PoE Switch buying guide** blog post (ready to publish on WordPress)
+- [x] Saved remaining blog ideas (4G LTE, PA System, Access Control, Home Security) for later
+
 ### Other
 - [x] WiFi Starter Kit Bundle — already published ✅
-- [x] All work pushed to GitHub (5 commits today)
+- [x] All work pushed to GitHub
 
 ---
 
@@ -45,6 +50,8 @@ Today focused on **Reddit marketing strategy & content creation** for Secuview i
 | `coach/work/reddit-day1-technology-post.md` | Created & pushed |
 | `coach/work/reddit-day1-posting-instructions.md` | Created & pushed |
 | `coach/work/daily-report-2026-05-25.md` | Created |
+| `coach/work/secuview-blog-ideas-keyword-research-2026-05-25.md` | Created & pushed |
+| `coach/work/secuview-blog-poe-switch-guide.md` | Created & pushed |
 
 ---
 
@@ -54,6 +61,8 @@ Today focused on **Reddit marketing strategy & content creation** for Secuview i
 |-------|----------|--------|-------|
 | reddit-marketing | 30 min | 8/10 | Posted Day 1 content on r/qatar and r/network. Simple English for Qatar audience. |
 | seo-optimization | 45 min | 8/10 | SEO work on product pages (meta tags, descriptions). Site submitted to Google Search Console. |
+| seo-keyword-research | 30 min | 8/10 | Researched 5 blog post ideas with keyword research for Secuview content gaps. |
+| content-writing | 45 min | 9/10 | Wrote PoE Switch buying guide blog post for Secuview. Simple English. Includes SKUs and pricing. |
 
 ---
 
