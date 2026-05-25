@@ -2,6 +2,7 @@
 **Date:** 2026-05-25
 **Target:** Organic brand awareness and lead generation
 **Compliance:** Reddit anti-spam rules focused on value-first approach
+**Language Style:** Simple English — short sentences, easy words, suitable for Qatari locals and expats
 
 ---
 

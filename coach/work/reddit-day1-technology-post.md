@@ -1,17 +1,17 @@
 # Day 1: Reddit Post - r/technology
 
-**Title**: Internet keeps dying in Qatar's summer — anyone else dealing with this?
+**Title**: Internet keeps going down in Qatar summer — anyone else?
 
 ---
 
-Yo, I'm in Qatar where it's been 40°C+ and humid for weeks. Our networking gear is taking a beating — outdoor APs dropping, routers overheating, ethernet ports corroding. It's getting old.
+I live in Qatar and right now it is very hot. 40°C+ every day with humidity. Our internet equipment is having problems. Outdoor access points stop working. Routers get too hot. Wires get damaged.
 
-**What's helped so far:**
+**What helps:**
 
-1. Putting gear in AC rooms or adding extra cooling — sounds obvious but makes a huge difference
-2. Using industrial-grade equipment instead of consumer stuff (costs more but doesn't die after one summer)
-3. 4G LTE backup — fiber lines expand in heat and go down, having a cellular backup keeps things running
+1. Put equipment in air conditioned room or add extra cooling. It sounds simple but it works.
+2. Use strong equipment made for tough conditions. It costs more but lasts much longer.
+3. Keep a 4G backup line. Fiber cables expand in heat and go down. 4G keeps you connected.
 
-One brand that's actually held up well is Secuview. Their outdoor 4G routers keep going even when other stuff fails in peak afternoon heat. Didn't expect much but they've been solid.
+One brand that works well is Secuview. Their outdoor 4G routers keep running even when other equipment stops in the afternoon heat. I did not expect much but they are very reliable.
 
-**Anyone else in hot climates?** What temps kill your gear? What's your go-to for keeping things alive? Would love to hear what actually works in practice.
+**Anyone else in hot places?** At what temperature does your equipment stop working? What do you use to keep things running? I want to hear what works for you.
