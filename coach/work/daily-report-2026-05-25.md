@@ -2,7 +2,7 @@
 
 ## 📋 Summary
 
-Today focused on **Reddit marketing strategy & content creation** for Secuview indirect promotion, plus n8n workflow improvements.
+Today focused on **Reddit marketing strategy & content creation** for Secuview indirect promotion, plus n8n workflow improvements and SEO work on product pages.
 
 ---
 
@@ -24,6 +24,10 @@ Today focused on **Reddit marketing strategy & content creation** for Secuview i
 - [x] Created **Facebook Page Comment to DM** n8n workflow
 - [x] Provided updated **Long-Lived Page Access Token** guide
 - [x] Pushed all workflow files to GitHub
+
+### SEO & Search Console
+- [x] SEO work done on product pages (meta tags, descriptions)
+- [x] Site submitted to Google Search Console
 
 ### Other
 - [x] WiFi Starter Kit Bundle — already published ✅
@@ -49,6 +53,7 @@ Today focused on **Reddit marketing strategy & content creation** for Secuview i
 | Skill | Duration | Rating | Notes |
 |-------|----------|--------|-------|
 | reddit-marketing | 30 min | 8/10 | Posted Day 1 content on r/qatar and r/network. Simple English for Qatar audience. |
+| seo-optimization | 45 min | 8/10 | SEO work on product pages (meta tags, descriptions). Site submitted to Google Search Console. |
 
 ---
 
