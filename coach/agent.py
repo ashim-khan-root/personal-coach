@@ -110,6 +110,23 @@ def parse_command(text):
             return cmd_name, m.groups()
     return None, None
 
+def generate_improvement_tip(skill, rating, notes):
+    prompt = (
+        f"Based on this practice session:\n"
+        f"Skill: {skill}\n"
+        f"Self-rating: {rating}/10\n"
+        f"Notes: {notes}\n\n"
+        f"Generate ONE specific, actionable improvement tip for next time "
+        f"(1-2 sentences). Be direct and practical."
+    )
+    try:
+        return call_model(
+            "You are a concise improvement coach. Give one actionable tip based on session data.",
+            prompt
+        )[:500]
+    except Exception:
+        return None
+
 def generate_correction(text):
     return (
         f"I couldn't parse your command.\n"
@@ -118,7 +135,7 @@ def generate_correction(text):
         f"Would you like me to correct and store it? (yes/no)"
     )
 
-def store_session(skill, duration_min, rating, notes=""):
+def store_session(skill, duration_min, rating, notes="", improvement=""):
     sid = str(uuid.uuid4())
     now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%d-%H%M%S")
     timestamp = datetime.datetime.now(datetime.timezone.utc).isoformat()
@@ -133,7 +150,7 @@ def store_session(skill, duration_min, rating, notes=""):
         f"  {notes}\n"
         f"tags: []\n"
         f"---\n\n"
-        f"agent_one_improvement: TODO\n"
+        f"agent_one_improvement: {improvement or 'TODO'}\n"
     )
     fname = SESS_DIR / f"session-{now}.md"
     write_md(fname, content)
@@ -153,6 +170,12 @@ def handle_session_complete(groups, raw_text):
         notes = input("Notes (optional): ") or ""
     fname = store_session(skill, int(duration), int(rating), notes)
     print(f"Session stored: {fname}")
+    tip = generate_improvement_tip(skill, rating, notes)
+    if tip:
+        content = read_md(fname)
+        content = content.replace("agent_one_improvement: TODO", f"agent_one_improvement: {tip}")
+        write_md(fname, content)
+        print(f"\n💡 One improvement for next time:\n{tip}\n")
     return True
 
 def handle_plan(groups):
@@ -173,10 +196,13 @@ def handle_reflect(groups):
         if topic.lower() in txt.lower():
             relevant.append(txt[:500])
     context = "\n---\n".join(relevant[:10]) if relevant else "No past sessions found on this topic."
-    reply = call_model(
-        SYSTEM_PROMPT + "\n\nYou are now reflecting on past sessions. Give a meta-perspective: patterns, growth, blind spots, and recommendations.",
-        f"Reflect on these sessions about '{topic}':\n\n{context}"
-    )
+    try:
+        reply = call_model(
+            SYSTEM_PROMPT + "\n\nYou are now reflecting on past sessions. Give a meta-perspective: patterns, growth, blind spots, and recommendations.",
+            f"Reflect on these sessions about '{topic}':\n\n{context}"
+        )
+    except Exception:
+        reply = f"Found {len(relevant)} session(s) about '{topic}'. Couldn't generate reflection — connectivity issue."
     print(f"\n=== Reflection on: {topic} ===\n{reply}\n=============================\n")
     return True
 
@@ -190,7 +216,11 @@ COMMAND_HANDLERS = {
 def start_session():
     mem_summary = load_memory_summary()
     user_msg = START_PROMPT.format(memory=mem_summary)
-    reply = call_model(SYSTEM_PROMPT, user_msg)
+    try:
+        reply = call_model(SYSTEM_PROMPT, user_msg)
+    except Exception as e:
+        print(f"\n⚠️  Couldn't reach the LLM ({e}). Starting in offline mode.")
+        reply = "I'm here! Tell me what you're working on and I'll help."
     print("\n=== Coach ===")
     print(reply)
     print("=============\n")
@@ -236,10 +266,13 @@ def main_loop():
                     handler(groups)
                 update_meta()
             continue
-        reply = call_model(
-            SYSTEM_PROMPT + "\n\nWhen the user sends unstructured input, respond helpfully as a coach.",
-            user_input
-        )
+        try:
+            reply = call_model(
+                SYSTEM_PROMPT + "\n\nWhen the user sends unstructured input, respond helpfully as a coach.",
+                user_input
+            )
+        except Exception:
+            reply = "I'm having trouble connecting right now. Could you try again or use a structured command?"
         print(f"\n=== Coach ===\n{reply}\n=============\n")
         update_meta()
 
