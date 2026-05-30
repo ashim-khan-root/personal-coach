@@ -1,7 +1,7 @@
 ---
-last_updated: 2026-05-26T08:44:17.595714+00:00
-phase: "Phase 1 - Foundations"
-current_topic: "Reddit marketing + SEO + n8n workflows"
-next_task: "Resume Hugo price bug + SafeHOME SEO meta tags"
-notes: "SEO audit completed on 22 category pages. Optimized meta titles/descriptions applied. PoE Switch buying guide blog post published. Auto-improvement tip system added to coach."
+last_updated: 2026-05-30
+phase: "Phase 4 — Facebook/Instagram Shop (Manual Catalog)"
+current_topic: "Secuview Facebook Commerce Manager Setup"
+next_task: "Create product catalog in Facebook Commerce Manager and link to Instagram"
+notes: "GBP and WhatsApp Business already done. Google Shopping N/A in Qatar. Moving to FB/IG manual catalog approach."
 ---
