@@ -8,16 +8,17 @@
 .DS_Store
 Thumbs.db
 
-
-
 # Python cache
 __pycache__/
 *.pyc
 .coach/
 
-# Work artifacts (optional - uncomment if you don't want generated work files)
-# coach/work/
-
 # n8n config
 .n8n/
 .n8n_cache/
+
+# Generated reports (keep templates, not generated output)
+coach/memory/recap-*.md
+coach/memory/weekly-*.md
+coach/memory/observations.jsonl
+coach/memory/insights.md
