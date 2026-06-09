@@ -1,0 +1,159 @@
+{
+  "_meta": {
+    "title": "Qatar MOI CCTV Technical Specifications",
+    "governing_law": "Law No. 9 of 2011",
+    "authority": "Security Systems Department (SSD)",
+    "version": "2026",
+    "source": "https://portal.moi.gov.qa, MOI SSD published standards",
+    "notes": "These are minimum requirements. Actual project specs may be higher based on site category."
+  },
+  "camera_requirements": {
+    "minimum_resolution": "2MP (1920x1080)",
+    "recommended_resolution": {
+      "general": "2MP",
+      "critical": "4MP",
+      "lpr_anpr": "4MP minimum",
+      "kpoi": "4MP minimum"
+    },
+    "type": "IP-based only (no analog/DVR)",
+    "encoding": "H.264 or H.265 or better",
+    "features": {
+      "wdr": true,
+      "auto_iris": true,
+      "video_analytics": true,
+      "night_vision": true,
+      "ir_distance": "minimum 30m indoor, 50m outdoor",
+      "vandal_proof": "IK10 minimum",
+      "weatherproof": "IP67 minimum outdoor",
+      "tamper_proof": true
+    }
+  },
+  "storage_requirements": {
+    "retention_period_days": 120,
+    "recording_mode": "continuous 24/7",
+    "frame_rate": "minimum 6fps, recommended 12-25fps",
+    "resolution_for_storage": "full resolution (no downscaling)",
+    "raid": "RAID 5 minimum (RAID 6 recommended for critical sites)",
+    "redundancy": "hot standby NVR recommended for critical systems",
+    "daily_storage_per_camera_gb": {
+      "2mp_6fps": 10,
+      "2mp_12fps": 18,
+      "2mp_25fps": 30,
+      "4mp_6fps": 20,
+      "4mp_12fps": 35,
+      "4mp_25fps": 55,
+      "8mp_6fps": 40,
+      "8mp_12fps": 65,
+      "8mp_25fps": 100
+    }
+  },
+  "network_requirements": {
+    "infrastructure": "IP-based, structured cabling",
+    "cabling": "CAT6 minimum, latest specification",
+    "concealment": "All cabling must be concealed and protected",
+    "protection": "Weatherproof, anti-tamper, anti-RFI",
+    "bandwidth": "Sufficient for high-quality, high-resolution real-time video",
+    "encryption": "Latest encryption standard without impacting video quality"
+  },
+  "power_requirements": {
+    "ups_runtime_minutes": 60,
+    "ups_requirement": "Minimum 1-hour backup for complete system",
+    "redundancy": "Hot standby system with automatic changeover for critical sites"
+  },
+  "monitoring_requirements": {
+    "max_cameras_per_monitor": 9,
+    "operator_shift_hours": 8,
+    "recording_playback": "Simultaneous recording, playback, storage, copying, remote access",
+    "vms_features": {
+      "camera_numbering": true,
+      "location_mapping": true,
+      "date_time_stamp": true,
+      "forced_masking": "password protected",
+      "alarm_management": true,
+      "audit_trail": true,
+      "daily_performance_check": true
+    }
+  },
+  "compliance_categories": {
+    "hotels_apartments": {
+      "description": "Hotels, hotel apartments, residential complexes",
+      "requirements": ["Full MOI compliance", "120-day storage", "RAID 5", "UPS 1hr", "AMC required"]
+    },
+    "banks_exchange": {
+      "description": "Banks, exchange houses, gold shops",
+      "requirements": ["Full MOI compliance", "120-day storage", "RAID 5", "UPS 1hr", "AMC required", "4MP recommended"]
+    },
+    "shopping_malls": {
+      "description": "Shopping centers, entertainment venues",
+      "requirements": ["Full MOI compliance", "120-day storage", "RAID 5", "UPS 1hr", "AMC required"]
+    },
+    "clinics_hospitals": {
+      "description": "Healthcare facilities",
+      "requirements": ["Full MOI compliance", "120-day storage", "RAID 5", "UPS 1hr", "AMC required"]
+    },
+    "schools": {
+      "description": "Educational institutions",
+      "requirements": ["Full MOI compliance", "120-day storage", "RAID 5", "UPS 1hr", "AMC required"]
+    },
+    "warehouses_industrial": {
+      "description": "Warehouses, factories, industrial sites",
+      "requirements": ["IP67 cameras", "120-day storage", "RAID 5", "UPS 1hr", "AMC required"]
+    },
+    "government": {
+      "description": "Government buildings, KPOI sites",
+      "requirements": ["Full MOI compliance", "KPOI standard", "120-day storage", "RAID 6", "UPS 2hr", "AMC required", "4MP minimum"]
+    },
+    "mosques": {
+      "description": "Mosques and religious centers",
+      "requirements": ["MOI compliant", "120-day storage", "RAID 5", "UPS 1hr", "AMC recommended"]
+    },
+    "residential_villa": {
+      "description": "Private villas and compounds",
+      "requirements": ["Standard CCTV", "30-day storage minimum", "UPS optional", "No MOI approval needed"]
+    }
+  },
+  "anpr_requirements": {
+    "minimum_resolution": "4MP",
+    "integration": "Must integrate with MOI centralized ANPR system via REST API",
+    "data_transmission": "Real-time to MOI servers",
+    "storage": "120 days minimum",
+    "speed_recognition": "Up to 120 km/h",
+    "security": "Secure data management, encryption"
+  },
+  "kpoi_requirements": {
+    "definition": "Key Points of Interest - strategic locations",
+    "additional_requirements": [
+      "All standard MOI requirements apply",
+      "Higher resolution minimum (4MP)",
+      "Stricter storage retention",
+      "Direct integration with MOI monitoring centers",
+      "Quarterly audits mandatory",
+      "Certified vendors only"
+    ]
+  },
+  "maintenance_requirements": {
+    "amc_required": true,
+    "amc_scope": [
+      "Regular cleaning of equipment",
+      "Repairing or replacing faulty equipment",
+      "Preventive maintenance",
+      "System health checks",
+      "Firmware updates",
+      "Daily performance verification",
+      "Annual re-inspection support"
+    ]
+  },
+  "documentation_requirements": {
+    "required_documents": [
+      "Site plan with camera placement",
+      "Equipment list with specs and model numbers",
+      "Coverage diagrams",
+      "Network layout",
+      "CAD drawings (DSA/DIA)",
+      "Contracts and commercial license",
+      "Site ownership proof",
+      "Maintenance plan and SLA"
+    ],
+    "approval_phases": ["Design Approval (DSA)", "Installation", "Inspection", "Certification"]
+  }
+}

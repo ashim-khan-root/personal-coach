@@ -1,0 +1,43 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Starfox</h4>
+        <p>57, Street 406, Al-Maamourah, Salwa Road, Doha, Qatar</p>
+        <p><a href="tel:{{ .Site.Params.phone }}">{{ .Site.Params.phone }}</a></p>
+        <p><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="{{ "" | relURL }}">Home</a></li>
+          <li><a href="{{ "about/" | relURL }}">About Us</a></li>
+          <li><a href="{{ "services/" | relURL }}">Services</a></li>
+          <li><a href="{{ "contact/" | relURL }}">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Solutions</h4>
+        <ul>
+          <li><a href="{{ "solutions/" | relURL }}">CCTV System</a></li>
+          <li><a href="{{ "solutions/" | relURL }}">Access Control</a></li>
+          <li><a href="{{ "solutions/" | relURL }}">BMS</a></li>
+          <li><a href="{{ "solutions/" | relURL }}">Home Automation</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          {{ with .Site.Params.facebook }}<a href="{{ . }}" target="_blank" rel="noopener"> Facebook</a>{{ end }}
+          {{ with .Site.Params.instagram }}<a href="{{ . }}" target="_blank" rel="noopener"> Instagram</a>{{ end }}
+          {{ with .Site.Params.linkedin }}<a href="{{ . }}" target="_blank" rel="noopener"> LinkedIn</a>{{ end }}
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; {{ now.Format "2006" }} Starfox Security System. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" aria-label="Back to top">↑</button>

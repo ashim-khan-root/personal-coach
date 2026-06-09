@@ -1,0 +1,61 @@
+baseURL = "https://starfoxsecu.com/"
+languageCode = "en-us"
+title = "Starfox Security System | Qatar's Trusted Security Partner Since 2005"
+# no theme — custom layouts only
+enableRobotsTXT = true
+
+[params]
+  description = "Starfox Security System — MOI-approved CCTV, access control, BMS, and ELV solutions in Qatar. Est. 2005. Serving government, commercial, and residential clients."
+  author = "Starfox Security System"
+  phone = "+974 4469 1741"
+  email = "info@starfoxsecu.com"
+  address = "57, Street 406, Al-Maamourah, Salwa Road, Doha, Qatar"
+  foundedYear = 2005
+  moiApproved = true
+  facebook = "https://www.facebook.com/Starfox-security-seystems-101007879112938"
+  instagram = "https://www.instagram.com/starfox_security_system"
+  linkedin = "https://www.linkedin.com/company/starfox-secuview"
+  twitter = "https://twitter.com/starfoxsystem"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Services"
+    url = "/services/"
+    weight = 3
+  [[menu.main]]
+    name = "Solutions"
+    url = "/solutions/"
+    weight = 4
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 5
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 6
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 7
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]

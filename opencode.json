@@ -1,0 +1,167 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [
+    "AGENTS.md",
+    ".opencode/instructions/INSTRUCTIONS.md",
+    ".opencode/skills/ecc-guide/SKILL.md",
+    ".opencode/skills/verification-loop/SKILL.md",
+    ".opencode/skills/search-first/SKILL.md",
+    ".opencode/skills/continuous-learning/SKILL.md",
+    ".opencode/skills/product-lens/SKILL.md"
+  ],
+  "plugin": [
+    ".opencode/plugins"
+  ],
+  "skills": {
+    "paths": [
+      ".opencode/skills",
+      ".opencode/ecc-temp/skills"
+    ]
+  },
+  "agent": {
+    "planner": {
+      "description": "Expert planning specialist for complex features and refactoring. Use for implementation planning, architectural changes, or complex refactoring.",
+      "mode": "subagent",
+      "prompt": "{file:.opencode/prompts/agents/planner.txt}",
+      "tools": {
+        "read": true,
+        "bash": true,
+        "write": false,
+        "edit": false
+      }
+    },
+    "code-reviewer": {
+      "description": "Expert code review specialist. Reviews code for quality, security, and maintainability.",
+      "mode": "subagent",
+      "prompt": "{file:.opencode/prompts/agents/code-reviewer.txt}",
+      "tools": {
+        "read": true,
+        "bash": true,
+        "write": false,
+        "edit": false
+      }
+    },
+    "python-reviewer": {
+      "description": "Expert Python code reviewer specializing in PEP 8 compliance, Pythonic idioms, type hints, security, and performance.",
+      "mode": "subagent",
+      "prompt": "{file:.opencode/prompts/agents/python-reviewer.txt}",
+      "tools": {
+        "read": true,
+        "bash": true,
+        "write": false,
+        "edit": false
+      }
+    },
+    "security-reviewer": {
+      "description": "Security vulnerability detection and remediation specialist. Use after writing code that handles user input, authentication, API endpoints, or sensitive data.",
+      "mode": "subagent",
+      "prompt": "{file:.opencode/prompts/agents/security-reviewer.txt}",
+      "tools": {
+        "read": true,
+        "bash": true,
+        "write": true,
+        "edit": true
+      }
+    },
+    "doc-updater": {
+      "description": "Documentation and codemap specialist. Use for updating codemaps and documentation.",
+      "mode": "subagent",
+      "prompt": "{file:.opencode/prompts/agents/doc-updater.txt}",
+      "tools": {
+        "read": true,
+        "write": true,
+        "edit": true,
+        "bash": true
+      }
+    },
+    "harness-optimizer": {
+      "description": "Analyze and improve the local agent harness configuration for reliability, cost, and throughput.",
+      "mode": "subagent",
+      "prompt": "{file:.opencode/prompts/agents/harness-optimizer.txt}",
+      "tools": {
+        "read": true,
+        "bash": true,
+        "edit": true
+      }
+    }
+  },
+  "command": {
+    "plan": {
+      "description": "Create a detailed implementation plan for complex features",
+      "template": "{file:.opencode/commands/plan.md}\n\n$ARGUMENTS",
+      "agent": "planner",
+      "subtask": true
+    },
+    "code-review": {
+      "description": "Review code for quality, security, and maintainability",
+      "template": "{file:.opencode/commands/code-review.md}\n\n$ARGUMENTS",
+      "agent": "code-reviewer",
+      "subtask": true
+    },
+    "security": {
+      "description": "Run comprehensive security review",
+      "template": "{file:.opencode/commands/security.md}\n\n$ARGUMENTS",
+      "agent": "security-reviewer",
+      "subtask": true
+    },
+    "eval": {
+      "description": "Run evaluation against criteria",
+      "template": "{file:.opencode/commands/eval.md}\n\n$ARGUMENTS"
+    },
+    "verify": {
+      "description": "Run verification loop",
+      "template": "{file:.opencode/commands/verify.md}\n\n$ARGUMENTS"
+    },
+    "checkpoint": {
+      "description": "Save verification state and progress",
+      "template": "{file:.opencode/commands/checkpoint.md}\n\n$ARGUMENTS"
+    },
+    "learn": {
+      "description": "Extract patterns and learnings from session",
+      "template": "{file:.opencode/commands/learn.md}\n\n$ARGUMENTS"
+    },
+    "orchestrate": {
+      "description": "Orchestrate multiple agents for complex tasks",
+      "template": "{file:.opencode/commands/orchestrate.md}\n\n$ARGUMENTS",
+      "agent": "planner",
+      "subtask": true
+    },
+    "update-docs": {
+      "description": "Update documentation",
+      "template": "{file:.opencode/commands/update-docs.md}\n\n$ARGUMENTS",
+      "agent": "doc-updater",
+      "subtask": true
+    },
+    "skill-create": {
+      "description": "Generate skills from git history",
+      "template": "{file:.opencode/commands/skill-create.md}\n\n$ARGUMENTS"
+    },
+    "evolve": {
+      "description": "Cluster instincts into skills",
+      "template": "{file:.opencode/commands/evolve.md}\n\n$ARGUMENTS"
+    },
+    "promote": {
+      "description": "Promote project instincts to global scope",
+      "template": "{file:.opencode/commands/promote.md}\n\n$ARGUMENTS"
+    },
+    "projects": {
+      "description": "List known projects and instinct stats",
+      "template": "{file:.opencode/commands/projects.md}\n\n$ARGUMENTS"
+    }
+  },
+  "mcpServers": {
+    "n8n-mcp": {
+      "command": "n8n-mcp",
+      "args": [],
+      "description": "n8n workflow automation MCP server"
+    },
+    "coach": {
+      "command": "py -3",
+      "args": ["coach/tools/mcp_server.py"],
+      "description": "Personal coach MCP server with memory, goals, habits, sessions"
+    }
+  },
+  "permission": {
+    "mcp_*": "ask"
+  }
+}

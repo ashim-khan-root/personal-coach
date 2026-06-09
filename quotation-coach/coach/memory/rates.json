@@ -1,0 +1,548 @@
+{
+  "_meta": {
+    "version": 2,
+    "source": "demo-template.xlsx + MOI SSD 2026 specs",
+    "company": "STARFOX SECURITY",
+    "currency": "QAR",
+    "updated": "2026-06-08",
+    "jurisdiction": "Qatar",
+    "compliance": "MOI Law No. 9/2011",
+    "notes": "MOI-compliant pricing. Update via make_quotation.py --update-rates <file.xlsx>"
+  },
+  "cameras": {
+    "2mp_bullet": {
+      "model": "2MP IR Fixed Bullet Network Camera",
+      "description": "2MP bullet camera, H.265, Built-in IR (30m), 12V DC/PoE, IP67, IK10, WDR, vandal-proof",
+      "price": 350,
+      "moi_compliant": true,
+      "default_mount": "wall_mount",
+      "mp": 2,
+      "images": {
+        "col1": "2mp-fixed-hikvision-bullet-camera.png",
+        "col3": "2mp-fixed-hikvision-bullet-camera.png"
+      }
+    },
+    "2mp_eyeball": {
+      "model": "2MP Lite IR Fixed-focal Eyeball Network Camera",
+      "description": "2MP eyeball camera, H.265, Built-in IR (30m), 12V DC/PoE, IP67, vandal-proof, compact design",
+      "price": 300,
+      "moi_compliant": true,
+      "default_mount": "wall_mount",
+      "mp": 2,
+      "images": {
+        "col1": "2mp-lite-ir-fixed-focal-eyeball-network-camera.png",
+        "col3": "2mp-lite-ir-fixed-focal-eyeball-network-camera.png"
+      }
+    },
+    "2mp_varifocal": {
+      "model": "2MP AcuSense Motorized Varifocal Network Camera",
+      "description": "2MP varifocal (2.8-12mm), H.265, AcuSense AI, Built-in IR (30m), 12V DC/PoE, IP67, IK10",
+      "price": 450,
+      "moi_compliant": true,
+      "default_mount": "wall_mount",
+      "mp": 2,
+      "images": {
+        "col1": "2mp-acusense-motorized-varifocal-network-camera.jpeg",
+        "col3": "2mp-acusense-motorized-varifocal-network-camera.jpeg"
+      }
+    },
+    "4mp_kpoi": {
+      "model": "4MP KPOI Camera with Lens",
+      "description": "4MP KPOI-approved camera, H.265, motorized lens, Built-in IR (50m), IP67, IK10, WDR, analytics",
+      "price": 1750,
+      "moi_compliant": true,
+      "default_mount": "hanging_stand",
+      "mp": 4,
+      "images": {
+        "col1": "hikvision-4mp-kpoi-camera.png",
+        "col3": "hikvision-4mp-kpoi-camera.png"
+      }
+    },
+    "4mp_anpr": {
+      "model": "4MP ANPR/LPR Bullet Camera",
+      "description": "4MP ANPR bullet camera, LPR technology, smart tracking, IP67, integrated IR, MOI-ANPR compliant",
+      "price": 2500,
+      "moi_compliant": true,
+      "default_mount": "pole_mount",
+      "mp": 4,
+      "images": {
+        "col1": "bullet-camera.jpeg",
+        "col3": "bullet-camera.jpeg"
+      }
+    },
+    "4mp_bullet": {
+      "model": "4MP IR Bullet Network Camera",
+      "description": "4MP bullet camera, H.265, Built-in IR (40m), 12V DC/PoE, IP67, IK10, WDR, analytics",
+      "price": 650,
+      "moi_compliant": true,
+      "default_mount": "wall_mount",
+      "mp": 4,
+      "images": {
+        "col1": "4mp-bullet-camera.jpeg",
+        "col3": "4mp-bullet-camera.jpeg"
+      }
+    },
+    "8mp_bullet": {
+      "model": "8MP 4K IR Bullet Network Camera",
+      "description": "8MP 4K bullet camera, H.265, Built-in IR (50m), 12V DC/PoE, IP67, IK10, WDR, AI analytics",
+      "price": 1200,
+      "moi_compliant": true,
+      "default_mount": "wall_mount",
+      "mp": 8,
+      "images": {
+        "col1": "8mp-4k-bullet-camera.jpeg",
+        "col3": "8mp-4k-bullet-camera.jpeg"
+      }
+    },
+    "thermal": {
+      "model": "Thermal Bi-Spectrum Network Camera",
+      "description": "Thermal + optical camera, temperature detection, fire prevention, perimeter protection, IP67",
+      "price": 4500,
+      "moi_compliant": true,
+      "default_mount": "wall_mount",
+      "mp": 2,
+      "images": {
+        "col1": "thermal-camera.jpeg",
+        "col3": "thermal-camera.jpeg"
+      }
+    }
+  },
+  "nvrs": {
+    "16ch_2mp": {
+      "model": "16 Channel 4K NVR (MOI Compliant)",
+      "description": "16ch NVR, 2 HDD bays up to 16TB each, RAID 0/1/5, H.265, P2P, AI by Camera, 4K output",
+      "price": 4500,
+      "max_channels": 16,
+      "max_hdds": 2,
+      "raid_support": [
+        0,
+        1,
+        5
+      ],
+      "moi_compliant": true,
+      "images": {
+        "col1": "16-channel-nvr.jpeg",
+        "col3": "16-channel-nvr.jpeg"
+      }
+    },
+    "32ch_2mp": {
+      "model": "32 Channel 4K NVR (MOI Compliant)",
+      "description": "32ch NVR, 4 HDD bays up to 16TB each, RAID 0/1/5, H.265, P2P, AI by Camera, 4K output",
+      "price": 6500,
+      "max_channels": 32,
+      "max_hdds": 4,
+      "raid_support": [
+        0,
+        1,
+        5
+      ],
+      "moi_compliant": true,
+      "images": {
+        "col1": "32-channel-4k-nvr.jpeg",
+        "col3": "32-channel-4k-nvr.jpeg"
+      }
+    },
+    "64ch_2mp": {
+      "model": "64 Channel 4K NVR (MOI Compliant)",
+      "description": "64ch NVR, 8 HDD bays up to 16TB each, RAID 0/1/5/6, H.265, P2P, AI by Camera: face detection, IVS, people counting",
+      "price": 8700,
+      "max_channels": 64,
+      "max_hdds": 8,
+      "raid_support": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "moi_compliant": true,
+      "images": {
+        "col1": "64-channel-nvr.jpeg",
+        "col3": "64-channel-nvr.jpeg"
+      }
+    },
+    "16ch_kpoi": {
+      "model": "16CH NVR for KPOI Cameras",
+      "description": "16ch KPOI-compliant NVR, 4 HDD bays, RAID 5, H.265, MOI integration ready",
+      "price": 4800,
+      "max_channels": 16,
+      "max_hdds": 4,
+      "raid_support": [
+        0,
+        1,
+        5
+      ],
+      "moi_compliant": true,
+      "images": {
+        "col1": "kpoi-nvr.jpeg",
+        "col3": "kpoi-nvr.jpeg"
+      }
+    },
+    "16ch_anpr": {
+      "model": "16CH NVR for ANPR Cameras",
+      "description": "16ch ANPR NVR, 4 HDD bays, RAID 5, H.265, MOI centralized ANPR integration via REST API",
+      "price": 4500,
+      "max_channels": 16,
+      "max_hdds": 4,
+      "raid_support": [
+        0,
+        1,
+        5
+      ],
+      "moi_compliant": true,
+      "images": {
+        "col1": "16-channel-nvr.jpeg",
+        "col3": "16-channel-nvr.jpeg"
+      }
+    }
+  },
+  "hdd": {
+    "4tb": {
+      "model": "4TB Surveillance HDD",
+      "description": "4TB SATA III, 24/7 continuous recording, 256MB cache, 3-year warranty",
+      "price": 800,
+      "images": {
+        "col1": "4tb-hdd.jpeg",
+        "col3": "4tb-hdd.jpeg"
+      }
+    },
+    "8tb": {
+      "model": "8TB Surveillance HDD",
+      "description": "8TB SATA III, 24/7 continuous recording, 256MB cache, 3-year warranty",
+      "price": 1350,
+      "images": {
+        "col1": "8tb-hdd.jpeg",
+        "col3": "8tb-hdd.jpeg"
+      }
+    },
+    "16tb": {
+      "model": "16TB Surveillance HDD",
+      "description": "16TB SATA III, 24/7 continuous recording, 512MB cache, 5-year warranty",
+      "price": 2100,
+      "images": {
+        "col1": "16tb-hdd.jpeg",
+        "col3": "16tb-hdd.jpeg"
+      }
+    }
+  },
+  "switches": {
+    "8port_poe": {
+      "model": "8-Port Gigabit PoE+ Switch",
+      "description": "8-port Gigabit PoE+, 120W budget, plug-and-play, metal housing",
+      "price": 350,
+      "images": {
+        "col1": "poe-switch.jpeg",
+        "col3": "poe-switch.jpeg"
+      }
+    },
+    "16port_poe": {
+      "model": "16-Port Gigabit PoE+ Switch",
+      "description": "16-port Gigabit PoE+, 2 Hi-PoE up to 60W, 360W total, VLAN, PoE management",
+      "price": 600,
+      "images": {
+        "col1": "poe-switch.jpeg",
+        "col3": "poe-switch.jpeg"
+      }
+    },
+    "24port_poe": {
+      "model": "24-Port Gigabit PoE+ Switch",
+      "description": "24-port Gigabit PoE+, 4 SFP uplinks, 400W budget, Layer 2 managed",
+      "price": 1200,
+      "images": {
+        "col1": "poe-switch.jpeg",
+        "col3": "poe-switch.jpeg"
+      }
+    }
+  },
+  "racks": {
+    "9u_wall": {
+      "model": "9U Wall-Mount Rack",
+      "description": "9U wall-mount enclosure with glass door, cooling fan",
+      "price": 550
+    },
+    "18u": {
+      "model": "18U Floor Mount Rack with Wheels",
+      "description": "18U standard server rack, tempered glass door, casters, cooling fans",
+      "price": 1150,
+      "images": {
+        "col1": "18u-rack.png",
+        "col3": "18u-rack.png"
+      }
+    },
+    "27u": {
+      "model": "27U Floor Mount Rack with Wheels",
+      "description": "27U standard server rack, tempered glass door, casters, cooling fans",
+      "price": 1450,
+      "images": {
+        "col1": "22u-rack.png",
+        "col3": "22u-rack.png"
+      }
+    },
+    "42u": {
+      "model": "42U Floor Mount Rack with Wheels",
+      "description": "42U standard server rack, tempered glass door, casters, cooling fans, side panels",
+      "price": 2200,
+      "images": {
+        "col1": "22u-rack.png",
+        "col3": "22u-rack.png"
+      }
+    }
+  },
+  "monitors": {
+    "24inch": {
+      "model": "23.8 inch Full HD LED Monitor",
+      "description": "23.8\" Full HD 1920x1080, HDMI/VGA, slim bezel, suitable for 9-camera split view",
+      "price": 445,
+      "images": {
+        "col1": "23-inch-monitor.jpeg",
+        "col3": "23-inch-monitor.jpeg"
+      }
+    },
+    "32inch": {
+      "model": "32 inch Full HD LED Monitor",
+      "description": "32\" Full HD 1920x1080, HDMI/VGA, suitable for 16-camera split view",
+      "price": 950,
+      "images": {
+        "col1": "32-inch-tv-monitor.jpeg",
+        "col3": "32-inch-tv-monitor.jpeg"
+      }
+    },
+    "43inch": {
+      "model": "43 inch 4K UHD Monitor",
+      "description": "43\" 4K UHD 3840x2160, HDMI 2.0, suitable for surveillance wall",
+      "price": 1800
+    }
+  },
+  "workstation": {
+    "dell_optiplex": {
+      "model": "Dell OptiPlex CCTV Workstation",
+      "description": "Dell OptiPlex, i5, 16GB RAM, 512GB SSD + 2TB HDD, dual monitor support, VMS preloaded",
+      "price": 4200,
+      "images": {
+        "col1": "dell-optiplex-with-8gb-ram-and-512ssd.jpeg",
+        "col3": "dell-optiplex-with-8gb-ram-and-512ssd.jpeg"
+      }
+    },
+    "dell_precision": {
+      "model": "Dell Precision CCTV Workstation",
+      "description": "Dell Precision Tower, i7/Xeon, 32GB RAM, 1TB NVMe + 4TB HDD, RAID, dual 4K support",
+      "price": 7800
+    }
+  },
+  "ups": {
+    "1kva_rack": {
+      "model": "1KVA Rack-Type Online UPS",
+      "description": "1KVA/900W online double-conversion UPS, 1U rack, LCD, pure sine wave, 1hr runtime for basic system",
+      "price": 1200,
+      "battery_required": true,
+      "battery_price": 900,
+      "battery_label": "External Battery Pack for 1KVA UPS",
+      "images": {
+        "col1": "2kva-rack-type-online-ups.jpeg",
+        "col3": "2kva-rack-type-online-ups.jpeg"
+      }
+    },
+    "2kva_rack": {
+      "model": "2KVA Rack-Type Online UPS",
+      "description": "2KVA/1800W online double-conversion UPS, 2U rack, LCD, pure sine wave, 1hr runtime for mid system",
+      "price": 1450,
+      "battery_required": true,
+      "battery_price": 1100,
+      "battery_label": "48V Battery Cabinet for 2KVA UPS",
+      "images": {
+        "col1": "2kva-rack-type-online-ups.jpeg",
+        "col3": "2kva-rack-type-online-ups.jpeg"
+      }
+    },
+    "3kva_rack": {
+      "model": "3KVA Rack-Type Online UPS",
+      "description": "3KVA/2700W online double-conversion UPS, 2U rack, LCD, pure sine wave, 1hr+ runtime for large system",
+      "price": 2200,
+      "battery_required": true,
+      "battery_price": 1800,
+      "battery_label": "48V Extended Battery Cabinet for 3KVA UPS",
+      "images": {
+        "col1": "2kva-rack-type-online-ups.jpeg",
+        "col3": "2kva-rack-type-online-ups.jpeg"
+      }
+    }
+  },
+  "accessories": {
+    "wall_mount": {
+      "model": "Wall Mount Camera Bracket",
+      "description": "Heavy-duty wall mount bracket, steel, weatherproof, 360 rotation",
+      "price": 100
+    },
+    "bullet_base_box": {
+      "model": "Bullet Camera Base Box/Junction Box",
+      "description": "Junction box for bullet cameras with terminal block, IP66",
+      "price": 100
+    },
+    "hanging_stand": {
+      "model": "Hanging/Pendant Mount Stand",
+      "description": "Ceiling pendant mount for dome/KPOI cameras, 30cm drop, aluminum",
+      "price": 145,
+      "images": {
+        "col1": "hanging-stand-for-kpoi-camera.jpeg",
+        "col3": "hanging-stand-for-kpoi-camera.jpeg"
+      }
+    },
+    "pole_mount": {
+      "model": "Pole Mount Bracket for ANPR Cameras",
+      "description": "Adjustable pole mount bracket for ANPR/LPR cameras, stainless steel",
+      "price": 115
+    },
+    "pole_1_5m": {
+      "model": "1.5 Meter Galvanized Pole",
+      "description": "1.5m galvanized steel pole, 3-inch diameter, with base plate",
+      "price": 250
+    },
+    "pole_3m": {
+      "model": "3 Meter Galvanized Pole",
+      "description": "3m galvanized steel pole, 4-inch diameter, with base plate and foundation kit",
+      "price": 450
+    },
+    "patch_cord": {
+      "model": "CAT6 UTP Patch Cord",
+      "description": "CAT6 UTP patch cord, 3m, snagless boot, 100% copper",
+      "price": 7
+    },
+    "pdu": {
+      "model": "1U Rack PDU (8 Outlet)",
+      "description": "1U 8-outlet PDU with surge protection, 16A, C13 outlets",
+      "price": 65
+    },
+    "patch_panel": {
+      "model": "24-Port CAT6 Patch Panel",
+      "description": "24-port CAT6 UTP patch panel, 1U, T568A/B, color-coded",
+      "price": 145
+    },
+    "cable_manager": {
+      "model": "1U Horizontal Cable Manager",
+      "description": "1U horizontal cable management panel with fingers",
+      "price": 50
+    },
+    "cat6_cable_305m": {
+      "model": "CAT6 UTP Cable 305m Box",
+      "description": "CAT6 UTP 4-pair solid copper, 305m box, LSZH, certified",
+      "price": 650
+    },
+    "conduit_20mm": {
+      "model": "20mm PVC Conduit & Fittings",
+      "description": "20mm PVC conduit, fittings, clips per 3m length",
+      "price": 15
+    }
+  },
+  "licenses": {
+    "hikcentral_base": {
+      "model": "HIK-Central VMS Base License",
+      "description": "HIK-Central VMS software base license for 1 server",
+      "price": 350
+    },
+    "hikcentral_anpr_1ch": {
+      "model": "HIK-Central P-ANPR 1-CH License",
+      "description": "HIK-Central P-ANPR 1-channel license per LPR camera",
+      "price": 1150
+    },
+    "hikcentral_extra_16ch": {
+      "model": "HIK-Central Extra 16-CH License",
+      "description": "Additional 16-channel license for HIK-Central VMS",
+      "price": 650
+    },
+    "vms_standard": {
+      "model": "VMS Software License (64ch)",
+      "description": "Video Management Software license for up to 64 channels",
+      "price": 1800
+    }
+  },
+  "services": {
+    "installation_per_camera": {
+      "model": "Camera Installation & Cabling",
+      "description": "Camera mounting, cabling, conduit, configuration, testing per camera",
+      "price": 400
+    },
+    "installation_per_camera_high": {
+      "model": "Camera Installation & Cabling (High/Mast)",
+      "description": "High-level camera installation including cherry picker/ladder, cabling, configuration per camera",
+      "price": 650
+    },
+    "nvr_configuration": {
+      "model": "NVR Configuration & Setup",
+      "description": "NVR configuration, RAID setup, network configuration, VMS setup",
+      "price": 1000
+    },
+    "dsa_dia_approvals": {
+      "model": "DSA/DIA Drawings, Documentation & Approvals",
+      "description": "Full DSA/DIA CAD drawings, SSD portal submission, design approval, inspection coordination, 1-year AMC",
+      "price": 10000
+    },
+    "dsa_dia_small": {
+      "model": "DSA/DIA Approvals (Small Project)",
+      "description": "DSA/DIA documentation and approval for projects under 10 cameras",
+      "price": 5000
+    },
+    "amc_annual": {
+      "model": "Annual Maintenance Contract (AMC)",
+      "description": "Regular cleaning, firmware updates, health checks, repairs, MOI compliance maintenance (12 months)",
+      "price": 1500,
+      "price_per_camera": 75
+    },
+    "access_control": {
+      "model": "Access Control System (1 Door)",
+      "description": "Complete access control: magnetic lock, push button, controller, RFID reader, cabling per door",
+      "price": 750
+    },
+    "access_control_plus": {
+      "model": "Access Control System (1 Door Premium)",
+      "description": "Premium access control: biometric reader, magnetic lock, controller, backup battery, per door",
+      "price": 1200
+    }
+  },
+  "_system_rules": {
+    "nvr_selection": {
+      "rule": "Auto-select NVR based on camera count (with 20% spare channels)",
+      "mapping": [
+        {
+          "max_cameras": 8,
+          "nvr_key": "16ch_2mp"
+        },
+        {
+          "max_cameras": 13,
+          "nvr_key": "16ch_2mp"
+        },
+        {
+          "max_cameras": 26,
+          "nvr_key": "32ch_2mp"
+        },
+        {
+          "max_cameras": 51,
+          "nvr_key": "64ch_2mp"
+        }
+      ]
+    },
+    "hdd_per_camera_gb": {
+      "rule": "Storage estimation based on resolution and retention days",
+      "gb_per_day_per_mp": 10,
+      "default_retention_days": 30,
+      "moi_retention_days": 120
+    },
+    "raid_overhead": {
+      "rule": "RAID 5 uses 1 disk for parity",
+      "raid5_min_disks": 3,
+      "overhead_fraction": 0.0,
+      "parity_disks": 1
+    },
+    "switch_port_per_camera": {
+      "rule": "Average cameras per switch (leaving uplink ports)",
+      "cameras_per_8port": 6,
+      "cameras_per_16port": 14,
+      "cameras_per_24port": 22
+    },
+    "installation_per_camera": true,
+    "mount_per_camera": true
+  },
+  "_images": {
+    "logo": "starfox-header.png",
+    "base_path": "coach/memory/images/",
+    "note": "Images extracted from demo-template.xlsx. Col1 = icon, Col3 = product photo."
+  }
+}

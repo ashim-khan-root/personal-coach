@@ -1,0 +1,40 @@
+=== CAT6 BARE COPPER CABLE — Fixes ===
+
+--- 1. RankMath Title (replace current) ---
+Secuview Cat6 Bare Copper Cable – 23AWG Network Cable | Qatar
+
+--- 2. RankMath Meta Description (replace current) ---
+Buy Secuview Cat6 bare copper cable in Qatar for faster data transfer and low interference. 23AWG pure copper, 305m box. Free delivery in Doha. Shop now.
+
+--- 3. Product Description — Paste this into the WooCommerce editor ---
+<h2>Technical Specifications</h2>
+<ul>
+<li>Type: Cat6 UTP (Unshielded Twisted Pair)</li>
+<li>Conductor: 23AWG Bare Copper (pure copper, not CCA)</li>
+<li>Length: 305 meters per box</li>
+<li>Jacket: PVC, CM-rated</li>
+<li>Frequency: 250 MHz</li>
+<li>Speed: Up to 10 Gbps</li>
+<li>Standard: ANSI/TIA-568-C.2</li>
+</ul>
+
+<h2>Why Choose Bare Copper Over CCA?</h2>
+<p>Bare copper cable conducts electricity better than Copper-Clad Aluminum (CCA). This means stronger signal strength, less voltage drop for PoE devices, and longer lifespan. For PoE cameras and access points, bare copper is the safer choice.</p>
+
+<h2>Perfect For</h2>
+<ul>
+<li>PoE CCTV cameras</li>
+<li>WiFi access points</li>
+<li>Smart home devices</li>
+<li>Office networks</li>
+<li>Data centers</li>
+</ul>
+
+<h2>Installation Tips</h2>
+<p>Use a proper cable tester after installation. Keep cable runs under 100 meters for optimal performance. Avoid running parallel to electrical cables to reduce interference.</p>
+
+<p>Available at our Salwa Road showroom in Doha. Free delivery across Qatar.</p>
+
+--- 4. Out of Stock Fix ---
+Option A (if restocking): Update WooCommerce stock quantity → "In Stock"
+Option B (if discontinued): Go to RankMath > Advanced > Robots Meta > "noindex" this page

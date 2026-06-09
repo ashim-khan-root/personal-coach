@@ -1,0 +1,243 @@
+{
+  "name": "Comment-to-DM Lead Gen",
+  "nodes": [
+    {
+      "id": "trigger-schedule",
+      "name": "Every 10 min",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [0, 0],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "minutes",
+              "minutesInterval": 10
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "get-media",
+      "name": "Get Recent Media",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [250, 0],
+      "parameters": {
+        "method": "GET",
+        "url": "https://graph.facebook.com/v21.0/={{ $json.igBusinessId }}/media",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "fields",
+              "value": "id,caption,comments{id,text,username,from{id,username},timestamp}"
+            },
+            {
+              "name": "limit",
+              "value": "10"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "credentials": {
+        "httpQuery": {
+          "id": "__CREDENTIAL_META_GRAPH_API__",
+          "name": "Meta Graph API"
+        }
+      }
+    },
+    {
+      "id": "extract-comments",
+      "name": "Extract & Filter Comments",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [500, 0],
+      "parameters": {
+        "jsCode": "// Get the IG Business Account ID from workflow static data or env\nconst igBusinessId = $getWorkflowStaticData('global').igBusinessId || '';\n\n// Keywords to trigger DM\nconst keywords = ['QUOTE', 'GUIDE', 'quote', 'guide'];\n\n// Previous processed comment IDs\nconst processedIds = new Set($getWorkflowStaticData('global').processedCommentIds || []);\n\nconst items = $input.all();\nconst matches = [];\n\nfor (const item of items) {\n  const media = item.json;\n  const comments = media.comments?.data || [];\n  \n  for (const comment of comments) {\n    if (processedIds.has(comment.id)) continue;\n    \n    const hasKeyword = keywords.some(kw => comment.text.includes(kw));\n    if (hasKeyword) {\n      matches.push({\n        commentId: comment.id,\n        commentText: comment.text,\n        username: comment.username,\n        userId: comment.from?.id,\n        mediaId: media.id,\n        timestamp: comment.timestamp\n      });\n      processedIds.add(comment.id);\n    }\n  }\n}\n\n// Save processed IDs\n$getWorkflowStaticData('global').processedCommentIds = Array.from(processedIds);\n\nif (matches.length === 0) {\n  // No new matches — return empty to stop execution\n  return [{ json: { noMatches: true } }];\n}\n\nreturn matches.map(m => ({ json: m }));"
+      }
+    },
+    {
+      "id": "check-matches",
+      "name": "Has Matches?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [750, 0],
+      "parameters": {
+        "conditions": {
+          "number": [
+            {
+              "value1": "={{ $json.noMatches }}",
+              "operation": "isEmpty",
+              "value2": ""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "wait-node",
+      "name": "Wait 1s (rate limit)",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1,
+      "position": [1000, -100],
+      "parameters": {
+        "resume": "afterTimeInterval",
+        "amount": 1,
+        "unit": "seconds"
+      }
+    },
+    {
+      "id": "send-dm",
+      "name": "Send DM via Messaging API",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1250, -100],
+      "parameters": {
+        "method": "POST",
+        "url": "https://graph.facebook.com/v21.0/={{ $getWorkflowStaticData('global').igBusinessId }}/messages",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "recipient",
+              "value": "{\"id\":\"{{ $json.userId }}\"}"
+            },
+            {
+              "name": "message",
+              "value": "{\"text\":\"Thanks for your interest! Check out our security solutions here: https://secuview.qa/quote \\n\\nNeed a custom quote? Reply to this message and our team will assist you.\"}"
+            },
+            {
+              "name": "messaging_type",
+              "value": "MESSAGE_TAG"
+            },
+            {
+              "name": "tag",
+              "value": "HUMAN_AGENT"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "credentials": {
+        "httpQuery": {
+          "id": "__CREDENTIAL_META_GRAPH_API__",
+          "name": "Meta Graph API"
+        }
+      },
+      "onError": "continueRegularOutput"
+    },
+    {
+      "id": "log-result",
+      "name": "Log DM Sent",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1500, -100],
+      "parameters": {
+        "jsCode": "const item = $input.first().json;\nconsole.log(`DM sent to user ${item.userId} for comment ${item.commentId}`);\n\n// Append to a log array in static data\nconst log = $getWorkflowStaticData('global').dmLog || [];\nlog.push({\n  commentId: item.commentId,\n  userId: item.userId,\n  username: item.username,\n  sentAt: new Date().toISOString()\n});\n// Keep last 500 entries\nif (log.length > 500) log.shift();\n$getWorkflowStaticData('global').dmLog = log;\n\nreturn [{ json: { status: 'sent', commentId: item.commentId, userId: item.userId } }];"
+      }
+    },
+    {
+      "id": "noop-end",
+      "name": "No Matches (end)",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1000, 150],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Every 10 min": {
+      "main": [
+        [
+          {
+            "node": "Get Recent Media",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Recent Media": {
+      "main": [
+        [
+          {
+            "node": "Extract & Filter Comments",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract & Filter Comments": {
+      "main": [
+        [
+          {
+            "node": "Has Matches?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Has Matches?": {
+      "main": [
+        [
+          {
+            "node": "Wait 1s (rate limit)",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "No Matches (end)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait 1s (rate limit)": {
+      "main": [
+        [
+          {
+            "node": "Send DM via Messaging API",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send DM via Messaging API": {
+      "main": [
+        [
+          {
+            "node": "Log DM Sent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner"
+  },
+  "tags": [
+    {
+      "name": "lead-gen"
+    },
+    {
+      "name": "instagram"
+    }
+  ],
+  "staticData": null
+}

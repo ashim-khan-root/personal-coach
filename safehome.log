@@ -1,0 +1,62 @@
+2026-05-28T12:49:54.955959Z	Cloning repository...
+2026-05-28T12:49:57.311706Z	From https://github.com/ashim-khan-root/safehome
+2026-05-28T12:49:57.312013Z	 * branch            8f6def37343c4dde903a228d812382b8c7908475 -> FETCH_HEAD
+2026-05-28T12:49:57.312093Z	
+2026-05-28T12:49:57.988659Z	HEAD is now at 8f6def3 Update baseURL to aslielectronics.com for Cloudflare deploy
+2026-05-28T12:49:57.989077Z	
+2026-05-28T12:49:58.032226Z	
+2026-05-28T12:49:58.032605Z	Using v2 root directory strategy
+2026-05-28T12:49:58.044795Z	Success: Finished cloning repository files
+2026-05-28T12:49:59.790141Z	Checking for configuration in a Wrangler configuration file (BETA)
+2026-05-28T12:49:59.790577Z	
+2026-05-28T12:50:00.894902Z	No Wrangler configuration file found. Continuing.
+2026-05-28T12:50:01.050395Z	Detected the following tools from environment: npm@10.9.2, nodejs@22.16.0
+2026-05-28T12:50:01.050997Z	Installing project dependencies: npm clean-install --progress=false
+2026-05-28T12:50:03.719889Z	npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+2026-05-28T12:50:04.22937Z	npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+2026-05-28T12:50:04.423879Z	npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+2026-05-28T12:50:04.728468Z	npm warn deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+2026-05-28T12:50:04.749071Z	npm warn deprecated @humanwhocodes/config-array@0.13.0: Use @eslint/config-array instead
+2026-05-28T12:50:05.60955Z	npm warn deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+2026-05-28T12:50:06.131532Z	
+2026-05-28T12:50:06.131772Z	added 447 packages, and audited 448 packages in 4s
+2026-05-28T12:50:06.132372Z	
+2026-05-28T12:50:06.132489Z	172 packages are looking for funding
+2026-05-28T12:50:06.132558Z	  run `npm fund` for details
+2026-05-28T12:50:06.132601Z	
+2026-05-28T12:50:06.132636Z	found 0 vulnerabilities
+2026-05-28T12:50:06.190417Z	Executing user command: hugo --gc --minify
+2026-05-28T12:50:06.469953Z	Start building sites … 
+2026-05-28T12:50:06.470214Z	hugo v0.147.7-189453612e4bedc4f27495a7b1145321c8d89807+extended linux/amd64 BuildDate=2025-05-31T12:41:12Z VendorInfo=gohugoio
+2026-05-28T12:50:06.470265Z	
+2026-05-28T12:50:08.44215Z	
+2026-05-28T12:50:08.44327Z	                  │ EN  
+2026-05-28T12:50:08.443486Z	──────────────────┼─────
+2026-05-28T12:50:08.443543Z	 Pages            │ 262 
+2026-05-28T12:50:08.443587Z	 Paginator pages  │  17 
+2026-05-28T12:50:08.443619Z	 Non-page files   │   0 
+2026-05-28T12:50:08.443648Z	 Static files     │ 990 
+2026-05-28T12:50:08.443676Z	 Processed images │   0 
+2026-05-28T12:50:08.443705Z	 Aliases          │  21 
+2026-05-28T12:50:08.443756Z	 Cleaned          │   0 
+2026-05-28T12:50:08.443789Z	
+2026-05-28T12:50:08.443818Z	Total in 1976 ms
+2026-05-28T12:50:08.458076Z	Finished
+2026-05-28T12:50:09.08066Z	Checking for configuration in a Wrangler configuration file (BETA)
+2026-05-28T12:50:09.081045Z	
+2026-05-28T12:50:10.162581Z	No Wrangler configuration file found. Continuing.
+2026-05-28T12:50:10.163251Z	Note: No functions dir at /functions found. Skipping.
+2026-05-28T12:50:10.163368Z	Validating asset output directory
+2026-05-28T12:50:14.08109Z	Deploying your site to Cloudflare's global network...
+2026-05-28T12:50:17.838426Z	Uploading... (0/3681)
+2026-05-28T12:50:26.497788Z	Uploading... (298/3681)
+2026-05-28T12:50:27.304756Z	Uploading... (590/3681)
+2026-05-28T12:50:27.326082Z	Uploading... (886/3681)
+2026-05-28T12:50:33.597187Z	Uploading... (2086/3681)
+2026-05-28T12:50:33.940988Z	Uploading... (3011/3681)
+2026-05-28T12:50:34.763701Z	Uploading... (3681/3681)
+2026-05-28T12:50:34.764015Z	✨ Success! Uploaded 3681 files (17.94 sec)
+2026-05-28T12:50:34.764083Z	
+2026-05-28T12:50:35.278116Z	✨ Upload complete!
+2026-05-28T12:50:38.202164Z	Success: Assets published!
+2026-05-28T12:50:39.086525Z	Success: Your site was deployed!

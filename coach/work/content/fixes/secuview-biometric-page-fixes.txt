@@ -1,0 +1,52 @@
+=== BIOMETRIC ATTENDANCE — Fixes ===
+
+--- 1. RankMath Title (replace current) ---
+Secuview Biometric Attendance System – Fingerprint & Face | Qatar
+
+--- 2. RankMath Meta Description (replace current) ---
+Buy Secuview Biometric Attendance System in Qatar. Fingerprint & face recognition, real-time reporting, USB export. Ideal for offices, schools & gyms. Free delivery in Doha.
+
+--- 3. Product Description — Paste this into the WooCommerce editor ---
+<h2>Key Features</h2>
+<ul>
+<li>Fingerprint and/or face recognition</li>
+<li>Real-time attendance tracking</li>
+<li>USB and cloud data export</li>
+<li>Compatible with payroll software</li>
+<li>Tamper-proof logs</li>
+<li>Multiple verification modes</li>
+</ul>
+
+<h2>How It Works</h2>
+<p>Employees clock in and out using their fingerprint or face. The system records the exact time and date, eliminating buddy punching and manual errors. Data can be exported as CSV or Excel for payroll processing.</p>
+
+<h2>Perfect For</h2>
+<ul>
+<li><strong>Offices</strong> — Track employee attendance across departments</li>
+<li><strong>Schools</strong> — Monitor staff and student attendance</li>
+<li><strong>Gyms & Fitness Centers</strong> — Member check-in and access control</li>
+<li><strong>Factories & Warehouses</strong> — Shift management and overtime tracking</li>
+</ul>
+
+<h2>Technical Specifications</h2>
+<table>
+<tr><td>Display</td><td>2.8 inch TFT</td></tr>
+<tr><td>Fingerprint Capacity</td><td>3,000 templates</td></tr>
+<tr><td>Face Capacity</td><td>1,000 faces</td></tr>
+<tr><td>Communication</td><td>TCP/IP, USB</td></tr>
+<tr><td>Language</td><td>English, Arabic</td></tr>
+<tr><td>Power Supply</td><td>DC 12V</td></tr>
+<tr><td>SKU</td><td>SV24TWA1</td></tr>
+</table>
+
+<h2>Frequently Asked Questions</h2>
+<h3>Can I export attendance data to Excel?</h3>
+<p>Yes. Data can be exported via USB or downloaded from the software as CSV/Excel files.</p>
+
+<h3>Does it work without internet?</h3>
+<p>Yes. The device works offline. Data syncs to software when connected via USB or network.</p>
+
+<h3>Can I use face recognition only?</h3>
+<p>Yes. The system supports multiple verification modes: fingerprint only, face only, or fingerprint + face.</p>
+
+<p>Available at our Salwa Road showroom. Free delivery in Doha and shipping across Qatar.</p>

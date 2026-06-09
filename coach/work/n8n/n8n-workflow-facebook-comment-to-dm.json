@@ -1,0 +1,219 @@
+{
+  "name": "Facebook Page Comment to DM",
+  "nodes": [
+    {
+      "id": "trigger-schedule",
+      "name": "Every 15 min",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [0, 0],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "minutes",
+              "minutesInterval": 15
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "get-page-posts",
+      "name": "Get Page Posts",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [250, 0],
+      "parameters": {
+        "method": "GET",
+        "url": "https://graph.facebook.com/v21.0/{{ $getWorkflowStaticData('global').facebookPageId }}/posts",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "fields",
+              "value": "id,message,comments.limit(10){id,message,from{id,name},created_time}"
+            },
+            {
+              "name": "limit",
+              "value": "5"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "credentials": {
+        "httpQuery": {
+          "id": "__CREDENTIAL_META_GRAPH_API__",
+          "name": "Meta Graph API"
+        }
+      }
+    },
+    {
+      "id": "extract-and-filter-comments",
+      "name": "Extract & Filter Comments",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [500, 0],
+      "parameters": {
+        "jsCode": "const pageId = $getWorkflowStaticData('global').facebookPageId || '';\nconst keywords = ($getWorkflowStaticData('global').dmKeywords || 'QUOTE,GUIDE').split(',').map(k => k.trim().toUpperCase());\nconst processedComments = new Set($getWorkflowStaticData('global').processedFbComments || []);\n\nconst matches = [];\nconst items = $input.all();\n\nfor (const item of items) {\n  const post = item.json;\n  const comments = post.comments?.data || [];\n\n  for (const comment of comments) {\n    if (processedComments.has(comment.id)) continue; // Skip already processed\n\n    const commentText = (comment.message || '').toUpperCase();\n    const hasKeyword = keywords.some(kw => commentText.includes(kw));\n\n    if (hasKeyword && comment.from?.id !== pageId) { // Ensure not commenting on own page\n      matches.push({\n        commentId: comment.id,\n        commentText: comment.message,\n        userId: comment.from?.id,\n        userName: comment.from?.name,\n        postId: post.id\n      });\n      processedComments.add(comment.id);\n    }\n  }\n}\n\n$getWorkflowStaticData('global').processedFbComments = Array.from(processedComments);\n\nif (matches.length === 0) {\n  return [{ json: { noMatches: true } }];\n}\n\nreturn matches.map(m => ({ json: m }));"
+      }
+    },
+    {
+      "id": "check-matches",
+      "name": "Has Matches?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [750, 0],
+      "parameters": {
+        "conditions": {
+          "number": [
+            {
+              "value1": "={{ $json.noMatches }}",
+              "operation": "isEmpty",
+              "value2": ""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "send-dm",
+      "name": "Send DM via Messenger API",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1000, -100],
+      "parameters": {
+        "method": "POST",
+        "url": "https://graph.facebook.com/v21.0/{{ $getWorkflowStaticData('global').facebookPageId }}/messages",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "recipient",
+              "value": "{\"id\":\"{{ $json.userId }}\"}"
+            },
+            {
+              "name": "message",
+              "value": "{\"text\":\"Thanks for your comment, {{ $json.userName }}! We've received your request. Please check our offerings here: [Your Link]\\n\\nIf you need further assistance, reply to this message.\"}"
+            },
+            {
+              "name": "messaging_type",
+              "value": "RESPONSE"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "credentials": {
+        "httpQuery": {
+          "id": "__CREDENTIAL_META_GRAPH_API__",
+          "name": "Meta Graph API"
+        }
+      },
+      "onError": "continueRegularOutput"
+    },
+    {
+      "id": "log-dm-sent",
+      "name": "Log DM Sent",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1250, -100],
+      "parameters": {
+        "jsCode": "const item = $input.first().json;\nconsole.log(`DM sent to user ${item.userId} (${item.userName}) for comment ${item.commentId}`);\n\nconst log = $getWorkflowStaticData('global').fbDmLog || [];\nlog.push({\n  commentId: item.commentId,\n  userId: item.userId,\n  userName: item.userName,\n  sentAt: new Date().toISOString()\n});\nif (log.length > 500) log.shift();\n$getWorkflowStaticData('global').fbDmLog = log;\n\nreturn [{ json: { status: 'sent', commentId: item.commentId, userId: item.userId } }];"
+      }
+    },
+    {
+      "id": "no-matches-end",
+      "name": "No Matches (end)",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1000, 150],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Every 15 min": {
+      "main": [
+        [
+          {
+            "node": "Get Page Posts",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Page Posts": {
+      "main": [
+        [
+          {
+            "node": "Extract & Filter Comments",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract & Filter Comments": {
+      "main": [
+        [
+          {
+            "node": "Has Matches?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Has Matches?": {
+      "main": [
+        [
+          {
+            "node": "Send DM via Messenger API",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "No Matches (end)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send DM via Messenger API": {
+      "main": [
+        [
+          {
+            "node": "Log DM Sent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner"
+  },
+  "tags": [
+    {
+      "name": "facebook"
+    },
+    {
+      "name": "lead-gen"
+    },
+    {
+      "name": "messenger"
+    }
+  ],
+  "staticData": null
+}

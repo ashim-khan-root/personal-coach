@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <div class="scroll-progress"></div>
+  {{ partial "header.html" . }}
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+
+  <div class="floating-contact">
+    <a href="https://wa.me/97444691741?text=Hello%20Starfox%20Security" target="_blank" rel="noopener" class="floating-contact-btn whatsapp" aria-label="WhatsApp">
+      💬
+      <span class="tooltip">WhatsApp Us</span>
+    </a>
+    <a href="tel:{{ .Site.Params.phone }}" class="floating-contact-btn phone" aria-label="Call us">
+      📞
+      <span class="tooltip">Call {{ .Site.Params.phone }}</span>
+    </a>
+  </div>
+
+  <script src="{{ "js/main.js" | relURL }}"></script>
+</body>
+</html>

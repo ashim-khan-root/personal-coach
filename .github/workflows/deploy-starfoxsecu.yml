@@ -1,0 +1,35 @@
+name: Deploy starfoxsecu.com to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'starfoxsecu/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./starfoxsecu
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v3
+      with:
+        hugo-version: 'latest'
+
+    - name: Build
+      run: hugo --minify --baseURL "https://starfoxsecu.com/"
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./starfoxsecu/public
+        cname: starfoxsecu.com

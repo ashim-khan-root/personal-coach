@@ -1,0 +1,242 @@
+[
+  {
+    "deck": "Coach::Arabic",
+    "front": "Hello / Peace",
+    "back": "السلام عليكم (as-salamu alaykum)",
+    "tags": ["arabic", "greetings"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Thank you",
+    "back": "شكراً (shukran)",
+    "tags": ["arabic", "greetings"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Yes / No",
+    "back": "نعم (na'am) / لا (la)",
+    "tags": ["arabic", "basics"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "How are you? (male/female)",
+    "back": "كيف حالك؟ (kayfa haluk/halik)",
+    "tags": ["arabic", "greetings"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Good / Bad",
+    "back": "جيد (jayyid) / سيء (sayyi')",
+    "tags": ["arabic", "basics"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "One, Two, Three",
+    "back": "واحد (wahid), اثنان (ithnan), ثلاثة (thalatha)",
+    "tags": ["arabic", "numbers"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Water, Food, Coffee",
+    "back": "ماء (maa'), طعام (ta'aam), قهوة (qahwa)",
+    "tags": ["arabic", "daily"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Welcome (response to thank you)",
+    "back": "عفواً (afwan)",
+    "tags": ["arabic", "greetings"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Please / Excuse me",
+    "back": "من فضلك (min fadlik)",
+    "tags": ["arabic", "basics"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "I don't understand",
+    "back": "لا أفهم (la afham)",
+    "tags": ["arabic", "basics"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Where is...?",
+    "back": "أين...؟ (ayna...?)",
+    "tags": ["arabic", "questions"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "How much?",
+    "back": "كم؟ (kam?)",
+    "tags": ["arabic", "questions"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Today, Tomorrow, Yesterday",
+    "back": "اليوم (al-yawm), غداً (ghadan), أمس (ams)",
+    "tags": ["arabic", "time"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "What is your name?",
+    "back": "ما اسمك؟ (ma ismuka/ismuki?)",
+    "tags": ["arabic", "greetings"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Big / Small",
+    "back": "كبير (kabeer) / صغير (sagheer)",
+    "tags": ["arabic", "adjectives"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "House, Car, Shop",
+    "back": "بيت (bayt), سيارة (sayara), محل (mahall)",
+    "tags": ["arabic", "daily"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Goodbye",
+    "back": "مع السلامة (ma'a as-salama)",
+    "tags": ["arabic", "greetings"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "I want...",
+    "back": "أريد... (ureedu...)",
+    "tags": ["arabic", "basics"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Insha'Allah (God willing)",
+    "back": "إن شاء الله (insha'allah)",
+    "tags": ["arabic", "culture"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Mabrook (Congratulations!)",
+    "back": "مبروك (mabrook)",
+    "tags": ["arabic", "culture"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "What do you do for work?",
+    "back": "وش تشتغل؟ (wish tashtghil?) — Gulf dialect",
+    "tags": ["arabic", "work"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "I work in marketing / security",
+    "back": "أشتغل في التسويق (ashtaghil fi at-tasweeq) / الأمن (al-amn)",
+    "tags": ["arabic", "work"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Website, Company, Project",
+    "back": "موقع (mawqi'), شركة (sharika), مشروع (mashroo')",
+    "tags": ["arabic", "work"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Price / Discount / Expensive",
+    "back": "سعر (si'r), خصم (khasm), غالي (ghali)",
+    "tags": ["arabic", "business"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "I need help / Can you help me? (Gulf)",
+    "back": "أبي مساعدة (abi musa'ada) / تقدر تساعدني؟ (tigdar tisa'idni?)",
+    "tags": ["arabic", "basics"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Wait / Come / Go (Gulf dialect)",
+    "back": "انتظر (istanna), تعال (ta'aal), روح (rooh)",
+    "tags": ["arabic", "gulf-dialect"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "My name is... / Nice to meet you",
+    "back": "اسمي... (ismi...) / تشرفنا (tasharrafna)",
+    "tags": ["arabic", "greetings"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Morning / Evening (greetings)",
+    "back": "صباح الخير (sabah al-khayr) / مساء الخير (masa' al-khayr)",
+    "tags": ["arabic", "greetings"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Open / Close (door, shop, file)",
+    "back": "فتح (fatah) / غلق (ghalaq) — past tense verbs",
+    "tags": ["arabic", "verbs"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Eat / Drink / Sleep",
+    "back": "أكل (akala), شرب (shariba), نام (nama)",
+    "tags": ["arabic", "verbs"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "I am from... / I live in...",
+    "back": "أنا من... (ana min...) / أسكن في... (askun fi...)",
+    "tags": ["arabic", "basics"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Qatar / Doha / Dhow (local culture)",
+    "back": "قطر (Qatar), الدوحة (ad-Dawha), داو (daw)",
+    "tags": ["arabic", "qatar"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Security camera / Alarm system",
+    "back": "كاميرا مراقبة (kameera muraqaba) / نظام إنذار (nidham inzar)",
+    "tags": ["arabic", "work"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Customer / Order / Invoice",
+    "back": "عميل (amyl), طلب (talab), فاتورة (fatura)",
+    "tags": ["arabic", "business"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Today / Week / Month",
+    "back": "اليوم (al-yawm), أسبوع (usboo'), شهر (shahr)",
+    "tags": ["arabic", "time"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "I like this / I don't like that",
+    "back": "أعجبني هذا (a'jabani hadha) / ما أعجبني ذاك (ma a'jabani dhak)",
+    "tags": ["arabic", "basics"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Let's go / Come with me (Gulf)",
+    "back": "يلا (yalla) / تعال معاي (ta'aal ma'ay)",
+    "tags": ["arabic", "gulf-dialect"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "How many? / How much time?",
+    "back": "كم عدد؟ (kam 'adad?) / كم الوقت؟ (kam al-waqt?)",
+    "tags": ["arabic", "questions"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "Which / This / That",
+    "back": "أي (ayy), هذا (hadha), ذلك (dhalik)",
+    "tags": ["arabic", "basics"]
+  },
+  {
+    "deck": "Coach::Arabic",
+    "front": "See you later / Tomorrow (Gulf)",
+    "back": "بشوفك بعدين (bashoofak ba'dain) / بكره (bukra)",
+    "tags": ["arabic", "gulf-dialect"]
+  }
+]

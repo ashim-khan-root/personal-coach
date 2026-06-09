@@ -1,0 +1,387 @@
+{
+  "name": "Content Pipeline — Ollama + Instagram",
+  "nodes": [
+    {
+      "id": "manual-trigger",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [0, 0],
+      "parameters": {}
+    },
+    {
+      "id": "cron-trigger",
+      "name": "Schedule (Mon/Wed/Fri 10am)",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [0, 300],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "days",
+              "daysInterval": 1
+            }
+          ]
+        },
+        "triggerTimes": {
+          "item": [
+            {
+              "mode": "everyDay",
+              "hour": 10,
+              "minute": 0
+            }
+          ]
+        },
+        "activationOrder": "v1"
+      }
+    },
+    {
+      "id": "merge-triggers",
+      "name": "Merge Triggers",
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 2,
+      "position": [250, 0],
+      "parameters": {
+        "mode": "combine",
+        "combinationMode": "multiplex"
+      }
+    },
+    {
+      "id": "read-sheet",
+      "name": "Read Google Sheet",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4,
+      "position": [500, 0],
+      "parameters": {
+        "operation": "read",
+        "documentId": "={{ $getWorkflowStaticData('global').googleSheetId }}",
+        "sheetName": "={{ $getWorkflowStaticData('global').sheetName || 'Sheet1' }}",
+        "options": {}
+      },
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "__CREDENTIAL_GOOGLE_SHEETS__",
+          "name": "Google Sheets OAuth2"
+        }
+      }
+    },
+    {
+      "id": "filter-unpublished",
+      "name": "Filter Unpublished",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [750, 0],
+      "parameters": {
+        "jsCode": "const items = $input.all();\nconst publishedIds = new Set($getWorkflowStaticData('global').publishedRowIds || []);\n\n// Expected columns: hardware_spec, network_concept, post_type, image_url, id\nconst filtered = items.filter(item => {\n  const row = item.json;\n  const rowId = row.id || row[0]; // ID column\n  return !publishedIds.has(String(rowId));\n});\n\nif (filtered.length === 0) {\n  return [{ json: { noRows: true } }];\n}\n\nreturn filtered.map(item => {\n  const row = item.json;\n  return {\n    json: {\n      rowId: row.id || row[0],\n      hardwareSpec: row.hardware_spec || row[0],\n      networkConcept: row.network_concept || row[1],\n      postType: row.post_type || 'image',\n      imageUrl: row.image_url || row[3]\n    }\n  };\n});"
+      }
+    },
+    {
+      "id": "check-rows",
+      "name": "Has Unpublished?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [1000, 0],
+      "parameters": {
+        "conditions": {
+          "number": [
+            {
+              "value1": "={{ $json.noRows }}",
+              "operation": "isEmpty",
+              "value2": ""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "build-prompt",
+      "name": "Build Ollama Prompt",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1250, -100],
+      "parameters": {
+        "jsCode": "const item = $input.first().json;\n\nconst prompt = `You are a security systems copywriter targeting the Qatar market.\nWrite an engaging Instagram caption for a post about security and smart home technology.\n\nHardware: ${item.hardwareSpec}\nTechnical context: ${item.networkConcept}\nPost type: ${item.postType}\n\nRequirements:\n- Length: 100-150 words\n- Tone: Professional but conversational\n- Add 5-7 relevant hashtags at the end\n- Include a call-to-action (e.g., \"Contact us for a free consultation\")\n- Target audience: B2B clients in Qatar (hotels, offices, villas)\n- Use English, with occasional Arabic keywords if natural\n\nCaption:`;\n\nreturn [{ json: { prompt, rowId: item.rowId, imageUrl: item.imageUrl, postType: item.postType } }];"
+      }
+    },
+    {
+      "id": "call-ollama",
+      "name": "Generate Caption (Ollama)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1500, -100],
+      "parameters": {
+        "method": "POST",
+        "url": "http://host.docker.internal:11434/api/generate",
+        "authentication": "none",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "model",
+              "value": "llama3"
+            },
+            {
+              "name": "prompt",
+              "value": "={{ $json.prompt }}"
+            },
+            {
+              "name": "stream",
+              "value": false
+            },
+            {
+              "name": "options",
+              "value": "{\"temperature\": 0.7, \"num_predict\": 500}"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 120000
+        }
+      },
+      "onError": "continueRegularOutput"
+    },
+    {
+      "id": "parse-caption",
+      "name": "Parse Caption",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1750, -100],
+      "parameters": {
+        "jsCode": "const item = $input.first().json;\n\n// Handle Ollama API response\nconst responseText = item.response || '';\nconst caption = responseText.trim();\n\nif (!caption) {\n  return [{ json: { error: 'Empty response from Ollama', rowId: item.rowId } }];\n}\n\nreturn [{\n  json: {\n    caption: caption,\n    imageUrl: item.imageUrl || $json.imageUrl,\n    rowId: item.rowId || $json.rowId,\n    postType: item.postType || $json.postType\n  }\n}];"
+      }
+    },
+    {
+      "id": "create-container",
+      "name": "Create Media Container",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [2000, -100],
+      "parameters": {
+        "method": "POST",
+        "url": "https://graph.facebook.com/v21.0/={{ $getWorkflowStaticData('global').igBusinessId }}/media",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "image_url",
+              "value": "={{ $json.imageUrl }}"
+            },
+            {
+              "name": "caption",
+              "value": "={{ $json.caption }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "credentials": {
+        "httpQuery": {
+          "id": "__CREDENTIAL_META_GRAPH_API__",
+          "name": "Meta Graph API"
+        }
+      },
+      "onError": "continueRegularOutput"
+    },
+    {
+      "id": "publish-media",
+      "name": "Publish to Instagram",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [2250, -100],
+      "parameters": {
+        "method": "POST",
+        "url": "https://graph.facebook.com/v21.0/={{ $getWorkflowStaticData('global').igBusinessId }}/media_publish",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "creation_id",
+              "value": "={{ $json.id }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "credentials": {
+        "httpQuery": {
+          "id": "__CREDENTIAL_META_GRAPH_API__",
+          "name": "Meta Graph API"
+        }
+      },
+      "onError": "continueRegularOutput"
+    },
+    {
+      "id": "log-publish",
+      "name": "Log Published Row",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [2500, -100],
+      "parameters": {
+        "jsCode": "const item = $input.first().json;\nconst publishedIds = $getWorkflowStaticData('global').publishedRowIds || [];\nconst currentRowId = item.rowId || $json.rowId;\n\nif (currentRowId) {\n  publishedIds.push(String(currentRowId));\n  $getWorkflowStaticData('global').publishedRowIds = publishedIds;\n}\n\nconst publishLog = $getWorkflowStaticData('global').publishLog || [];\npublishLog.push({\n  rowId: currentRowId,\n  mediaId: item.id,\n  permalink: item.permalink || '',\n  publishedAt: new Date().toISOString()\n});\nif (publishLog.length > 200) publishLog.shift();\n$getWorkflowStaticData('global').publishLog = publishLog;\n\nreturn [{ json: { status: 'published', mediaId: item.id, permalink: item.permalink, rowId: currentRowId } }];"
+      }
+    },
+    {
+      "id": "no-rows-end",
+      "name": "No Rows (end)",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1250, 200],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          {
+            "node": "Merge Triggers",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule (Mon/Wed/Fri 10am)": {
+      "main": [
+        [
+          {
+            "node": "Merge Triggers",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Merge Triggers": {
+      "main": [
+        [
+          {
+            "node": "Read Google Sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read Google Sheet": {
+      "main": [
+        [
+          {
+            "node": "Filter Unpublished",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter Unpublished": {
+      "main": [
+        [
+          {
+            "node": "Has Unpublished?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Has Unpublished?": {
+      "main": [
+        [
+          {
+            "node": "Build Ollama Prompt",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "No Rows (end)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build Ollama Prompt": {
+      "main": [
+        [
+          {
+            "node": "Generate Caption (Ollama)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate Caption (Ollama)": {
+      "main": [
+        [
+          {
+            "node": "Parse Caption",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse Caption": {
+      "main": [
+        [
+          {
+            "node": "Create Media Container",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Media Container": {
+      "main": [
+        [
+          {
+            "node": "Publish to Instagram",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Publish to Instagram": {
+      "main": [
+        [
+          {
+            "node": "Log Published Row",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner"
+  },
+  "tags": [
+    {
+      "name": "content"
+    },
+    {
+      "name": "instagram"
+    },
+    {
+      "name": "ollama"
+    },
+    {
+      "name": "ai"
+    }
+  ],
+  "staticData": null
+}

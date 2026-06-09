@@ -1,0 +1,19 @@
+<div class="nav-overlay"></div>
+<header class="site-header">
+  <div class="container">
+    <a href="{{ "" | relURL }}" class="logo">
+      <img src="{{ "images/logo_main.png" | relURL }}" alt="Starfox Security System">
+      <span class="logo-text">Starfox <span class="logo-highlight">Secu</span></span>
+    </a>
+    <button class="mobile-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-main">
+      <ul>
+        {{ range .Site.Menus.main }}
+        <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+</header>

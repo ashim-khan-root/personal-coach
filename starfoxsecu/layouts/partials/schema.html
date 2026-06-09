@@ -1,0 +1,28 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Starfox Security System",
+  "url": "{{ .Site.BaseURL }}",
+  "logo": "{{ "images/logo_main.png" | absURL }}",
+  "description": "Qatar's trusted security partner since 2005. MOI-approved CCTV, access control, BMS, and low current systems.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "57, Street 406, Al-Maamourah, Salwa Road",
+    "addressLocality": "Doha",
+    "addressCountry": "QA"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "{{ .Site.Params.phone }}",
+    "contactType": "sales",
+    "areaServed": "QA"
+  },
+  "foundingDate": "2005",
+  "sameAs": [
+    "{{ .Site.Params.facebook }}",
+    "{{ .Site.Params.instagram }}",
+    "{{ .Site.Params.linkedin }}"
+  ]
+}
+</script>

@@ -1,0 +1,386 @@
+{
+  "_meta": {
+    "version": 1,
+    "source": "demo-template.xlsx",
+    "company": "STARFOX SECURITY",
+    "currency": "QAR",
+    "created": "2026-04-21",
+    "updated": "2026-04-21",
+    "notes": "Rate card extracted from demo quotation. Update by running make_quotation.py --update-rates <new.xlsx>"
+  },
+  "cameras": {
+    "2mp_bullet": {
+      "model": "2MP Fixed Bullet Network Camera",
+      "description": "2MP fixed bullet network camera, H.265 codec, high compression rate, Built-in IR LED, max IR distance: 30m, 12V DC/PoE, IP67 protection",
+      "price": 350,
+      "default_mount": "wall_mount",
+      "images": {
+        "col1": "2mp_bullet-col1.png",
+        "col3": "2mp_bullet-col3.jpeg"
+      }
+    },
+    "2mp_eyeball": {
+      "model": "2MP Lite IR Fixed-focal Eyeball Network Camera",
+      "description": "2MP Lite IR Fixed-focal Eyeball Network Camera, H.265 codec, high compression rate, Built-in IR LED, max IR distance: 30m, 12V DC/PoE, IP67 protection",
+      "price": 300,
+      "default_mount": "wall_mount",
+      "images": {
+        "col1": "2mp_eyeball-col1.png",
+        "col3": "2mp_eyeball-col3.png"
+      }
+    },
+    "2mp_varifocal": {
+      "model": "2MP ACUSENSE MOTORIZED VARIFOCAL Network Camera",
+      "description": "2MP ACUSENSE MOTORIZED VARIFOCAL Network Camera, H.265 codec, high compression rate, Built-in IR LED, max IR distance: 30m, 12V DC/PoE, IP67 protection",
+      "price": 450,
+      "default_mount": "wall_mount",
+      "images": {
+        "col1": "2mp_varifocal-col1.png",
+        "col3": "2mp_varifocal-col3.jpeg"
+      }
+    },
+    "4mp_kpoi": {
+      "model": "4MP KPOI Camera",
+      "description": "4MP KPOI camera with lens, H.265 codec, high compression rate, Built-in IR LED",
+      "price": 1750,
+      "default_mount": "hanging_stand",
+      "images": {
+        "col1": "4mp_kpoi-col1.png",
+        "col3": "4mp_kpoi-col3.png"
+      }
+    },
+    "4mp_varifocal": {
+      "model": "4MP Motorized Varifocal Bullet Camera",
+      "description": "4MP motorized varifocal bullet camera, H.265 codec, motorized zoom lens, Built-in IR LED, max IR distance: 40m, 12V DC/PoE, IP67 protection",
+      "price": 650,
+      "default_mount": "wall_mount",
+      "images": {
+        "col1": "4mp_anpr-col1.png",
+        "col3": "4mp_anpr-col3.png"
+      }
+    },
+    "4mp_anpr": {
+      "model": "4MP ANPR Bullet Camera",
+      "description": "4MP ANPR bullet camera with LPR technology for license plate recognition",
+      "price": 2500,
+      "default_mount": "pole_mount",
+      "images": {
+        "col1": "4mp_anpr-col1.png",
+        "col3": "4mp_anpr-col3.png"
+      }
+    }
+  },
+  "nvrs": {
+    "16ch_2mp": {
+      "model": "16 Channel 4K NVR",
+      "description": "16 Channel 4K NVR, Non POE, 1U, 2HDDs up to 16TB, P2P remote surveillance, AI by Camera",
+      "price": 4500,
+      "max_channels": 16,
+      "max_hdds": 2,
+      "images": {
+        "col1": "16ch_2mp-col1.png",
+        "col3": "16ch_2mp-col3.jpeg"
+      }
+    },
+    "32ch_2mp": {
+      "model": "32 Channel 4K NVR",
+      "description": "32 Channel 4K NVR, Non POE, 1U, 4HDDs up to 16TB, P2P remote surveillance, AI by Camera",
+      "price": 6500,
+      "max_channels": 32,
+      "max_hdds": 4,
+      "images": {
+        "col1": "16ch_2mp-col1.png",
+        "col3": "16ch_2mp-col3.jpeg"
+      }
+    },
+    "64ch_2mp": {
+      "model": "64 Channel 4K NVR",
+      "description": "64 Channel 4K NVR, Non POE, 1U, 8HDDs up to 16TB, P2P remote surveillance, max resolution 4K, AI by Camera: Face detection, perimeter protection, IVS, people counting",
+      "price": 8700,
+      "max_channels": 64,
+      "max_hdds": 8,
+      "images": {
+        "col1": "16ch_2mp-col1.png",
+        "col3": "16ch_2mp-col3.jpeg"
+      }
+    },
+    "16ch_kpoi": {
+      "model": "16CH NVR for KPOI Camera",
+      "description": "16 channel NVR compatible with KPOI 4MP camera system",
+      "price": 4800,
+      "max_channels": 16,
+      "max_hdds": 2,
+      "images": {
+        "col1": "16ch_kpoi-col1.png",
+        "col3": "16ch_kpoi-col3.jpeg"
+      }
+    },
+    "16ch_anpr": {
+      "model": "16CH NVR for ANPR Cameras",
+      "description": "16 channel NVR for ANPR/LPR camera system with license plate recognition support",
+      "price": 4500,
+      "max_channels": 16,
+      "max_hdds": 2,
+      "images": {
+        "col1": "16ch_anpr-col1.png",
+        "col3": "16ch_anpr-col3.jpeg"
+      }
+    }
+  },
+  "hdd": {
+    "4tb": {
+      "model": "Hard Disk Drive 4TB",
+      "description": "4TB Surveillance HDD for NVR recording",
+      "price": 800,
+      "images": {
+        "col1": "hdd-4tb-col1.jpeg",
+        "col3": "hdd-4tb-col3.jpeg"
+      }
+    },
+    "8tb": {
+      "model": "Hard Disk Drive 8TB",
+      "description": "8TB Surveillance HDD for NVR recording",
+      "price": 1350,
+      "images": {
+        "col1": "hdd-8tb-col1.jpeg",
+        "col3": "hdd-8tb-col3.jpeg"
+      }
+    },
+    "16tb": {
+      "model": "Hard Disk Drive 16TB",
+      "description": "16TB Surveillance HDD for NVR recording",
+      "price": 2100,
+      "images": {
+        "col1": "hdd-16tb-col1.jpeg",
+        "col3": "hdd-16tb-col3.jpeg"
+      }
+    }
+  },
+  "switches": {
+    "8port_poe": {
+      "model": "8-Port Gigabit PoE Switch",
+      "description": "8-Port Gigabit PoE Switch, 120W total power budget, plug-and-play",
+      "price": 350,
+      "images": {
+        "col1": "switch-8port_poe-col1.png",
+        "col3": "switch-8port_poe-col3.jpeg"
+      }
+    },
+    "16port_poe": {
+      "model": "16-Port Gigabit PoE Switch",
+      "description": "16-Port Gigabit PoE Switch designed for security industry, 2 Hi-PoE ports up to 60W, 360W total power",
+      "price": 600,
+      "images": {
+        "col1": "switch-8port_poe-col1.png",
+        "col3": "switch-8port_poe-col3.jpeg"
+      }
+    }
+  },
+  "racks": {
+    "18u": {
+      "model": "18U Floor Mount Rack with Wheels",
+      "description": "18U standard floor mount server rack with wheels and cooling",
+      "price": 1150,
+      "images": {
+        "col1": "rack-18u-col1.png",
+        "col3": "rack-18u-col3.png"
+      }
+    },
+    "27u": {
+      "model": "27U Floor Mount Rack with Wheels",
+      "description": "27U standard floor mount server rack with wheels and cooling",
+      "price": 1450,
+      "images": {
+        "col1": "rack-27u-col1.png",
+        "col3": "rack-27u-col3.png"
+      }
+    }
+  },
+  "monitors": {
+    "24inch": {
+      "model": "23.8 inch LED Monitor",
+      "description": "23.8 inch Full HD LED Monitor for surveillance viewing",
+      "price": 445,
+      "images": {
+        "col1": "monitor-24inch-col1.png",
+        "col3": "monitor-24inch-col3.jpeg"
+      }
+    },
+    "32inch": {
+      "model": "32 inch LED Monitor",
+      "description": "32 inch Full HD LED Monitor for surveillance viewing",
+      "price": 950,
+      "images": {
+        "col1": "monitor-32inch-col1.png",
+        "col3": "monitor-32inch-col3.jpeg"
+      }
+    }
+  },
+  "workstation": {
+    "dell_optiplex": {
+      "model": "Dell OptiPlex Workstation",
+      "description": "Dell OptiPlex with 8GB RAM and 512GB SSD for CCTV management station",
+      "price": 3600,
+      "images": {
+        "col1": "workstation-dell_optiplex-col1.png",
+        "col3": "workstation-dell_optiplex-col3.jpeg"
+      }
+    }
+  },
+  "ups": {
+    "1kva_rack": {
+      "model": "1KVA Rack-Type Online UPS",
+      "description": "1KVA Online UPS for network rack, pure sine wave",
+      "price": 1200,
+      "battery_required": true,
+      "battery_price": 900,
+      "images": {
+        "col1": "ups-1kva_rack-col1.jpeg",
+        "col3": "ups-1kva_rack-col3.jpeg"
+      }
+    },
+    "2kva_rack": {
+      "model": "2KVA Rack-Type Online UPS",
+      "description": "2KVA Online UPS for network rack, pure sine wave",
+      "price": 1450,
+      "battery_required": true,
+      "battery_price": 1100,
+      "images": {
+        "col1": "ups-2kva_rack-col1.jpeg",
+        "col3": "ups-2kva_rack-col3.jpeg"
+      }
+    }
+  },
+  "accessories": {
+    "wall_mount": {
+      "model": "Wall Mount Camera Stand",
+      "description": "Heavy-duty wall mount stand for bullet/eyeball cameras",
+      "price": 100
+    },
+    "bullet_base_box": {
+      "model": "Bullet Camera Base Box/Stand",
+      "description": "Base box and stand for bullet cameras",
+      "price": 100
+    },
+    "hanging_stand": {
+      "model": "Hanging Stand for Camera",
+      "description": "Hanging/pendant mount stand for dome/kpoi cameras",
+      "price": 145,
+      "images": {
+        "col1": "acc-hanging_stand-col3.jpeg",
+        "col3": "acc-hanging_stand-col3.jpeg"
+      }
+    },
+    "pole_mount": {
+      "model": "Pole Mount for ANPR Cameras",
+      "description": "Pole mounting bracket for ANPR/LPR cameras",
+      "price": 115
+    },
+    "pole_1_5m": {
+      "model": "1.5 Meter Pole",
+      "description": "1.5 meter galvanized steel pole for camera mounting",
+      "price": 250
+    },
+    "patch_cord": {
+      "model": "Patch Cord CAT6",
+      "description": "CAT6 patch cord for device connections",
+      "price": 7
+    },
+    "pdu": {
+      "model": "PDU for Rack",
+      "description": "Power Distribution Unit for standard 19-inch rack",
+      "price": 65
+    },
+    "patch_panel": {
+      "model": "Patch Panel 24-Port",
+      "description": "24-port CAT6 patch panel for rack termination",
+      "price": 145
+    },
+    "cable_manager": {
+      "model": "Cable Manager",
+      "description": "Horizontal cable manager for rack, 1U",
+      "price": 50
+    }
+  },
+  "licenses": {
+    "hikcentral_base": {
+      "model": "HIK-Central Base License",
+      "description": "HIK-Central VMS base software license",
+      "price": 350,
+      "images": {
+        "col1": "license-hikcentral_base-col3.png",
+        "col3": "license-hikcentral_base-col3.png"
+      }
+    },
+    "hikcentral_anpr_1ch": {
+      "model": "HIK-Central P-ANPR 1-CH License",
+      "description": "HIK-Central ANPR 1-channel license for LPR camera",
+      "price": 1150,
+      "images": {
+        "col1": "license-hikcentral_anpr_1ch-col3.png",
+        "col3": "license-hikcentral_anpr_1ch-col3.png"
+      }
+    }
+  },
+  "services": {
+    "installation_per_camera": {
+      "model": "Camera System Installation",
+      "description": "Camera installation, configuration, piping, and cabling per camera",
+      "price": 400,
+      "images": {
+        "col1": "service-installation_per_camera-col1.jpeg",
+        "col3": "service-installation_per_camera-col3.jpeg"
+      }
+    },
+    "dsa_dia_approvals": {
+      "model": "DSA/DIA Drawings, Documents & Approvals",
+      "description": "DSA and DIA drawing, documentation, approvals with one year AMC",
+      "price": 10000
+    },
+    "access_control": {
+      "model": "Access Control System",
+      "description": "Access control with lock, push button, and controller",
+      "price": 750
+    }
+  },
+  "_system_rules": {
+    "nvr_selection": {
+      "rule": "auto-select NVR based on camera count",
+      "mapping": [
+        {
+          "max_cameras": 8,
+          "nvr_key": "16ch_2mp"
+        },
+        {
+          "max_cameras": 16,
+          "nvr_key": "16ch_2mp"
+        },
+        {
+          "max_cameras": 32,
+          "nvr_key": "32ch_2mp"
+        },
+        {
+          "max_cameras": 64,
+          "nvr_key": "64ch_2mp"
+        }
+      ]
+    },
+    "hdd_per_camera_gb": {
+      "rule": "storage estimation for 30 days recording",
+      "description": "2MP: ~20GB/day, 4MP: ~40GB/day, 8MP: ~80GB/day per camera",
+      "gb_per_day_per_mp": 10
+    },
+    "switch_port_per_camera": {
+      "rule": "average cameras per 16-port PoE switch (leaving 2 ports for uplink)",
+      "cameras_per_16port": 14,
+      "cameras_per_8port": 6
+    },
+    "installation_per_camera": true,
+    "mount_per_camera": true
+  },
+  "_images": {
+    "logo": "starfox-header.png",
+    "base_path": "coach/memory/images/",
+    "note": "Images extracted from demo-template.xlsx. Col1 = icon, Col3 = product photo."
+  }
+}

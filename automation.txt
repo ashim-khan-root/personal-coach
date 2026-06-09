@@ -1,0 +1,18 @@
+Act as an expert social media strategist and automation architect. I am a security and smart home systems professional (B2B, Qatar market), using a self-hosted n8n instance with a Meta Graph API-connected Instagram Business account.
+
+Tech context:
+- Facebook App with `instagram_manage_messages`, `pages_messaging`, `instagram_content_publish` permissions
+- Instagram Business account is linked and access token is generated
+- n8n is reachable by Meta webhooks via the LAN IP (will tunnel if needed)
+
+Design three workflows:
+
+1. **Lead gen — comment-to-DM**: Trigger on Instagram comments containing keywords "QUOTE" or "GUIDE" on surveillance-system posts. Auto-send a DM with a link to a services page or technical blog. Detail exact nodes, API params, and rate-limit recovery (Instagram allows ~200 calls/user/hour — plan retry/backoff).
+
+2. **Content creation pipeline**: Read rows from a Google Sheet (columns: hardware spec, network concept, post type) → feed into an Ollama node (free, local LLM) → generate conversational captions in English (optionally Arabic) → publish as image/carousel via Instagram Publishing nodes.
+
+3. **Daily analytics tracker**: Scheduled workflow — pull follower count, reach, recent post performance → log to local SQLite database in your n8n data dir → if a topic triggers a spike, alert via email (SMTP/Gmail free tier). Include threshold configuration.
+
+For each workflow, provide: exact n8n node list, API parameters/headers, error-handling strategy, and rate-limit notes.
+
+Output format: Save to `coach/work/n8n-automation-plan.md` as a structured Markdown doc with a node-by-node breakdown per workflow.

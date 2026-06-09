@@ -1,0 +1,33 @@
+Clone & run the proxy
+
+git clone https://github.com/bigdata2211it-web/opencode-free-proxy.git
+cd opencode-free-proxy
+npm install
+node server.mjs
+
+
+Edit OpenCode config
+Open (or create) ~/.config/opencode/opencode.json and add:
+{
+  "provider": {
+    "free": {
+      "name": "free",
+      "type": "openai",
+      "apiKey": "your-api-key-from-api-keys.json",
+      "baseURL": "http://localhost:6446/v1",
+      "models": {
+        "free/deepseek-v4-flash-free": {
+          "id": "deepseek-v4-flash-free",
+          "name": "free/deepseek-v4-flash-free",
+          "attachment": true,
+          "reasoning": true
+        }
+      }
+    }
+  }
+}
+
+Replace apiKey with the actual key from api-keys.json
+
+Restart OpenCode
+Select model free/deepseek-v4-flash-free from the model list and start using it for free.
