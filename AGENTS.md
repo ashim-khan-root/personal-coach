@@ -67,6 +67,9 @@
 | `py -3 coach/tools/deep_research.py "<topic>"` | Search, fetch, compile into research brief (tries Ollama synthesis, falls back to raw) |
 | `py -3 coach/tools/deep_research.py "<topic>" --max 4` | Control how many results per search variation |
 | `py -3 coach/tools/deep_research.py "<topic>" --no-llm` | Skip LLM synthesis, always use raw compilation |
+| `py -3 coach/tools/learn_quotation.py <file.xlsx>` | Learn from a real quotation XLSX: extract products, match to rates.json, suggest new entries |
+| `py -3 coach/tools/learn_quotation.py --all-existing` | Scan all existing quotations in both projects |
+| `py -3 coach/tools/learn_quotation.py --all-existing --write` | Scan + save new products to rates.json |
 
 ## LightRAG
 
