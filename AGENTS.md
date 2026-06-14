@@ -6,6 +6,33 @@
 - **Python**: `py -3` on Windows (full path: `C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\python.exe`)
 - Deps: `pip install -r coach/requirements.txt` (requests, pyyaml, genanki, scikit-learn, mcp, lightrag-hku, joblib, duckduckgo-search, beautifulsoup4).
 
+## Mandatory session start — MUST run immediately on every new session
+
+Before doing anything else, run these two commands to load full context:
+
+```bash
+py -3 coach/tools/session_hooks.py pre
+py -3 coach/tools/read_context.py 10
+```
+
+This loads checkpoint, goals, habits, last session, and full memory summary. Without this, the agent has no context of the user and will produce low-quality responses. This is mandatory. Do not skip or assume context is already loaded.
+
+## Mandatory session end — save conversation summary
+
+Before the session ends, summarize key decisions, insights, and progress into a session entry:
+
+```bash
+py -3 coach/tools/store_session.py "<skill>" <duration_min> <rating_1-5> "<what we discussed, key decisions>"
+```
+
+If the user ends the session or goes idle for a long time, ask: "Want me to save a session entry before you go?" and summarize the conversation.
+
+Proactively save when:
+- User responds with "ok", "got it", "done" — signal a task completed
+- Something important happened (new tool installed, decision made, problem solved)
+- A skill/tool was added or modified
+- After any install or significant change
+
 ## Tool commands (run from `personal-coach/` root)
 
 | Command | Purpose |
@@ -50,12 +77,30 @@
 | `py -3 coach/tools/make_quotation.py --interactive` | Interactive chat mode for quotations |
 | `py -3 coach/tools/make_quotation.py --list-rates` | Show current rate card |
 | `py -3 coach/tools/make_quotation.py --update-rates <file.xlsx>` | Import new prices from Excel to rate card |
+| `py -3 coach/tools/make_quotation.py "<input>" --moi` | MOI-compliant quotation (120-day storage, RAID 5, UPS, AMC) |
+| `py -3 coach/tools/make_quotation.py "<input>" --moi --arabic` | MOI-compliant bilingual (EN/AR) quotation |
+| `py -3 coach/tools/make_quotation.py --update-rates <file.xlsx>` | Import new prices from Excel to rate card |
+| `py -3 coach/tools/seo_audit.py <url>` | Quick on-page SEO audit (meta, headings, schema, robots, sitemap, AI crawlers, images, content) |
+| `py -3 coach/tools/seo_audit.py <url> --json` | SEO audit as structured JSON |
+| `py -3 coach/tools/seo_audit.py <url> --crawl` | Multi-page audit: home + sampled sitemap pages (content depth, images, alt text, internal links) |
+| `py -3 coach/tools/seo_audit.py <url> --crawl --max-pages N` | Control how many pages to sample from sitemap (default 5) |
+| `py -3 coach/tools/seo_audit.py <url> --backlinks` | Check backlinks via Common Crawl (free, no API key) |
+| `py -3 coach/tools/seo_audit.py <url> --speed` | Check page speed (Google API fallback to basic timing) |
+| `py -3 coach/tools/seo_audit.py <url> --crawl --backlinks --speed` | Full audit: crawl + backlinks + speed |
 | `py -3 coach/tools/backup_memory.py --git-only` | Git commit+push only |
 | `py -3 coach/tools/backup_memory.py --zip-only` | ZIP archive only |
 | `py -3 coach/tools/restore_memory.py` | Restore from git (pull + rebuild index) |
 | `py -3 coach/tools/restore_memory.py --from-zip` | Restore from latest ZIP backup |
 | `py -3 coach/tools/restore_memory.py --from-zip <path>` | Restore from specific ZIP |
 | `py -3 coach/tools/restore_memory.py --list` | List available ZIP backups |
+| `py -3 coach/tools/task_manager.py add "<title>" [priority] [notes]` | Add a task (priority: low/medium/high) |
+| `py -3 coach/tools/task_manager.py list [--all|--pending|--done]` | List tasks |
+| `py -3 coach/tools/task_manager.py done <id>` | Mark task complete |
+| `py -3 coach/tools/task_manager.py delete <id>` | Delete a task |
+| `py -3 coach/tools/site_survey.py add "<client>" "<location>" [contact] [notes]` | Record a MOI site survey visit |
+| `py -3 coach/tools/site_survey.py list [--open|--all|--today]` | List site surveys |
+| `py -3 coach/tools/site_survey.py view <id>` | Show full survey details |
+| `py -3 coach/tools/site_survey.py close <id> [summary]` | Close out a survey |
 | `py -3 coach/tools/index_memory_lightrag.py` | Build LightRAG index (falls back to TF-IDF) |
 | `py -3 coach/tools/index_memory_lightrag.py --search "query"` | Search via LightRAG/TF-IDF |
 | `py -3 coach/tools/index_memory_lightrag.py --info` | Show index stats |
@@ -156,7 +201,7 @@ Session files are sorted reverse-chronologically by stem.
 ## Skills (`.opencode/skills/`)
 
 Skills live in `.opencode/skills/<name>/SKILL.md`. Opencode auto-loads them when
-the `description` field matches the task. **64 skills installed** from:
+the `description` field matches the task. **66+ skills installed** from:
 
 | Source | Skills | Coverage |
 |---|---|---|
@@ -165,7 +210,8 @@ the `description` field matches the task. **64 skills installed** from:
 | `NVIDIA/skills` | 1 | skill-evolution (detect generalizable learnings → propose updates) |
 | Adapted from `awrshift/claude-memory-kit` | 1 | memory-kit (multi-layer persistent memory architecture) |
 | `ui-ux-pro-max-skill` | 1 | UI/UX design direction and creative direction |
-| **Custom (local)** | **3** | **web-development, wordpress, hugo** |
+| **Custom (local)** | **5** | **web-development, wordpress, hugo, frontend-security, prompt-master** |
+| `Egonex-AI/Understand-Anything` | 8 | understand (codebase → knowledge graph), understand-chat, understand-dashboard, understand-diff, understand-domain, understand-explain, understand-knowledge, understand-onboard |
 
 ECC adds **240+ additional skills** at `.opencode/ecc-temp/skills/` covering development, testing, security, DevOps, and domain-specific workflows (Python, Rust, Go, Kotlin, C++, Java, Django, Laravel, Spring Boot, etc.).
 
@@ -336,6 +382,17 @@ Plans are stored in `process/plans/` with three subdirectories:
 **To create a plan:** run `py -3 coach/tools/new_plan.py "<title>"` from `personal-coach/`.
 **Naming convention:** `plan-title-YYYYMMDD-HHMMSS.md`
 **Context router:** `process/context/all-context.md` — read first at session start.
+
+## Project: safehome → aslielectronics.com
+
+- **Repo:** `github.com/ashim-khan-root/safehome`
+- **Local clone:** `personal-coach/safehome/`
+- **Deployment:** GitHub main branch → Cloudflare Pages → **aslielectronics.com**
+- **Blog source:** `safehome/content/blog/` (Hugo markdown)
+- **Format:** YAML frontmatter with title, date, author, description, summary, tags, categories, draft, weight
+- **Publish:** `git add`, `git commit`, `git push` → Cloudflare auto-deploys
+
+I ALWAYS write blog posts and content into the safehome repo, not as loose drafts.
 
 ## Blog Writing Convention (Secuview)
 
