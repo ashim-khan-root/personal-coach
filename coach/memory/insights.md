@@ -2,7 +2,7 @@
 
 Auto-extracted patterns from session history.
 
-- id: 6adfc4d32d6e
+- id: ba18f8d34836
   pattern: frequent_web-development
   category: frequency
   confidence: 0.75
@@ -11,7 +11,7 @@ Auto-extracted patterns from session history.
   summary: Practiced web-development 3 times — most practiced skill
   suggestion: Consider setting a mastery goal for web-development
 
-- id: 78e2ab39a01d
+- id: f35f0ae4c4c2
   pattern: frequent_content-writing
   category: frequency
   confidence: 0.75
@@ -20,7 +20,7 @@ Auto-extracted patterns from session history.
   summary: Practiced content-writing 3 times — most practiced skill
   suggestion: Consider setting a mastery goal for content-writing
 
-- id: 6abf785b20dd
+- id: 9e416a3187b7
   pattern: strong_at_content-writing
   category: strength
   confidence: 0.7
@@ -29,7 +29,7 @@ Auto-extracted patterns from session history.
   summary: Rated content-writing avg 9.3/10 across 3 sessions (0 win keywords)
   suggestion: Leverage content-writing strength — consider mentoring or deeper exploration
 
-- id: 5fdf3e7d5f5b
+- id: 2296f68c9a0b
   pattern: strong_at_blog-publishing-solar-4g
   category: strength
   confidence: 0.6
@@ -38,7 +38,7 @@ Auto-extracted patterns from session history.
   summary: Rated blog-publishing-solar-4g avg 9.0/10 across 2 sessions (0 win keywords)
   suggestion: Leverage blog-publishing-solar-4g strength — consider mentoring or deeper exploration
 
-- id: cf111aa42a98
+- id: 65429a73fbda
   pattern: strong_at_content-seo-phase2
   category: strength
   confidence: 0.6
@@ -47,7 +47,7 @@ Auto-extracted patterns from session history.
   summary: Rated content-seo-phase2 avg 9.0/10 across 2 sessions (0 win keywords)
   suggestion: Leverage content-seo-phase2 strength — consider mentoring or deeper exploration
 
-- id: 308de5b081e6
+- id: 2ed1404b5985
   pattern: strong_at_hugo-product-page-enhance
   category: strength
   confidence: 0.6
@@ -56,7 +56,7 @@ Auto-extracted patterns from session history.
   summary: Rated hugo-product-page-enhance avg 9.0/10 across 2 sessions (0 win keywords)
   suggestion: Leverage hugo-product-page-enhance strength — consider mentoring or deeper exploration
 
-- id: a1798a18746c
+- id: 27fd7babb5c5
   pattern: strong_at_seo-optimization
   category: strength
   confidence: 0.6
