@@ -35,3 +35,6 @@ Format: `## [date] — [topic]`
 
 ## 2026-06-16 — research (session)
 - Evaluated addyosmani/agent-skills repo (60k stars). Reviewed DDD, Context Engineering, Source-Driven Development skills. Decided to distill only Doubt-Driven Development — cherry-picked CLAIM→EXTRACT→DOUBT→RECONCILE→STOP protocol into process/context/doubt-driven-development.md. Skipped the other two (redundant or too narrow). Added reference to context router.
+
+## 2026-06-16 — skill-evolution (session)
+- Created insight_ledger.py as foundation for all tool instrumentation. Every new tool should call log_insight() after its main flow.

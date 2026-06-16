@@ -1,0 +1,613 @@
+{
+  "sessions::session-20260616-124211.md::0": {
+    "status": "failed",
+    "content_summary": "---\nid: 0c858993-d84c-479c-8bb0-3c6a084a9c88\ndate: 2026-06-16T12:42:11.405689+00:00\nskill: deep-research-tool\nduration_min: 15\nrating: 4\nnotes: |\n  Stripped Gemini/OpenAI code from deep_research.py. Ollama cloud model working with LLM synthesis. Conf...",
+    "content_length": 289,
+    "created_at": "2026-06-16T12:42:17.313488+00:00",
+    "updated_at": "2026-06-16T13:30:01.307179+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_154217_65fbb7a0",
+    "content_hash": "903d4b609b37c2af62a8befa491307f2",
+    "metadata": {
+      "parse_start_time": 1781616598,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1781616598,
+      "analyzing_stage_skipped": true,
+      "process_start_time": 1781616599,
+      "process_end_time": 1781616601
+    },
+    "error_msg": "C[1/1]: sessions::session-20260616-124211.md::0-chunk-000: Unauthorized (status code: -1)",
+    "chunks_count": 1,
+    "chunks_list": [
+      "sessions::session-20260616-124211.md::0-chunk-000"
+    ]
+  },
+  "sessions::session-20260616-115736.md::1": {
+    "status": "failed",
+    "content_summary": "---\nid: 57598922-560a-4342-829e-fd31360472a6\ndate: 2026-06-16T11:57:36.869850+00:00\nskill: deep-research-tool\nduration_min: 10\nrating: 4\nnotes: |\n  Fixed LLM auto-detect: tries Ollama → Gemini → OpenAI, falls back to raw compilation. Added google_api...",
+    "content_length": 470,
+    "created_at": "2026-06-16T12:42:18.556624+00:00",
+    "updated_at": "2026-06-16T13:30:01.617701+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_154218_de59ec92",
+    "content_hash": "003f7d3829a0ed9d3715b77a67727699",
+    "metadata": {
+      "parse_start_time": 1781616598,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1781616598,
+      "analyzing_stage_skipped": true,
+      "process_start_time": 1781616599,
+      "process_end_time": 1781616601
+    },
+    "error_msg": "C[1/1]: sessions::session-20260616-115736.md::1-chunk-000: Unauthorized (status code: -1)",
+    "chunks_count": 1,
+    "chunks_list": [
+      "sessions::session-20260616-115736.md::1-chunk-000"
+    ]
+  },
+  "sessions::session-20260616-103344.md::2": {
+    "status": "failed",
+    "content_summary": "---\nid: f37dc304-92e9-49ee-9f77-1d8169c74786\ndate: 2026-06-16T10:33:44.115708+00:00\nskill: deep-research-tool\nduration_min: 25\nrating: 4\nnotes: |\n  Enhanced deep_research.py with trafilatura, MindMap, multi-provider LLM, iterative agent loop, Windows...",
+    "content_length": 362,
+    "created_at": "2026-06-16T12:42:19.659648+00:00",
+    "updated_at": "2026-06-16T13:30:02.003492+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_154219_4d668a44",
+    "content_hash": "6508c12ac2340c89b7ecebbb218fda62",
+    "metadata": {
+      "parse_start_time": 1781616598,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1781616598,
+      "analyzing_stage_skipped": true,
+      "process_start_time": 1781616599,
+      "process_end_time": 1781616602
+    },
+    "error_msg": "C[1/1]: sessions::session-20260616-103344.md::2-chunk-000: Unauthorized (status code: -1)",
+    "chunks_count": 1,
+    "chunks_list": [
+      "sessions::session-20260616-103344.md::2-chunk-000"
+    ]
+  },
+  "sessions::session-20260616-095723.md::3": {
+    "status": "failed",
+    "content_summary": "---\nid: 4351be2d-c63d-4de4-9e4a-fea138dbd5d8\ndate: 2026-06-16T09:57:23.623671+00:00\nskill: freetoolz-development\nduration_min: 120\nrating: 5\nnotes: |\n  Built 22 new tools across 5 categories (Math/Geo, Finance, Unit Converters, SEO), fixed compound i...",
+    "content_length": 457,
+    "created_at": "2026-06-16T12:42:20.924272+00:00",
+    "updated_at": "2026-06-16T13:30:04.280996+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_154220_6c0ddfd6",
+    "content_hash": "25d5a53f625d59818ca32a76dde07eb3",
+    "metadata": {
+      "parse_start_time": 1781616598,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1781616598,
+      "analyzing_stage_skipped": true,
+      "process_start_time": 1781616602,
+      "process_end_time": 1781616604
+    },
+    "error_msg": "C[1/1]: sessions::session-20260616-095723.md::3-chunk-000: Unauthorized (status code: -1)",
+    "chunks_count": 1,
+    "chunks_list": [
+      "sessions::session-20260616-095723.md::3-chunk-000"
+    ]
+  },
+  "sessions::session-20260616-083548.md::4": {
+    "status": "failed",
+    "content_summary": "---\nid: ffa9ccb7-3c5f-41c9-bcbd-63f08573b09d\ndate: 2026-06-16T08:35:48.674560+00:00\nskill: dev-utils\nduration_min: 25\nrating: 5\nnotes: |\n  Built 4 Developer Utility tools for freetoolz: UUID Generator, Lorem Ipsum Generator, List Randomizer, Password...",
+    "content_length": 321,
+    "created_at": "2026-06-16T12:42:23.136868+00:00",
+    "updated_at": "2026-06-16T13:30:04.282001+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_154223_0b4c0112",
+    "content_hash": "82a2386e1c9807ba14f3d2581f1c9f57",
+    "metadata": {
+      "parse_start_time": 1781616598,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1781616598,
+      "analyzing_stage_skipped": true,
+      "process_start_time": 1781616602,
+      "process_end_time": 1781616604
+    },
+    "error_msg": "C[1/1]: sessions::session-20260616-083548.md::4-chunk-000: Unauthorized (status code: -1)",
+    "chunks_count": 1,
+    "chunks_list": [
+      "sessions::session-20260616-083548.md::4-chunk-000"
+    ]
+  },
+  "sessions::session-20260616-083238.md::5": {
+    "status": "failed",
+    "content_summary": "---\nid: e880e39c-04b1-42b7-b557-3e34114978f9\ndate: 2026-06-16T08:32:38.134556+00:00\nskill: dev-utils\nduration_min: 25\nrating: 5\nnotes: |\n  Built 4 Developer Utility tools for freetoolz: UUID Generator, Lorem Ipsum Generator, List Randomizer, Password...",
+    "content_length": 321,
+    "created_at": "2026-06-16T12:42:25.175991+00:00",
+    "updated_at": "2026-06-16T13:30:04.975692+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_154225_622aa734",
+    "content_hash": "c7792c7d4c9dd8eabb993965a3677e0f",
+    "metadata": {
+      "parse_start_time": 1781616598,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1781616598,
+      "analyzing_stage_skipped": true,
+      "process_start_time": 1781616602,
+      "process_end_time": 1781616604
+    },
+    "error_msg": "C[1/1]: sessions::session-20260616-083238.md::5-chunk-000: Unauthorized (status code: -1)",
+    "chunks_count": 1,
+    "chunks_list": [
+      "sessions::session-20260616-083238.md::5-chunk-000"
+    ]
+  },
+  "sessions::session-20260616-082705.md::6": {
+    "status": "failed",
+    "content_summary": "---\nid: bdf135a8-d1a5-471a-8662-2c9f0fef03b0\ndate: 2026-06-16T08:27:05.636463+00:00\nskill: network-tools\nduration_min: 20\nrating: 5\nnotes: |\n  Built 4 Network Tools for freetoolz: Subnet Calculator, MAC Vendor Lookup, Bandwidth Converter, Port Number...",
+    "content_length": 318,
+    "created_at": "2026-06-16T12:42:27.949291+00:00",
+    "updated_at": "2026-06-16T13:30:07.066459+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_154227_0862a56e",
+    "content_hash": "ee2480c28526b7937fa1882948f3dc2d",
+    "metadata": {
+      "parse_start_time": 1781616598,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1781616598,
+      "analyzing_stage_skipped": true,
+      "process_start_time": 1781616605,
+      "process_end_time": 1781616607
+    },
+    "error_msg": "C[1/1]: sessions::session-20260616-082705.md::6-chunk-000: Unauthorized (status code: -1)",
+    "chunks_count": 1,
+    "chunks_list": [
+      "sessions::session-20260616-082705.md::6-chunk-000"
+    ]
+  },
+  "sessions::session-20260616-081327.md::7": {
+    "status": "failed",
+    "content_summary": "---\nid: 3e99f234-9085-4c0a-a95b-3376132bc7a5\ndate: 2026-06-16T08:13:27.393604+00:00\nskill: cctv-tools\nduration_min: 45\nrating: 5\nnotes: |\n  Built 6 CCTV/Security tools for freetoolz: RAID Storage Calculator, CCTV Storage Calculator, Bandwidth Calcula...",
+    "content_length": 391,
+    "created_at": "2026-06-16T12:42:30.546505+00:00",
+    "updated_at": "2026-06-16T13:30:07.064454+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_154230_2678f6e2",
+    "content_hash": "7e8e0101d52233cfe814fbc5d1d0f935",
+    "metadata": {
+      "parse_start_time": 1781616598,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1781616598,
+      "analyzing_stage_skipped": true,
+      "process_start_time": 1781616605,
+      "process_end_time": 1781616607
+    },
+    "error_msg": "C[1/1]: sessions::session-20260616-081327.md::7-chunk-000: Unauthorized (status code: -1)",
+    "chunks_count": 1,
+    "chunks_list": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ]
+  },
+  "sessions::session-20260616-073942.md::8": {
+    "status": "processing",
+    "content_summary": "---\nid: 2f231177-834d-43eb-82de-479fc3db86c2\ndate: 2026-06-16T07:39:42.341113+00:00\nskill: git-push\nduration_min: 10\nrating: 5\nnotes: |\n  Pushed entire personal-coach repo to GitHub with all folders and data preserved. Flattened nested git repos, add...",
+    "content_length": 318,
+    "created_at": "2026-06-16T12:42:34.013595+00:00",
+    "updated_at": "2026-06-16T13:30:05.676684+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_154234_868c41f9",
+    "content_hash": "e59843b744066b29727f85c57d90f263",
+    "metadata": {
+      "parse_start_time": 1781616598,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1781616598,
+      "analyzing_stage_skipped": true,
+      "process_start_time": 1781616605,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "sessions::session-20260616-073942.md::8-chunk-000"
+    ]
+  },
+  "sessions::session-20260616-073632.md::9": {
+    "status": "analyzing",
+    "content_summary": "---\nid: 7fd649a8-a69a-478e-acda-bec02c3dedda\ndate: 2026-06-16T07:36:32.415838+00:00\nskill: job-search-strategy\nduration_min: 30\nrating: 5\nnotes: |\n  Researched Qatar tech job market for Java/React/Node.js roles. Created HTML CV positioned as Full Sta...",
+    "content_length": 488,
+    "created_at": "2026-06-16T12:42:37.206167+00:00",
+    "updated_at": "2026-06-16T13:29:58.821448+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_154237_0197e644",
+    "content_hash": "0189877c83f532a6fd3306a25298d9da",
+    "metadata": {
+      "parse_start_time": 1781616598,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1781616598,
+      "analyzing_stage_skipped": true
+    },
+    "chunks_list": []
+  },
+  "sessions::session-20260616-064311.md::10": {
+    "status": "analyzing",
+    "content_summary": "---\nid: 914899e2-6163-41c5-ad7b-07888837cefe\ndate: 2026-06-16T06:43:11.120657+00:00\nskill: auto-evolve\nduration_min: 15\nrating: 5\nnotes: |\n  Added auto-creation of high-confidence skill suggestions (≥0.7) into .opencode/skills/<name>/SKILL.md with au...",
+    "content_length": 373,
+    "created_at": "2026-06-16T12:42:40.722942+00:00",
+    "updated_at": "2026-06-16T13:29:58.838168+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_154240_fd03c9cf",
+    "content_hash": "b9510b8e06daa2379c964a36413e7dfd",
+    "metadata": {
+      "parse_start_time": 1781616598,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1781616598,
+      "analyzing_stage_skipped": true
+    },
+    "chunks_list": []
+  },
+  "sessions::session-20260616-063824.md::11": {
+    "status": "analyzing",
+    "content_summary": "---\nid: f93b8138-363d-4c7c-b775-d2319d1b80e4\ndate: 2026-06-16T06:38:24.488688+00:00\nskill: cleanup\nduration_min: 25\nrating: 5\nnotes: |\n  Project structure cleanup: moved 11 loose scripts to coach/work/scripts/, 11 reference notes/data files to coach/...",
+    "content_length": 637,
+    "created_at": "2026-06-16T12:42:45.009227+00:00",
+    "updated_at": "2026-06-16T13:29:58.839193+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_154245_9e4d34bb",
+    "content_hash": "f916ed7e026b77d44e6592686d4be4de",
+    "metadata": {
+      "parse_start_time": 1781616598,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1781616598,
+      "analyzing_stage_skipped": true
+    },
+    "chunks_list": []
+  },
+  "sessions::session-20260616-062403.md::12": {
+    "status": "analyzing",
+    "content_summary": "---\nid: 1f48afcd-088c-4516-b6cc-1d24ca09ee2a\ndate: 2026-06-16T06:24:03.857433+00:00\nskill: build\nduration_min: 20\nrating: 5\nnotes: |\n  Built auto-learning loop in session_hooks.py: post_session now auto-runs evolve_skill + writes latest_learnings.md;...",
+    "content_length": 455,
+    "created_at": "2026-06-16T12:42:49.623803+00:00",
+    "updated_at": "2026-06-16T13:30:01.313200+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_154249_e70ab373",
+    "content_hash": "d2deb23a2c5817b5be732fc9fff2656d",
+    "metadata": {
+      "parse_start_time": 1781616598,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1781616601,
+      "analyzing_stage_skipped": true
+    },
+    "chunks_list": []
+  },
+  "sessions::session-20260616-061147.md::13": {
+    "status": "analyzing",
+    "content_summary": "---\nid: 78635629-4c57-4a80-bbf3-c26b3a46c548\ndate: 2026-06-16T06:11:47.004395+00:00\nskill: research\nduration_min: 30\nrating: 4\nnotes: |\n  Reviewed 8 repos: 1) addyosmani/agent-skills — DDD protocol integrated into process/context/; 2) langchain-ai/la...",
+    "content_length": 920,
+    "created_at": "2026-06-16T12:42:54.020410+00:00",
+    "updated_at": "2026-06-16T13:30:01.622187+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_154254_869449f9",
+    "content_hash": "c261e9f58065625985326199653317ea",
+    "metadata": {
+      "parse_start_time": 1781616598,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1781616601,
+      "analyzing_stage_skipped": true
+    },
+    "chunks_list": []
+  },
+  "sessions::session-20260616-055705.md::14": {
+    "status": "analyzing",
+    "content_summary": "---\nid: 86f7ef4b-3128-47d1-974c-331db86fbb65\ndate: 2026-06-16T05:57:05.846188+00:00\nskill: research\nduration_min: 10\nrating: 4\nnotes: |\n  Evaluated addyosmani/agent-skills repo (60k stars). Reviewed DDD, Context Engineering, Source-Driven Development...",
+    "content_length": 895,
+    "created_at": "2026-06-16T12:42:59.684953+00:00",
+    "updated_at": "2026-06-16T13:30:02.013493+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_154259_ddd90e44",
+    "content_hash": "bb17426e7475a1a1b1ce7b8e951a41f0",
+    "metadata": {
+      "parse_start_time": 1781616598,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1781616602,
+      "analyzing_stage_skipped": true
+    },
+    "chunks_list": []
+  },
+  "sessions::session-20260615-123817.md::15": {
+    "status": "analyzing",
+    "content_summary": "---\nid: ab0d859e-140e-4592-ac8d-16aeab862650\ndate: 2026-06-15T12:38:17.764246+00:00\nskill: build\nduration_min: 60\nrating: 5\nnotes: |\n  Fixed header nav 404 (relURL leading slash bug). Added data-driven category links (Text, Dev, Health) to header wit...",
+    "content_length": 420,
+    "created_at": "2026-06-16T12:43:04.740505+00:00",
+    "updated_at": "2026-06-16T13:30:04.288019+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_154304_87e7effd",
+    "content_hash": "581dee985070783d4ee6abd007f77ce9",
+    "metadata": {
+      "parse_start_time": 1781616598,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1781616604,
+      "analyzing_stage_skipped": true
+    },
+    "chunks_list": []
+  },
+  "sessions::session-20260615-123253.md::16": {
+    "status": "analyzing",
+    "content_summary": "---\nid: 5aca95cf-ed70-4c06-947c-2b2050f42c48\ndate: 2026-06-15T12:32:53.014974+00:00\nskill: build\nduration_min: 45\nrating: 5\nnotes: |\n  Fixed header nav links missing /freetoolz/ base path (relURL with leading slash bug). Added data-driven category li...",
+    "content_length": 412,
+    "created_at": "2026-06-16T12:43:10.581323+00:00",
+    "updated_at": "2026-06-16T13:30:04.290026+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_154310_29acc2e0",
+    "content_hash": "83640a79a532d1bd3a82ae3d86c9cfba",
+    "metadata": {
+      "parse_start_time": 1781616598,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1781616604,
+      "analyzing_stage_skipped": true
+    },
+    "chunks_list": []
+  },
+  "sessions::session-20260615-113526.md::17": {
+    "status": "analyzing",
+    "content_summary": "---\nid: 73d2facf-0d64-4d27-8c7d-aa6165d5700d\ndate: 2026-06-15T11:35:26.865007+00:00\nskill: deploy\nduration_min: 30\nrating: 5\nnotes: |\n  Deployed freetoolz to GitHub Pages. Renamed from freetools, fixed header logo to FreeToolz with checked.png, added...",
+    "content_length": 398,
+    "created_at": "2026-06-16T12:43:16.702755+00:00",
+    "updated_at": "2026-06-16T13:30:04.981712+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_154316_ff61ffde",
+    "content_hash": "1e1359764c85d3688c7d982842229571",
+    "metadata": {
+      "parse_start_time": 1781616598,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1781616604,
+      "analyzing_stage_skipped": true
+    },
+    "chunks_list": []
+  },
+  "sessions::session-20260615-110223.md::18": {
+    "status": "analyzing",
+    "content_summary": "---\nid: 16d3567c-cd0f-49eb-81a3-9063ddf6e42e\ndate: 2026-06-15T11:02:23.232991+00:00\nskill: deploy\nduration_min: 10\nrating: 5\nnotes: |\n  Renamed freetools → freetoolz. Updated all references (hugo.toml, templates, theme dir, meta titles). Init git, pu...",
+    "content_length": 307,
+    "created_at": "2026-06-16T12:43:22.645015+00:00",
+    "updated_at": "2026-06-16T13:30:07.070470+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_154322_d3dc85e2",
+    "content_hash": "f96462e9520063a79028ed4ac5c1fb4b",
+    "metadata": {
+      "parse_start_time": 1781616598,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1781616607,
+      "analyzing_stage_skipped": true
+    },
+    "chunks_list": []
+  },
+  "sessions::session-20260615-101806.md::19": {
+    "status": "analyzing",
+    "content_summary": "---\nid: ed478204-bb0c-4743-be92-02a0d335adf6\ndate: 2026-06-15T10:18:06.884416+00:00\nskill: SEO\nduration_min: 35\nrating: 5\nnotes: |\n  SEO optimization pass: Article/BreadcrumbList schema in blog/single.html, optimized titles (50-60 chars) and descript...",
+    "content_length": 502,
+    "created_at": "2026-06-16T12:43:28.935161+00:00",
+    "updated_at": "2026-06-16T13:30:07.072476+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_154328_01a3c23d",
+    "content_hash": "6d14b86026e4088ebe43f1a134da2bd6",
+    "metadata": {
+      "parse_start_time": 1781616598,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1781616607,
+      "analyzing_stage_skipped": true
+    },
+    "chunks_list": []
+  },
+  "sessions::session-20260615-100908.md::20": {
+    "status": "parsing",
+    "content_summary": "---\nid: fab9966b-4708-4272-9587-30f24c85c6fa\ndate: 2026-06-15T10:09:08.022554+00:00\nskill: blog-posts-batch-3\nduration_min: 15\nrating: 5\nnotes: |\n  Added 6 more SEO blog posts: BMR/calorie guide, roofing calculator guide, due date guide, QR code guid...",
+    "content_length": 351,
+    "created_at": "2026-06-16T12:43:35.550136+00:00",
+    "updated_at": "2026-06-16T13:29:58.863285+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_154335_d4343ee9",
+    "content_hash": "34c6261269eaebbfb92192a3d9afcd42",
+    "metadata": {
+      "parse_start_time": 1781616598,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy"
+    },
+    "chunks_list": []
+  },
+  "sessions::session-20260616-130012.md::0": {
+    "status": "parsing",
+    "content_summary": "---\nid: f56725fc-f5dc-4fbe-b1e5-0b2c38d88274\ndate: 2026-06-16T13:00:12.484617+00:00\nskill: python-dev\nduration_min: 35\nrating: 4\nnotes: |\n  Tested deep_research --iterative mode end-to-end with Ollama cloud model. Fixed: _clean_query strips markdown ...",
+    "content_length": 471,
+    "created_at": "2026-06-16T13:00:18.088979+00:00",
+    "updated_at": "2026-06-16T13:29:58.863285+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_160018_1249e0c1",
+    "content_hash": "be75c554c8bd58473419032650ae569b",
+    "metadata": {
+      "parse_start_time": 1781616598,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy"
+    },
+    "chunks_list": []
+  },
+  "dup-d78e0669ad581d25cbd7713400b55cbb": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:content_hash] Original document: sessions::session-20260616-124211.md::0",
+    "content_length": 289,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-06-16T13:00:34.922162+00:00",
+    "updated_at": "2026-06-16T13:00:34.922162+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_160034_5be04940",
+    "error_msg": "Identical content already exists under another filename. Original doc_id: sessions::session-20260616-124211.md::0, Status: DocStatus.FAILED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "content_hash",
+      "original_doc_id": "sessions::session-20260616-124211.md::0",
+      "original_track_id": "insert_20260616_154217_65fbb7a0"
+    }
+  },
+  "dup-c51d8bc6c62c7ff8d19358eee887341b": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:content_hash] Original document: sessions::session-20260616-115736.md::1",
+    "content_length": 470,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-06-16T13:01:03.298019+00:00",
+    "updated_at": "2026-06-16T13:01:03.298019+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_160103_bb6d75f3",
+    "error_msg": "Identical content already exists under another filename. Original doc_id: sessions::session-20260616-115736.md::1, Status: DocStatus.FAILED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "content_hash",
+      "original_doc_id": "sessions::session-20260616-115736.md::1",
+      "original_track_id": "insert_20260616_154218_de59ec92"
+    }
+  },
+  "dup-2888d3d6a8f1885a869785754d237d4e": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:content_hash] Original document: sessions::session-20260616-103344.md::2",
+    "content_length": 362,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-06-16T13:01:25.892119+00:00",
+    "updated_at": "2026-06-16T13:01:25.892119+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_160125_c919b066",
+    "error_msg": "Identical content already exists under another filename. Original doc_id: sessions::session-20260616-103344.md::2, Status: DocStatus.FAILED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "content_hash",
+      "original_doc_id": "sessions::session-20260616-103344.md::2",
+      "original_track_id": "insert_20260616_154219_4d668a44"
+    }
+  },
+  "dup-d965b8bbb156a8042d934abf08b5be07": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:content_hash] Original document: sessions::session-20260616-095723.md::3",
+    "content_length": 457,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-06-16T13:01:48.714643+00:00",
+    "updated_at": "2026-06-16T13:01:48.714643+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_160148_7a5ba4f1",
+    "error_msg": "Identical content already exists under another filename. Original doc_id: sessions::session-20260616-095723.md::3, Status: DocStatus.FAILED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "content_hash",
+      "original_doc_id": "sessions::session-20260616-095723.md::3",
+      "original_track_id": "insert_20260616_154220_6c0ddfd6"
+    }
+  },
+  "dup-af0076078f9e57adbe11d5820127198a": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:content_hash] Original document: sessions::session-20260616-083548.md::4",
+    "content_length": 321,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-06-16T13:02:11.841239+00:00",
+    "updated_at": "2026-06-16T13:02:11.841239+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_160211_634d07e5",
+    "error_msg": "Identical content already exists under another filename. Original doc_id: sessions::session-20260616-083548.md::4, Status: DocStatus.FAILED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "content_hash",
+      "original_doc_id": "sessions::session-20260616-083548.md::4",
+      "original_track_id": "insert_20260616_154223_0b4c0112"
+    }
+  },
+  "sessions::session-20260616-132907.md::0": {
+    "status": "parsing",
+    "content_summary": "---\nid: 18b6bf72-bd90-43e2-9eb5-b5b0752258e1\ndate: 2026-06-16T13:29:07.707281+00:00\nskill: skill-evolution\nduration_min: 30\nrating: 5\nnotes: |\n  Engaged Ollama gpt-oss:120b-cloud model to analyze all 70 skills + 36 tools + 8 recent sessions. Key find...",
+    "content_length": 652,
+    "created_at": "2026-06-16T13:29:13.285817+00:00",
+    "updated_at": "2026-06-16T13:29:58.865306+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_162913_e36168b0",
+    "content_hash": "2eee49d67f2b5a01b732a927d2a5e9fb",
+    "metadata": {
+      "parse_start_time": 1781616598,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy"
+    },
+    "chunks_list": []
+  },
+  "dup-9d5ee413140edda48da94d112f6815a9": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:content_hash] Original document: sessions::session-20260616-130012.md::0",
+    "content_length": 471,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-06-16T13:29:25.027207+00:00",
+    "updated_at": "2026-06-16T13:29:25.027207+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_162925_6b93f8cf",
+    "error_msg": "Identical content already exists under another filename. Original doc_id: sessions::session-20260616-130012.md::0, Status: DocStatus.FAILED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "content_hash",
+      "original_doc_id": "sessions::session-20260616-130012.md::0",
+      "original_track_id": "insert_20260616_160018_1249e0c1"
+    }
+  },
+  "dup-f4b3db635e1c35c4063982694cf10eb2": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:content_hash] Original document: sessions::session-20260616-124211.md::0",
+    "content_length": 289,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-06-16T13:29:58.461977+00:00",
+    "updated_at": "2026-06-16T13:29:58.461977+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260616_162958_bee3c80f",
+    "error_msg": "Identical content already exists under another filename. Original doc_id: sessions::session-20260616-124211.md::0, Status: DocStatus.FAILED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "content_hash",
+      "original_doc_id": "sessions::session-20260616-124211.md::0",
+      "original_track_id": "insert_20260616_154217_65fbb7a0"
+    }
+  }
+}

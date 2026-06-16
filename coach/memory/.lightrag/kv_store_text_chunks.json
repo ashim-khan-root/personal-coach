@@ -1,0 +1,233 @@
+{
+  "sessions::session-20260616-063824.md::11-chunk-000": {
+    "tokens": 185,
+    "content": "---\nid: f93b8138-363d-4c7c-b775-d2319d1b80e4\ndate: 2026-06-16T06:38:24.488688+00:00\nskill: cleanup\nduration_min: 25\nrating: 5\nnotes: |\n  Project structure cleanup: moved 11 loose scripts to coach/work/scripts/, 11 reference notes/data files to coach/work/drafts/, Secuview-Work to coach/work/research/secuview/, fixed nested directory. Performance: post_session now uses single indexer (LightRAG primary, TF-IDF fallback) instead of dual indexing; evolve_skill only runs when insight count changes. Added .gitignore for freetoolz/public/. Recreated archived from-chat-gpt.md. Root now clean (only AGENTS.md + opencode.json).\ntags: []\n---",
+    "chunk_order_index": 0,
+    "full_doc_id": "sessions::session-20260616-063824.md::11",
+    "file_path": "unknown_source",
+    "llm_cache_list": [],
+    "create_time": 1781616585,
+    "update_time": 1781616585,
+    "_id": "sessions::session-20260616-063824.md::11-chunk-000"
+  },
+  "sessions::session-20260616-062403.md::12-chunk-000": {
+    "tokens": 138,
+    "content": "---\nid: 1f48afcd-088c-4516-b6cc-1d24ca09ee2a\ndate: 2026-06-16T06:24:03.857433+00:00\nskill: build\nduration_min: 20\nrating: 5\nnotes: |\n  Built auto-learning loop in session_hooks.py: post_session now auto-runs evolve_skill + writes latest_learnings.md; pre_session now shows top 3 patterns + pending skill suggestions. Fixed stdout encoding for unicode characters. Full cycle: session→insights→evolution→learnings→display at next session start.\ntags: []\n---",
+    "chunk_order_index": 0,
+    "full_doc_id": "sessions::session-20260616-062403.md::12",
+    "file_path": "unknown_source",
+    "llm_cache_list": [],
+    "create_time": 1781616588,
+    "update_time": 1781616588,
+    "_id": "sessions::session-20260616-062403.md::12-chunk-000"
+  },
+  "sessions::session-20260616-061147.md::13-chunk-000": {
+    "tokens": 284,
+    "content": "---\nid: 78635629-4c57-4a80-bbf3-c26b3a46c548\ndate: 2026-06-16T06:11:47.004395+00:00\nskill: research\nduration_min: 30\nrating: 4\nnotes: |\n  Reviewed 8 repos: 1) addyosmani/agent-skills — DDD protocol integrated into process/context/; 2) langchain-ai/langchain — skip, overkill for coach but useful for learning; 3) firecrawl/firecrawl — skip, free tier exists but current free stack sufficient; 4) browser-use/browser-use — skip, heavy dep but useful if JS-heavy site scraping needed; 5) infiniflow/ragflow — skip, overkill vs existing LightRAG/TF-IDF; 6) dair-ai/Prompt-Engineering-Guide — bookmark, study material for Goal 1; 7) thedaviddias/Front-End-Checklist — skip, useful for auditing web projects via MCP; 8) microsoft/ai-agents-for-beginners — bookmark, course for Goal 2; 9) nexu-io/open-design — skip, heavy desktop app; 10) ComposioHQ/awesome-claude-skills — bookmark, skill marketplace reference.\ntags: []\n---",
+    "chunk_order_index": 0,
+    "full_doc_id": "sessions::session-20260616-061147.md::13",
+    "file_path": "unknown_source",
+    "llm_cache_list": [],
+    "create_time": 1781616588,
+    "update_time": 1781616588,
+    "_id": "sessions::session-20260616-061147.md::13-chunk-000"
+  },
+  "sessions::session-20260616-055705.md::14-chunk-000": {
+    "tokens": 252,
+    "content": "---\nid: 86f7ef4b-3128-47d1-974c-331db86fbb65\ndate: 2026-06-16T05:57:05.846188+00:00\nskill: research\nduration_min: 10\nrating: 4\nnotes: |\n  Evaluated addyosmani/agent-skills repo (60k stars). Reviewed DDD, Context Engineering, Source-Driven Development skills. Decided to distill only Doubt-Driven Development — cherry-picked CLAIM→EXTRACT→DOUBT→RECONCILE→STOP protocol into process/context/doubt-driven-development.md. Skipped the other two (redundant or too narrow). Added reference to context router.\ndecisions:\n  - \"Evaluated addyosmani/agent-skills repo (60k stars). Reviewed DDD, Context Engineering, Source-Driven Development skills. Decided to distill only Doubt-Driven Development — cherry-picked CLAIM→EXTRACT→DOUBT→RECONCILE→STOP protocol into process/context/doubt-driven-development.md. Skipped the other two (redundant or too narrow). Added reference to context router.\"\ntags: []\n---",
+    "chunk_order_index": 0,
+    "full_doc_id": "sessions::session-20260616-055705.md::14",
+    "file_path": "unknown_source",
+    "llm_cache_list": [],
+    "create_time": 1781616588,
+    "update_time": 1781616588,
+    "_id": "sessions::session-20260616-055705.md::14-chunk-000"
+  },
+  "sessions::session-20260615-123817.md::15-chunk-000": {
+    "tokens": 132,
+    "content": "---\nid: ab0d859e-140e-4592-ac8d-16aeab862650\ndate: 2026-06-15T12:38:17.764246+00:00\nskill: build\nduration_min: 60\nrating: 5\nnotes: |\n  Fixed header nav 404 (relURL leading slash bug). Added data-driven category links (Text, Dev, Health) to header with icons. Fixed search bar margin. Fixed all-tools filter bug. Discussed pending projects (freetoolz + khaleej list) and GitHub Pages private repo limitation.\ntags: []\n---",
+    "chunk_order_index": 0,
+    "full_doc_id": "sessions::session-20260615-123817.md::15",
+    "file_path": "unknown_source",
+    "llm_cache_list": [],
+    "create_time": 1781616591,
+    "update_time": 1781616591,
+    "_id": "sessions::session-20260615-123817.md::15-chunk-000"
+  },
+  "sessions::session-20260615-123253.md::16-chunk-000": {
+    "tokens": 132,
+    "content": "---\nid: 5aca95cf-ed70-4c06-947c-2b2050f42c48\ndate: 2026-06-15T12:32:53.014974+00:00\nskill: build\nduration_min: 45\nrating: 5\nnotes: |\n  Fixed header nav links missing /freetoolz/ base path (relURL with leading slash bug). Added data-driven category links to header (Text Tools, Dev Tools, Health). Fixed search bar bottom margin. Fixed all-tools filter bug (data-cat='all' never matched section IDs).\ntags: []\n---",
+    "chunk_order_index": 0,
+    "full_doc_id": "sessions::session-20260615-123253.md::16",
+    "file_path": "unknown_source",
+    "llm_cache_list": [],
+    "create_time": 1781616591,
+    "update_time": 1781616591,
+    "_id": "sessions::session-20260615-123253.md::16-chunk-000"
+  },
+  "sessions::session-20260615-113526.md::17-chunk-000": {
+    "tokens": 139,
+    "content": "---\nid: 73d2facf-0d64-4d27-8c7d-aa6165d5700d\ndate: 2026-06-15T11:35:26.865007+00:00\nskill: deploy\nduration_min: 30\nrating: 5\nnotes: |\n  Deployed freetoolz to GitHub Pages. Renamed from freetools, fixed header logo to FreeToolz with checked.png, added SVG favicon then switched to PNG, fixed baseURL for Pages, added GH Actions workflow. Site live at ashim-khan-root.github.io/freetoolz\ntags: []\n---",
+    "chunk_order_index": 0,
+    "full_doc_id": "sessions::session-20260615-113526.md::17",
+    "file_path": "unknown_source",
+    "llm_cache_list": [],
+    "create_time": 1781616591,
+    "update_time": 1781616591,
+    "_id": "sessions::session-20260615-113526.md::17-chunk-000"
+  },
+  "sessions::session-20260615-110223.md::18-chunk-000": {
+    "tokens": 122,
+    "content": "---\nid: 16d3567c-cd0f-49eb-81a3-9063ddf6e42e\ndate: 2026-06-15T11:02:23.232991+00:00\nskill: deploy\nduration_min: 10\nrating: 5\nnotes: |\n  Renamed freetools → freetoolz. Updated all references (hugo.toml, templates, theme dir, meta titles). Init git, pushed to github.com/ashim-khan-root/freetoolz\ntags: []\n---",
+    "chunk_order_index": 0,
+    "full_doc_id": "sessions::session-20260615-110223.md::18",
+    "file_path": "unknown_source",
+    "llm_cache_list": [],
+    "create_time": 1781616594,
+    "update_time": 1781616594,
+    "_id": "sessions::session-20260615-110223.md::18-chunk-000"
+  },
+  "sessions::session-20260615-101806.md::19-chunk-000": {
+    "tokens": 153,
+    "content": "---\nid: ed478204-bb0c-4743-be92-02a0d335adf6\ndate: 2026-06-15T10:18:06.884416+00:00\nskill: SEO\nduration_min: 35\nrating: 5\nnotes: |\n  SEO optimization pass: Article/BreadcrumbList schema in blog/single.html, optimized titles (50-60 chars) and descriptions (150-160 chars) across all 12 blog posts, FAQ sections added to 5 posts (BMI, water, password, QR code, paint), shorter meta title format (| FreeTools suffix), added image frontmatter for OG images, cross-linking between related posts\ntags: []\n---",
+    "chunk_order_index": 0,
+    "full_doc_id": "sessions::session-20260615-101806.md::19",
+    "file_path": "unknown_source",
+    "llm_cache_list": [],
+    "create_time": 1781616594,
+    "update_time": 1781616594,
+    "_id": "sessions::session-20260615-101806.md::19-chunk-000"
+  },
+  "sessions::session-20260615-100908.md::20-chunk-000": {
+    "tokens": 123,
+    "content": "---\nid: fab9966b-4708-4272-9587-30f24c85c6fa\ndate: 2026-06-15T10:09:08.022554+00:00\nskill: blog-posts-batch-3\nduration_min: 15\nrating: 5\nnotes: |\n  Added 6 more SEO blog posts: BMR/calorie guide, roofing calculator guide, due date guide, QR code guide, paint calculator guide, body fat guide. All internally link to tools. 64 pages total.\ntags: []\n---",
+    "chunk_order_index": 0,
+    "full_doc_id": "sessions::session-20260615-100908.md::20",
+    "file_path": "unknown_source",
+    "llm_cache_list": [],
+    "create_time": 1781616594,
+    "update_time": 1781616594,
+    "_id": "sessions::session-20260615-100908.md::20-chunk-000"
+  },
+  "sessions::session-20260616-130012.md::0-chunk-000": {
+    "tokens": 139,
+    "content": "---\nid: f56725fc-f5dc-4fbe-b1e5-0b2c38d88274\ndate: 2026-06-16T13:00:12.484617+00:00\nskill: python-dev\nduration_min: 35\nrating: 4\nnotes: |\n  Tested deep_research --iterative mode end-to-end with Ollama cloud model. Fixed: _clean_query strips markdown from LLM-suggested queries, iterative loop now uses fetched page content for update_findings (was using raw search snippets). Both tests produced solid reports with tables, citations, and structured sections.\ntags: []\n---",
+    "chunk_order_index": 0,
+    "full_doc_id": "sessions::session-20260616-130012.md::0",
+    "file_path": "unknown_source",
+    "llm_cache_list": [],
+    "create_time": 1781616597,
+    "update_time": 1781616597,
+    "_id": "sessions::session-20260616-130012.md::0-chunk-000"
+  },
+  "sessions::session-20260616-132907.md::0-chunk-000": {
+    "tokens": 199,
+    "content": "---\nid: 18b6bf72-bd90-43e2-9eb5-b5b0752258e1\ndate: 2026-06-16T13:29:07.707281+00:00\nskill: skill-evolution\nduration_min: 30\nrating: 5\nnotes: |\n  Engaged Ollama gpt-oss:120b-cloud model to analyze all 70 skills + 36 tools + 8 recent sessions. Key finding: system is tool-heavy, insight-light. Built insight_ledger.py (JSON event logger), instrumented deep_research.py. Identified 5 skill gaps, 5 tool gaps, 2 skill evolutions. Next: build session_analytics, pipeline_builder, prompt_auditor.\ndecisions:\n  - \"Created insight_ledger.py as foundation for all tool instrumentation. Every new tool should call log_insight() after its main flow.\"\ntags: []\n---",
+    "chunk_order_index": 0,
+    "full_doc_id": "sessions::session-20260616-132907.md::0",
+    "file_path": "unknown_source",
+    "llm_cache_list": [],
+    "create_time": 1781616597,
+    "update_time": 1781616597,
+    "_id": "sessions::session-20260616-132907.md::0-chunk-000"
+  },
+  "sessions::session-20260616-124211.md::0-chunk-000": {
+    "tokens": 107,
+    "content": "---\nid: 0c858993-d84c-479c-8bb0-3c6a084a9c88\ndate: 2026-06-16T12:42:11.405689+00:00\nskill: deep-research-tool\nduration_min: 15\nrating: 4\nnotes: |\n  Stripped Gemini/OpenAI code from deep_research.py. Ollama cloud model working with LLM synthesis. Config cleaned to Ollama-only.\ntags: []\n---",
+    "chunk_order_index": 0,
+    "full_doc_id": "sessions::session-20260616-124211.md::0",
+    "file_path": "unknown_source",
+    "llm_cache_list": [],
+    "create_time": 1781616599,
+    "update_time": 1781616599,
+    "_id": "sessions::session-20260616-124211.md::0-chunk-000"
+  },
+  "sessions::session-20260616-115736.md::1-chunk-000": {
+    "tokens": 142,
+    "content": "---\nid: 57598922-560a-4342-829e-fd31360472a6\ndate: 2026-06-16T11:57:36.869850+00:00\nskill: deep-research-tool\nduration_min: 10\nrating: 4\nnotes: |\n  Fixed LLM auto-detect: tries Ollama → Gemini → OpenAI, falls back to raw compilation. Added google_api_key to config.yaml with _read_config_key helper. Patched MCP server to expose deep_research tool. Fixed CLI arg parsing. Both Gemini and OpenAI keys had exhausted quotas — tool works in raw mode regardless.\ntags: []\n---",
+    "chunk_order_index": 0,
+    "full_doc_id": "sessions::session-20260616-115736.md::1",
+    "file_path": "unknown_source",
+    "llm_cache_list": [],
+    "create_time": 1781616599,
+    "update_time": 1781616599,
+    "_id": "sessions::session-20260616-115736.md::1-chunk-000"
+  },
+  "sessions::session-20260616-103344.md::2-chunk-000": {
+    "tokens": 119,
+    "content": "---\nid: f37dc304-92e9-49ee-9f77-1d8169c74786\ndate: 2026-06-16T10:33:44.115708+00:00\nskill: deep-research-tool\nduration_min: 25\nrating: 4\nnotes: |\n  Enhanced deep_research.py with trafilatura, MindMap, multi-provider LLM, iterative agent loop, Windows encoding fix. Added deep_research tool to MCP server. Fixed CLI arg parsing and report generation.\ntags: []\n---",
+    "chunk_order_index": 0,
+    "full_doc_id": "sessions::session-20260616-103344.md::2",
+    "file_path": "unknown_source",
+    "llm_cache_list": [],
+    "create_time": 1781616599,
+    "update_time": 1781616599,
+    "_id": "sessions::session-20260616-103344.md::2-chunk-000"
+  },
+  "sessions::session-20260616-095723.md::3-chunk-000": {
+    "tokens": 153,
+    "content": "---\nid: 4351be2d-c63d-4de4-9e4a-fea138dbd5d8\ndate: 2026-06-16T09:57:23.623671+00:00\nskill: freetoolz-development\nduration_min: 120\nrating: 5\nnotes: |\n  Built 22 new tools across 5 categories (Math/Geo, Finance, Unit Converters, SEO), fixed compound interest calculator bug, added 3 blog posts, created 30-day blog plan, set up ad slot templates site-wide, fixed git submodule, pushed to github.com/ashim-khan-root/freetoolz, added footer credit\ntags: []\n---",
+    "chunk_order_index": 0,
+    "full_doc_id": "sessions::session-20260616-095723.md::3",
+    "file_path": "unknown_source",
+    "llm_cache_list": [],
+    "create_time": 1781616602,
+    "update_time": 1781616602,
+    "_id": "sessions::session-20260616-095723.md::3-chunk-000"
+  },
+  "sessions::session-20260616-083548.md::4-chunk-000": {
+    "tokens": 109,
+    "content": "---\nid: ffa9ccb7-3c5f-41c9-bcbd-63f08573b09d\ndate: 2026-06-16T08:35:48.674560+00:00\nskill: dev-utils\nduration_min: 25\nrating: 5\nnotes: |\n  Built 4 Developer Utility tools for freetoolz: UUID Generator, Lorem Ipsum Generator, List Randomizer, Password Strength Checker. New Developer Utilities category added.\ntags: []\n---",
+    "chunk_order_index": 0,
+    "full_doc_id": "sessions::session-20260616-083548.md::4",
+    "file_path": "unknown_source",
+    "llm_cache_list": [],
+    "create_time": 1781616602,
+    "update_time": 1781616602,
+    "_id": "sessions::session-20260616-083548.md::4-chunk-000"
+  },
+  "sessions::session-20260616-083238.md::5-chunk-000": {
+    "tokens": 107,
+    "content": "---\nid: e880e39c-04b1-42b7-b557-3e34114978f9\ndate: 2026-06-16T08:32:38.134556+00:00\nskill: dev-utils\nduration_min: 25\nrating: 5\nnotes: |\n  Built 4 Developer Utility tools for freetoolz: UUID Generator, Lorem Ipsum Generator, List Randomizer, Password Strength Checker. New Developer Utilities category added.\ntags: []\n---",
+    "chunk_order_index": 0,
+    "full_doc_id": "sessions::session-20260616-083238.md::5",
+    "file_path": "unknown_source",
+    "llm_cache_list": [],
+    "create_time": 1781616602,
+    "update_time": 1781616602,
+    "_id": "sessions::session-20260616-083238.md::5-chunk-000"
+  },
+  "sessions::session-20260616-082705.md::6-chunk-000": {
+    "tokens": 113,
+    "content": "---\nid: bdf135a8-d1a5-471a-8662-2c9f0fef03b0\ndate: 2026-06-16T08:27:05.636463+00:00\nskill: network-tools\nduration_min: 20\nrating: 5\nnotes: |\n  Built 4 Network Tools for freetoolz: Subnet Calculator, MAC Vendor Lookup, Bandwidth Converter, Port Number Lookup. Added Network Tools category with _index page.\ntags: []\n---",
+    "chunk_order_index": 0,
+    "full_doc_id": "sessions::session-20260616-082705.md::6",
+    "file_path": "unknown_source",
+    "llm_cache_list": [],
+    "create_time": 1781616605,
+    "update_time": 1781616605,
+    "_id": "sessions::session-20260616-082705.md::6-chunk-000"
+  },
+  "sessions::session-20260616-081327.md::7-chunk-000": {
+    "tokens": 129,
+    "content": "---\nid: 3e99f234-9085-4c0a-a95b-3376132bc7a5\ndate: 2026-06-16T08:13:27.393604+00:00\nskill: cctv-tools\nduration_min: 45\nrating: 5\nnotes: |\n  Built 6 CCTV/Security tools for freetoolz: RAID Storage Calculator, CCTV Storage Calculator, Bandwidth Calculator, PoE Power Budget, UPS Runtime Estimator, Camera FOV Calculator. New CCTV & Security category added with all tools deployed.\ntags: []\n---",
+    "chunk_order_index": 0,
+    "full_doc_id": "sessions::session-20260616-081327.md::7",
+    "file_path": "unknown_source",
+    "llm_cache_list": [],
+    "create_time": 1781616605,
+    "update_time": 1781616605,
+    "_id": "sessions::session-20260616-081327.md::7-chunk-000"
+  },
+  "sessions::session-20260616-073942.md::8-chunk-000": {
+    "tokens": 110,
+    "content": "---\nid: 2f231177-834d-43eb-82de-479fc3db86c2\ndate: 2026-06-16T07:39:42.341113+00:00\nskill: git-push\nduration_min: 10\nrating: 5\nnotes: |\n  Pushed entire personal-coach repo to GitHub with all folders and data preserved. Flattened nested git repos, added gitignore for Excel temp files, committed 117 files.\ntags: []\n---",
+    "chunk_order_index": 0,
+    "full_doc_id": "sessions::session-20260616-073942.md::8",
+    "file_path": "unknown_source",
+    "llm_cache_list": [],
+    "create_time": 1781616605,
+    "update_time": 1781616605,
+    "_id": "sessions::session-20260616-073942.md::8-chunk-000"
+  }
+}
