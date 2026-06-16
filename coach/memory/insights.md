@@ -2,7 +2,16 @@
 
 Auto-extracted patterns from session history.
 
-- id: 6e550067b354
+- id: fb8e73f5f5b4
+  pattern: frequent_build
+  category: frequency
+  confidence: 0.75
+  evidence_count: 3
+  sessions: [session-20260616-062403.md, session-20260615-123817.md, session-20260615-123253.md]
+  summary: Practiced build 3 times — most practiced skill
+  suggestion: Consider setting a mastery goal for build
+
+- id: 7fb4c0a13efb
   pattern: frequent_web-development
   category: frequency
   confidence: 0.75
@@ -11,7 +20,7 @@ Auto-extracted patterns from session history.
   summary: Practiced web-development 3 times — most practiced skill
   suggestion: Consider setting a mastery goal for web-development
 
-- id: 145a2fde059e
+- id: 4456a1333c16
   pattern: frequent_content-writing
   category: frequency
   confidence: 0.75
@@ -20,7 +29,16 @@ Auto-extracted patterns from session history.
   summary: Practiced content-writing 3 times — most practiced skill
   suggestion: Consider setting a mastery goal for content-writing
 
-- id: 3d18bc5deaaa
+- id: 630ff3fbe31f
+  pattern: struggles_with_build
+  category: struggle
+  confidence: 0.7
+  evidence_count: 3
+  sessions: [session-20260616-062403.md, session-20260615-123817.md, session-20260615-123253.md]
+  summary: Rated build avg 5.0/10 across 3 sessions (0 struggle keywords)
+  suggestion: Review build fundamentals, practice with simpler exercises
+
+- id: d8a3624ae4ae
   pattern: strong_at_content-writing
   category: strength
   confidence: 0.7
@@ -29,7 +47,7 @@ Auto-extracted patterns from session history.
   summary: Rated content-writing avg 9.3/10 across 3 sessions (0 win keywords)
   suggestion: Leverage content-writing strength — consider mentoring or deeper exploration
 
-- id: 921b54fbe7a7
+- id: 5f71115b83cd
   pattern: struggles_with_research
   category: struggle
   confidence: 0.6
@@ -38,16 +56,7 @@ Auto-extracted patterns from session history.
   summary: Rated research avg 4.0/10 across 2 sessions (0 struggle keywords)
   suggestion: Review research fundamentals, practice with simpler exercises
 
-- id: 42529334472a
-  pattern: struggles_with_build
-  category: struggle
-  confidence: 0.6
-  evidence_count: 2
-  sessions: [session-20260615-123817.md, session-20260615-123253.md]
-  summary: Rated build avg 5.0/10 across 2 sessions (0 struggle keywords)
-  suggestion: Review build fundamentals, practice with simpler exercises
-
-- id: 7234195752e2
+- id: d02cd540f2ab
   pattern: struggles_with_deploy
   category: struggle
   confidence: 0.6
@@ -56,7 +65,7 @@ Auto-extracted patterns from session history.
   summary: Rated deploy avg 5.0/10 across 2 sessions (0 struggle keywords)
   suggestion: Review deploy fundamentals, practice with simpler exercises
 
-- id: a84f7eb26143
+- id: 0ae954352436
   pattern: strong_at_blog-publishing-solar-4g
   category: strength
   confidence: 0.6
@@ -65,7 +74,7 @@ Auto-extracted patterns from session history.
   summary: Rated blog-publishing-solar-4g avg 9.0/10 across 2 sessions (0 win keywords)
   suggestion: Leverage blog-publishing-solar-4g strength — consider mentoring or deeper exploration
 
-- id: 037a3be8f6b7
+- id: bb91d1ebdb75
   pattern: strong_at_content-seo-phase2
   category: strength
   confidence: 0.6
@@ -74,7 +83,7 @@ Auto-extracted patterns from session history.
   summary: Rated content-seo-phase2 avg 9.0/10 across 2 sessions (0 win keywords)
   suggestion: Leverage content-seo-phase2 strength — consider mentoring or deeper exploration
 
-- id: 8a9afbe4b235
+- id: 108f8e0e8689
   pattern: strong_at_hugo-product-page-enhance
   category: strength
   confidence: 0.6
@@ -83,7 +92,7 @@ Auto-extracted patterns from session history.
   summary: Rated hugo-product-page-enhance avg 9.0/10 across 2 sessions (0 win keywords)
   suggestion: Leverage hugo-product-page-enhance strength — consider mentoring or deeper exploration
 
-- id: 816826272ada
+- id: 07c3171a5bc0
   pattern: strong_at_seo-optimization
   category: strength
   confidence: 0.6
