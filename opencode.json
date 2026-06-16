@@ -149,15 +149,15 @@
       "template": "{file:.opencode/commands/projects.md}\n\n$ARGUMENTS"
     }
   },
-  "mcpServers": {
+  "mcp": {
     "n8n-mcp": {
-      "command": "n8n-mcp",
-      "args": [],
+      "type": "local",
+      "command": ["n8n-mcp"],
       "description": "n8n workflow automation MCP server"
     },
     "coach": {
-      "command": "py -3",
-      "args": ["coach/tools/mcp_server.py"],
+      "type": "local",
+      "command": ["py", "-3", "coach/tools/mcp_server.py"],
       "description": "Personal coach MCP server with memory, goals, habits, sessions"
     }
   },

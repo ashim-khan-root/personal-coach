@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ashim Ahmad — Full Stack Developer</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background: #f0f2f5;
+    color: #1a1a2e;
+    line-height: 1.5;
+    padding: 40px 20px;
+  }
+
+  .page {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,.08);
+    overflow: hidden;
+  }
+
+  /* header */
+  .header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    color: #fff;
+    padding: 48px 56px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .header-left h1 {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 4px;
+  }
+
+  .header-left .title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #a8d8ea;
+    margin-bottom: 16px;
+  }
+
+  .header-left .tag {
+    display: inline-block;
+    background: rgba(168,216,234,.15);
+    color: #a8d8ea;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 4px 12px;
+    border-radius: 20px;
+    border: 1px solid rgba(168,216,234,.25);
+  }
+
+  .header-right {
+    text-align: right;
+    font-size: 13px;
+    line-height: 1.8;
+    color: #c8d6e5;
+  }
+
+  .header-right a {
+    color: #a8d8ea;
+    text-decoration: none;
+  }
+
+  .header-right a:hover { text-decoration: underline; }
+
+  /* body */
+  .body {
+    padding: 40px 56px 48px;
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: 40px;
+  }
+
+  .main-col h2 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #0f3460;
+    margin-bottom: 16px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #e8ecf1;
+  }
+
+  .main-col h2:not(:first-child) { margin-top: 28px; }
+
+  /* experience */
+  .exp-item {
+    margin-bottom: 20px;
+  }
+
+  .exp-item:last-child { margin-bottom: 0; }
+
+  .exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2px;
+  }
+
+  .exp-header .role {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a1a2e;
+  }
+
+  .exp-header .company {
+    font-size: 14px;
+    font-weight: 500;
+    color: #0f3460;
+  }
+
+  .exp-header .date {
+    font-size: 12px;
+    font-weight: 500;
+    color: #7f8c9b;
+    white-space: nowrap;
+  }
+
+  .exp-desc {
+    font-size: 13px;
+    color: #4a4a5a;
+    margin-top: 4px;
+    padding-left: 0;
+  }
+
+  .exp-desc li {
+    list-style: none;
+    position: relative;
+    padding-left: 14px;
+    margin-bottom: 3px;
+  }
+
+  .exp-desc li::before {
+    content: "—";
+    position: absolute;
+    left: 0;
+    color: #0f3460;
+  }
+
+  /* projects */
+  .proj-item {
+    margin-bottom: 14px;
+  }
+
+  .proj-item:last-child { margin-bottom: 0; }
+
+  .proj-header {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 2px;
+  }
+
+  .proj-header span {
+    font-weight: 400;
+    color: #7f8c9b;
+    font-size: 12px;
+  }
+
+  .proj-desc {
+    font-size: 13px;
+    color: #4a4a5a;
+  }
+
+  /* sidebar */
+  .sidebar h3 {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #0f3460;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #e8ecf1;
+  }
+
+  .sidebar h3:not(:first-child) { margin-top: 24px; }
+
+  .skillset { margin-bottom: 4px; }
+
+  .skillset .label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 4px;
+  }
+
+  .skillset .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+
+  .skillset .tag {
+    font-size: 11px;
+    background: #f0f2f5;
+    color: #1a1a2e;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-weight: 500;
+  }
+
+  .contact-item {
+    font-size: 13px;
+    color: #4a4a5a;
+    margin-bottom: 4px;
+  }
+
+  .contact-item a {
+    color: #0f3460;
+    text-decoration: none;
+  }
+
+  .contact-item a:hover { text-decoration: underline; }
+
+  .edu-item {
+    font-size: 13px;
+    color: #4a4a5a;
+    margin-bottom: 3px;
+  }
+
+  .edu-item strong {
+    color: #1a1a2e;
+    font-weight: 600;
+  }
+
+  /* print */
+  @media print {
+    body { background: #fff; padding: 0; }
+    .page { max-width: 100%; box-shadow: none; border-radius: 0; }
+    .header { padding: 36px 44px 32px; }
+    .body { padding: 32px 44px 40px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <div class="header">
+    <div class="header-left">
+      <h1>Ashim Ahmad</h1>
+      <div class="title">Full Stack Developer</div>
+      <div class="tag">Java · Spring Boot · React · Node.js · Python</div>
+    </div>
+    <div class="header-right">
+      Doha, Qatar<br>
+      <a href="mailto:ashimkhn198@gmail.com">ashimkhn198@gmail.com</a><br>
+      <a href="https://ashim-khan-root.github.io/portfolio/">ashim-khan-root.github.io/portfolio</a><br>
+      <a href="https://linkedin.com/in/ashim-ahmad">linkedin.com/in/ashim-ahmad</a>
+    </div>
+  </div>
+
+  <div class="body">
+    <div class="main-col">
+
+      <h2>Experience</h2>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <div>
+            <span class="role">Digital Marketing Engineer</span>
+            <span class="company"> — Starfox Security System</span>
+          </div>
+          <div class="date">Jan 2026 – Present</div>
+        </div>
+        <ul class="exp-desc">
+          <li>Automated marketing workflows with n8n and custom Python scripts, reducing manual reporting time by 60%</li>
+          <li>Built and maintained WooCommerce/WordPress e-commerce platform serving 200+ products with structured data</li>
+          <li>Developed AI-powered automation pipelines for content generation and SEO optimization</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <div>
+            <span class="role">Software Engineer</span>
+            <span class="company"> — Indian Oil Corp. Ltd.</span>
+          </div>
+          <div class="date">Nov 2022 – Oct 2023</div>
+        </div>
+        <ul class="exp-desc">
+          <li>Architected Bulk Toll Payment web portal using Java, Spring Boot, and Oracle DB, processing transactions for thousands of fleet vehicles</li>
+          <li>Engineered multi-level approval ID Card Issue/Reissue system with Spring Boot, reducing processing time by 50%</li>
+          <li>Built SD-WAN Status Dashboard and real-time infrastructure monitoring applications</li>
+          <li>Developed network host discovery tool cataloging active LAN hosts with structured CSV export</li>
+          <li>Managed Oracle DB and SQL Server operations including query optimization, data migration, and stored procedures</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <div>
+            <span class="role">Software Developer</span>
+            <span class="company"> — DevBros IT Consultancy</span>
+          </div>
+          <div class="date">Jun 2020 – May 2022</div>
+        </div>
+        <ul class="exp-desc">
+          <li>Built full-stack e-commerce web application with React.js and Next.js, featuring product catalog, cart, checkout, and admin panel</li>
+          <li>Analyzed large-scale datasets to identify trends and deliver data-driven recommendations</li>
+          <li>Developed interactive dashboards and visual reports for stakeholder KPIs</li>
+          <li>Debugged and resolved 50+ software issues across web applications</li>
+        </ul>
+      </div>
+
+      <h2>Key Projects</h2>
+
+      <div class="proj-item">
+        <div class="proj-header">IOCL Bulk Toll Payment Portal <span>| Java, Spring Boot, Oracle DB</span></div>
+        <div class="proj-desc">Web portal processing bulk toll payments for thousands of fleet vehicles. Streamlined payment workflows, reduced manual processing time significantly.</div>
+      </div>
+
+      <div class="proj-item">
+        <div class="proj-header">E-Commerce Web App <span>| React, Next.js, Node.js, MERN</span></div>
+        <div class="proj-desc">Full-stack application with product catalog, cart, checkout flow, and admin dashboard. Built at DevBros IT Consultancy.</div>
+      </div>
+
+      <div class="proj-item">
+        <div class="proj-header">Personal Growth Coach (AI-Powered) <span>| Python, MCP, Vector Search, CLI</span></div>
+        <div class="proj-desc">AI-powered CLI coaching system with persistent memory, session tracking, goal/habit management, vector search, and MCP server integration.</div>
+      </div>
+
+      <div class="proj-item">
+        <div class="proj-header">Bulk Email Automation Tool <span>| Python, SMTP, CSV</span></div>
+        <div class="proj-desc">Automated email sender with CSV import, HTML template support, personalized placeholders, rate limiting, and delivery tracking.</div>
+      </div>
+
+    </div>
+
+    <div class="sidebar">
+
+      <h3>Contact</h3>
+      <div class="contact-item">&#x2709;       <a href="mailto:ashimkhn198@gmail.com">ashimkhn198@gmail.com</a></div>
+      <div class="contact-item">&#x1F310; <a href="https://ashim-khan-root.github.io/portfolio/">Portfolio</a></div>
+      <div class="contact-item">&#x1F465; <a href="https://linkedin.com/in/ashim-ahmad">LinkedIn</a></div>
+      <div class="contact-item">&#x1F30D; Doha, Qatar</div>
+
+      <h3>Skills</h3>
+
+      <div class="skillset">
+        <div class="label">Backend</div>
+        <div class="tags">
+          <span class="tag">Java</span>
+          <span class="tag">Spring Boot</span>
+          <span class="tag">Python</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">REST APIs</span>
+        </div>
+      </div>
+
+      <div class="skillset">
+        <div class="label">Frontend</div>
+        <div class="tags">
+          <span class="tag">React</span>
+          <span class="tag">Next.js</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">HTML/CSS</span>
+        </div>
+      </div>
+
+      <div class="skillset">
+        <div class="label">Database & DevOps</div>
+        <div class="tags">
+          <span class="tag">Oracle DB</span>
+          <span class="tag">SQL Server</span>
+          <span class="tag">Git</span>
+          <span class="tag">MongoDB</span>
+        </div>
+      </div>
+
+      <div class="skillset">
+        <div class="label">AI & Automation</div>
+        <div class="tags">
+          <span class="tag">Prompt Engineering</span>
+          <span class="tag">n8n</span>
+          <span class="tag">MCP</span>
+          <span class="tag">AI Workflows</span>
+        </div>
+      </div>
+
+      <h3>Education</h3>
+      <div class="edu-item"><strong>Graduation</strong> — Lucknow University</div>
+      <div class="edu-item"><strong>GNIIT</strong> — NIIT</div>
+      <div style="font-size:12px; color:#7f8c9b; margin-top:2px;">Industry-recognized software engineering program (Java, .NET, databases, web development)</div>
+
+      <h3>Certifications</h3>
+      <div class="edu-item">AI & Automation Engineering — ongoing</div>
+
+      <h3>Languages</h3>
+      <div class="edu-item">English — Professional</div>
+      <div class="edu-item">Hindi — Native</div>
+      <div class="edu-item">Arabic — Basic</div>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

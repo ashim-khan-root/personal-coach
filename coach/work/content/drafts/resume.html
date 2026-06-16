@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ashim Ahmad — Resume</title>
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --primary: #1a365d;
+    --primary-light: #2b6cb0;
+    --accent: #e53e3e;
+    --accent-light: #fc8181;
+    --bg: #f7fafc;
+    --card: #ffffff;
+    --text: #1a202c;
+    --text-light: #718096;
+    --border: #e2e8f0;
+    --shadow: 0 4px 24px rgba(0,0,0,0.06);
+    --radius: 12px;
+  }
+
+  body {
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14.5px;
+  }
+
+  .page {
+    max-width: 210mm;
+    margin: 40px auto;
+    background: var(--card);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+  }
+
+  /* ---- HEADER ---- */
+  .header {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    color: #fff;
+    padding: 48px 56px 40px;
+    position: relative;
+  }
+  .header::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    pointer-events: none;
+  }
+  .header-content { position: relative; z-index: 1; }
+  .header-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 32px; }
+  .header h1 {
+    font-size: 42px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    line-height: 1.1;
+  }
+  .header h1 span { color: var(--accent-light); }
+  .header .title {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.85);
+    margin-top: 6px;
+  }
+  .photo {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 3px solid rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .contact-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 28px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.15);
+  }
+  .contact-bar a, .contact-bar span {
+    color: rgba(255,255,255,0.9);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    transition: color 0.2s;
+  }
+  .contact-bar a:hover { color: #fff; }
+  .contact-bar .icon {
+    width: 16px;
+    height: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    opacity: 0.7;
+  }
+
+  /* ---- BODY ---- */
+  .body { padding: 40px 56px 48px; display: flex; gap: 40px; }
+
+  .main { flex: 1; }
+  .sidebar { width: 240px; flex-shrink: 0; }
+
+  .section { margin-bottom: 32px; }
+  .section-title {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--primary-light);
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--border);
+  }
+
+  /* ---- SUMMARY ---- */
+  .summary-card {
+    background: linear-gradient(135deg, #ebf8ff 0%, #f0fff4 100%);
+    border-left: 4px solid var(--primary-light);
+    padding: 20px 24px;
+    border-radius: 0 var(--radius) var(--radius) 0;
+    margin-bottom: 32px;
+  }
+  .summary-card p { font-size: 14px; line-height: 1.7; color: var(--text); }
+
+  /* ---- EXPERIENCE ---- */
+  .exp-item {
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+  }
+  .exp-item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+  .exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 4px;
+  }
+  .exp-header h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--primary);
+  }
+  .exp-header .date {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-light);
+    white-space: nowrap;
+  }
+  .exp-company {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 10px;
+  }
+  .exp-company .location {
+    font-weight: 400;
+    color: var(--text-light);
+  }
+  .exp-item ul {
+    list-style: none;
+    padding: 0;
+  }
+  .exp-item ul li {
+    font-size: 13.5px;
+    color: #4a5568;
+    padding-left: 18px;
+    position: relative;
+    margin-bottom: 5px;
+    line-height: 1.6;
+  }
+  .exp-item ul li::before {
+    content: '›';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  /* ---- HIGHLIGHT TAG ---- */
+  .highlight-tag {
+    display: inline-block;
+    background: #fed7d7;
+    color: #c53030;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 10px;
+    border-radius: 20px;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+
+  /* ---- SKILLS ---- */
+  .skills-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .skill-group { }
+  .skill-group-label {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: var(--text-light);
+    margin-bottom: 6px;
+  }
+  .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .skill-tag {
+    background: #edf2f7;
+    color: var(--text);
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px 12px;
+    border-radius: 6px;
+    transition: all 0.2s;
+  }
+  .skill-tag.highlight {
+    background: var(--primary);
+    color: #fff;
+  }
+  .skill-tag.accent {
+    background: #fff5f5;
+    color: #c53030;
+    border: 1px solid #fed7d7;
+  }
+
+  /* ---- SIDEBAR SECTIONS ---- */
+  .sidebar .section { margin-bottom: 28px; }
+  .sidebar .section-title { font-size: 12px; margin-bottom: 12px; }
+
+  .info-list { list-style: none; }
+  .info-list li {
+    font-size: 13px;
+    color: #4a5568;
+    padding: 5px 0;
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+  }
+  .info-list li strong {
+    color: var(--text);
+    font-weight: 600;
+    min-width: 80px;
+    flex-shrink: 0;
+  }
+
+  .project-list { list-style: none; }
+  .project-list li {
+    font-size: 13px;
+    color: #4a5568;
+    padding: 5px 0;
+    padding-left: 16px;
+    position: relative;
+  }
+  .project-list li::before {
+    content: '◆';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-size: 8px;
+    top: 8px;
+  }
+
+  .lang-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    padding: 4px 0;
+  }
+  .lang-item .name { font-weight: 600; color: var(--text); }
+  .lang-item .level { color: var(--text-light); }
+
+  /* ---- PRINT / A4 ---- */
+  @page {
+    size: A4;
+    margin: 0;
+  }
+  @media print {
+    body { background: #fff; font-size: 11.5px; line-height: 1.45; font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; }
+    .page {
+      max-width: 100%;
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0;
+      border-radius: 0;
+      box-shadow: none;
+    }
+    .header { padding: 22px 40px 18px; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .header::after { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .header h1 { font-size: 30px; }
+    .header .title { font-size: 15px; }
+    .contact-bar { margin-top: 14px; padding-top: 12px; gap: 10px 22px; }
+    .contact-bar a, .contact-bar span { font-size: 11.5px; }
+    .photo { width: 85px; height: 85px; font-size: 30px; }
+    .body { padding: 18px 40px 24px; gap: 30px; }
+    .summary-card { padding: 14px 20px; margin-bottom: 20px; }
+    .summary-card p { font-size: 11.5px; }
+    .section { margin-bottom: 18px; break-inside: avoid; }
+    .section-title { font-size: 10.5px; margin-bottom: 8px; }
+    .exp-item { margin-bottom: 14px; padding-bottom: 14px; break-inside: avoid; }
+    .exp-header h3 { font-size: 13.5px; }
+    .exp-header .date { font-size: 11.5px; }
+    .exp-company { font-size: 12px; margin-bottom: 6px; }
+    .exp-item ul li { font-size: 11.5px; padding-left: 14px; margin-bottom: 3px; line-height: 1.45; }
+    .highlight-tag { font-size: 9.5px; padding: 1px 8px; }
+    .sidebar { width: 205px; }
+    .sidebar .section { margin-bottom: 16px; }
+    .sidebar .section-title { font-size: 10.5px; margin-bottom: 8px; }
+    .skill-group-label { font-size: 9.5px; }
+    .skill-tag { font-size: 10.5px; padding: 3px 9px; }
+    .lang-item { font-size: 11.5px; padding: 3px 0; }
+    .info-list li { font-size: 11.5px; padding: 3px 0; }
+    .project-list li { font-size: 11.5px; padding: 3px 0 3px 14px; }
+    .summary-card { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .skill-tag.highlight { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .photo { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .highlight-tag { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    a { text-decoration: none; color: inherit; }
+  }
+
+  @media (max-width: 768px) {
+    .page { margin: 16px; }
+    .header { padding: 32px 24px; }
+    .header h1 { font-size: 32px; }
+    .header-top { flex-direction: column; }
+    .photo { width: 80px; height: 80px; font-size: 28px; }
+    .body { flex-direction: column; padding: 24px; }
+    .sidebar { width: 100%; }
+    .contact-bar { gap: 10px; }
+    .exp-header { flex-direction: column; gap: 4px; }
+    .exp-header .date { white-space: normal; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-content">
+      <div class="header-top">
+        <div>
+          <h1>Ashim <span>Ahmad</span></h1>
+          <div class="title">ELV & Security Systems Engineer • Full-Stack Developer</div>
+        </div>
+        <div class="photo">AA</div>
+      </div>
+      <div class="contact-bar">
+        <span><span class="icon">&#9742;</span> +974 77418754</span>
+        <a href="mailto:ashimkhn198@gmail.com"><span class="icon">&#9993;</span> ashimkhn198@gmail.com</a>
+        <a href="https://ashim-khan-root.github.io/portfolio"><span class="icon">&#127760;</span> Portfolio</a>
+        <a href="https://linkedin.com/in/ashim-ahmad-b26249234"><span class="icon">&#10003;</span> LinkedIn</a>
+        <span><span class="icon">&#9906;</span> Birkat Al Awamer, Qatar</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- BODY -->
+  <div class="body">
+
+    <!-- MAIN -->
+    <div class="main">
+
+      <!-- SUMMARY -->
+      <div class="summary-card">
+        <p><strong>ELV & Security Systems Engineer</strong> with 6+ years spanning software engineering, IT infrastructure, and digital marketing. Currently serving as Digital Marketing Engineer at <strong>Starfox Security (Secuview)</strong> — a certified MOI CCTV systems provider in Qatar. Combines deep technical skills (AutoCAD, network security, full-stack development) with hands-on experience in <strong>MOI-compliant security systems</strong>, site surveys, quotations, and ELV project coordination.</p>
+      </div>
+
+      <!-- EXPERIENCE -->
+      <div class="section">
+        <div class="section-title">Experience</div>
+
+        <div class="exp-item">
+          <div class="exp-header">
+            <h3>Digital Marketing Engineer <span class="highlight-tag">ELV / CCTV</span></h3>
+            <div class="date">01/2026 – Present</div>
+          </div>
+          <div class="exp-company">Starfox Security System (Secuview) <span class="location">— Doha, Qatar</span></div>
+          <ul>
+            <li>Support MOI-compliant CCTV security solutions including site surveys, system design, and technical quotations for Qatar government and commercial projects</li>
+            <li>Engineered SEO and AEO strategies driving 40%+ organic traffic growth for Secuview e-commerce platform (WordPress/WooCommerce)</li>
+            <li>Implemented structured data (JSON-LD/Schema.org) across 200+ security product pages for rich snippet eligibility</li>
+            <li>Managed Google Shopping feeds, Facebook Shop catalog, and ad creative campaigns for security product lines</li>
+            <li>Automated marketing and reporting workflows using n8n and custom Python scripts, reducing manual work by 60%</li>
+            <li>Directed content strategy across Smart Home, Network, Audio, Cable, and Blog verticals</li>
+          </ul>
+        </div>
+
+        <div class="exp-item">
+          <div class="exp-header">
+            <h3>IT Systems & Network Specialist</h3>
+            <div class="date">06/2025 – 12/2025</div>
+          </div>
+          <div class="exp-company">Al-Duhail Metal Factory <span class="location">— Ar-Rayyan, Qatar</span></div>
+          <ul>
+            <li>Administered network infrastructure and server systems for 50+ users achieving 99.5% uptime</li>
+            <li>Diagnosed and resolved 100+ technical incidents monthly, reducing resolution time by 35% through root-cause analysis</li>
+            <li>Deployed endpoint security solutions and firewall policies ensuring compliance</li>
+            <li>Delivered technical training for 20+ users, reducing helpdesk tickets by 25%</li>
+          </ul>
+        </div>
+
+        <div class="exp-item">
+          <div class="exp-header">
+            <h3>IT Assistant <span class="highlight-tag">AutoCAD</span></h3>
+            <div class="date">06/2024 – 01/2025</div>
+          </div>
+          <div class="exp-company">Shanti Machinery Pvt. Ltd.</div>
+          <ul>
+            <li>Developed and maintained 50+ AutoCAD technical drawings for machinery design and planning</li>
+            <li>Streamlined office operations and cross-functional workflows improving team productivity by 20%</li>
+            <li>Collaborated with engineering and production teams to integrate IT solutions into manufacturing workflows</li>
+          </ul>
+        </div>
+
+        <div class="exp-item">
+          <div class="exp-header">
+            <h3>Software Engineer</h3>
+            <div class="date">11/2022 – 10/2023</div>
+          </div>
+          <div class="exp-company">Indian Oil Corp. Ltd. (IOCL) — UPSO-1</div>
+          <ul>
+            <li>Designed and developed a Bulk Toll Payment web portal using Java and Spring Boot</li>
+            <li>Engineered multi-level approval ID Card system, reducing processing time by 50%</li>
+            <li>Built SD-WAN Status Dashboard and Server Room Multi-Panels Signage for real-time monitoring</li>
+            <li>Managed Oracle Database and SQL Server operations including query optimization and data migration</li>
+          </ul>
+        </div>
+
+        <div class="exp-item">
+          <div class="exp-header">
+            <h3>Software Developer</h3>
+            <div class="date">06/2020 – 05/2022</div>
+          </div>
+          <div class="exp-company">DevBros IT Consultancy & Training <span class="location">— Bareilly, India</span></div>
+          <ul>
+            <li>Built full-stack e-commerce application using React.js and Next.js with product catalog, cart, and checkout</li>
+            <li>Analyzed large datasets and built interactive dashboards for stakeholder KPI visibility</li>
+            <li>Debugged 50+ software issues ensuring high availability and user experience</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- KEY PROJECTS -->
+      <div class="section">
+        <div class="section-title">Key Projects</div>
+        <ul style="list-style:none;">
+          <li style="font-size:13.5px;color:#4a5568;padding:4px 0 4px 18px;position:relative;">
+            <span style="position:absolute;left:0;color:var(--accent);">›</span>
+            <strong style="color:var(--text);">Qatar Business Directory</strong> — Lead generation platform channeling prospects to Secuview via commission model
+          </li>
+          <li style="font-size:13.5px;color:#4a5568;padding:4px 0 4px 18px;position:relative;">
+            <span style="position:absolute;left:0;color:var(--accent);">›</span>
+            <strong style="color:var(--text);">Personal Growth Coach (AI-Powered)</strong> — CLI coaching system with persistent memory, session tracking, vector search, and daily reviews
+          </li>
+          <li style="font-size:13.5px;color:#4a5568;padding:4px 0 4px 18px;position:relative;">
+            <span style="position:absolute;left:0;color:var(--accent);">›</span>
+            <strong style="color:var(--text);">IOCL Bulk Toll Payment Portal</strong> — Web portal for thousands of fleet vehicle transactions using Java, Spring Boot, Oracle DB
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+
+      <!-- SKILLS -->
+      <div class="section">
+        <div class="section-title">Core Skills</div>
+        <div class="skills-grid">
+          <div>
+            <div class="skill-group-label">ELV & Security</div>
+            <div class="skill-tags">
+              <span class="skill-tag highlight">CCTV Systems</span>
+              <span class="skill-tag highlight">MOI Compliance</span>
+              <span class="skill-tag highlight">Site Surveys</span>
+              <span class="skill-tag highlight">AutoCAD</span>
+              <span class="skill-tag accent">Quotations</span>
+              <span class="skill-tag">Access Control</span>
+              <span class="skill-tag">NVR Config</span>
+            </div>
+          </div>
+          <div>
+            <div class="skill-group-label">Development</div>
+            <div class="skill-tags">
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">Spring Boot</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Next.js</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">MERN</span>
+              <span class="skill-tag">REST APIs</span>
+            </div>
+          </div>
+          <div>
+            <div class="skill-group-label">Marketing & Automation</div>
+            <div class="skill-tags">
+              <span class="skill-tag">SEO / AEO</span>
+              <span class="skill-tag">Schema.org</span>
+              <span class="skill-tag">n8n Automation</span>
+              <span class="skill-tag">GA4</span>
+              <span class="skill-tag">Content Strategy</span>
+              <span class="skill-tag">WordPress</span>
+              <span class="skill-tag">WooCommerce</span>
+            </div>
+          </div>
+          <div>
+            <div class="skill-group-label">AI & Infrastructure</div>
+            <div class="skill-tags">
+              <span class="skill-tag">Prompt Engineering</span>
+              <span class="skill-tag">AI Workflows</span>
+              <span class="skill-tag">MCP</span>
+              <span class="skill-tag">Network Security</span>
+              <span class="skill-tag">Sys Admin</span>
+              <span class="skill-tag">Oracle DB</span>
+              <span class="skill-tag">SQL Server</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- LANGUAGES -->
+      <div class="section">
+        <div class="section-title">Languages</div>
+        <div class="lang-item"><span class="name">English</span> <span class="level">Professional</span></div>
+        <div class="lang-item"><span class="name">Arabic</span> <span class="level">Conversational (Learning)</span></div>
+        <div class="lang-item"><span class="name">Hindi / Urdu</span> <span class="level">Native</span></div>
+      </div>
+
+      <!-- CERTIFICATIONS -->
+      <div class="section">
+        <div class="section-title">Education</div>
+        <ul class="info-list">
+          <li><strong style="min-width:auto;">Adv. Diploma</strong> Cloud & Software Engineering — NIIT</li>
+          <li><strong style="min-width:auto;">Graduation</strong> University of Lucknow</li>
+        </ul>
+      </div>
+
+      <!-- INTERESTS -->
+      <div class="section">
+        <div class="section-title">Interests</div>
+        <div class="skill-tags">
+          <span class="skill-tag">AI Engineering</span>
+          <span class="skill-tag">Security Systems</span>
+          <span class="skill-tag">Automation</span>
+          <span class="skill-tag">Running</span>
+          <span class="skill-tag">Arabic Learning</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>

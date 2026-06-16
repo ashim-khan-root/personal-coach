@@ -10,6 +10,7 @@ This file is the entrypoint for loading project context. Read this first, then l
 | Active plans | `process/plans/active/` | Before executing any task |
 | Completed plans | `process/plans/completed/` | When reviewing past work |
 | Skills | `.opencode/skills/<name>/SKILL.md` | When task matches keyword (see AGENTS.md skill registry) |
+| DDD adversarial review | `process/context/doubt-driven-development.md` | Before risky code, migrations, or irreversible operations |
 | Coaching checkpoint | `python3 coach/tools/read_checkpoint.py` | At session start |
 | Session history | `python3 coach/tools/read_context.py [N]` | At session start |
 | Work artifacts | `coach/work/` (content, reports, research, n8n, scripts) | When creating or reviewing deliverables |

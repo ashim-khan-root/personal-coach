@@ -180,6 +180,79 @@ def run_stdio():
         lines.append(result.get("text", ""))
         return "\n".join(lines)
 
+    @mcp.tool()
+    def seo_audit(url: str, crawl: bool = False, max_pages: int = 5, backlinks: bool = False, speed: bool = False) -> str:
+        """Run an SEO audit on a URL. Optionally crawl sampled sitemap pages, check backlinks via Common Crawl (free), and check page speed (free).
+        
+        Args:
+            url: The URL to audit
+            crawl: If True, sample pages from the sitemap and check content depth, images, alt text, internal links
+            max_pages: Number of pages to sample from the sitemap (used when crawl=True, default 5)
+            backlinks: If True, check backlinks via Common Crawl CDX API (free, no API key)
+            speed: If True, check page speed via Google PageSpeed Insights API (free, no API key)
+        """
+        from tools.seo_audit import audit_url, format_report
+        result = audit_url(url, with_crawl=crawl, max_pages=max_pages, with_backlinks=backlinks, with_speed=speed)
+        if "error" in result:
+            return f"Error: {result['error']}"
+        return format_report(result)
+
+    @mcp.tool()
+    def task_manager(action: str, title: str = "", priority: str = "medium", notes: str = "", task_id: str = "") -> str:
+        """Manage tasks. Actions: add, list, done, delete.
+        
+        Args:
+            action: add, list, done, or delete
+            title: Task title (required for add)
+            priority: low, medium, or high (default medium, used with add)
+            notes: Optional notes (used with add)
+            task_id: Task ID (required for done and delete)
+        """
+        from tools.task_manager import cmd_add, cmd_list, cmd_done, cmd_delete
+        import io, contextlib
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            if action == "add":
+                cmd_add(title, priority, notes)
+            elif action == "list":
+                cmd_list("all")
+            elif action == "done":
+                if task_id:
+                    cmd_done(task_id)
+            elif action == "delete":
+                if task_id:
+                    cmd_delete(task_id)
+        return buf.getvalue()
+
+    @mcp.tool()
+    def site_survey(action: str, client: str = "", location: str = "", contact: str = "", notes: str = "", survey_id: str = "", summary: str = "") -> str:
+        """Track MOI site survey visits. Actions: add, list, view, close.
+        
+        Args:
+            action: add, list, view, or close
+            client: Client name (required for add)
+            location: Site location (required for add)
+            contact: Contact person/phone (optional for add)
+            notes: Survey notes (optional for add)
+            survey_id: Survey ID (required for view and close)
+            summary: Closing summary (optional for close)
+        """
+        from tools.site_survey import cmd_add, cmd_list, cmd_view, cmd_close
+        import io, contextlib
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            if action == "add":
+                cmd_add(client, location, contact, notes)
+            elif action == "list":
+                cmd_list("open")
+            elif action == "view":
+                if survey_id:
+                    cmd_view(survey_id)
+            elif action == "close":
+                if survey_id:
+                    cmd_close(survey_id, summary)
+        return buf.getvalue()
+
     @mcp.resource("memory://checkpoint")
     def resource_checkpoint() -> str:
         return _get_checkpoint_text()
@@ -220,6 +293,12 @@ def run_interactive():
             break
         if cmd == "context":
             print(_get_context_summary())
+        elif cmd.startswith("seo"):
+            from tools.seo_audit import audit_url, format_report
+            parts = cmd.split(maxsplit=1)
+            url = parts[1] if len(parts) > 1 else input("URL: ")
+            result = audit_url(url)
+            print(format_report(result))
         elif cmd == "checkpoint":
             print(_get_checkpoint_text())
         elif cmd == "goals":

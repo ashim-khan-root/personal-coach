@@ -12,6 +12,7 @@
 |---|---|
 | `python coach/tools/make_quotation.py "<input>"` | AI quotation maker: "8 cameras 2MP", "3 cameras 4MP KPOI", etc. |
 | `python coach/tools/make_quotation.py "<input>" --moi` | MOI-compliant quotation (120-day storage, RAID 5, UPS 1hr, AMC) |
+| `python coach/tools/make_quotation.py "<input>" --moi --arabic` | MOI-compliant bilingual (EN/AR) quotation |
 | `python coach/tools/make_quotation.py --interactive` | Interactive chat mode |
 | `python coach/tools/make_quotation.py --list-rates` | Show current rate card |
 | `python coach/tools/make_quotation.py --update-rates <file.xlsx>` | Import new prices from Excel |
@@ -34,6 +35,9 @@ python coach/tools/make_quotation.py "8 cameras 2MP for Al Thani Villa"
 
 # MOI-compliant quote
 python coach/tools/make_quotation.py "16 cameras 2MP for Grand Mosque" --moi
+
+# MOI-compliant bilingual (EN/AR) quote
+python coach/tools/make_quotation.py "16 cameras 2MP for Grand Mosque" --moi --arabic
 
 # 4MP KPOI system
 python coach/tools/make_quotation.py "3 cameras 4MP KPOI" --moi

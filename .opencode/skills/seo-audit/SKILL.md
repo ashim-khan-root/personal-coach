@@ -2,7 +2,7 @@
 name: seo-audit
 description: When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO audit," "technical SEO," "why am I not ranking," "SEO issues," "on-page SEO," "meta tags review," "SEO health check," "my traffic dropped," "lost rankings," "not showing up in Google," "site isn't ranking," "Google update hit me," "page speed," "core web vitals," "crawl errors," or "indexing issues." Use this even if the user just says something vague like "my SEO is bad" or "help with SEO" — start with an audit. For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema. For AI search optimization, see ai-seo.
 metadata:
-  version: 2.0.0
+  version: 3.0.0
 ---
 
 # SEO Audit
@@ -30,6 +30,57 @@ Before auditing, understand:
    - Full site audit or specific pages?
    - Technical + on-page, or one focus area?
    - Access to Search Console / analytics?
+
+---
+
+## Industry Detection
+
+Detect business type from homepage and site signals before starting the audit. This determines which checks are relevant and which sub-audits to run.
+
+| Type | Signals |
+|------|---------|
+| **SaaS** | Pricing page, /features, /integrations, /docs, "free trial", "sign up" buttons |
+| **Local Service** | Phone number prominent, address, service area text, "serving [city]", Google Maps embed, Google Business Profile link |
+| **E-commerce** | /products, /collections, /cart, "add to cart", product schema, category pages with filters |
+| **Publisher / Blog** | /blog, /articles, /topics, article schema, author pages, publication dates, category/tag taxonomies |
+| **Agency** | /case-studies, /portfolio, /industries, "our work", client logo carousels |
+
+Auto-suggest relevant sub-audits based on detected type:
+- **Local Service** → also check GBP, NAP consistency, local schema, reviews
+- **E-commerce** → also check product schema, faceted navigation, out-of-stock handling
+- **Publisher** → also check topical clusters, author E-E-A-T, content freshness
+- **SaaS** → also check comparison pages, documentation SEO, pricing page structure
+
+---
+
+## Scoring Weights
+
+When producing a numeric health score, weight categories as follows:
+
+| Category | Weight |
+|----------|--------|
+| Technical SEO | 22% |
+| Content Quality | 23% |
+| On-Page SEO | 20% |
+| Schema / Structured Data | 10% |
+| Performance (CWV) | 10% |
+| AI Search Readiness | 10% |
+| Images | 5% |
+
+Score thresholds: 90+ (A), 80-89 (B), 70-79 (C), 60-69 (D), <60 (F).
+
+---
+
+## Quality Gates
+
+Hard rules that override standard analysis:
+
+- **WARNING** at 30+ location/programmatic pages — enforce 60%+ unique content per page. Flag for user review.
+- **HARD STOP** at 50+ location/programmatic pages without user justification. Do not proceed with bulk page creation until user explicitly confirms.
+- Never recommend **HowTo** schema (deprecated by Google September 2023).
+- **FAQ schema**: Google retired FAQ rich results for ALL sites on May 7, 2026 (no SERP feature). Flag existing FAQPage at Info level for its AI/LLM citation benefit only. Do not recommend removal. Do not recommend new FAQPage for Google SERP benefit. Use QAPage for genuine user Q&A.
+- All Core Web Vitals references must use **INP**, never FID. INP replaced FID on March 12, 2024. FID was fully removed from Chrome tools (CrUX API, PageSpeed Insights, Lighthouse) on September 9, 2024.
+- **Mobile-first indexing** is 100% complete as of July 5, 2024. Google indexes all websites exclusively with the mobile Googlebot user-agent.
 
 ---
 
@@ -85,6 +136,28 @@ Reporting "no schema found" based solely on `web_fetch` or `curl` leads to false
 - Infinite scroll with pagination fallback
 - Session IDs not in URLs
 
+**AI Crawler Management**
+
+Managing AI crawlers via robots.txt is critical as AI companies actively crawl the web for training and AI search:
+
+| Crawler | Company | Token | Purpose |
+|---------|---------|-------|---------|
+| GPTBot | OpenAI | `GPTBot` | Model training |
+| ChatGPT-User | OpenAI | `ChatGPT-User` | Real-time ChatGPT browsing |
+| ClaudeBot | Anthropic | `ClaudeBot` | Model training |
+| PerplexityBot | Perplexity | `PerplexityBot` | Search + training |
+| Google-Extended | Google | `Google-Extended` | Gemini training (NOT search) |
+| CCBot | Common Crawl | `CCBot` | Open dataset |
+| Bytespider | ByteDance | `Bytespider` | Model training |
+| Applebot-Extended | Apple | `Applebot-Extended` | Apple Intelligence training |
+
+**Key distinctions:**
+- Blocking `Google-Extended` prevents Gemini training but does NOT affect Google Search indexing or AI Overviews (those use `Googlebot`)
+- Blocking `GPTBot` prevents OpenAI training but does NOT prevent ChatGPT from citing content via browsing (`ChatGPT-User`)
+- Blocking `CCBot` is low-risk for search visibility (not used by major search engines)
+
+**Recommendation:** Consider AI visibility strategy before blocking. Being cited by AI systems drives brand awareness and referral traffic. Middle ground: block training-only crawlers while allowing search/citation bots.
+
 ### Indexation
 
 **Index Status**
@@ -105,6 +178,37 @@ Reporting "no schema found" based solely on `web_fetch` or `curl` leads to false
 - HTTP → HTTPS canonicals
 - www vs. non-www consistency
 - Trailing slash consistency
+
+### JavaScript Rendering Analysis
+
+**Why it matters:** Google renders JavaScript pages but it costs crawl budget and can delay indexing. Sites using CSR (client-side rendering) frameworks need extra scrutiny.
+
+**Check for:**
+- Content visible in initial HTML vs requires JS execution to render
+- Identify framework (React, Vue, Angular, SPA) and rendering strategy
+- Critical SEO elements (canonical, meta robots, title, meta description) served in initial HTML — not JS-injected
+- Structured data in initial HTML vs JS-injected (Google may delay processing JS-injected schema)
+
+**JavaScript SEO guidance (Google, December 2025 update):**
+- If canonical tag in raw HTML differs from JS-injected one, Google may use EITHER — ensure they match
+- If raw HTML has `<meta name="robots" content="noindex">` but JS removes it, Google MAY still honor the noindex from raw HTML
+- Google does NOT render JavaScript on pages returning non-200 HTTP status codes
+- For time-sensitive structured data (especially Product markup), include it in initial server-rendered HTML
+
+**Common issues:**
+- SPA with no SSR/SSG — content invisible to Googlebot
+- Canonical mismatch between HTML and JS
+- noindex only in JS (rendered too late)
+- Structured data disappears after JS execution
+- Soft 404s rendered as 200 with JS error content
+
+### IndexNow Protocol
+
+**What it is:** Protocol for notifying search engines (Bing, Yandex, Naver, Seznam — NOT Google) about URL changes. Supported search engines other than Google.
+
+**Check:**
+- Is IndexNow implemented? (check for `/indexnow` endpoint or API key in source)
+- For sites that update content frequently, IndexNow provides faster indexing on Bing and other engines
 
 ### Site Speed & Core Web Vitals
 
@@ -152,6 +256,19 @@ Reporting "no schema found" based solely on `web_fetch` or `curl` leads to false
 - Consistent structure
 - No unnecessary parameters
 - Lowercase and hyphen-separated
+
+### Agent-Friendly Pages (Forward-Looking)
+
+AI agents (not just AI summarizers) increasingly read sites through vision models, raw HTML/DOM, and accessibility trees. Key audit areas:
+
+- Semantic HTML — real `<nav>`, `<main>`, `<article>`, `<button>` tags (not `<div>`-spam)
+- All interactive elements labelled (proper `<label>`, ARIA, or visible text)
+- Stable selectors / predictable layouts (sites that re-render on every interaction break agents)
+- Visible pricing, specs, contact info on public, indexable pages
+- `cursor: pointer` on clickable elements
+- No login/gating on content agents need to evaluate
+
+Surface findings as **opportunities**, not failures. This is an emerging area.
 
 ---
 
@@ -418,6 +535,47 @@ Three equivalent placement methods: HTML `<link>` in `<head>`, HTTP `Link` heade
 
 ---
 
+## Content Brief Generation
+
+When creating new content that needs to rank, produce a structured content brief:
+
+### Brief Format
+
+**Target Keyword:** [primary keyword]
+**Search Intent:** [informational/commercial/transactional/navigational]
+**Target Audience:** [who is this for]
+**Target URL slug:** [suggested URL]
+
+### SERP Analysis
+- Top-ranking pages: [list 3-5]
+- Content gaps vs competitors: [what they miss]
+- Featured snippet opportunities: [yes/no/type]
+- AI Overview presence: [does an AI overview appear for this query?]
+
+### Content Requirements
+- **Minimum word count:** [based on top 10 average]
+- **Key subtopics to cover:** [H2 headings needed]
+- **Internal links to:** [which existing pages to link from]
+- **External links to:** [authority sources to reference]
+- **Schema types needed:** [Article, FAQ, HowTo, etc.]
+
+### Answer Blocks (for AI extractability)
+- **Definition block:** 40-60 word concise answer for "What is X?"
+- **Comparison table:** If "[X] vs [Y]" intent
+- **Step-by-step:** If "how to" intent
+- **FAQ block:** 3-5 natural-language Q&A pairs
+- **Stat block:** 2-3 statistics with cited sources
+
+### Differentiation Angle
+- What makes this content better than what's ranking?
+- Unique data, original research, expert quotes, first-hand experience?
+
+### Distribution
+- Related queries the AI will fan out to (list 5-10)
+- Internal links from: [which existing pages should link here]
+
+---
+
 ## Output Format
 
 ### Audit Report Structure
@@ -430,10 +588,12 @@ Three equivalent placement methods: HTML `<link>` in `<head>`, HTTP `Link` heade
 **Technical SEO Findings**
 For each issue:
 - **Issue**: What's wrong
-- **Impact**: SEO impact (High/Medium/Low)
+- **Impact**: SEO impact (Critical/High/Medium/Low/Info)
 - **Evidence**: How you found it
 - **Fix**: Specific recommendation
-- **Priority**: 1-5 or High/Medium/Low
+- **Falsifiability check**: How will we know this fix worked or failed? (e.g., "If this is fixed, `site:domain.com` count will increase by X% within 2 weeks")
+- **Effort**: Estimated effort (Low/Medium/High)
+- **Priority**: Critical (fix immediately), High (within 1 week), Medium (within 1 month), Low (backlog)
 
 **On-Page SEO Findings**
 Same format as above
@@ -442,10 +602,16 @@ Same format as above
 Same format as above
 
 **Prioritized Action Plan**
-1. Critical fixes (blocking indexation/ranking)
-2. High-impact improvements
-3. Quick wins (easy, immediate benefit)
-4. Long-term recommendations
+1. **Phase 1: Critical Fixes** (blocking indexation/ranking) — Week 1
+2. **Phase 2: High-Impact Improvements** — Weeks 2-3
+3. **Phase 3: Content & Authority** — Month 2
+4. **Phase 4: Monitoring & Iteration** — Ongoing
+
+Each recommendation should carry:
+- The first-principle observation it rests on
+- Dependencies (what must be fixed first)
+- An explicit "how would we know this failed?" check
+- A leading indicator the user can monitor without re-running the full audit
 
 ---
 

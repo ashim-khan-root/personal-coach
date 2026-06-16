@@ -34,6 +34,7 @@ Execute the appropriate tool:
 - **Interactive mode**: `python coach/tools/make_quotation.py --interactive`
 - **View rates**: `python coach/tools/make_quotation.py --list-rates`
 - **MOI compliant**: `python coach/tools/make_quotation.py "<input>" --moi`
+- **Bilingual (EN/AR)**: `python coach/tools/make_quotation.py "<input>" --moi --arabic`
 - **Import rates**: `python coach/tools/make_quotation.py --update-rates <file.xlsx>`
 
 ### 4. Review & Enhance

@@ -2,7 +2,7 @@
 name: schema
 description: When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions "schema markup," "structured data," "JSON-LD," "rich snippets," "schema.org," "FAQ schema," "product schema," "review schema," "breadcrumb schema," "Google rich results," "knowledge panel," "star ratings in search," or "add structured data." Use this whenever someone wants their pages to show enhanced results in Google. For broader SEO issues, see seo-audit. For AI search optimization, see ai-seo.
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
 
 # Schema Markup
@@ -41,7 +41,13 @@ Before implementing schema, understand:
 - Avoid spam tactics
 - Review eligibility requirements
 
-### 4. Validate Everything
+### 4. Stay Current on Schema Deprecations
+- **FAQPage** (FAQ schema): Google retired FAQ rich results for ALL sites on May 7, 2026. No SERP feature benefit. Still has AI/LLM citation value for non-Google engines. Do not recommend removal. Do not recommend new FAQPage for Google SERP benefit. Use QAPage for genuine user Q&A content.
+- **HowTo**: Deprecated by Google September 2023. Do not implement.
+- **Review snippet eligibility**: Requires Product or LocalBusiness schema with verified reviews. Not available for all site types.
+- **Carousel / ItemList**: Requires specific formatting. Check current Google documentation before implementing.
+
+### 5. Validate Everything
 - Test before deploying
 - Monitor Search Console
 - Fix errors promptly
@@ -57,8 +63,8 @@ Before implementing schema, understand:
 | Article | Blog posts, news | headline, image, datePublished, author |
 | Product | Product pages | name, image, offers |
 | SoftwareApplication | SaaS/app pages | name, offers |
-| FAQPage | FAQ content | mainEntity (Q&A array) |
-| HowTo | Tutorials | name, step |
+| FAQPage | FAQ content | mainEntity (Q&A array) — Note: SERP feature retired May 2026, still valuable for AI/LLM citation |
+| HowTo | Tutorials | name, step — NOTE: Deprecated by Google Sept 2023. Do not implement for new content |
 | BreadcrumbList | Any page with breadcrumbs | itemListElement |
 | LocalBusiness | Local business pages | name, address |
 | Event | Events, webinars | name, startDate, location |

@@ -52,6 +52,198 @@ TERMS_MOI = [
     "Price and specifications may change without prior notice",
 ]
 
+# ── Arabic Translations ──────────────────────────────────────────────────
+ARABIC = {
+    "company_name": "ستار فوكس للأمن",
+    "subtitle": "أنظمة كاميرات المراقبة والأمن المنزلي الذكي",
+    "moi_subtitle": "— متوافقة مع القانون رقم 9 لسنة 2011 لوزارة الداخلية",
+    "quotation": "عرض سعر",
+    "date": "التاريخ",
+    "customer": "العميل",
+    "system": "النظام",
+    "retention_days": "أيام التخزين",
+    "raid": "RAID 5",
+    "yes": "نعم",
+    "no": "لا",
+    "hdr_model": "الموديل",
+    "hdr_desc": "الوصف",
+    "hdr_qty": "الكمية",
+    "hdr_unit_price": "سعر الوحدة (ريال)",
+    "hdr_amount": "الإجمالي (ريال)",
+    "subtotal": "المجموع",
+    "discount": "الخصم",
+    "grand_total": "الإجمالي النهائي",
+    "terms_title": "الشروط والأحكام:",
+    "company_info": "سلوى، الدوحة، قطر | هاتف: 974 44691741+ | info@starfoxsecu.com",
+    "terms_moi": [
+        "جميع الأسعار أعلاه بالريال القطري (QAR)",
+        "شروط الدفع: 50% عند توقيع العقد و 50% قبل التركيب والتسليم",
+        "الضمان: سنتان لجهاز التسجيل والكاميرات",
+        "تم تصميم النظام وتركيبه حسب متطلبات وزارة الداخلية (القانون رقم 9 لسنة 2011)",
+        "فترة التخزين: 120 يوماً تسجيل مستمر مع نظام RAID 5",
+        "النظام مزود ببطارية احتياطية (UPS) لمدة ساعة كحد أدنى حسب متطلبات وزارة الداخلية",
+        "عقد الصيانة السنوية (AMC) إلزامي للامتثال لوزارة الداخلية",
+        "أي تغييرات أو إضافات يجب اعتمادها عبر بوابة وزارة الداخلية",
+        "أي أعمال مدنية أو ميكانيكية أو كهربائية إن وجدت تحسب بشكل منفصل",
+        "أسعار المواد قد تتغير وقت التركيب حسب الظروف الإقليمية",
+        "عرض السعر هذا يخضع للشروط والأحكام القياسية لشركة ستار فوكس",
+        "قد تتغير الأسعار والمواصفات دون إشعار مسبق",
+    ],
+    "terms_standard": [
+        "جميع الأسعار أعلاه بالريال القطري (QAR)",
+        "شروط الدفع: 50% عند توقيع العقد كدفعة مقدمة و 50% قبل التركيب والتسليم",
+        "الضمان: سنتان لجهاز التسجيل والكاميرات",
+        "أي تغييرات أو إضافة كاميرات كما يوصى بها تحسب بشكل منفصل",
+        "أي أعمال مدنية أو ميكانيكية أو كهربائية إن وجدت تحسب بشكل منفصل",
+        "أسعار المواد قد تتغير وقت التركيب حسب الظروف الإقليمية",
+        "عرض السعر هذا يخضع للشروط والأحكام القياسية لشركة ستار فوكس",
+        "قد تتغير الأسعار والمواصفات دون إشعار مسبق",
+    ],
+}
+# Map English model names (substring) → Arabic model names
+MODEL_AR = {
+    "2MP IR Fixed Bullet": "كاميرا رصاصية ثابتة 2 ميجابكسل مع أشعة تحت حمراء",
+    "2MP Lite IR Eyeball": "كاميرا عين سمكة 2 ميجابكسل مع أشعة تحت حمراء",
+    "2MP AcuSense Varifocal": "كاميرا متغيرة البعد البؤري 2 ميجابكسل أكيو سينس",
+    "4MP KPOI Camera": "كاميرا KPOI 4 ميجابكسل مع عدسة",
+    "4MP ANPR/LPR Bullet": "كاميرا ANPR/LPR للوحات المركبات 4 ميجابكسل",
+    "4MP IR Bullet": "كاميرا رصاصية 4 ميجابكسل مع أشعة تحت حمراء",
+    "8MP 4K IR Bullet": "كاميرا رصاصية 8 ميجابكسل 4K مع أشعة تحت حمراء",
+    "Secuview 2MP Outdoor Fixed Bullet IP Camera": "كاميرا سيكيوفي رصاصية خارجية 2 ميجابكسل IP بعدسة ثابتة",
+    "Secuview 8MP Full HD Outdoor IP Camera": "كاميرا سيكيوفي خارجية 8 ميجابكسل كاملة الدقة IP مقاومة للماء",
+    "Secuview 6MP Outdoor IP PTZ Camera": "كاميرا سيكيوفي PTZ خارجية 6 ميجابكسل IP مع عدسة أوتوفوكاس",
+    "Secuview 12MP Outdoor IP Camera": "كاميرا سيكيوفي خارجية 12 ميجابكسل IP مع كشف ذكي",
+    "Secuview WiFi Outdoor Weatherproof Security Camera": "كاميرا سيكيوفي خارجية لاسلكية WiFi مقاومة للعوامل الجوية",
+    "Secuview Wireless IP Solar-powered": "كاميرا سيكيوفي لاسلكية IP تعمل بالطاقة الشمسية 4G",
+    "Secuview 4G Smart Dash Cam": "كاميرا سيارة ذكية 4G سيكيوفي معتمدة من وزارة الداخلية",
+    "Thermal Bi-Spectrum": "كاميرا حرارية ثنائية الطيف",
+    "Channel 4K NVR": "جهاز تسجيل NVR لـ",
+    "Channel NVR": "جهاز تسجيل NVR لـ",
+    "16CH NVR for KPOI": "جهاز تسجيل NVR لـ KPOI 16 قناة",
+    "16CH NVR for ANPR": "جهاز تسجيل NVR لـ ANPR 16 قناة",
+    "Secuview 16CH 4K Hybrid NVR PoE Built-in": "جهاز تسجيل سيكيوفي NVR هجين 16 قناة 4K مزود بـ PoE",
+    "Secuview 8CH 4K NVR Ultra HD PoE Built-in": "جهاز تسجيل سيكيوفي NVR 8 قناة 4K فائق الدقة مزود بـ PoE",
+    "Secuview 8CH 4K NVR Non-PoE": "جهاز تسجيل سيكيوفي NVR 8 قناة 4K بدون PoE",
+    "Secuview 16CH 4K Non-PoE Hybrid NVR": "جهاز تسجيل سيكيوفي NVR هجين 16 قناة 4K بدون PoE",
+    "Surveillance HDD": "قرص صلب للمراقبة",
+    "TB Surveillance HDD": "تيرابايت قرص صلب للمراقبة",
+    "PoE+ Switch": "سويتش PoE+",
+    "Port Gigabit": "منفذ جيجابت",
+    "Secuview 4-Port Gigabit PoE Switch": "سويتش سيكيوفي 4 منافذ جيجابت PoE",
+    "Secuview 8-Port Gigabit PoE+ Switch": "سويتش سيكيوفي 8 منافذ جيجابت PoE+",
+    "Secuview 16-Port Gigabit PoE Switch": "سويتش سيكيوفي 16 منفذ جيجابت PoE",
+    "Secuview 24-Port Gigabit PoE Switch": "سويتش سيكيوفي 24 منفذ جيجابت PoE",
+    "Secuview 5-Port Gigabit Ethernet Switch": "سويتش إيثرنت سيكيوفي 5 منافذ جيجابت",
+    "Secuview 8-Port Gigabit Ethernet Switch": "سويتش إيثرنت سيكيوفي 8 منافذ جيجابت",
+    "Secuview 5-Port Fast Ethernet Switch": "سويتش إيثرنت سيكيوفي 5 منافذ سريع",
+    "Secuview 8-Port Fast Ethernet Switch": "سويتش إيثرنت سيكيوفي 8 منافذ سريع",
+    "Secuview 11ac 1200Mbps 4G LTE Wi-Fi Router": "راوتر سيكيوفي 4G LTE 1200 ميجابايت في الثانية مع واي فاي",
+    "Secuview Outdoor Wireless 4G Router": "راوتر سيكيوفي خارجي لاسلكي 4G مقاوم للعوامل الجوية",
+    "Wall-Mount Rack": "خزانة حائط",
+    "Floor Mount Rack": "خزانة أرضية",
+    "Secuview 19\" 4U SPCC Network Cabinet": "خزانة شبكات سيكيوفي 4U SPCC",
+    "Secuview 19\" 9U SPCC Data Center Cabinet": "خزانة مركز بيانات سيكيوفي 9U SPCC",
+    "Secuview 19\" 12U SPCC Network Cabinet": "خزانة شبكات سيكيوفي 12U SPCC",
+    "Secuview 19\" 15U SPCC Network Cabinet": "خزانة شبكات سيكيوفي 15U SPCC",
+    "Secuview 19\" 18U SPCC Network Cabinet": "خزانة شبكات سيكيوفي 18U SPCC",
+    "Secuview 19\" 22U 600x600 SPCC Network Rack": "رف شبكات سيكيوفي 22U 600x600 SPCC",
+    "Secuview 19\" 22U SPCC Network Rack 600x800": "رف شبكات سيكيوفي 22U 600x800 SPCC",
+    "Full HD LED Monitor": "شاشة LED كاملة الدقة",
+    "Secuview 22-Inch HD LED Monitor": "شاشة سيكيوفي LED 22 بوصة عالية الدقة",
+    "inch 4K UHD Monitor": "بوصة 4K UHD شاشة",
+    "Dell OptiPlex CCTV Workstation": "محطة عمل ديل أوبتي بلكس للمراقبة",
+    "Dell Precision CCTV Workstation": "محطة عمل ديل بريسيجن للمراقبة",
+    "Rack-Type Online UPS": "UPS اونلاين من نوع الرف",
+    "Wall Mount Camera Bracket": "حامل تثبيت حائط للكاميرا",
+    "Bullet Camera Base Box": "صندوق قاعدة للكاميرا الرصاصية",
+    "Hanging/Pendant Mount Stand": "حامل تعليق للكاميرات",
+    "Pole Mount Bracket": "حامل تثبيت على عمود",
+    "Meter Galvanized Pole": "متر عمود مجلفن",
+    "CAT6 UTP Patch Cord": "كابل باتش CAT6",
+    "Rack PDU": "وحدة توزيع طاقة للرف",
+    "CAT6 Patch Panel": "بانل باتش CAT6",
+    "Horizontal Cable Manager": "مدير كابلات أفقي",
+    "CAT6 UTP Cable": "كابل CAT6 UTP",
+    "PVC Conduit": "ماسورة PVC",
+    "HIK-Central VMS Base": "ترخيص HIK-Central VMS أساسي",
+    "HIK-Central P-ANPR": "ترخيص HIK-Central P-ANPR",
+    "HIK-Central Extra": "ترخيص إضافي HIK-Central",
+    "VMS Software License": "رخصة برنامج إدارة الفيديو",
+    "Camera Installation & Cabling": "تركيب الكاميرات وتمديد الكابلات",
+    "NVR Configuration & Setup": "إعداد وتكوين جهاز التسجيل NVR",
+    "DSA/DIA": "رسومات DSA/DIA والتوثيق والموافقات",
+    "Annual Maintenance Contract": "عقد الصيانة السنوية",
+    "Access Control System": "نظام تحكم دخول",
+    "UPS": "UPS",
+    "Battery Cabinet": "خزانة بطاريات",
+    "External Battery": "بطارية خارجية",
+    "Patch Cord": "كابل باتش",
+    # Door phones / doorbells
+    "Secuview 10\" WiFi Smart Video DoorPhone": "جهاز اتصال باب فيديو سيكيوفي 10 بوصة WiFi ذكي",
+    "Secuview Full HD Wi-Fi Smart Doorphone": "كاميرا باب سيكيوفي ذكية خارجية WiFi عالية الدقة",
+    "Secuview IP Smart Video Doorbell": "جرس باب فيديو سيكيوفي IP ذكي",
+    "Secuview Smart Wi-Fi Waterproof Video Doorbell": "جرس باب فيديو سيكيوفي WiFi ذكي مقاوم للماء",
+    # Smart locks
+    "Secuview Mobile Control Smart Door Lock": "قفل باب ذكي سيكيوفي مع تحكم عبر الجوال",
+    "Secuview WiFi Smart Door Lock for Home Safety": "قفل باب WiFi ذكي سيكيوفي لسلامة المنزل",
+    "Secuview Fingerprint Smart Lock with Remote Control": "قفل ذكي سيكيوفي ببصمة الأصبع مع تحكم عن بعد",
+    "Secuview Smart Home Door Lock with Remote Control": "قفل باب منزل ذكي سيكيوفي مع تحكم عن بعد",
+    "Secuview Smart Glass Door Lock Device for Office": "قفل باب زجاجي ذكي سيكيوفي للمكاتب",
+    "Secuview Mobile Control Fingerprint Smart Lock": "قفل ذكي سيكيوفي ببصمة الأصبع مع تحكم عبر الجوال",
+    "Secuview Keyless Entry Savvy Digital Lock": "قفل رقمي سيكيوفي ذكي بدون مفتاح",
+    "Secuview Keyless Entry Smart Door Lock with Fingerprint": "قفل باب ذكي سيكيوفي بدون مفتاح مع بصمة",
+    "Secuview Smart Technology Door Lock": "قفل باب سيكيوفي بتقنية ذكية",
+    "Secuview Waterproof Smart Courtyard Gate Lock": "قفل بوابة سيكيوفي ذكي مقاوم للماء للفناء الخارجي",
+    # Smart switches
+    "Secuview 1-Gang WiFi Remote Control Smart Switch": "مفتاح ذكي سيكيوفي 1-مجموعة WiFi مع تحكم عن بعد",
+    "Secuview 1-Gang Brushed Panel Smart Switch": "مفتاح ذكي سيكيوفي 1-مجموعة بلوح فرشاة",
+    "Secuview 4-Gang WiFi Remote Control Smart Switch": "مفتاح ذكي سيكيوفي 4-مجموعات WiFi مع تحكم عن بعد",
+    "Secuview 4-Gang Brushed Panel Smart Switch": "مفتاح ذكي سيكيوفي 4-مجموعات بلوح فرشاة",
+    "Secuview Smart IR Remote Controller": "جهاز تحكم عن بعد سيكيوفي ذكي بالأشعة تحت الحمراء",
+    # PABX & Telephones
+    "Secuview 16-Channel PABX Advanced Communication": "مقسم هاتفي سيكيوفي 16 خط اتصال متطور",
+    "Secuview Hybrid PABX 16 Channels": "مقسم هاتفي هجين سيكيوفي 16 خط",
+    "Secuview Caller ID Telephone": "هاتف سيكيوفي مع معرف المتصل",
+    # Cables
+    "Secuview 100m RG59+2C Coaxial Cable": "كابل سيكيوفي محوري 100 متر RG59 مع طاقة",
+    "Secuview 305m RG59+2C Coaxial Cable": "كابل سيكيوفي محوري 305 متر RG59 مع طاقة",
+    "Secuview RG6/U Coaxial Cable 305M": "كابل سيكيوفي محوري RG6 305 متر",
+    "Secuview 2.0 HDTV 1.5M Cable": "كابل سيكيوفي HDMI 2.0 بطول 1.5 متر",
+    "Secuview 2.0 HDTV 5M Cable": "كابل سيكيوفي HDMI 2.0 بطول 5 متر",
+    "Secuview 2.0 HDTV 10M Cable": "كابل سيكيوفي HDMI 2.0 بطول 10 متر",
+    "Secuview 2.0 HDTV 20M Cable": "كابل سيكيوفي HDMI 2.0 بطول 20 متر",
+    # Accessories (mounts, brackets, etc.)
+    "Secuview Universal Wall Mount Metal Bracket": "حامل تثبيت حائط معدني سيكيوفي عالمي",
+    "Secuview 1258ZJ L-Type Wall Mount Bracket Plastic": "حامل تثبيت حائط سيكيوفي بلاستيك نوع L",
+    "Secuview 1258 ABS L-Type Wall Mount Bracket": "حامل تثبيت حائط سيكيوفي معدني نوع L",
+    "Secuview 1-2M TS Adjustable Metal Bracket": "حامل معدني سيكيوفي قابل للتعديل 1-2 متر",
+    "Secuview 14-Inch Universal PTZ Mount": "حامل PTZ سيكيوفي عالمي 14 بوصة",
+    "Secuview Adjustable PTZ Metal Mount Bracket": "حامل PTZ معدني سيكيوفي قابل للتعديل",
+    "Secuview 105mm Waterproof Metal Junction Box": "صندوق توصيل سيكيوفي معدني مقاوم للماء 105 مم",
+    "Secuview 120mm Waterproof Metal Junction Box": "صندوق توصيل سيكيوفي معدني مقاوم للماء 120 مم",
+    "Secuview Compact Indoor Metal Junction Box": "صندوق توصيل سيكيوفي معدني داخلي مضغوط",
+    "Secuview 160mm Waterproof Metal Junction Box": "صندوق توصيل سيكيوفي معدني مقاوم للماء 160 مم",
+    "Secuview 12V 2A AC/DC Plug Power Adapter": "محول طاقة سيكيوفي 12V 2A AC/DC",
+    "Secuview 12V 2A Waterproof Power Adapter": "محول طاقة سيكيوفي 12V 2A مقاوم للماء",
+    "Secuview High Performance 12V 10A Adapter": "محول طاقة سيكيوفي عالي الأداء 12V 10A",
+    "Secuview 12V 20A Power Supply": "مزود طاقة سيكيوفي 12V 20A",
+    "Secuview 12V 30A Heavy-Duty Power Supply": "مزود طاقة سيكيوفي ثقيل 12V 30A",
+    "Secuview 1x8 HDMI Splitter 4K": "موزع HDMI سيكيوفي 1x8 4K",
+    "Secuview 4K HDMI Splitter 4 Screens": "موزع HDMI سيكيوفي 4K لأربع شاشات",
+    "Secuview 4K 60Hz HDMI Extender 60M CAT6": "موسع HDMI سيكيوفي 4K 60Hz لمسافة 60 متر CAT6",
+    "Secuview 4K HDMI+USB KVM Extender 120M": "موسع KVM سيكيوفي HDMI+USB 4K لمسافة 120 متر",
+    "Secuview 400m HD Signal Video Balun": "بالون فيديو سيكيوفي عالي الدقة 400 متر",
+    "Secuview Gigabit PoE Extender Weatherproof": "موسع PoE جيجابت سيكيوفي مقاوم للعوامل الجوية",
+    "Secuview USB RJ45 Extender 150ft": "موسع USB سيكيوفي عبر RJ45 لمسافة 150 قدم",
+    "Secuview Mounting Metal Bracket for CCTV": "حامل تثبيت سيكيوفي معدني لكاميرات المراقبة",
+}
+
+def get_model_ar(model_en):
+    for key, val in MODEL_AR.items():
+        if key in model_en:
+            return val
+    return model_en
+
 def load_rates():
     with open(RATES_PATH, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -81,6 +273,95 @@ def list_rates():
             print(f"    {key:25s} {p:>8,} {CURRENCY}  | {m}{moi}")
     print()
 
+# ── Extra Items (non-CCTV products) ───────────────────────────────────────
+# Order matters: more specific phrases must come before general ones.
+EXTRA_ITEM_PATTERNS = [
+    # Door phones / doorbells
+    ("door phone monitor",     "doorphone",      "secuview_10in_wifi_kit"),
+    ("door phone camera",      "doorphone",      "secuview_hd_wifi_camera"),
+    ("video door phone",       "doorphone",      "secuview_10in_wifi_kit"),
+    ("door phone",             "doorphone",      "secuview_10in_wifi_kit"),
+    ("doorbell",               "doorphone",      "secuview_ip_doorbell"),
+    ("video doorbell",         "doorphone",      "secuview_ip_doorbell"),
+    # Smart locks
+    ("smart lock",             "smart_locks",    "secuview_fingerprint_lock"),
+    ("fingerprint lock",       "smart_locks",    "secuview_fingerprint_lock"),
+    ("digital lock",           "smart_locks",    "secuview_keyless_entry"),
+    ("gate lock",              "smart_locks",    "secuview_gate_lock"),
+    ("glass door lock",        "smart_locks",    "secuview_glass_door_lock"),
+    # Smart switches
+    ("smart switch",           "smart_switches", "secuview_4gang_wifi"),
+    ("smart socket",           "smart_switches", "secuview_1gang_wifi"),
+    ("smart remote",           "smart_switches", "secuview_smart_ir_remote"),
+    ("ir remote",              "smart_switches", "secuview_smart_ir_remote"),
+    ("ir controller",          "smart_switches", "secuview_smart_ir_remote"),
+    # Access points
+    ("access point",           "access_points",  "secuview_wifi6_ax1800"),
+    # TV / Satellite
+    ("tv satellite outlet",    "tv_satellite",   "secuview_internet_sat_socket"),
+    ("tv satellite",           "tv_satellite",   "secuview_internet_sat_socket"),
+    ("internet satellite",     "tv_satellite",   "secuview_internet_sat_socket"),
+    ("satellite outlet",       "tv_satellite",   "secuview_internet_sat_socket"),
+    # Speakers
+    ("wall speaker",           "speakers",       "secuview_20w_hanging"),
+    ("ceiling speaker",        "speakers",       "secuview_10w_ceiling"),
+    ("volume controller",      "volume_controls","secuview_30w_vc_steel"),
+    ("volume control",         "volume_controls","secuview_30w_vc_steel"),
+    ("speaker",                "speakers",       "secuview_10w_ceiling"),
+    # PABX / Telephones
+    ("pabx",                   "pabx",           "secuview_16ch_pabx"),
+    ("telephone",              "pabx",           "secuview_caller_id_phone"),
+    ("phone",                  "pabx",           "secuview_caller_id_phone"),
+    # Cables
+    ("hdmi cable",             "cables",         "secuview_hdmi_5m"),
+    ("hdmi",                   "cables",         "secuview_hdmi_5m"),
+    ("coaxial cable",          "cables",         "secuview_rg59_100m"),
+    ("coax cable",             "cables",         "secuview_rg59_100m"),
+    # Routers
+    ("4g router",              "routers",        "secuview_4g_lte_1200"),
+    ("lte router",             "routers",        "secuview_4g_lte_1200"),
+    # Ethernet switches
+    ("network switch",         "ethernet_switches","secuview_8port_gig"),
+    ("gigabit switch",         "ethernet_switches","secuview_8port_gig"),
+]
+
+EXTRA_CAT_LABEL = {
+    "doorphone":       "Door Phone",
+    "smart_locks":     "Smart Locks",
+    "smart_switches":  "Smart Switches",
+    "access_points":   "Access Points",
+    "tv_satellite":    "TV / Satellite",
+    "speakers":        "Speakers",
+    "volume_controls": "Volume Controls",
+    "pabx":            "PABX & Telephones",
+    "cables":          "Cables",
+    "routers":         "Routers",
+    "ethernet_switches":"Ethernet Switches",
+}
+
+def parse_extra_items(text):
+    """Extract non-CCTV extra items from natural language.
+
+    Returns (extra_items, cleaned_text) where extra_items is a list of
+    (category, item_key, quantity) tuples and cleaned_text has matched
+    fragments removed so the caller can parse camera info from it.
+    """
+    t = text.strip().lower()
+    extra_items = []
+
+    for phrase, cat, key in EXTRA_ITEM_PATTERNS:
+        rgx = re.compile(r"(\d+)\s*" + re.escape(phrase) + r"s?\b")
+        while True:
+            m = rgx.search(t)
+            if not m:
+                break
+            qty = int(m.group(1))
+            extra_items.append((cat, key, qty))
+            t = t[:m.start()] + t[m.end():]
+
+    return extra_items, t
+
+
 def parse_input(text):
     """Parse natural language like '8 cameras 2MP for mosque'"""
     t = text.strip().lower()
@@ -103,6 +384,16 @@ def parse_input(text):
         cam_type = "4mp_anpr"
     elif "thermal" in t or "heat" in t:
         cam_type = "thermal"
+    elif "ptz" in t or "pan tilt" in t or "pan-tilt" in t:
+        cam_type = "6mp_ptz"
+    elif "12mp" in t or "12 mp" in t:
+        cam_type = "12mp_bullet"
+    elif "solar" in t or "solar powered" in t or "solar 4g" in t:
+        cam_type = "solar_4g_camera"
+    elif "dash" in t or "dash cam" in t or "car camera" in t:
+        cam_type = "dash_cam_4g"
+    elif "wifi" in t or "wireless" in t or "wi-fi" in t:
+        cam_type = "wifi_camera"
     elif "8mp" in t or "8 mp" in t or "4k" in t:
         cam_type = "8mp_bullet"
     elif "4mp" in t or "4 mp" in t:
@@ -114,6 +405,13 @@ def parse_input(text):
             cam_type = "2mp_varifocal"
         else:
             cam_type = "2mp_bullet"
+
+    # Brand-aware: if "secuview" mentioned, switch to Secuview-branded camera variant
+    if "secuview" in t and not cam_type.startswith("secuview_") and not cam_type.startswith("thermal"):
+        brand_key = f"secuview_{cam_type}"
+        rates = load_rates()
+        if brand_key in rates.get("cameras", {}):
+            cam_type = brand_key
 
     customer = None
     for prefix in ["for ", "at ", "customer ", "client "]:
@@ -150,22 +448,30 @@ def select_nvr(cam_count, cam_type, rates, cam_list=None):
     rules = rates.get("_system_rules", {})
     mapping = rules.get("nvr_selection", {}).get("mapping", [])
 
-    if cam_list:
-        for _, ct in cam_list:
-            if ct == "4mp_anpr":
-                return "16ch_anpr" if "16ch_anpr" in nvrs else "16ch_2mp"
-            if ct == "4mp_kpoi":
-                return "16ch_kpoi" if "16ch_kpoi" in nvrs else "16ch_2mp"
-
-    if cam_type == "4mp_anpr":
-        return "16ch_anpr" if "16ch_anpr" in nvrs else "16ch_2mp"
-    if cam_type == "4mp_kpoi":
-        return "16ch_kpoi" if "16ch_kpoi" in nvrs else "16ch_2mp"
-
+    # Determine NVR by channel count first
+    nvr_by_count = None
     for m in mapping:
         if cam_count <= m["max_cameras"]:
-            return m["nvr_key"]
-    return "64ch_2mp"
+            nvr_by_count = m["nvr_key"]
+            break
+    if nvr_by_count is None:
+        nvr_by_count = "64ch_2mp"
+
+    if cam_list:
+        has_anpr = any(ct == "4mp_anpr" for _, ct in cam_list)
+        has_kpoi = any(ct == "4mp_kpoi" for _, ct in cam_list)
+        if has_anpr and cam_count <= 13:
+            return "16ch_anpr" if "16ch_anpr" in nvrs else nvr_by_count
+        if has_kpoi and cam_count <= 13:
+            return "16ch_kpoi" if "16ch_kpoi" in nvrs else nvr_by_count
+        return nvr_by_count
+
+    if cam_type == "4mp_anpr" and cam_count <= 13:
+        return "16ch_anpr" if "16ch_anpr" in nvrs else "16ch_2mp"
+    if cam_type == "4mp_kpoi" and cam_count <= 13:
+        return "16ch_kpoi" if "16ch_kpoi" in nvrs else "16ch_2mp"
+
+    return nvr_by_count
 
 def calc_storage(cam_count, cam_type, retention_days, rates, cam_list=None):
     """Calculate HDD requirements with RAID overhead"""
@@ -234,7 +540,7 @@ def select_rack(cam_count):
     else:
         return "42u"
 
-def build_quotation(count_or_list, cam_type=None, customer=None, discount_pct=0, moi_mode=False):
+def build_quotation(count_or_list, cam_type=None, customer=None, discount_pct=0, moi_mode=False, extra_items=None):
     """Build quotation. Supports single type: build_quotation(8, '2mp_bullet', ...)
     or mixed types: build_quotation([(10,'2mp_bullet'),(3,'2mp_varifocal')], ...)"""
     rates = load_rates()
@@ -252,11 +558,19 @@ def build_quotation(count_or_list, cam_type=None, customer=None, discount_pct=0,
     lines = []
     n = 1
 
+    def ml(model_en, desc_en=None):
+        model_ar = get_model_ar(model_en)
+        desc_ar = get_model_ar(desc_en or model_en)
+        return {"model": model_en, "model_ar": model_ar,
+                "model_bilingual": f"{model_ar} / {model_en}",
+                "desc": desc_en or model_en, "desc_ar": desc_ar,
+                "desc_bilingual": f"{desc_ar} / {desc_en or model_en}"}
+
     cam_infos = []
     system_desc_parts = []
     for count, ct in cam_list:
         ci = rates["cameras"].get(ct, rates["cameras"]["2mp_bullet"])
-        lines.append({"#": n, "model": ci["model"], "desc": ci.get("description", ci["model"]), "qty": count, "price": ci["price"], "cat": "Cameras"})
+        lines.append({"#": n, **ml(ci["model"], ci.get("description", ci["model"])), "qty": count, "price": ci["price"], "cat": "Cameras"})
         n += 1
         cam_infos.append({"count": count, "cam_type": ct, "cam_info": ci})
         system_desc_parts.append(f"{count} x {ci['model']}")
@@ -264,7 +578,7 @@ def build_quotation(count_or_list, cam_type=None, customer=None, discount_pct=0,
     # 2. NVR
     nvr_key = select_nvr(total_count, primary_type, rates, cam_list if isinstance(count_or_list, list) else None)
     nvr_info = rates["nvrs"].get(nvr_key, rates["nvrs"]["16ch_2mp"])
-    lines.append({"#": n, "model": nvr_info["model"], "desc": nvr_info.get("description", nvr_info["model"]), "qty": 1, "price": nvr_info["price"], "cat": "NVR & Recording"})
+    lines.append({"#": n, **ml(nvr_info["model"], nvr_info.get("description", nvr_info["model"])), "qty": 1, "price": nvr_info["price"], "cat": "NVR & Recording"})
     n += 1
 
     # 3. HDDs with RAID if MOI
@@ -272,19 +586,19 @@ def build_quotation(count_or_list, cam_type=None, customer=None, discount_pct=0,
     hdd_choice, hdd_count = calc_storage(total_count, primary_type, retention, rates, hdd_cl)
     hdd_info = rates["hdd"].get(hdd_choice, rates["hdd"]["4tb"])
     raid_note = " (RAID 5 configured)" if moi_mode else ""
-    lines.append({"#": n, "model": hdd_info["model"], "desc": f"{hdd_info['description']} x {hdd_count}{raid_note}", "qty": hdd_count, "price": hdd_info["price"], "cat": "Storage"})
+    lines.append({"#": n, **ml(hdd_info["model"], f"{hdd_info['description']} x {hdd_count}{raid_note}"), "qty": hdd_count, "price": hdd_info["price"], "cat": "Storage"})
     n += 1
 
     # 4. PoE Switch
     sw_key, sw_count = select_switch(total_count, rates)
     sw_info = rates["switches"].get(sw_key, rates["switches"]["16port_poe"])
-    lines.append({"#": n, "model": sw_info["model"], "desc": f"{sw_info['description']} x {sw_count}", "qty": sw_count, "price": sw_info["price"], "cat": "Networking"})
+    lines.append({"#": n, **ml(sw_info["model"], f"{sw_info['description']} x {sw_count}"), "qty": sw_count, "price": sw_info["price"], "cat": "Networking"})
     n += 1
 
     # 5. Rack
     rack_key = select_rack(total_count)
     rack_info = rates["racks"].get(rack_key, rates["racks"]["18u"])
-    lines.append({"#": n, "model": rack_info["model"], "desc": rack_info["description"], "qty": 1, "price": rack_info["price"], "cat": "Infrastructure"})
+    lines.append({"#": n, **ml(rack_info["model"], rack_info["description"]), "qty": 1, "price": rack_info["price"], "cat": "Infrastructure"})
     n += 1
 
     # 6. Monitor
@@ -298,13 +612,13 @@ def build_quotation(count_or_list, cam_type=None, customer=None, discount_pct=0,
         monitor_key = "43inch"
     mon_info = rates["monitors"].get(monitor_key, rates["monitors"]["24inch"])
     mon_qty = 1
-    lines.append({"#": n, "model": mon_info["model"], "desc": mon_info["description"], "qty": mon_qty, "price": mon_info["price"], "cat": "Display"})
+    lines.append({"#": n, **ml(mon_info["model"], mon_info["description"]), "qty": mon_qty, "price": mon_info["price"], "cat": "Display"})
     n += 1
 
     # 7. Workstation (for larger systems)
     if total_count > 8:
         ws_info = rates["workstation"]["dell_optiplex"]
-        lines.append({"#": n, "model": ws_info["model"], "desc": ws_info["description"], "qty": 1, "price": ws_info["price"], "cat": "Workstation"})
+        lines.append({"#": n, **ml(ws_info["model"], ws_info["description"]), "qty": 1, "price": ws_info["price"], "cat": "Workstation"})
         n += 1
 
     # 8. UPS
@@ -315,10 +629,11 @@ def build_quotation(count_or_list, cam_type=None, customer=None, discount_pct=0,
     else:
         ups_key = "3kva_rack"
     ups_info = rates["ups"].get(ups_key, rates["ups"]["1kva_rack"])
-    lines.append({"#": n, "model": ups_info["model"], "desc": ups_info.get("description", ups_info["model"]), "qty": 1, "price": ups_info["price"], "cat": "Power"})
+    lines.append({"#": n, **ml(ups_info["model"], ups_info.get("description", ups_info["model"])), "qty": 1, "price": ups_info["price"], "cat": "Power"})
     n += 1
     bat_qty = 1 if total_count <= 8 else (2 if total_count <= 24 else 3)
-    lines.append({"#": n, "model": ups_info.get("battery_label", "Battery Cabinet"), "desc": f"External battery for {ups_info['model']}, {bat_qty} units for minimum 1hr runtime", "qty": bat_qty, "price": ups_info.get("battery_price", 1100), "cat": "Power"})
+    bat_label = ups_info.get("battery_label", "Battery Cabinet")
+    lines.append({"#": n, **ml(bat_label, f"External battery for {ups_info['model']}, {bat_qty} units for minimum 1hr runtime"), "qty": bat_qty, "price": ups_info.get("battery_price", 1100), "cat": "Power"})
     n += 1
 
     # 9. Mounts (one line per distinct mount type)
@@ -329,20 +644,20 @@ def build_quotation(count_or_list, cam_type=None, customer=None, discount_pct=0,
         mount_key = ci.get("default_mount", "wall_mount")
         if ct == "4mp_anpr":
             mnt = rates["accessories"]["pole_1_5m"]
-            lines.append({"#": n, "model": mnt["model"], "desc": f"1.5m pole mount for {ci_count} ANPR cameras", "qty": ci_count, "price": mnt["price"], "cat": "Mounting"})
+            lines.append({"#": n, **ml(mnt["model"], f"1.5m pole mount for {ci_count} ANPR cameras"), "qty": ci_count, "price": mnt["price"], "cat": "Mounting"})
             n += 1
             mnt = rates["accessories"]["pole_mount"]
-            lines.append({"#": n, "model": mnt["model"], "desc": f"Pole mount brackets for {ci_count} cameras", "qty": ci_count, "price": mnt["price"], "cat": "Mounting"})
+            lines.append({"#": n, **ml(mnt["model"], f"Pole mount brackets for {ci_count} cameras"), "qty": ci_count, "price": mnt["price"], "cat": "Mounting"})
             n += 1
             continue
         mnt = rates["accessories"].get(mount_key, rates["accessories"]["wall_mount"])
         label = "Hanging stands" if ct == "4mp_kpoi" else "Mounting brackets"
-        lines.append({"#": n, "model": mnt["model"], "desc": f"{label} for {ci_count} cameras", "qty": ci_count, "price": mnt["price"], "cat": "Mounting"})
+        lines.append({"#": n, **ml(mnt["model"], f"{label} for {ci_count} cameras"), "qty": ci_count, "price": mnt["price"], "cat": "Mounting"})
         n += 1
 
     # 10. Cabling
     patch_qty = total_count + 4
-    lines.append({"#": n, "model": "CAT6 UTP Patch Cord", "desc": "CAT6 patch cords for connections", "qty": patch_qty, "price": rates["accessories"]["patch_cord"]["price"], "cat": "Cabling"})
+    lines.append({"#": n, **ml("CAT6 UTP Patch Cord", "CAT6 patch cords for connections"), "qty": patch_qty, "price": rates["accessories"]["patch_cord"]["price"], "cat": "Cabling"})
     n += 1
 
     # 11. Rack accessories (for larger systems)
@@ -351,33 +666,33 @@ def build_quotation(count_or_list, cam_type=None, customer=None, discount_pct=0,
             acc = rates["accessories"].get(acc_key, {})
             if acc:
                 q = 2 if (acc_key == "patch_panel" and total_count > 24) else 1
-                lines.append({"#": n, "model": acc["model"], "desc": acc.get("description", acc["model"]), "qty": q, "price": acc["price"], "cat": "Infrastructure"})
+                lines.append({"#": n, **ml(acc["model"], acc.get("description", acc["model"])), "qty": q, "price": acc["price"], "cat": "Infrastructure"})
                 n += 1
 
     # 12. ANPR Licenses
     for _, ct in cam_list:
         if ct == "4mp_anpr":
             anpr_count = next((c for c, ct2 in cam_list if ct2 == "4mp_anpr"), 0)
-            lines.append({"#": n, "model": "HIK-Central P-ANPR 1-CH License", "desc": f"ANPR license for {anpr_count} LPR cameras", "qty": anpr_count, "price": rates["licenses"]["hikcentral_anpr_1ch"]["price"], "cat": "Licenses"})
+            lines.append({"#": n, **ml("HIK-Central P-ANPR 1-CH License", f"ANPR license for {anpr_count} LPR cameras"), "qty": anpr_count, "price": rates["licenses"]["hikcentral_anpr_1ch"]["price"], "cat": "Licenses"})
             n += 1
-            lines.append({"#": n, "model": "HIK-Central VMS Base License", "desc": "VMS base license", "qty": 1, "price": rates["licenses"]["hikcentral_base"]["price"], "cat": "Licenses"})
+            lines.append({"#": n, **ml("HIK-Central VMS Base License", "VMS base license"), "qty": 1, "price": rates["licenses"]["hikcentral_base"]["price"], "cat": "Licenses"})
             n += 1
             break
 
     # 13. Installation
     inst_price = rates["services"]["installation_per_camera"]["price"]
-    lines.append({"#": n, "model": "Camera Installation & Cabling", "desc": f"Professional installation, cabling, conduit, configuration for {total_count} cameras", "qty": total_count, "price": inst_price, "cat": "Services"})
+    lines.append({"#": n, **ml("Camera Installation & Cabling", f"Professional installation, cabling, conduit, configuration for {total_count} cameras"), "qty": total_count, "price": inst_price, "cat": "Services"})
     n += 1
 
     # 14. NVR Configuration
-    lines.append({"#": n, "model": "NVR Configuration & Setup", "desc": "NVR RAID setup, network configuration, system commissioning", "qty": 1, "price": rates["services"]["nvr_configuration"]["price"], "cat": "Services"})
+    lines.append({"#": n, **ml("NVR Configuration & Setup", "NVR RAID setup, network configuration, system commissioning"), "qty": 1, "price": rates["services"]["nvr_configuration"]["price"], "cat": "Services"})
     n += 1
 
     # 15. DSA/DIA Approvals (for MOI or large systems)
     if moi_mode or total_count > 16:
         dsa_key = "dsa_dia_approvals" if total_count > 10 else "dsa_dia_small"
         dsa_info = rates["services"].get(dsa_key, rates["services"]["dsa_dia_approvals"])
-        lines.append({"#": n, "model": dsa_info["model"], "desc": dsa_info.get("description", dsa_info["model"]), "qty": 1, "price": dsa_info["price"], "cat": "Services"})
+        lines.append({"#": n, **ml(dsa_info["model"], dsa_info.get("description", dsa_info["model"])), "qty": 1, "price": dsa_info["price"], "cat": "Services"})
         n += 1
 
     # 16. AMC (for MOI compliance)
@@ -385,14 +700,28 @@ def build_quotation(count_or_list, cam_type=None, customer=None, discount_pct=0,
         amc_base = rates["services"]["amc_annual"]["price"]
         amc_per_cam = rates["services"]["amc_annual"]["price_per_camera"]
         amc_total = amc_base + (amc_per_cam * total_count)
-        lines.append({"#": n, "model": "Annual Maintenance Contract (AMC)", "desc": f"12-month AMC including cleaning, firmware updates, health checks, MOI compliance, repairs ({total_count} cameras)", "qty": 1, "price": amc_total, "cat": "Services"})
+        lines.append({"#": n, **ml("Annual Maintenance Contract (AMC)", f"12-month AMC including cleaning, firmware updates, health checks, MOI compliance, repairs ({total_count} cameras)"), "qty": 1, "price": amc_total, "cat": "Services"})
         n += 1
+
+    # 17. Extra items (door phone, access points, speakers, etc.)
+    extra_item_descs = []
+    if extra_items:
+        for cat, key, qty in extra_items:
+            item = rates.get(cat, {}).get(key)
+            if not item:
+                continue
+            label = EXTRA_CAT_LABEL.get(cat, cat.replace("_", " ").title())
+            desc = f"{qty} x {item.get('description', item['model'])}"
+            lines.append({"#": n, **ml(item["model"], desc), "qty": qty, "price": item["price"], "cat": label})
+            n += 1
+            extra_item_descs.append(f"{qty} x {item['model']}")
 
     subtotal = sum(i["qty"] * i["price"] for i in lines)
     discount_amount = round(subtotal * discount_pct / 100) if discount_pct > 0 else 0
     grand_total = subtotal - discount_amount
 
-    system_desc = " + ".join(system_desc_parts)
+    all_desc_parts = system_desc_parts + extra_item_descs
+    system_desc = " + ".join(all_desc_parts)
 
     return {
         "lines": lines, "count": total_count, "cam_type": primary_type,
@@ -492,7 +821,7 @@ def _add_prod_img(ws, row, img_file, col=3):
         import sys; print(f"[img] Warning: could not embed {img_file}: {e}", file=sys.stderr)
     return False
 
-def export_excel(q, filename=None):
+def export_excel(q, filename=None, arabic=False):
     try:
         import openpyxl
         from openpyxl.styles import Font, Alignment, Border, Side, PatternFill
@@ -512,56 +841,81 @@ def export_excel(q, filename=None):
     tfont = Font(name='Calibri', size=18, bold=True, color="1F4E79")
     sfont = Font(name='Calibri', size=10, color="555555")
     ifont = Font(name='Calibri', size=10)
+    arfont = Font(name='Calibri', size=10)
     bfont = Font(name='Calibri', size=12, bold=True)
     gfont = Font(name='Calibri', size=14, bold=True, color="1F4E79")
     tcfont = Font(name='Calibri', size=9, color="666666")
     ca = Alignment(horizontal='center', vertical='center', wrap_text=True)
     la = Alignment(horizontal='left', vertical='center', wrap_text=True)
     ra = Alignment(horizontal='right', vertical='center')
+    ral = Alignment(horizontal='right', vertical='center', wrap_text=True)
 
-    ws.merge_cells('A1:G1')
+    last_col = 9 if arabic else 7
+    last_letter = get_column_letter(last_col)
+
+    ws.merge_cells(f'A1:{last_letter}1')
     _add_logo(ws, rates)
     ws['A1'] = "  STARFOX SECURITY"
     ws['A1'].font = tfont
     ws['A1'].alignment = Alignment(horizontal='left', vertical='center')
     ws.row_dimensions[1].height = 55
 
-    ws.merge_cells('A2:G2')
+    ws.merge_cells(f'A2:{last_letter}2')
     subtitle = "CCTV & Smart Home Security Systems"
+    sub_ar = ARABIC['subtitle']
     if q["moi_mode"]:
         subtitle += " — MOI SSD Compliant (Law No. 9/2011)"
-    ws['A2'] = subtitle
+        sub_ar += f" {ARABIC['moi_subtitle']}"
+    ws_row2 = f"{subtitle} / {sub_ar}"
+    ws['A2'] = ws_row2
     ws['A2'].font = sfont
     ws['A2'].alignment = Alignment(horizontal='center', vertical='center')
 
-    ws.merge_cells('A3:G3')
-    ws['A3'] = COMPANY_INFO
+    ws.merge_cells(f'A3:{last_letter}3')
+    ws['A3'] = f"{COMPANY_INFO} | {ARABIC['company_info']}"
     ws['A3'].font = Font(name='Calibri', size=9, color="888888")
     ws['A3'].alignment = Alignment(horizontal='center', vertical='center')
 
-    ws.merge_cells('A5:C5')
-    ws['A5'] = "QUOTATION"
+    ws.merge_cells(f'A5:C5')
+    ws['A5'] = f"QUOTATION / {ARABIC['quotation']}"
     ws['A5'].font = Font(name='Calibri', size=14, bold=True, color="1F4E79")
 
-    ws.merge_cells('D5:G5')
     ret = f"{q['retention_days']}-day retention"
     if q["moi_mode"]:
         ret += " | RAID 5"
-    ws['D5'] = f"Date: {q['date']}  |  {ret}"
+    date_str = f"Date / {ARABIC['date']}: {q['date']}  |  {ret}"
+    ws.merge_cells(f'D5:{last_letter}5')
+    ws['D5'] = date_str
     ws['D5'].font = Font(name='Calibri', size=9, color="555555")
     ws['D5'].alignment = ra
 
-    ws.merge_cells('A6:G6')
-    ws['A6'] = f"Customer: {q['customer']}"
+    ws.merge_cells(f'A6:{last_letter}6')
+    ws['A6'] = f"Customer / {ARABIC['customer']}: {q['customer']}"
     ws['A6'].font = Font(name='Calibri', size=11, bold=True)
 
-    ws.merge_cells('A7:G7')
     sys_desc = q.get("system_desc") or f"{q['count']} x {q['cam_info']['model']}"
-    ws['A7'] = f"System: {sys_desc}"
+    ws.merge_cells(f'A7:{last_letter}7')
+    ws['A7'] = f"System / {ARABIC['system']}: {sys_desc}"
     ws['A7'].font = Font(name='Calibri', size=10, color="555555")
 
-    hdrs = ["#", "Model", "Image", "Description", "Qty", "Unit Price (QAR)", "Amount (QAR)"]
-    widths = [6, 28, 10, 55, 8, 16, 16]
+    if arabic:
+        hdrs = ["# / #", "Model / الموديل", "Description / الوصف", "Image", "Qty / الكمية", "Unit Price (QAR) / سعر الوحدة (ريال)", "Amount (QAR) / الإجمالي (ريال)"]
+        widths = [6, 35, 55, 10, 10, 18, 18]
+        col_offset = 0
+        model_col = 2
+        desc_col = 3
+        model_key = "model_bilingual"
+        desc_key = "desc_bilingual"
+    else:
+        hdrs = ["#", "Model", "Image", "Description", "Qty", "Unit Price (QAR)", "Amount (QAR)"]
+        widths = [6, 28, 10, 55, 8, 16, 16]
+        col_offset = 0
+        model_col = 2
+        desc_col = 4
+        model_key = "model"
+        desc_key = "desc"
+
+    ncols = len(hdrs)
     for i, (h, w) in enumerate(zip(hdrs, widths), 1):
         c = ws.cell(row=9, column=i, value=h)
         c.font = hfont; c.fill = hfill; c.alignment = ca; c.border = thin
@@ -571,55 +925,72 @@ def export_excel(q, filename=None):
         r = 10 + idx
         amt = item["qty"] * item["price"]
         ws.cell(r, 1, value=item["#"]).font = ifont; ws.cell(r, 1).alignment = ca
-        ws.cell(r, 2, value=item["model"]).font = ifont; ws.cell(r, 2).alignment = la
-        img_ref = _find_item_image(item, rates)
-        _add_prod_img(ws, r, img_ref, col=3)
-        ws.cell(r, 4, value=item["desc"]).font = ifont; ws.cell(r, 4).alignment = la
-        ws.cell(r, 5, value=item["qty"]).font = ifont; ws.cell(r, 5).alignment = ca
-        pc = ws.cell(r, 6, value=item["price"]); pc.font = ifont; pc.alignment = ra; pc.number_format = '#,##0'
-        ac = ws.cell(r, 7, value=amt); ac.font = ifont; ac.alignment = ra; ac.number_format = '#,##0'
-        for c in range(1, 8):
-            ws.cell(r, c).border = thin
+        ws.cell(r, model_col, value=item[model_key]).font = arfont if arabic else ifont
+        if arabic:
+            ws.cell(r, model_col).alignment = ral
+        else:
+            ws.cell(r, model_col).alignment = la
+        if arabic:
+            img_ref = _find_item_image(item, rates)
+            _add_prod_img(ws, r, img_ref, col=4)
+            ws.cell(r, desc_col, value=item[desc_key]).font = arfont; ws.cell(r, desc_col).alignment = ral
+            ws.cell(r, 5, value=item["qty"]).font = ifont; ws.cell(r, 5).alignment = ca
+            pc = ws.cell(r, 6, value=item["price"]); pc.font = ifont; pc.alignment = ra; pc.number_format = '#,##0'
+            ac = ws.cell(r, 7, value=amt); ac.font = ifont; ac.alignment = ra; ac.number_format = '#,##0'
+            for c in range(1, ncols + 1):
+                ws.cell(r, c).border = thin
+        else:
+            img_ref = _find_item_image(item, rates)
+            _add_prod_img(ws, r, img_ref, col=3)
+            ws.cell(r, desc_col, value=item[desc_key]).font = ifont; ws.cell(r, desc_col).alignment = la
+            ws.cell(r, 5, value=item["qty"]).font = ifont; ws.cell(r, 5).alignment = ca
+            pc = ws.cell(r, 6, value=item["price"]); pc.font = ifont; pc.alignment = ra; pc.number_format = '#,##0'
+            ac = ws.cell(r, 7, value=amt); ac.font = ifont; ac.alignment = ra; ac.number_format = '#,##0'
+            for c in range(1, 8):
+                ws.cell(r, c).border = thin
         ws.row_dimensions[r].height = 65
 
     tr = 10 + len(q["lines"])
-    ws.merge_cells(f'A{tr}:E{tr}')
-    ws.cell(tr, 1, value="Subtotal").font = bfont; ws.cell(tr, 1).alignment = ra
-    ws.merge_cells(f'F{tr}:G{tr}')
-    sc = ws.cell(tr, 6, value=q["subtotal"]); sc.font = bfont; sc.alignment = ra; sc.number_format = '#,##0'
-    for c in range(1, 8):
+    ws.merge_cells(f'A{tr}:D{tr}')
+    ws.cell(tr, 1, value=f"Subtotal / {ARABIC['subtotal']}").font = bfont; ws.cell(tr, 1).alignment = ra
+    ws.merge_cells(f'E{tr}:{last_letter}{tr}')
+    sc = ws.cell(tr, 5, value=q["subtotal"]);
+    sc.font = bfont; sc.alignment = ra; sc.number_format = '#,##0'
+    for c in range(1, last_col + 1):
         ws.cell(tr, c).border = thin
 
     if q["discount_amount"] > 0:
         dr = tr + 1
-        ws.merge_cells(f'A{dr}:E{dr}')
+        ws.merge_cells(f'A{dr}:D{dr}')
         ws.cell(dr, 1, value=f"Discount ({q['discount_pct']}%)").font = bfont; ws.cell(dr, 1).alignment = ra
-        ws.merge_cells(f'F{dr}:G{dr}')
-        dc = ws.cell(dr, 6, value=-q["discount_amount"]); dc.font = bfont; dc.alignment = ra; dc.number_format = '#,##0'
-        for c in range(1, 8): ws.cell(dr, c).border = thin
+        ws.merge_cells(f'E{dr}:{last_letter}{dr}')
+        dc = ws.cell(dr, 5, value=-q["discount_amount"]); dc.font = bfont; dc.alignment = ra; dc.number_format = '#,##0'
+        for c in range(1, last_col + 1):
+            ws.cell(dr, c).border = thin
         gr = dr + 1
     else:
         gr = tr + 1
 
-    ws.merge_cells(f'A{gr}:E{gr}')
-    ws.cell(gr, 1, value="GRAND TOTAL").font = gfont; ws.cell(gr, 1).alignment = ra
-    ws.merge_cells(f'F{gr}:G{gr}')
-    gc = ws.cell(gr, 6, value=q["grand_total"]); gc.font = gfont; gc.alignment = ra; gc.number_format = '#,##0'
-    for c in range(1, 8):
+    ws.merge_cells(f'A{gr}:D{gr}')
+    ws.cell(gr, 1, value=f"GRAND TOTAL / {ARABIC['grand_total']}").font = gfont; ws.cell(gr, 1).alignment = ra
+    ws.merge_cells(f'E{gr}:{last_letter}{gr}')
+    gc = ws.cell(gr, 5, value=q["grand_total"]); gc.font = gfont; gc.alignment = ra; gc.number_format = '#,##0'
+    for c in range(1, last_col + 1):
         ws.cell(gr, c).border = double_top
 
     r2 = gr + 2
-    ws.merge_cells(f'A{r2}:G{r2}')
-    ws.cell(r2, 1, value="TERMS & CONDITIONS:").font = Font(name='Calibri', size=10, bold=True)
+    ws.merge_cells(f'A{r2}:{last_letter}{r2}')
+    ws.cell(r2, 1, value=f"TERMS & CONDITIONS / {ARABIC['terms_title']}").font = Font(name='Calibri', size=10, bold=True)
     terms = TERMS_MOI if q["moi_mode"] else TERMS_STANDARD
-    for i, t in enumerate(terms):
+    terms_ar = ARABIC['terms_moi'] if q["moi_mode"] else ARABIC['terms_standard']
+    for i, (t, ta) in enumerate(zip(terms, terms_ar)):
         r = r2 + 1 + i
-        ws.merge_cells(f'A{r}:G{r}')
-        ws.cell(r, 1, value=f"{i+1}. {t}").font = tcfont; ws.cell(r, 1).alignment = la
+        ws.merge_cells(f'A{r}:{last_letter}{r}')
+        ws.cell(r, 1, value=f"{i+1}. {t} / {ta}").font = tcfont; ws.cell(r, 1).alignment = la
 
     sr = r2 + len(terms) + 2
-    ws.merge_cells(f'A{sr}:G{sr}')
-    ws[f'A{sr}'] = COMPANY_INFO
+    ws.merge_cells(f'A{sr}:{last_letter}{sr}')
+    ws[f'A{sr}'] = f"{COMPANY_INFO} | {ARABIC['company_info']}"
     ws[f'A{sr}'].font = Font(name='Calibri', size=9, color="888888")
     ws[f'A{sr}'].alignment = Alignment(horizontal='center')
 
@@ -627,7 +998,8 @@ def export_excel(q, filename=None):
         ts = dt.datetime.now().strftime("%Y%m%d-%H%M%S")
         safe = re.sub(r'[^\w\s-]', '', q['customer'])[:20].strip()
         mode = "MOI-" if q["moi_mode"] else ""
-        filename = QUOTES_DIR / f"quotation-{mode}{safe}-{ts}.xlsx"
+        ar = "AR-" if arabic else ""
+        filename = QUOTES_DIR / f"quotation-{ar}{mode}{safe}-{ts}.xlsx"
 
     wb.save(str(filename))
     print(f"[excel] Quotation saved: {filename}")
@@ -675,8 +1047,9 @@ def interactive_mode():
     print("  - '8 cameras 2MP --moi'  (MOI compliant)")
     print("  - '10 cameras 2mp, 3 varifocal, 1 kpoi'  (mixed types)")
     print("  - 'rates' or 'list'  (show rate card)")
+    print("  - '--arabic' for bilingual EN/AR output")
     print("  - 'exit' to quit"); print()
-    moi = False
+    moi = False; arabic = False
     while True:
         try:
             inp = input("you: ").strip()
@@ -685,18 +1058,23 @@ def interactive_mode():
         if not inp: continue
         if inp.lower() in ("exit", "quit", "bye"): print("Goodbye!"); break
         if inp.lower() in ("list", "rates", "list rates"): list_rates(); continue
+        if "--arabic" in inp.lower():
+            arabic = True
+            inp = inp.replace("--arabic", "").strip()
         if "--moi" in inp.lower() or "/moi" in inp:
             moi = True
             inp = inp.replace("--moi", "").replace("/moi", "").strip()
-        if has_multi_cameras(inp):
-            cam_list = parse_multi_input(inp)
-            q = build_quotation(cam_list, customer=None, moi_mode=moi)
+        extra_items, cleaned = parse_extra_items(inp)
+        if has_multi_cameras(cleaned):
+            cam_list = parse_multi_input(cleaned)
+            q = build_quotation(cam_list, customer=None, moi_mode=moi, extra_items=extra_items)
         else:
-            count, cam_type, customer = parse_input(inp)
-            q = build_quotation(count, cam_type, customer, moi_mode=moi)
+            count, cam_type, customer = parse_input(cleaned)
+            q = build_quotation(count, cam_type, customer, moi_mode=moi, extra_items=extra_items)
+        q["arabic"] = arabic
         print_quotation(q)
-        export_excel(q)
-        moi = False
+        export_excel(q, arabic=arabic)
+        moi = False; arabic = False
 
 def main():
     if "--list-rates" in sys.argv:
@@ -712,9 +1090,11 @@ def main():
         interactive_mode(); return
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     moi_mode = "--moi" in sys.argv
+    arabic_mode = "--arabic" in sys.argv
     if not args:
         interactive_mode(); return
     text = args[0]
+    extra_items, cleaned_text = parse_extra_items(text)
     customer = None; discount_pct = 0
     if "--customer" in sys.argv:
         ci = sys.argv.index("--customer")
@@ -724,16 +1104,19 @@ def main():
         if di + 1 < len(sys.argv):
             try: discount_pct = float(sys.argv[di + 1])
             except ValueError: pass
-    if has_multi_cameras(text):
-        cam_list = parse_multi_input(text)
-        q = build_quotation(cam_list, customer=customer, discount_pct=discount_pct, moi_mode=moi_mode)
+    if has_multi_cameras(cleaned_text):
+        cam_list = parse_multi_input(cleaned_text)
+        q = build_quotation(cam_list, customer=customer, discount_pct=discount_pct, moi_mode=moi_mode, extra_items=extra_items)
     else:
-        count, cam_type, parsed_customer = parse_input(text)
+        count, cam_type, parsed_customer = parse_input(cleaned_text)
         if customer is None: customer = parsed_customer
-        q = build_quotation(count, cam_type, customer, discount_pct, moi_mode)
+        q = build_quotation(count, cam_type, customer, discount_pct, moi_mode, extra_items=extra_items)
+    q["arabic"] = arabic_mode
     print_quotation(q)
-    export_excel(q)
-    print(f"\n[info] {q['count']} cameras | {'MOI' if moi_mode else 'Standard'} mode")
+    export_excel(q, arabic=arabic_mode)
+    mode_str = f"{'MOI ' if moi_mode else ''}{'AR ' if arabic_mode else ''}"
+    extra_count = sum(qty for _, _, qty in extra_items)
+    print(f"\n[info] {q['count']} cameras | {extra_count} extra items | {mode_str}mode")
     print(f"[info] System: {q.get('system_desc', q['cam_type'])}")
     print(f"[info] Grand Total: {fn(q['grand_total'])} {CURRENCY}")
 

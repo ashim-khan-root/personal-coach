@@ -2,7 +2,7 @@
 name: ai-seo
 description: "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' or 'optimize for Claude/Gemini.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema."
 metadata:
-  version: 2.0.1
+  version: 2.1.0
 ---
 
 # AI SEO
@@ -320,12 +320,16 @@ Structured data helps AI systems understand your content. Key schemas:
 | Content Type | Schema | Why It Helps |
 |-------------|--------|-------------|
 | Articles/Blog posts | `Article`, `BlogPosting` | Author, date, topic identification |
-| How-to content | `HowTo` | Step extraction for process queries |
-| FAQs | `FAQPage` | Direct Q&A extraction |
+| FAQs | `FAQPage` | Direct Q&A extraction (AI/LLM citation benefit only — Google retired FAQ rich results for all sites May 7, 2026) |
 | Products | `Product` | Pricing, features, reviews |
-| Comparisons | `ItemList` | Structured comparison data |
+| Comparisons | `ItemList`, `Product` | Structured comparison data |
 | Reviews | `Review`, `AggregateRating` | Trust signals |
 | Organization | `Organization` | Entity recognition |
+| SoftwareApplication | `SoftwareApplication` | SaaS product details for AI agents |
+
+**Note on FAQ schema**: Google retired FAQ rich results for ALL sites on May 7, 2026. FAQPage markup no longer generates SERP rich results. However, it still benefits AI/LLM citation on non-Google engines (ChatGPT, Claude, Perplexity) which extract Q&A pairs directly from the markup. Keep existing FAQPage for this purpose but do not create new FAQPage solely for Google SERP benefit. Use QAPage for genuine user Q&A content.
+
+**Note on HowTo schema**: Deprecated by Google September 2023. Do not implement for new content.
 
 Content with proper schema shows 30-40% higher AI visibility on non-Google AI engines. **Google's note**: structured data is "not required for generative AI search" but is recommended for overall SEO strategy. For implementation, use the **schema** skill.
 

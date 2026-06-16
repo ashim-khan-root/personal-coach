@@ -21,3 +21,9 @@ venv/
 # OS
 Thumbs.db
 .DS_Store
+
+# Excel temp/lock files
+~$*
+
+# Hugo build output
+freetoolz/public/
