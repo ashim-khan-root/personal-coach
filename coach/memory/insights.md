@@ -2,7 +2,7 @@
 
 Auto-extracted patterns from session history.
 
-- id: 3c80c0a2ea33
+- id: 4ead434c3d86
   pattern: frequent_web-development
   category: frequency
   confidence: 0.75
@@ -11,7 +11,7 @@ Auto-extracted patterns from session history.
   summary: Practiced web-development 3 times — most practiced skill
   suggestion: Consider setting a mastery goal for web-development
 
-- id: c64ad2e14620
+- id: 3972f91a3018
   pattern: frequent_content-writing
   category: frequency
   confidence: 0.75
@@ -20,7 +20,7 @@ Auto-extracted patterns from session history.
   summary: Practiced content-writing 3 times — most practiced skill
   suggestion: Consider setting a mastery goal for content-writing
 
-- id: 8a24ec2cd14a
+- id: 205a900e9e79
   pattern: strong_at_content-writing
   category: strength
   confidence: 0.7
@@ -29,7 +29,7 @@ Auto-extracted patterns from session history.
   summary: Rated content-writing avg 9.3/10 across 3 sessions (0 win keywords)
   suggestion: Leverage content-writing strength — consider mentoring or deeper exploration
 
-- id: 8292dd265d46
+- id: 9a6e730ccbba
   pattern: struggles_with_build
   category: struggle
   confidence: 0.6
@@ -38,7 +38,7 @@ Auto-extracted patterns from session history.
   summary: Rated build avg 5.0/10 across 2 sessions (0 struggle keywords)
   suggestion: Review build fundamentals, practice with simpler exercises
 
-- id: 09e286ba8f9b
+- id: ea7794ad5e00
   pattern: struggles_with_deploy
   category: struggle
   confidence: 0.6
@@ -47,7 +47,7 @@ Auto-extracted patterns from session history.
   summary: Rated deploy avg 5.0/10 across 2 sessions (0 struggle keywords)
   suggestion: Review deploy fundamentals, practice with simpler exercises
 
-- id: 61cf5458fafb
+- id: 8643c262c918
   pattern: strong_at_blog-publishing-solar-4g
   category: strength
   confidence: 0.6
@@ -56,7 +56,7 @@ Auto-extracted patterns from session history.
   summary: Rated blog-publishing-solar-4g avg 9.0/10 across 2 sessions (0 win keywords)
   suggestion: Leverage blog-publishing-solar-4g strength — consider mentoring or deeper exploration
 
-- id: 3e2136597079
+- id: c72638a9fd25
   pattern: strong_at_content-seo-phase2
   category: strength
   confidence: 0.6
@@ -65,7 +65,7 @@ Auto-extracted patterns from session history.
   summary: Rated content-seo-phase2 avg 9.0/10 across 2 sessions (0 win keywords)
   suggestion: Leverage content-seo-phase2 strength — consider mentoring or deeper exploration
 
-- id: 10d8d4e11dd6
+- id: 6ae38335f63b
   pattern: strong_at_hugo-product-page-enhance
   category: strength
   confidence: 0.6
@@ -74,7 +74,7 @@ Auto-extracted patterns from session history.
   summary: Rated hugo-product-page-enhance avg 9.0/10 across 2 sessions (0 win keywords)
   suggestion: Leverage hugo-product-page-enhance strength — consider mentoring or deeper exploration
 
-- id: 3447b52a3598
+- id: 311aba57db1e
   pattern: strong_at_seo-optimization
   category: strength
   confidence: 0.6

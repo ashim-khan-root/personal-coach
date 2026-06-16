@@ -32,3 +32,6 @@ Format: `## [date] — [topic]`
 ## 2026-06-02 — coach-improvement (session)
 - Proactively prompt user for 15-min prompt engineering drills during lulls
 ---\ndate: 2026-06-05T22:13:00+03:00\ndecision: Start building a business/classified listing website for Qatar\ncontext: User wants financial freedom, a full side business alongside current job\napproach: Build website first, then promote via WhatsApp and Facebook\ncompetitor_strategy: Find gaps in existing classified sites (mzadqatar, qatarliving, qatarclassifieds) and outperform\ntags: [business, qatar, classifieds, entrepreneurship]\n---
+
+## 2026-06-16 — research (session)
+- Evaluated addyosmani/agent-skills repo (60k stars). Reviewed DDD, Context Engineering, Source-Driven Development skills. Decided to distill only Doubt-Driven Development — cherry-picked CLAIM→EXTRACT→DOUBT→RECONCILE→STOP protocol into process/context/doubt-driven-development.md. Skipped the other two (redundant or too narrow). Added reference to context router.
