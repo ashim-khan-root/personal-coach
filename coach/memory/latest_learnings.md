@@ -5,6 +5,8 @@
 - [Frequency] frequent_web-development (0.75): Practiced web-development 3 times — most practiced skill
 - [Frequency] frequent_content-writing (0.75): Practiced content-writing 3 times — most practiced skill
 
-## New Skill Suggestions
-- build (confidence 0.72, 2 insights)
-- content-writing (confidence 0.72, 2 insights)
+## Skill Suggestions
+- build (confidence 0.72) — ✅ auto-created
+- content-writing (confidence 0.72) — ✅ auto-created
+
+Auto-created 2 skill(s): build, content-writing
