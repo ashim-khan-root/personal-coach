@@ -6,8 +6,7 @@ __pycache__/
 dist/
 build/
 
-# Coach memory backups
-coach/memory/backups/*.zip
+
 
 # Environment
 .env
