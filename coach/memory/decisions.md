@@ -38,3 +38,8 @@ Format: `## [date] — [topic]`
 
 ## 2026-06-16 — skill-evolution (session)
 - Created insight_ledger.py as foundation for all tool instrumentation. Every new tool should call log_insight() after its main flow.
+
+## 2026-06-17 — coach-2.0-powersuite (session)
+- Decided to implement "Power Suite" (repo_map, autofix, lead_gen, content_factory, debate) to move towards Level 3/4 autonomy.
+- Switched to AST-based Repo-Maps for context efficiency.
+- Adopted "Self-Healing" pattern (autofix) for faster development loops.
