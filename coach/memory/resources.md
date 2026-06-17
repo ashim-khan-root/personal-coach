@@ -9,3 +9,7 @@
     - "Nike Run Club app"
     - "Couch to 5K program"
     - "Local running club meetup Saturdays"
+
+- title: "Design Resources"
+  items:
+    - "logos.lndev.me — free logos, icons, and SVGs"

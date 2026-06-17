@@ -1,0 +1,1926 @@
+{
+  "sessions::session-20260616-115736.md::1": {
+    "relation_pairs": [
+      [
+        "Artifact",
+        "Ollama"
+      ],
+      [
+        "Artifact",
+        "Tool"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1781620085,
+    "update_time": 1781620085,
+    "_id": "sessions::session-20260616-115736.md::1"
+  },
+  "sessions::session-20260616-083238.md::5": {
+    "relation_pairs": [
+      [
+        "Checker",
+        "Utility"
+      ],
+      [
+        "Generator",
+        "Tool"
+      ],
+      [
+        "Developer Utility",
+        "Tool"
+      ],
+      [
+        "Document",
+        "Tool"
+      ],
+      [
+        "List",
+        "Utility"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1781673595,
+    "update_time": 1781673595,
+    "_id": "sessions::session-20260616-083238.md::5"
+  },
+  "sessions::session-20260616-081327.md::7": {
+    "relation_pairs": [
+      [
+        "category",
+        "freetoolz"
+      ],
+      [
+        "Other",
+        "bandwidth"
+      ],
+      [
+        "bandwidth",
+        "freetoolz"
+      ],
+      [
+        "Other",
+        "cctv"
+      ],
+      [
+        "Other",
+        "category"
+      ],
+      [
+        "camera",
+        "freetoolz"
+      ],
+      [
+        "Other",
+        "organization"
+      ],
+      [
+        "Other",
+        "camera"
+      ],
+      [
+        "freetoolz",
+        "security"
+      ],
+      [
+        "freetoolz",
+        "power"
+      ],
+      [
+        "freetoolz",
+        "runtime"
+      ],
+      [
+        "cctv",
+        "freetoolz"
+      ],
+      [
+        "Other",
+        "security"
+      ],
+      [
+        "Other",
+        "runtime"
+      ],
+      [
+        "Other",
+        "power"
+      ],
+      [
+        "freetoolz",
+        "storage"
+      ],
+      [
+        "Other",
+        "storage"
+      ],
+      [
+        "freetoolz",
+        "tool"
+      ],
+      [
+        "Other",
+        "tool"
+      ]
+    ],
+    "count": 19,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "sessions::session-20260616-081327.md::7"
+  },
+  "sessions::session-20260616-064311.md::10": {
+    "relation_pairs": [
+      [
+        "<Skill",
+        "rating"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1781674697,
+    "update_time": 1781674697,
+    "_id": "sessions::session-20260616-064311.md::10"
+  },
+  "sessions::session-20260616-055705.md::14": {
+    "relation_pairs": [
+      [
+        "Organization",
+        "agent-skills"
+      ],
+      [
+        "distilled",
+        "process"
+      ],
+      [
+        "Location",
+        "process"
+      ],
+      [
+        "Person",
+        "addyosmani"
+      ],
+      [
+        "Concept",
+        "ddd"
+      ],
+      [
+        "Concept",
+        "source-driven-development"
+      ],
+      [
+        "Concept",
+        "claim→extract→doubt→reconcile→stop"
+      ],
+      [
+        "Method",
+        "context-engineering"
+      ],
+      [
+        "Concept",
+        "doubt-driven-development"
+      ],
+      [
+        "evaluated",
+        "source-driven-development"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1781675378,
+    "update_time": 1781675378,
+    "_id": "sessions::session-20260616-055705.md::14"
+  },
+  "sessions::session-20260615-123817.md::15": {
+    "relation_pairs": [
+      [
+        "Build",
+        "Method"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1781675419,
+    "update_time": 1781675419,
+    "_id": "sessions::session-20260615-123817.md::15"
+  },
+  "sessions::session-20260615-100908.md::20": {
+    "relation_pairs": [
+      [
+        "guide",
+        "paint"
+      ],
+      [
+        "guide",
+        "tools"
+      ],
+      [
+        "paint",
+        "tools"
+      ],
+      [
+        "body",
+        "paint"
+      ],
+      [
+        "calculator",
+        "tool"
+      ],
+      [
+        "calendar",
+        "date"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1781676452,
+    "update_time": 1781676452,
+    "_id": "sessions::session-20260615-100908.md::20"
+  },
+  "sessions::session-20260616-134824.md::0": {
+    "relation_pairs": [
+      [
+        "Organization",
+        "setup"
+      ],
+      [
+        "pc",
+        "setup"
+      ],
+      [
+        "Location",
+        "new_machine"
+      ],
+      [
+        "setup",
+        "user"
+      ],
+      [
+        "insight_ledger",
+        "pc"
+      ],
+      [
+        "new_machine",
+        "setup"
+      ],
+      [
+        "pc",
+        "user"
+      ],
+      [
+        "Person",
+        "user"
+      ],
+      [
+        "new_machine",
+        "user"
+      ],
+      [
+        "Location",
+        "pc"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1781676612,
+    "update_time": 1781676612,
+    "_id": "sessions::session-20260616-134824.md::0"
+  },
+  "sessions::session-20260616-140538.md::0": {
+    "relation_pairs": [
+      [
+        "Creature",
+        "task_manager"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1781676642,
+    "update_time": 1781676642,
+    "_id": "sessions::session-20260616-140538.md::0"
+  },
+  "sessions::session-20260615-095329.md::27": {
+    "relation_pairs": [
+      [
+        "HomePage",
+        "Tools"
+      ],
+      [
+        "Organized Tools",
+        "User"
+      ],
+      [
+        "Category",
+        "Tool"
+      ],
+      [
+        "Hugo",
+        "Organized Tools"
+      ],
+      [
+        "Hugo",
+        "Tool"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1781677050,
+    "update_time": 1781677050,
+    "_id": "sessions::session-20260615-095329.md::27"
+  },
+  "sessions::session-20260616-083548.md::4": {
+    "relation_pairs": [
+      [
+        "<Lorem Ipsum Generator>",
+        "<freetoolz>"
+      ],
+      [
+        "<Developer Utility>",
+        "<Lorem Ipsum Generator>"
+      ],
+      [
+        "<Developer Utility>",
+        "<freetoolz>"
+      ],
+      [
+        "<Developer Utility>",
+        "<List Randomizer>"
+      ],
+      [
+        "<List Randomizer>",
+        "<freetoolz>"
+      ],
+      [
+        "<Developer Utility>",
+        "<uuid_generator>"
+      ],
+      [
+        "<Password Strength Checker>",
+        "<freetoolz>"
+      ],
+      [
+        "<Developer Utility>",
+        "<Password Strength Checker>"
+      ],
+      [
+        "<freetoolz>",
+        "<uuid_generator>"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1781677474,
+    "update_time": 1781677474,
+    "_id": "sessions::session-20260616-083548.md::4"
+  },
+  "sessions::session-20260615-110223.md::18": {
+    "relation_pairs": [
+      [
+        "<freetoolz>",
+        "<github.com/ashim-khan-root/freetoolz>"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1781678281,
+    "update_time": 1781678281,
+    "_id": "sessions::session-20260615-110223.md::18"
+  },
+  "sessions::session-20260615-101806.md::19": {
+    "relation_pairs": [
+      [
+        "Blog Post",
+        "Image Frontmatter"
+      ],
+      [
+        "Blog Post",
+        "FAQ Section"
+      ],
+      [
+        "Blog Post",
+        "Post Title"
+      ],
+      [
+        "Blog Post",
+        "Image"
+      ],
+      [
+        "Article",
+        "Blog Post"
+      ],
+      [
+        "Blog Post",
+        "Post Description"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1781678347,
+    "update_time": 1781678347,
+    "_id": "sessions::session-20260615-101806.md::19"
+  },
+  "sessions::session-20260616-130012.md::0": {
+    "relation_pairs": [
+      [
+        "clean_query",
+        "end_to_end_test"
+      ],
+      [
+        "deep_research_model",
+        "end_to_end_test"
+      ],
+      [
+        "_clean_query",
+        "clean_query"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1781678428,
+    "update_time": 1781678428,
+    "_id": "sessions::session-20260616-130012.md::0"
+  },
+  "sessions::session-20260616-132907.md::0": {
+    "relation_pairs": [
+      [
+        "Method",
+        "pipeline_builder"
+      ],
+      [
+        "Method",
+        "session_analytics"
+      ],
+      [
+        "Method",
+        "prompt_auditor"
+      ],
+      [
+        "Concept",
+        "tool_gaps"
+      ],
+      [
+        "Concept",
+        "skill_gaps"
+      ],
+      [
+        "Concept",
+        "tool_heavy"
+      ],
+      [
+        "Ollama",
+        "gpt-oss"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1781678746,
+    "update_time": 1781678746,
+    "_id": "sessions::session-20260616-132907.md::0"
+  },
+  "sessions::session-20260615-100322.md::26": {
+    "relation_pairs": [
+      [
+        "component",
+        "glassmorphismCards"
+      ],
+      [
+        "project",
+        "staggeredScrollAnimations"
+      ],
+      [
+        "blogSection",
+        "project"
+      ],
+      [
+        "Space GroteskFonts",
+        "project"
+      ],
+      [
+        "SpaceGroteskFonts",
+        "project"
+      ],
+      [
+        "cleanBuildPages",
+        "project"
+      ],
+      [
+        "animatedGradientHero",
+        "component"
+      ],
+      [
+        "project",
+        "searchFilterBar"
+      ],
+      [
+        "glassmorphismCards",
+        "project"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1781678835,
+    "update_time": 1781678835,
+    "_id": "sessions::session-20260615-100322.md::26"
+  },
+  "sessions::session-20260616-103344.md::2": {
+    "relation_pairs": [
+      [
+        "fix",
+        "system"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1781679505,
+    "update_time": 1781679505,
+    "_id": "sessions::session-20260616-103344.md::2"
+  },
+  "sessions::session-20260616-073632.md::9": {
+    "relation_pairs": [
+      [
+        "Bayt",
+        "GNIIT NIIT"
+      ],
+      [
+        "Bayt",
+        "Lucknow University"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1781680379,
+    "update_time": 1781680379,
+    "_id": "sessions::session-20260616-073632.md::9"
+  },
+  "sessions::session-20260616-095723.md::3": {
+    "relation_pairs": [
+      [
+        "freetoolz-development",
+        "github.com/ashim-khan-root<freetoolz/"
+      ],
+      [
+        "GitHub",
+        "github.com"
+      ],
+      [
+        "freetoolz-development",
+        "github.com/ashim-khan-root/freetoolz"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1781681513,
+    "update_time": 1781681513,
+    "_id": "sessions::session-20260616-095723.md::3"
+  },
+  "sessions::session-20260615-094813.md::28": {
+    "relation_pairs": [
+      [
+        "Notes",
+        "Tool"
+      ],
+      [
+        "Date",
+        "Tool"
+      ],
+      [
+        "Duration",
+        "Tool"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1781681817,
+    "update_time": 1781681817,
+    "_id": "sessions::session-20260615-094813.md::28"
+  },
+  "sessions::session-20260615-094555.md::30": {
+    "relation_pairs": [
+      [
+        "HTML Minifier",
+        "Tools"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1781681926,
+    "update_time": 1781681926,
+    "_id": "sessions::session-20260615-094555.md::30"
+  },
+  "sessions::session-20260615-094159.md::31": {
+    "relation_pairs": [
+      [
+        "<due date calculation",
+        "<tools"
+      ],
+      [
+        "(uses US Navy BMI method)",
+        "<health-calculators><body-fat percentage calculation"
+      ],
+      [
+        "<tools",
+        "<water intake calculation"
+      ],
+      [
+        "<calorie intake calculation",
+        "<tools"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1781682135,
+    "update_time": 1781682135,
+    "_id": "sessions::session-20260615-094159.md::31"
+  },
+  "sessions::session-20260615-093927.md::33": {
+    "relation_pairs": [
+      [
+        "2026-06-15T09:39:27.982831+00:00",
+        "date"
+      ],
+      [
+        "tools/",
+        "tools/bmi-calculator"
+      ],
+      [
+        "bmi-calculator",
+        "tools/"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1781682264,
+    "update_time": 1781682264,
+    "_id": "sessions::session-20260615-093927.md::33"
+  },
+  "sessions::session-20260615-093125.md::34": {
+    "relation_pairs": [
+      [
+        "Construction Project",
+        "tool"
+      ],
+      [
+        "Concrete",
+        "construction-calculator"
+      ],
+      [
+        "Stair",
+        "construction-calculator"
+      ],
+      [
+        "Rebar",
+        "construction-calculator"
+      ],
+      [
+        "Construction Methodology",
+        "tool"
+      ],
+      [
+        "Industry Standard",
+        "tool"
+      ],
+      [
+        "Flooring",
+        "construction-calculator"
+      ],
+      [
+        "Construction Calculator",
+        "Industry Standard"
+      ],
+      [
+        "Brick",
+        "construction-calculator"
+      ],
+      [
+        "Construction Calculator",
+        "Construction Methodology"
+      ],
+      [
+        "Construction Calculator",
+        "Construction Project"
+      ],
+      [
+        "Roofing",
+        "construction-calculator"
+      ],
+      [
+        "Paint",
+        "construction-calculator"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "sessions::session-20260615-093125.md::34"
+  },
+  "sessions::session-20260615-092836.md::38": {
+    "relation_pairs": [
+      [
+        "/roofing-calculator",
+        "Tools/"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1781683168,
+    "update_time": 1781683168,
+    "_id": "sessions::session-20260615-092836.md::38"
+  },
+  "sessions::session-20260615-075416.md::39": {
+    "relation_pairs": [
+      [
+        "Rebar Calculator",
+        "Tool"
+      ],
+      [
+        "Construction Calculators",
+        "Tool"
+      ],
+      [
+        "Concrete Calculator",
+        "Tool"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1781683243,
+    "update_time": 1781683243,
+    "_id": "sessions::session-20260615-075416.md::39"
+  },
+  "sessions::session-20260614-124559.md::44": {
+    "relation_pairs": [
+      [
+        "<CCTV Security Systems>",
+        "<ELV>"
+      ],
+      [
+        "<CCTV Security Systems>",
+        "<Samtech Security Systems>"
+      ],
+      [
+        "<Ashim Ahmad>",
+        "<Samtech Security Systems>"
+      ],
+      [
+        "<Ashim Ahmad>",
+        "<Qatar Job Market>"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1781684067,
+    "update_time": 1781684067,
+    "_id": "sessions::session-20260614-124559.md::44"
+  },
+  "sessions::session-20260614-120024.md::45": {
+    "relation_pairs": [
+      [
+        "None,",
+        "relationship_keywords"
+      ],
+      [
+        "Research,",
+        "relationship_keywords"
+      ],
+      [
+        "Value,",
+        "relationship_keywords"
+      ],
+      [
+        "skill",
+        "source_entity"
+      ],
+      [
+        "Requirement,",
+        "relationship_keywords"
+      ],
+      [
+        "researched",
+        "target_entity"
+      ],
+      [
+        "Creation,",
+        "relationship_keywords"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1781684169,
+    "update_time": 1781684169,
+    "_id": "sessions::session-20260614-120024.md::45"
+  },
+  "sessions::session-20260609-135823.md::48": {
+    "relation_pairs": [
+      [
+        "learn_quotation.py",
+        "quotation-coach"
+      ],
+      [
+        "ratings",
+        "web search/fetch/deep research tools"
+      ],
+      [
+        "quotation-learner",
+        "web search/fetch/deep research tools"
+      ],
+      [
+        "ceo mindset",
+        "ratings"
+      ],
+      [
+        "ceo mindset",
+        "learn_quotation.py"
+      ],
+      [
+        "quotation-coach",
+        "web search/fetch/deep research tools"
+      ],
+      [
+        "ceo mindset",
+        "quotation-learner"
+      ],
+      [
+        "ceo mindset",
+        "quotation-coach"
+      ],
+      [
+        "learn_quotation.py",
+        "web search/fetch/deep research tools"
+      ],
+      [
+        "learn_quotation.py",
+        "quotation-learner"
+      ],
+      [
+        "CEO mindset",
+        "quotation-learner"
+      ],
+      [
+        "quotation-learner",
+        "ratings"
+      ],
+      [
+        "learn_quotation.py",
+        "rates.json"
+      ],
+      [
+        "XLSX",
+        "learn_quotation.py"
+      ]
+    ],
+    "count": 14,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "sessions::session-20260609-135823.md::48"
+  },
+  "sessions::session-20260609-133431.md::49": {
+    "relation_pairs": [
+      [
+        "secuview",
+        "user"
+      ],
+      [
+        "Starfox",
+        "user"
+      ],
+      [
+        "AutoCAD",
+        "user"
+      ],
+      [
+        "CEO",
+        "Hugo site"
+      ],
+      [
+        "CEO",
+        "aslielectronics"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1781684687,
+    "update_time": 1781684687,
+    "_id": "sessions::session-20260609-133431.md::49"
+  },
+  "sessions::session-20260609-062409.md::50": {
+    "relation_pairs": [
+      [
+        "Camera Type",
+        "Quotation Coach"
+      ],
+      [
+        "Camera Type",
+        "MOI Industrial Workshop"
+      ],
+      [
+        "Quotation Coach",
+        "Refactored quotation tool"
+      ],
+      [
+        "MOI Industrial Workshop",
+        "Quotation Coach"
+      ],
+      [
+        "Added 4mp_varifocal camera type",
+        "Quotation Coach"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1781684755,
+    "update_time": 1781684755,
+    "_id": "sessions::session-20260609-062409.md::50"
+  },
+  "sessions::session-20260605-172556.md::53": {
+    "relation_pairs": [
+      [
+        "Orphan Hugo Ghost Page",
+        "Robots.txt"
+      ],
+      [
+        "Product Page",
+        "Robots.txt"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1781685147,
+    "update_time": 1781685147,
+    "_id": "sessions::session-20260605-172556.md::53"
+  },
+  "sessions::session-20260602-094327.md::55": {
+    "relation_pairs": [
+      [
+        "<aslielectronics.com>",
+        "safehome"
+      ],
+      [
+        "<aslielectronics.com>",
+        "GitHub"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1781685292,
+    "update_time": 1781685292,
+    "_id": "sessions::session-20260602-094327.md::55"
+  },
+  "sessions::session-20260601-133723.md::59": {
+    "relation_pairs": [
+      [
+        "content/",
+        "safehome/"
+      ],
+      [
+        "content",
+        "safehome"
+      ],
+      [
+        "AsliElectronics",
+        "blog"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1781688066,
+    "update_time": 1781688066,
+    "_id": "sessions::session-20260601-133723.md::59"
+  },
+  "sessions::session-20260601-134653.md::58": {
+    "relation_pairs": [
+      [
+        "AsliElectronics",
+        "content-strategy"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1781688423,
+    "update_time": 1781688423,
+    "_id": "sessions::session-20260601-134653.md::58"
+  },
+  "sessions::session-20260601-065711.md::62": {
+    "relation_pairs": [
+      [
+        "<ranking",
+        "<secuview>< [#|]<issue"
+      ],
+      [
+        "<secuview>< [#|]<channel",
+        "channel< [#|]<FB"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1781688463,
+    "update_time": 1781688463,
+    "_id": "sessions::session-20260601-065711.md::62"
+  },
+  "sessions::session-20260531-100743.md::63": {
+    "relation_pairs": [
+      [
+        "LocalBusiness",
+        "secuview-schema-markup"
+      ],
+      [
+        "Breadcrumb",
+        "secuview-schema-markup"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1781688636,
+    "update_time": 1781688636,
+    "_id": "sessions::session-20260531-100743.md::63"
+  },
+  "sessions::session-20260531-095425.md::65": {
+    "relation_pairs": [
+      [
+        "Content",
+        "agtmd"
+      ],
+      [
+        "Location",
+        "github"
+      ],
+      [
+        "dev",
+        "pm"
+      ],
+      [
+        "Organization",
+        "server"
+      ],
+      [
+        "agtmd",
+        "server"
+      ],
+      [
+        "agtmd",
+        "github"
+      ],
+      [
+        "Method",
+        "cron"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1781688922,
+    "update_time": 1781688922,
+    "_id": "sessions::session-20260531-095425.md::65"
+  },
+  "sessions::session-20260531-095408.md::67": {
+    "relation_pairs": [
+      [
+        "source_entity:System",
+        "target_entity:Coach"
+      ],
+      [
+        "source_entity:PARA Template",
+        "target_entity:Coach"
+      ],
+      [
+        "source_entity:Coach",
+        "target_entity:Daily Notes"
+      ],
+      [
+        "source_entity:Coach",
+        "target_entity:Inbox"
+      ],
+      [
+        "source_entity:Coach",
+        "target_entity:Integrated Notes"
+      ],
+      [
+        "source_entity:Coach",
+        "target_entity:Decision Tracking"
+      ],
+      [
+        "source_entity:Coach",
+        "target_entity:Memory Search"
+      ],
+      [
+        "source_entity:Coach",
+        "target_entity:Talking Partner"
+      ],
+      [
+        "source_entity:Coach",
+        "target_entity:Conversation Memory"
+      ],
+      [
+        "source_entity:Coach",
+        "target_entity:Weekly Synthesis"
+      ],
+      [
+        "source_entity:Coach",
+        "target_entity:System"
+      ],
+      [
+        "source_entity:Coach",
+        "target_entity:Recap Tool"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "sessions::session-20260531-095408.md::67"
+  },
+  "sessions::session-20260531-074533.md::68": {
+    "relation_pairs": [
+      [
+        "Secuview",
+        "product"
+      ],
+      [
+        "script",
+        "work/scripts/scrape_secuview.py"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1781689686,
+    "update_time": 1781689686,
+    "_id": "sessions::session-20260531-074533.md::68"
+  },
+  "sessions::session-20260530-140356.md::69": {
+    "relation_pairs": [
+      [
+        "Corey Haines",
+        "VoltAgent/awesome-agent-skills"
+      ],
+      [
+        "Awesome-Agent-Skills Repo",
+        "obra"
+      ],
+      [
+        "AGENTS.MD",
+        "opencode"
+      ],
+      [
+        "Corey Haines",
+        "obra"
+      ],
+      [
+        "NVIDIA Skill-Evolution",
+        "VoltAgent/awesome-agent-skills"
+      ],
+      [
+        "Corey Haines",
+        "Skill-Evolution"
+      ],
+      [
+        "VoltAgent/awesome-agent-skills",
+        "opencode"
+      ],
+      [
+        "Organization",
+        "Skill Installation"
+      ],
+      [
+        "Corey Haines",
+        "Memory-Kit"
+      ],
+      [
+        "Memory-Kit",
+        "NVIDIA"
+      ],
+      [
+        "NVIDIA",
+        "Skill-Evolution"
+      ],
+      [
+        "AGENTS.MD",
+        "VoltAgent/awesome-agent-skills"
+      ],
+      [
+        "NVIDIA Skill-Evolution",
+        "obra"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "sessions::session-20260530-140356.md::69"
+  },
+  "sessions::session-20260530-133249.md::71": {
+    "relation_pairs": [
+      [
+        "Delivery Information",
+        "Product Page"
+      ],
+      [
+        "Optimized Fingerprint Smart Lock Product Page",
+        "Pricing Information"
+      ],
+      [
+        "Feature Information",
+        "Product Page"
+      ],
+      [
+        "Feature Information,",
+        "Product Page"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1781689941,
+    "update_time": 1781689941,
+    "_id": "sessions::session-20260530-133249.md::71"
+  },
+  "sessions::session-20260530-120227.md::73": {
+    "relation_pairs": [
+      [
+        "Access Control System",
+        "Qatar Guide"
+      ],
+      [
+        "Access Control System",
+        "Product Link"
+      ],
+      [
+        "Access Control System",
+        "Qatar"
+      ],
+      [
+        "Qatar",
+        "Time Attendance System"
+      ],
+      [
+        "Access Control System",
+        "Time Attendance System"
+      ],
+      [
+        "Access Control System",
+        "Venue Recommendation"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1781690032,
+    "update_time": 1781690032,
+    "_id": "sessions::session-20260530-120227.md::73"
+  },
+  "sessions::session-20260530-090745.md::75": {
+    "relation_pairs": [
+      [
+        "Secuview",
+        "WhatsApp,"
+      ],
+      [
+        "GitHub,",
+        "Secuview"
+      ],
+      [
+        "GBP,",
+        "Secuview"
+      ],
+      [
+        "Secuview",
+        "boss,"
+      ],
+      [
+        "Other,",
+        "growth plans"
+      ],
+      [
+        "Google,",
+        "Secuview"
+      ],
+      [
+        "Organization",
+        "secuview"
+      ],
+      [
+        "GBP,",
+        "secuview"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1781690235,
+    "update_time": 1781690235,
+    "_id": "sessions::session-20260530-090745.md::75"
+  },
+  "sessions::session-20260530-071326.md::76": {
+    "relation_pairs": [
+      [
+        "<4G LTE WiFi Router",
+        "Product Page"
+      ],
+      [
+        "<GitHub",
+        "Content File"
+      ],
+      [
+        "<Product Page",
+        "Product Page"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1781690360,
+    "update_time": 1781690360,
+    "_id": "sessions::session-20260530-071326.md::76"
+  },
+  "sessions::session-20260529-172614.md::79": {
+    "relation_pairs": [
+      [
+        "Batch",
+        "Date"
+      ],
+      [
+        "Blog Post",
+        "Category"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1781691505,
+    "update_time": 1781691505,
+    "_id": "sessions::session-20260529-172614.md::79"
+  },
+  "sessions::session-20260529-171751.md::80": {
+    "relation_pairs": [
+      [
+        "Batch",
+        "Batch 3-4 remaining"
+      ],
+      [
+        "Batch",
+        "Content update"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1781691922,
+    "update_time": 1781691922,
+    "_id": "sessions::session-20260529-171751.md::80"
+  },
+  "sessions::session-20260528-170636.md::81": {
+    "relation_pairs": [
+      [
+        "GitHub",
+        "Organization"
+      ],
+      [
+        "Event",
+        "Wrote home security system guide blog post"
+      ],
+      [
+        "Cloudflare build command",
+        "Method"
+      ],
+      [
+        "Cloudflare",
+        "Organization"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1781692035,
+    "update_time": 1781692035,
+    "_id": "sessions::session-20260528-170636.md::81"
+  },
+  "sessions::session-20260529-190958.md::78": {
+    "relation_pairs": [
+      [
+        "Other",
+        "Task"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1781692089,
+    "update_time": 1781692089,
+    "_id": "sessions::session-20260529-190958.md::78"
+  },
+  "sessions::session-20260528-142545.md::84": {
+    "relation_pairs": [
+      [
+        "Domain",
+        "Location"
+      ],
+      [
+        "Cloudflare Pages",
+        "Content"
+      ],
+      [
+        "AsliElectronics",
+        "Organization"
+      ],
+      [
+        "Deployed Site",
+        "Organization"
+      ],
+      [
+        "Concept",
+        "public"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1781692453,
+    "update_time": 1781692453,
+    "_id": "sessions::session-20260528-142545.md::84"
+  },
+  "sessions::session-20260528-104700.md::85": {
+    "relation_pairs": [
+      [
+        "AsliElectronics",
+        "SafeHOME"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1781692487,
+    "update_time": 1781692487,
+    "_id": "sessions::session-20260528-104700.md::85"
+  },
+  "sessions::session-20260528-103026.md::86": {
+    "relation_pairs": [
+      [
+        "Domain",
+        "domain"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1781692525,
+    "update_time": 1781692525,
+    "_id": "sessions::session-20260528-103026.md::86"
+  },
+  "sessions::session-20260527-182934.md::87": {
+    "relation_pairs": [
+      [
+        "OG image",
+        "hugo-product-page-enhance"
+      ],
+      [
+        "Description tab",
+        "hugo-product-page-enhance"
+      ],
+      [
+        "dev blog",
+        "hugo-product-page-enhance"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1781692589,
+    "update_time": 1781692589,
+    "_id": "sessions::session-20260527-182934.md::87"
+  },
+  "sessions::session-20260527-173554.md::88": {
+    "relation_pairs": [
+      [
+        "Dev Blog Posts",
+        "Hugo Product Page Enhancement"
+      ],
+      [
+        "Duration",
+        "Hugo Product Page Enhancement"
+      ],
+      [
+        "Hugo Product Page Enhancement",
+        "Network Cabling Guide"
+      ],
+      [
+        "Hugo Product Page Enhancement",
+        "Smart Lock Guide"
+      ],
+      [
+        "Description Tab",
+        "Hugo Product Page Enhancement"
+      ],
+      [
+        "Hugo Product Page Enhancement",
+        "Security Camera Guide"
+      ],
+      [
+        "GitHub",
+        "Hugo Product Page Enhancement"
+      ],
+      [
+        "Hugo Product Page Enhancement",
+        "PA Systems Guide"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1781692644,
+    "update_time": 1781692644,
+    "_id": "sessions::session-20260527-173554.md::88"
+  },
+  "sessions::session-20260526-194821.md::89": {
+    "relation_pairs": [
+      [
+        "description,",
+        "patch"
+      ],
+      [
+        "patch",
+        "related_products,"
+      ],
+      [
+        "gallery,",
+        "patch"
+      ],
+      [
+        "patch",
+        "products,"
+      ],
+      [
+        "frontmatter,",
+        "patch"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1781692762,
+    "update_time": 1781692762,
+    "_id": "sessions::session-20260526-194821.md::89"
+  },
+  "sessions::session-20260526-193517.md::90": {
+    "relation_pairs": [
+      [
+        "Talks to",
+        "user"
+      ],
+      [
+        "Agent.py",
+        "Software artifact"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1781692825,
+    "update_time": 1781692825,
+    "_id": "sessions::session-20260526-193517.md::90"
+  },
+  "sessions::session-20260526-124106.md::93": {
+    "relation_pairs": [
+      [
+        "<#CloudflareProxyRejection>",
+        "<#diagnosed_issue>"
+      ],
+      [
+        "<#ClientSideSetup>",
+        "<#PC>"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1781693073,
+    "update_time": 1781693073,
+    "_id": "sessions::session-20260526-124106.md::93"
+  },
+  "sessions::session-20260526-122335.md::94": {
+    "relation_pairs": [
+      [
+        "setup",
+        "token"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1781693101,
+    "update_time": 1781693101,
+    "_id": "sessions::session-20260526-122335.md::94"
+  },
+  "sessions::session-20260526-095002.md::95": {
+    "relation_pairs": [
+      [
+        "FAQ schema",
+        "Smart Home Security Guide Qatar blog post"
+      ],
+      [
+        "Smart Home Security Guide Qatar blog post",
+        "content-writing"
+      ],
+      [
+        "Smart Home Security Guide Qatar blog post",
+        "smart-home-security-guide-qatar.md"
+      ],
+      [
+        "Competitor comparison",
+        "Content"
+      ],
+      [
+        "Faq",
+        "schema"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1781693220,
+    "update_time": 1781693220,
+    "_id": "sessions::session-20260526-095002.md::95"
+  },
+  "sessions::session-20260526-084411.md::96": {
+    "relation_pairs": [
+      [
+        "Blog Post",
+        "Content Writing"
+      ],
+      [
+        "Content Writing",
+        "Post"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1781693257,
+    "update_time": 1781693257,
+    "_id": "sessions::session-20260526-084411.md::96"
+  },
+  "sessions::session-20260525-142400.md::98": {
+    "relation_pairs": [
+      [
+        "PoE Switch",
+        "Secuview"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1781693827,
+    "update_time": 1781693827,
+    "_id": "sessions::session-20260525-142400.md::98"
+  },
+  "sessions::session-20260525-142015.md::99": {
+    "relation_pairs": [
+      [
+        "Access Control",
+        "Concept"
+      ],
+      [
+        "Concept",
+        "PoE Switches"
+      ],
+      [
+        "Audio Equipment",
+        "PA Systems"
+      ],
+      [
+        "Blog Post Idea",
+        "Secuview"
+      ],
+      [
+        "Concept",
+        "PA Systems"
+      ],
+      [
+        "Networking Equipment",
+        "PoE Switches"
+      ],
+      [
+        "Concept",
+        "Secuview"
+      ],
+      [
+        "Content Creation",
+        "Secuview"
+      ],
+      [
+        "Concept",
+        "Home Security"
+      ],
+      [
+        "4G LTE Routers",
+        "Concept"
+      ],
+      [
+        "Concept",
+        "Keyword Research"
+      ],
+      [
+        "Product",
+        "Secuview"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1781694569,
+    "update_time": 1781694569,
+    "_id": "sessions::session-20260525-142015.md::99"
+  },
+  "sessions::session-20260525-141427.md::101": {
+    "relation_pairs": [
+      [
+        "Entity",
+        "Post"
+      ],
+      [
+        "Platform",
+        "Reddit"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1781695102,
+    "update_time": 1781695102,
+    "_id": "sessions::session-20260525-141427.md::101"
+  },
+  "sessions::session-20260524-135605.md::102": {
+    "relation_pairs": [
+      [
+        "Meta Graph API",
+        "n8n workflow"
+      ],
+      [
+        "Instagram",
+        "n8n workflow"
+      ],
+      [
+        "App Dashboard",
+        "n8n workflow"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1781695320,
+    "update_time": 1781695320,
+    "_id": "sessions::session-20260524-135605.md::102"
+  },
+  "sessions::session-20260524-134511.md::103": {
+    "relation_pairs": [
+      [
+        "<Entity Name>",
+        "<Skill>"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1781695342,
+    "update_time": 1781695342,
+    "_id": "sessions::session-20260524-134511.md::103"
+  },
+  "sessions::session-20260524-101017.md::104": {
+    "relation_pairs": [
+      [
+        "Automation use case",
+        "Instagram,"
+      ],
+      [
+        "Design skill",
+        "N8N Workflow,"
+      ],
+      [
+        "Automation use case corrected",
+        "Instagram,"
+      ],
+      [
+        "N8N Workflow,",
+        "Workflow design"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1781695402,
+    "update_time": 1781695402,
+    "_id": "sessions::session-20260524-101017.md::104"
+  },
+  "sessions::session-20260523-134410.md::110": {
+    "relation_pairs": [
+      [
+        "<secuview",
+        "secuview"
+      ],
+      [
+        "<secuview",
+        "Day"
+      ],
+      [
+        "<Day",
+        "WiFi Starter Kit Blog"
+      ],
+      [
+        "<Day",
+        "Full SEO/AEO Audit"
+      ],
+      [
+        "<secuview",
+        "WiFi Starter Kit Blog"
+      ],
+      [
+        "<Day",
+        "FAQ Schema MU Plugin Deployment"
+      ],
+      [
+        "<secuview",
+        "SEO Planning"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1781695700,
+    "update_time": 1781695700,
+    "_id": "sessions::session-20260523-134410.md::110"
+  },
+  "sessions::session-20260523-084302.md::114": {
+    "relation_pairs": [
+      [
+        "Smart Home",
+        "secuview"
+      ],
+      [
+        "Home WiFi Starter Kit",
+        "Smart Home"
+      ],
+      [
+        "Audio",
+        "PoE switches"
+      ],
+      [
+        "secuview",
+        "work-agent"
+      ],
+      [
+        "secuview",
+        "secuview.com"
+      ],
+      [
+        "Home WiFi Starter Kit",
+        "secuview"
+      ],
+      [
+        "Audio",
+        "secuview"
+      ],
+      [
+        "Organization",
+        "secuview"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1781696409,
+    "update_time": 1781696409,
+    "_id": "sessions::session-20260523-084302.md::114"
+  },
+  "sessions::session-20260521-135009.md::115": {
+    "relation_pairs": [
+      [
+        "Date",
+        "Entity"
+      ],
+      [
+        "Entity",
+        "Product Image"
+      ],
+      [
+        "Entity",
+        "WooCommerce Blog Page"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1781696435,
+    "update_time": 1781696435,
+    "_id": "sessions::session-20260521-135009.md::115"
+  },
+  "sessions::session-20260521-062419.md::119": {
+    "relation_pairs": [
+      [
+        "rating",
+        "rating,"
+      ],
+      [
+        "example",
+        "prompt"
+      ],
+      [
+        "duration",
+        "engineer"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1781696710,
+    "update_time": 1781696710,
+    "_id": "sessions::session-20260521-062419.md::119"
+  },
+  "sessions::session-20260521-054016.md::120": {
+    "relation_pairs": [
+      [
+        "Method",
+        "Skill"
+      ],
+      [
+        "Duration",
+        "Skill"
+      ],
+      [
+        "Duration",
+        "Method"
+      ],
+      [
+        "Rating",
+        "Skill"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1781696746,
+    "update_time": 1781696746,
+    "_id": "sessions::session-20260521-054016.md::120"
+  },
+  "daily::2026-06-03.md::121": {
+    "relation_pairs": [
+      [
+        "<source_entity>Meetings",
+        "<target_entity>Tasks"
+      ],
+      [
+        "<source_entity>Notes",
+        "<target_entity>Brain Dump"
+      ],
+      [
+        "<source_entity>Scheduling",
+        "<target_entity>Meetings"
+      ],
+      [
+        "<source_entity>Brain Dump",
+        "<target_entity>Thoughts"
+      ],
+      [
+        "<source_entity>Brain Dump",
+        "<target_entity>Notes"
+      ],
+      [
+        "<target_entity>Brain Dump",
+        "<target_entity>Thoughts"
+      ],
+      [
+        "<source_entity>Meetings",
+        "<target_entity>Ideas"
+      ],
+      [
+        "<source_entity>Idea generation",
+        "<target_entity>Ideas"
+      ],
+      [
+        "<target_entity>Brain Dump",
+        "<target_entity>Tasks"
+      ],
+      [
+        "<source_entity>Brain Dump",
+        "<target_entity>Tasks"
+      ],
+      [
+        "<source_entity>Resource Allocation",
+        "<target_entity>Meetings"
+      ],
+      [
+        "<source_entity>Brain Dump",
+        "<target_entity>Meetings"
+      ],
+      [
+        "<target_entity>Brain Dump",
+        "<target_entity>Scheduling"
+      ],
+      [
+        "<source_entity>Brain Dump",
+        "<target_entity>Ideas"
+      ]
+    ],
+    "count": 14,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "daily::2026-06-03.md::121"
+  }
+}

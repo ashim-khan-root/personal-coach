@@ -389,5 +389,2028 @@
     "create_time": 1781616553,
     "update_time": 1781616553,
     "_id": "sessions::session-20260616-132907.md::0"
+  },
+  "sessions::session-20260616-134824.md::0": {
+    "content": "---\nid: 9c71e948-1761-4bb6-a4a2-a33f7ac92b8e\ndate: 2026-06-16T13:48:24.225478+00:00\nskill: system-setup\nduration_min: 10\nrating: 5\nnotes: |\n  Full memory backup + git push completed. Created setup_new_pc.py for instant migration to another PC. Backed up 212 files (1.17MB ZIP). All 4 tools instrumented with insight ledger (seo_audit, task_manager, extract_insights, weekly_synthesis). User wants one-command setup on new machine.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "d6cd5c170c597f706106b329060eb71f",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781617709,
+    "update_time": 1781617709,
+    "_id": "sessions::session-20260616-134824.md::0"
+  },
+  "sessions::session-20260616-140538.md::0": {
+    "content": "---\nid: 46478f10-b72e-4217-80d4-af8e96898ab6\ndate: 2026-06-16T14:05:38.485238+00:00\nskill: system-setup\nduration_min: 12\nrating: 5\nnotes: |\n  Full memory backup + git push with ZIP tracked. Created setup_new_pc.py for one-command migration. Fixed .gitignore to track latest backup ZIP. Instrumented 4 tools with insight_ledger (seo_audit, task_manager, extract_insights, weekly_synthesis). Ran session_analytics — 49 sessions, 42 skills, 22h logged. User wants adaptive behavior: evolve based on how they work, not just instructions.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "303e840262b46a9b30d823b43afe932a",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781618744,
+    "update_time": 1781618744,
+    "_id": "sessions::session-20260616-140538.md::0"
+  },
+  "sessions::session-20260615-100705.md::25": {
+    "content": "---\nid: ad4c495f-8463-4f52-99b7-34d222b9aaf1\ndate: 2026-06-15T10:07:05.157990+00:00\nskill: blog-posts-batch-2\nduration_min: 15\nrating: 5\nnotes: |\n  Added 6 SEO blog posts: BMI guide, water intake guide, concrete calculator guide, minification guide, password security guide, JSON vs YAML. All link internally to tools. 58 pages total.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "535a2cdea191bdbdfc88a9da77b7c56d",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781619411,
+    "update_time": 1781619411,
+    "_id": "sessions::session-20260615-100705.md::25"
+  },
+  "sessions::session-20260615-100322.md::26": {
+    "content": "---\nid: bd366ac5-a798-4bbe-b888-9f1a6e1fb8bf\ndate: 2026-06-15T10:03:22.610140+00:00\nskill: ui-foundation-overhaul\nduration_min: 30\nrating: 5\nnotes: |\n  Complete UI overhaul: Space Grotesk fonts, glassmorphism cards, animated gradient hero, staggered scroll animations, search/filter bar with category nav, blog section (1 post), 5 category landing pages (text-tools, developer-tools, health-calculators, construction-calculators, generators-converters), dark footer, IntersectionObserver reveals, 53 pages clean build.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "3b6a7d377a4ff64bac2f5aea3e1edfe5",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781619437,
+    "update_time": 1781619437,
+    "_id": "sessions::session-20260615-100322.md::26"
+  },
+  "sessions::session-20260615-095329.md::27": {
+    "content": "---\nid: 764b2c9b-58bc-4e79-b56a-2ad1790f8321\ndate: 2026-06-15T09:53:29.421613+00:00\nskill: organize-tools\nduration_min: 15\nrating: 5\nnotes: |\n  Organized all 30 tools into 5 categories (Text, Developer, Health, Construction, Generators/Converters). Added category nav, grouped homepage, grouped /tools/ page, organized footer with category columns. Fixed Hugo deprecation warnings. Clean build.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "5c5204221f90fa70969ba873fa625a0a",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781619465,
+    "update_time": 1781619465,
+    "_id": "sessions::session-20260615-095329.md::27"
+  },
+  "sessions::session-20260615-094813.md::28": {
+    "content": "---\nid: a8d7ca6f-01ae-41e1-ad0c-96bd6dd89d7d\ndate: 2026-06-15T09:48:13.121946+00:00\nskill: yaml-json-sql-formatter\nduration_min: 10\nrating: 5\nnotes: |\n  Built YAML↔JSON converter (bidirectional with in-browser YAML parser) and SQL formatter (keyword uppercase, clause-aligned indentation, 2/4 spaces). /tools/yaml-json/, /tools/sql-formatter/ Total tools now 30.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "b8bb4808d13e2cc460a36b012afc48ce",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781681685,
+    "update_time": 1781681685,
+    "_id": "sessions::session-20260615-094813.md::28"
+  },
+  "sessions::session-20260615-094704.md::29": {
+    "content": "---\nid: f85f4feb-cf98-4797-9719-e2781e66ab3c\ndate: 2026-06-15T09:47:04.350951+00:00\nskill: css-js-minifiers\nduration_min: 5\nrating: 5\nnotes: |\n  Built CSS minifier and JS minifier with minify/beautify modes, size stats, reduction percentage. /tools/css-minifier/, /tools/js-minifier/\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "aa34da8017c53ca0db1b0d676abb02de",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781681819,
+    "update_time": 1781681819,
+    "_id": "sessions::session-20260615-094704.md::29"
+  },
+  "sessions::session-20260615-094555.md::30": {
+    "content": "---\nid: 33112d5c-5c6e-4606-845c-e6d3db47fec1\ndate: 2026-06-15T09:45:55.137039+00:00\nskill: html-minifier\nduration_min: 5\nrating: 4\nnotes: |\n  Built HTML minifier with minify/beautify modes, size comparison, reduction stats. /tools/html-minifier/\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "3a6a5082896b2054ea1eb3becaac4afd",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781681896,
+    "update_time": 1781681896,
+    "_id": "sessions::session-20260615-094555.md::30"
+  },
+  "sessions::session-20260615-094159.md::31": {
+    "content": "---\nid: f55b487e-ab33-4f99-afa5-b989205285d0\ndate: 2026-06-15T09:41:59.911481+00:00\nskill: health-calculators-complete\nduration_min: 15\nrating: 5\nnotes: |\n  Built 6 health calculators: BMI (gauge + categories), BMR (Mifflin-St Jeor + activity + bulk/cut), Body Fat (US Navy + BMI method), Calorie (daily intake + macros), Due Date (LMP/conception + trimester), Water Intake (weight + activity + climate). Total tools now 28.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "4a1f51f563bbd3458908152c03e4fdf3",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781681929,
+    "update_time": 1781681929,
+    "_id": "sessions::session-20260615-094159.md::31"
+  },
+  "sessions::session-20260615-094032.md::32": {
+    "content": "---\nid: c4f816fb-ea20-41be-b454-ce5495bde050\ndate: 2026-06-15T09:40:32.993935+00:00\nskill: health-calculators-1\nduration_min: 8\nrating: 5\nnotes: |\n  Built BMR calculator (Mifflin-St Jeor, activity levels, bulk/cut targets) and Body Fat calculator (US Navy method, BMI-based, 5 categories). /tools/bmr-calculator/ /tools/body-fat-calculator/\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "2441f69b12baece70f1128a1b2ed5a45",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781682139,
+    "update_time": 1781682139,
+    "_id": "sessions::session-20260615-094032.md::32"
+  },
+  "sessions::session-20260615-093927.md::33": {
+    "content": "---\nid: 572ab2a1-b318-437e-9838-a180f2b27d15\ndate: 2026-06-15T09:39:27.982831+00:00\nskill: bmi-calculator\nduration_min: 5\nrating: 4\nnotes: |\n  Built BMI calculator with imperial/metric, gauge display, color-coded categories, healthy weight range. /tools/bmi-calculator/\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "ee479be14c58d9e9e6a4c08848d645fa",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781682193,
+    "update_time": 1781682193,
+    "_id": "sessions::session-20260615-093927.md::33"
+  },
+  "sessions::session-20260615-093125.md::34": {
+    "content": "---\nid: 755277f9-ea9e-4f2a-bb27-a2812d229440\ndate: 2026-06-15T09:31:25.261590+00:00\nskill: construction-calculators-complete\nduration_min: 25\nrating: 5\nnotes: |\n  Built all 7 construction calculators: Concrete (slab/column/footing + bags), Rebar (grid spacing, #3-#8), Roofing (pitch, squares, shingles), Paint (walls/ceiling/trim), Flooring (rectangle + L-shape), Brick (8 types, mortar), Stair (rise/run/stringer, code-compliant). Total tools now 22.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "6cca195fe94c7daf863aca10d7fe1df5",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781682266,
+    "update_time": 1781682266,
+    "_id": "sessions::session-20260615-093125.md::34"
+  },
+  "sessions::session-20260615-093038.md::35": {
+    "content": "---\nid: 771c2b4c-df0c-4583-8492-3b752c220154\ndate: 2026-06-15T09:30:38.134177+00:00\nskill: brick-calculator\nduration_min: 5\nrating: 4\nnotes: |\n  Built brick/block calculator - modular/queen/king/CMU, mortar joint, waste, mortar volume. Added to /tools/brick-calculator/\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "dd84ea45d3108a037edb223bab62bae9",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781682626,
+    "update_time": 1781682626,
+    "_id": "sessions::session-20260615-093038.md::35"
+  },
+  "sessions::session-20260615-092957.md::36": {
+    "content": "---\nid: 6edb9821-99f8-484e-9937-55b1e64da653\ndate: 2026-06-15T09:29:57.475895+00:00\nskill: flooring-calculator\nduration_min: 5\nrating: 4\nnotes: |\n  Built flooring calculator - rectangle and L-shaped rooms, waste allowance, box estimator. Added to /tools/flooring-calculator/\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "9ce6dc60308ca912c57585b7d77d8326",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781682859,
+    "update_time": 1781682859,
+    "_id": "sessions::session-20260615-092957.md::36"
+  },
+  "sessions::session-20260615-092916.md::37": {
+    "content": "---\nid: 1de5856c-b749-46ef-9edb-1df4a6d4ee70\ndate: 2026-06-15T09:29:16.255086+00:00\nskill: paint-calculator\nduration_min: 5\nrating: 4\nnotes: |\n  Built paint calculator - wall/ceiling/trim estimates with window/door subtraction, multiple coats. Added to /tools/paint-calculator/\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "a46ae04d180d45ba66abca400751ba28",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781682903,
+    "update_time": 1781682903,
+    "_id": "sessions::session-20260615-092916.md::37"
+  },
+  "sessions::session-20260615-092836.md::38": {
+    "content": "---\nid: a94ad422-1ca9-4ecb-8093-287565c28472\ndate: 2026-06-15T09:28:36.064796+00:00\nskill: roofing-calculator\nduration_min: 8\nrating: 4\nnotes: |\n  Built roofing calculator - pitch factor, squares, shingle bundles, underlayment rolls, ridge cap. Added to /tools/roofing-calculator/\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "50477f88c8e2f2c20796688789e52cdb",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781682967,
+    "update_time": 1781682967,
+    "_id": "sessions::session-20260615-092836.md::38"
+  },
+  "sessions::session-20260615-075416.md::39": {
+    "content": "---\nid: 7dfd94d3-d379-4116-ad37-489876549baf\ndate: 2026-06-15T07:54:16.524091+00:00\nskill: construction-calculators\nduration_min: 10\nrating: 4\nnotes: |\n  Built concrete calculator (slab/column/footing modes, bag calculator) and rebar calculator (grid spacing, weight estimator). Both added to freetools site at /tools/. Footer and related tools auto-include them.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "70f9ebc8baed4295ccbd8c4770ba4ecf",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781683171,
+    "update_time": 1781683171,
+    "_id": "sessions::session-20260615-075416.md::39"
+  },
+  "sessions::session-20260615-072330.md::40": {
+    "content": "---\nid: f7a7ddef-129e-4312-9923-d849b8624e00\ndate: 2026-06-15T07:23:30.359296+00:00\nskill: css-debug\nduration_min: 15\nrating: 4\nnotes: |\n  Found bug: absURL in Hugo templates caused CSS/JS to fail in dev mode. Changed 8 instances of absURL to relURL across head.html, header.html, single.html, 404.html. Also installed Hugo via winget. All tools (15/15) rendering correctly now.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "4e8f5b3efb0b2801f5f20cb07fce390e",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781683246,
+    "update_time": 1781683246,
+    "_id": "sessions::session-20260615-072330.md::40"
+  },
+  "sessions::session-20260614-133017.md::41": {
+    "content": "---\nid: 236e519c-5d5c-4200-a09d-38cebfbd47c2\ndate: 2026-06-14T13:30:17.546798+00:00\nskill: full-session\nduration_min: 70\nrating: 5\nnotes: |\n  Job search research (Qatar ELV/CCTV market), built print-optimized HTML resume for Ashim targeting security systems roles, wrote PoE switch blog post (moved to safehome repo), checked and committed aslielectronics.com blog post on security camera resolution guide (2MP vs 4MP vs 8MP), updated AGENTS.md with safehome→aslielectronics deployment context to prevent forgetting, confirmed SETUP-NEW-PC.md workflow for new PC setup.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "0615aed31a079a7daa05fe6ae04c1ab5",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781683606,
+    "update_time": 1781683606,
+    "_id": "sessions::session-20260614-133017.md::41"
+  },
+  "sessions::session-20260614-132632.md::42": {
+    "content": "---\nid: ef035e85-538c-437b-acf4-c1dee32e280e\ndate: 2026-06-14T13:26:32.868695+00:00\nskill: context-fix\nduration_min: 5\nrating: 5\nnotes: |\n  Updated AGENTS.md with permanent safehome→aslielectronics.com deployment context (repo path, Cloudflare auto-deploy, blog source location) to prevent repeating the same mistake.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "17550850a36029c6537429973c178729",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781683875,
+    "update_time": 1781683875,
+    "_id": "sessions::session-20260614-132632.md::42"
+  },
+  "sessions::session-20260614-132412.md::43": {
+    "content": "---\nid: cdece053-32c4-4d63-9db3-7bcebd45277c\ndate: 2026-06-14T13:24:12.303798+00:00\nskill: blog-writing\nduration_min: 20\nrating: 5\nnotes: |\n  Wrote security camera resolution guide (2MP vs 4MP vs 8MP) for aslielectronics.com. Cloned safehome repo from github.com/ashim-khan-root/safehome, added blog post matching existing Hugo format, committed and pushed to main. Cloudflare Pages auto-deploys.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "3e842c09a43cb52effa7d1a5cf4b8971",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781683956,
+    "update_time": 1781683956,
+    "_id": "sessions::session-20260614-132412.md::43"
+  },
+  "sessions::session-20260614-124559.md::44": {
+    "content": "---\nid: 434aa6e0-b683-40fa-afaa-936c1ac8fc3e\ndate: 2026-06-14T12:45:59.362076+00:00\nskill: resume-building\nduration_min: 15\nrating: 5\nnotes: |\n  Built print-optimized HTML resume for Ashim Ahmad targeting ELV/CCTV/MOI security jobs in Qatar. Used modern two-column layout with dark blue gradient header, skill tags, highlight badges for ELV experience. Researched Qatar job market (32+ CCTV vacancies), identified Samtech Security Systems as strong lead. User opened in browser to print to PDF.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "d51a90aacaec8ef6ddd92b2e01782da2",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781684020,
+    "update_time": 1781684020,
+    "_id": "sessions::session-20260614-124559.md::44"
+  },
+  "sessions::session-20260614-120024.md::45": {
+    "content": "---\nid: 607b491b-f5f3-4b25-b378-2d8a7f1bacf4\ndate: 2026-06-14T12:00:24.587921+00:00\nskill: system-upgrade\nduration_min: 50\nrating: 5\nnotes: |\n  Created frontend-security skill with 8 reference docs. Installed prompt-master (9.2k stars) and understand-anything (58.9k stars) from GitHub. Evaluated paca (skip, unrelated) and pake (skip, unrelated). Researched free AI model providers (NVIDIA NIM, Groq, Gemini, Cerebras, OpenRouter, Ollama Cloud) and wrote FREE_MODELS_GUIDE.md. Updated AGENTS.md with mandatory session start/end hooks and proactive session saving rules.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "f0024ec9a39e572d4c33b4cccd208320",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781684070,
+    "update_time": 1781684070,
+    "_id": "sessions::session-20260614-120024.md::45"
+  },
+  "sessions::session-20260614-095604.md::46": {
+    "content": "---\nid: 0e666f49-ef44-4e8d-997d-3915da8936f2\ndate: 2026-06-14T09:56:04.026837+00:00\nskill: SEO Coach Tools\nduration_min: 30\nrating: 5\nnotes: |\n  Added seo_audit.py tool (meta tags, headings, schema, robots, sitemap, AI crawlers, SSL). Added seo_audit MCP tool to mcp_server.py. Updated AGENTS.md. Improved seo-audit skill v3.0 with scoring weights, AI crawler mgmt, JS rendering, falsifiability, industry detection, quality gates.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "49a384faeb169001546eca621fc8edbc",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781684173,
+    "update_time": 1781684173,
+    "_id": "sessions::session-20260614-095604.md::46"
+  },
+  "sessions::session-20260614-095029.md::47": {
+    "content": "---\nid: ed8c296c-da6f-4341-bdd4-abfb87869d77\ndate: 2026-06-14T09:50:29.724036+00:00\nskill: SEO Skills Research\nduration_min: 45\nrating: 5\nnotes: |\n  Researched top open-source SEO skills: claude-seo (AgriciDaniel, 8.9k stars, 25 sub-skills), seo-audit-skill (seo-skills, 251 rules), open-seo (every-app, 2.2k stars, MCP-based). Updated 3 skills: seo-audit v3.0 (added scoring, AI crawlers, JS rendering, falsifiability, industry detection, quality gates, agent-friendly pages, IndexNow, content briefs), ai-seo v2.1 (FAQ deprecation note, UCP), schema v2.1 (FAQ/HowTo deprecations).\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "846afea052bf284802d34f5a4a7b09f4",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781684303,
+    "update_time": 1781684303,
+    "_id": "sessions::session-20260614-095029.md::47"
+  },
+  "sessions::session-20260609-135823.md::48": {
+    "content": "---\nid: 7c606607-5aa4-4fd7-bbed-4a46dd89686b\ndate: 2026-06-09T13:58:23.773685+00:00\nskill: quotation-learner\nduration_min: 60\nrating: 10\nnotes: |\n  Built learn_quotation.py tool to scan real XLSX files and update rates.json. quotation-coach is now primary project. Also created CEO mindset skill, web search/fetch/deep research tools.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "d0537d55d8ba14119784b9d9558dad32",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781684365,
+    "update_time": 1781684365,
+    "_id": "sessions::session-20260609-135823.md::48"
+  },
+  "sessions::session-20260609-133431.md::49": {
+    "content": "---\nid: 77efa258-6cde-4f2b-a67e-e7bfdf4697c2\ndate: 2026-06-09T13:34:31.484776+00:00\nskill: ceo-mindset\nduration_min: 120\nrating: 10\nnotes: |\n  Added CEO/entrepreneur mindset skill, web search tools, deep research agent, pattern tracking. Key context: user no longer on secuview, now doing AutoCAD + quotations for Starfox. Own projects: aslielectronics, Hugo site, directory idea.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "102887cb1764392aa7548726858c162a",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781684550,
+    "update_time": 1781684550,
+    "_id": "sessions::session-20260609-133431.md::49"
+  },
+  "sessions::session-20260609-062409.md::50": {
+    "content": "---\nid: 566b497f-f4b6-4174-9a7b-6d4c3d4d85f2\ndate: 2026-06-09T06:24:09.137856+00:00\nskill: quotation-coach\nduration_min: 45\nrating: 9\nnotes: |\n  Added 4mp_varifocal camera type. Refactored quotation tool to support mixed camera types (8x 2MP bullet + 2x 4MP varifocal). Generated MOI Industrial Workshop quotation for 21,453 QAR. Renamed all product images to meaningful names. Header image configured.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "9a1b64889270ba9ef2b9571c980c8063",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781684690,
+    "update_time": 1781684690,
+    "_id": "sessions::session-20260609-062409.md::50"
+  },
+  "sessions::session-20260605-203104.md::51": {
+    "content": "---\nid: 16722d6e-2f85-4d15-a67e-6de53ea8accd\ndate: 2026-06-05T20:31:04.536398+00:00\nskill: web-development\nduration_min: 180\nrating: 9\nnotes: |\n  Built Khaleej List MVP — Gulf business directory & classifieds platform. Rebranded from Qatar-specific to Gulf-wide. 10 seed listings incl real Asli Electronics. Arabic/English, WhatsApp/Call, search/filter, Supabase-ready form. Premium responsive UI. 10 category system.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "b4c06e612db936247955ea318c73e5a6",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781684758,
+    "update_time": 1781684758,
+    "_id": "sessions::session-20260605-203104.md::51"
+  },
+  "sessions::session-20260605-203042.md::52": {
+    "content": "---\nid: b800275e-63bf-4f08-bacf-0eed8e7bd035\ndate: 2026-06-05T20:30:42.865132+00:00\nskill: web-development\nduration_min: 180\nrating: 9\nnotes: |\n  Built Khaleej List MVP — Gulf business directory & classifieds platform. Rebranded from Qatar-specific to Gulf-wide. 10 seed listings incl real Asli Electronics. Arabic/English, WhatsApp/Call, search/filter, Supabase-ready form. Premium responsive UI. 10 category system.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "b49850d3b55f9f19730d3ac3979810b9",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781684851,
+    "update_time": 1781684851,
+    "_id": "sessions::session-20260605-203042.md::52"
+  },
+  "sessions::session-20260605-172556.md::53": {
+    "content": "---\nid: 6a48b6cc-9805-419e-868b-b5c2487e03f2\ndate: 2026-06-05T17:25:56.579957+00:00\nskill: web-development\nduration_min: 20\nrating: 4\nnotes: |\n  Fixed product page tab toggle bug (classList split) in safehome/layouts/product/single.html. Added Disallow: /12/ to robots.txt to block orphan Hugo ghost page.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "749b1ea5c060f4fbce509ff12e6bc466",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781685092,
+    "update_time": 1781685092,
+    "_id": "sessions::session-20260605-172556.md::53"
+  },
+  "sessions::session-20260602-134913.md::54": {
+    "content": "---\nid: 0dc49427-9297-4483-bd34-2de3b62f0ec3\ndate: 2026-06-02T13:49:13.341796+00:00\nskill: SEO content + schema + backlinks\nduration_min: 120\nrating: 9\nnotes: |\n  Bulk-enriched 178 product pages (~300 words each), added internal links from 12 blog posts, fixed Product schema warnings (brand, shippingDetails, returnPolicy), fixed /12/ pagination noindex, rewrote About Us page, shortened solar blog permalink, researched free Qatar backlink opportunities, wrote Quora post + secuview blog for 4G solar camera\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "84d8fcbbbb5c158887cf77c924106fca",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781685149,
+    "update_time": 1781685149,
+    "_id": "sessions::session-20260602-134913.md::54"
+  },
+  "sessions::session-20260602-094327.md::55": {
+    "content": "---\nid: c2668448-3862-4ebd-99f2-f1f5fcfea540\ndate: 2026-06-02T09:43:27.379005+00:00\nskill: blog-publishing-solar-4g\nduration_min: 15\nrating: 9\nnotes: |\n  Published solar 4G security camera buying guide for aslielectronics.com — 3 models compared (400/449/575 QAR), buyer segments, installation guide, FAQ. Committed to safehome repo + pushed to GitHub.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "ab1416beba52c2731247852c4826a9e7",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781685231,
+    "update_time": 1781685231,
+    "_id": "sessions::session-20260602-094327.md::55"
+  },
+  "sessions::session-20260602-084642.md::56": {
+    "content": "---\nid: 20821839-21ec-429c-8a4f-4b5e5b474f06\ndate: 2026-06-02T08:46:42.681423+00:00\nskill: blog-publishing-solar-4g\nduration_min: 15\nrating: 9\nnotes: |\n  Published solar 4G camera hero blog post to secuview.com. Day 2 complete.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "244b8e90c48f7728f16cb0840d2a0d63",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781685295,
+    "update_time": 1781685295,
+    "_id": "sessions::session-20260602-084642.md::56"
+  },
+  "sessions::session-20260602-061334.md::57": {
+    "content": "---\nid: 48737691-93a9-423b-bf6a-911525390d36\ndate: 2026-06-02T06:13:34.508911+00:00\nskill: prompt-engineering-drill\nduration_min: 15\nrating: 8\nnotes: |\n  Practiced Facebook ad prompt for solar 4G camera. Scored 8/10 — good scenarios and constraints, missed CTA and tone specification.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "49d7f33b6c2d5dd43b1c15e0e58942d5",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781685509,
+    "update_time": 1781685509,
+    "_id": "sessions::session-20260602-061334.md::57"
+  },
+  "sessions::session-20260601-134653.md::58": {
+    "content": "---\nid: 2cb563c7-f076-4fb2-be1d-2886374657f9\ndate: 2026-06-01T13:46:53.107526+00:00\nskill: content-strategy\nduration_min: 120\nrating: 10\nnotes: |\n  Wrote 5 AEO-optimized blog posts for AsliElectronics covering all product categories: biometric attendance, 4G LTE router guide, video doorbell/doorphone, NVR/DVR buying guide, mesh WiFi vs access points for villas. Total 582 lines across 5 files.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "f2130b11cf1799899ad732c4282bf62e",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781685579,
+    "update_time": 1781685579,
+    "_id": "sessions::session-20260601-134653.md::58"
+  },
+  "sessions::session-20260601-133723.md::59": {
+    "content": "---\nid: 069d4188-b31d-4284-ae31-94faeafeabb0\ndate: 2026-06-01T13:37:23.361829+00:00\nskill: copywriting\nduration_min: 30\nrating: 9\nnotes: |\n  Wrote IP PBX Phone System Guide for AsliElectronics blog. Covers VoIP vs PABX comparison, channel sizing, hardware, installation. Saved to safehome/content/blog/ip-pbx-phone-system-guide-qatar.md\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "e90cb8f31b5f0d383166e052fc1c547a",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781686024,
+    "update_time": 1781686024,
+    "_id": "sessions::session-20260601-133723.md::59"
+  },
+  "sessions::session-20260601-131343.md::60": {
+    "content": "---\nid: 4a458098-194b-43d8-9a2b-dacf63cd7e41\ndate: 2026-06-01T13:13:43.000264+00:00\nskill: ip-pbx\nduration_min: 60\nrating: 9\nnotes: |\n  Configured IP PBX for local and outside calling. Created configuration video tutorial for customer so they can configure IP PBX independently.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "e7961b2a28905836b3b4d322bfe8b0bd",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781686566,
+    "update_time": 1781686566,
+    "_id": "sessions::session-20260601-131343.md::60"
+  },
+  "sessions::session-20260601-124355.md::61": {
+    "content": "---\nid: 4e3f8152-f447-46eb-a827-cf449bc3e2c6\ndate: 2026-06-01T12:43:55.528332+00:00\nskill: copywriting-aeo\nduration_min: 45\nrating: 10\nnotes: |\n  Wrote hero blog post for solar 4G camera — complete buyer's guide with AEO optimization, comparison table, FAQ, buyer psychology targeting 5 segments (villa owners, construction, farms, expats, small business). Also created image thumbnail prompt for blog feature image. Saved to work/content/blogs/secuview-solar-4g-camera-guide-qatar.md\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "ea500ea804382f40292c9ed5d669834c",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781687476,
+    "update_time": 1781687476,
+    "_id": "sessions::session-20260601-124355.md::61"
+  },
+  "sessions::session-20260601-065711.md::62": {
+    "content": "---\nid: c6a60c3a-6aba-401b-9147-2120b3481d1d\ndate: 2026-06-01T06:57:11.106329+00:00\nskill: seo-audit-traffic-plan\nduration_min: 60\nrating: 10\nnotes: |\n  Full secuview.com SEO audit identifying 11 issues hurting rankings. Delivered traffic plan in 3 phases: quick wins (GBP, Google Shopping, FAQ schema, LocalBusiness schema, category content), content engine (buying guides, comparisons, installation guides), distribution channels (FB Shop, Reddit, partner affiliates).\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "56903f87d64a9ff2cf05109c0d83f19f",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781688070,
+    "update_time": 1781688070,
+    "_id": "sessions::session-20260601-065711.md::62"
+  },
+  "sessions::session-20260531-100743.md::63": {
+    "content": "---\nid: d734af59-c852-41e2-b125-05fb1f0c43c1\ndate: 2026-05-31T10:07:43.470733+00:00\nskill: secuview-schema-markup\nduration_min: 30\nrating: 10\nnotes: |\n  Created 4 schema types for secuview.com: Product (price/ratings in Google), LocalBusiness (map/local search), Organization (knowledge panel), Breadcrumb (clean search appearance). All PHP MU plugins ready to upload via WP admin. Created installation guide.\ndecisions:\n  - \"All 4 schema types ready for upload\"\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "dafbfe92a3d1e432fb78d7ec73b68cc2",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781688520,
+    "update_time": 1781688520,
+    "_id": "sessions::session-20260531-100743.md::63"
+  },
+  "sessions::session-20260531-095438.md::64": {
+    "content": "---\nid: 98f5f792-cf8e-404b-952d-a65046ce6979\ndate: 2026-05-31T09:54:38.942482+00:00\nskill: web-development-skills\nduration_min: 45\nrating: 10\nnotes: |\n  Created 3 coding skills: web-development (HTML/CSS/JS with UI/UX, animations, GSAP), wordpress (themes, plugins, WooCommerce), hugo (static sites, deployment). Coach can now build complete websites.\ndecisions:\n  - \"Coach can now build websites from scratch\"\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "f269c53b98a989220d63d37e692db390",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781688638,
+    "update_time": 1781688638,
+    "_id": "sessions::session-20260531-095438.md::64"
+  },
+  "sessions::session-20260531-095425.md::65": {
+    "content": "---\nid: 566b88df-f551-43e2-890d-c85df12476cc\ndate: 2026-05-31T09:54:25.611429+00:00\nskill: automation-setup\nduration_min: 30\nrating: 9\nnotes: |\n  Set up auto-push to GitHub at 4:50 PM daily via cron. Created dev server tool (serve.py) for live preview of websites. Updated AGENTS.md with all new commands.\ndecisions:\n  - \"Daily auto-push to GitHub at 4:50 PM\"\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "f4857bb8c38e2ce539ab0a00365eabbd",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781688790,
+    "update_time": 1781688790,
+    "_id": "sessions::session-20260531-095425.md::65"
+  },
+  "sessions::session-20260531-095413.md::66": {
+    "content": "---\nid: 7ad9e349-9d1a-4040-9eee-398a61e53b1b\ndate: 2026-05-31T09:54:13.707342+00:00\nskill: skill-development\nduration_min: 60\nrating: 10\nnotes: |\n  Created 15 new skills: web-development, wordpress, hugo, deep-research, n8n-workflows, kaizen, ship-learn-next, domain-brainstormer, lead-research, frontend-design, d3-visualization, excalidraw-diagrams, competitive-ads, brand-voice, xlsx-master. Total skills now 63.\ndecisions:\n  - \"Expanded from 48 to 63 skills covering marketing, coding, design, research\"\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "5e66497caa56c1bd3d9e0ac8d07fbf2d",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781688925,
+    "update_time": 1781688925,
+    "_id": "sessions::session-20260531-095413.md::66"
+  },
+  "sessions::session-20260531-095408.md::67": {
+    "content": "---\nid: 8e9ff73b-6faf-4b3f-b346-21df899fbcf3\ndate: 2026-05-31T09:54:08.586294+00:00\nskill: coach-system-upgrade\nduration_min: 120\nrating: 9\nnotes: |\n  Integrated daily notes, inbox, weekly synthesis, thinking partner from PARA template. Added conversation memory, decisions tracking, memory search, recap tool. Created 15 new tools total.\ndecisions:\n  - \"Upgraded coach from 8.5/10 to 10/10\"\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "657efd1a9a711021c9889e633ed60c52",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781688971,
+    "update_time": 1781688971,
+    "_id": "sessions::session-20260531-095408.md::67"
+  },
+  "sessions::session-20260531-074533.md::68": {
+    "content": "---\nid: 5c9ed810-d858-4eb4-816e-a85e41dc0828\ndate: 2026-05-31T07:45:33.289593+00:00\nskill: facebook-catalog-scrape\nduration_min: 45\nrating: 10\nnotes: |\n  Scraped 187 Secuview products from secuview.com into FB Commerce Manager CSV. Script saved to work/scripts/scrape_secuview.py. Guide updated at work/content/secuview-facebook-instagram-shop-guide.md\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "47b066e827e838ec7987dc19166f6e71",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781689537,
+    "update_time": 1781689537,
+    "_id": "sessions::session-20260531-074533.md::68"
+  },
+  "sessions::session-20260530-140356.md::69": {
+    "content": "---\nid: be1affa4-0cc7-42ce-81bb-0c2cb8cbab57\ndate: 2026-05-30T14:03:56.299613+00:00\nskill: skill-installation\nduration_min: 45\nrating: 5\nnotes: |\n  Installed 48 SKILL.md files from awesome-agent-skills repo (43 Corey Haines marketing + 3 obra plans + 1 NVIDIA skill-evolution + 1 memory-kit). Updated AGENTS.md for opencode auto-loading. Source: VoltAgent/awesome-agent-skills\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "2e7b77d3182cf22ac2f59e1f6fd3b68a",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781689688,
+    "update_time": 1781689688,
+    "_id": "sessions::session-20260530-140356.md::69"
+  },
+  "sessions::session-20260530-133415.md::70": {
+    "content": "---\nid: bb9cd7b9-4589-4c24-bfe5-f068a8c2518f\ndate: 2026-05-30T13:34:15.112151+00:00\nskill: secuview-report-plan\nduration_min: 10\nrating: 10\nnotes: |\n  Created work report for May 30 and work plan for May 31 for secuview\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "fb652c3289881224b68839c2b8585d8b",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781689820,
+    "update_time": 1781689820,
+    "_id": "sessions::session-20260530-133415.md::70"
+  },
+  "sessions::session-20260530-133249.md::71": {
+    "content": "---\nid: 9d11113a-d471-4528-9af8-82b6d3ef5d65\ndate: 2026-05-30T13:32:49.114693+00:00\nskill: secuview-smart-lock-product-seo\nduration_min: 15\nrating: 10\nnotes: |\n  Optimized Fingerprint Smart Lock product page: SEO title, meta description, long description with features/pricing/delivery info.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "64d57a83b351a66f98f61d18de97d3b2",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781689886,
+    "update_time": 1781689886,
+    "_id": "sessions::session-20260530-133249.md::71"
+  },
+  "sessions::session-20260530-130250.md::72": {
+    "content": "---\nid: 5338702c-716b-494a-8e53-591af5467670\ndate: 2026-05-30T13:02:50.581159+00:00\nskill: secuview-category-faq-mu-plugin\nduration_min: 20\nrating: 10\nnotes: |\n  Wrote MU plugin for category FAQ schema. Covers 11 WooCommerce categories with auto-generated FAQPage schema. No visible text on pages.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "63d19c3c4832767d651cff1ab8b6b68b",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781689943,
+    "update_time": 1781689943,
+    "_id": "sessions::session-20260530-130250.md::72"
+  },
+  "sessions::session-20260530-120227.md::73": {
+    "content": "---\nid: 3b113cdb-8014-47b4-8098-b76e111b1933\ndate: 2026-05-30T12:02:27.903555+00:00\nskill: secuview-access-control-blog\nduration_min: 25\nrating: 10\nnotes: |\n  Wrote Access Control & Time Attendance Systems Qatar guide blog post. Covers fingerprint, face recognition, RFID, PIN methods with product links, pricing, venue recommendations, FAQ section.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "a1076938fb7ca53092a2d13a58fb2da5",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781689969,
+    "update_time": 1781689969,
+    "_id": "sessions::session-20260530-120227.md::73"
+  },
+  "sessions::session-20260530-115304.md::74": {
+    "content": "---\nid: 6089ac04-dedc-4a9f-9bd0-17dfaa2f2ab8\ndate: 2026-05-30T11:53:04.034446+00:00\nskill: secuview-pa-system-blog\nduration_min: 30\nrating: 10\nnotes: |\n  Wrote PA System Qatar guide blog post — complete buying guide for mosques, schools, offices with product links, pricing tables, FAQ section. Saved to coach/work/content/secuview-pa-system-guide.md\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "9449a43973b0748ce9590005cb440c82",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781690034,
+    "update_time": 1781690034,
+    "_id": "sessions::session-20260530-115304.md::74"
+  },
+  "sessions::session-20260530-090745.md::75": {
+    "content": "---\nid: dd4d065f-4515-4e94-9b49-28d2e64eef20\ndate: 2026-05-30T09:07:45.334499+00:00\nskill: secuview-growth-plan-guides\nduration_min: 45\nrating: 10\nnotes: |\n  Created 3 step-by-step guides for secuview growth: GBP improvements checklist, Google Shopping setup, WhatsApp Business catalog. Pushed to GitHub for boss review.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "9b79f42b895375933caa2eb0ce388d23",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781690071,
+    "update_time": 1781690071,
+    "_id": "sessions::session-20260530-090745.md::75"
+  },
+  "sessions::session-20260530-071326.md::76": {
+    "content": "---\nid: b8fc0a4b-6eaa-43a6-a8c4-f76ba1bd53f3\ndate: 2026-05-30T07:13:26.304530+00:00\nskill: secuview-seo-product-page\nduration_min: 20\nrating: 10\nnotes: |\n  Optimized 4G LTE WiFi Router product page on secuview.com: SEO title, meta description, long description with use cases/FAQ/specs, image alt text, schema markup — pushed content files to GitHub, applied to WordPress.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "8cb86520a41c654f07f33d6e2383717a",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781690240,
+    "update_time": 1781690240,
+    "_id": "sessions::session-20260530-071326.md::76"
+  },
+  "sessions::session-20260530-063605.md::77": {
+    "content": "---\nid: 0a632764-adce-4e84-ac1b-da3434302c1a\ndate: 2026-05-30T06:36:05.244627+00:00\nskill: secuview-blog-publish\nduration_min: 15\nrating: 10\nnotes: |\n  Published Smart Home Security Guide Qatar blog post to secuview.com/blog/ — covers fingerprint locks, video doorbells, smart switches, IR controller with pricing, competitor comparison, FAQ schema.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "aad4d785c6670e7d3f476037933e411a",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781690362,
+    "update_time": 1781690362,
+    "_id": "sessions::session-20260530-063605.md::77"
+  },
+  "sessions::session-20260529-190958.md::78": {
+    "content": "---\nid: 300d1d5a-d4c4-4077-806f-271e969e18c3\ndate: 2026-05-29T19:09:58.373945+00:00\nskill: seo-audit-fixes\nduration_min: 45\nrating: 9\nnotes: |\n  Phase 3 completed: title tag, meta description fallback, hreflang tags, lazy loading/width-height on images, newsletter form action fix, schema description fallback. Pushed to GitHub, auto-deploy to Cloudflare.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "c3c1105ef694b71bb8993457595d9e7f",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781690723,
+    "update_time": 1781690723,
+    "_id": "sessions::session-20260529-190958.md::78"
+  },
+  "sessions::session-20260529-172614.md::79": {
+    "content": "---\nid: f31a497b-d7c6-419d-ab7e-db3a69ad05d7\ndate: 2026-05-29T17:26:14.309210+00:00\nskill: content-seo-phase2\nduration_min: 30\nrating: 9\nnotes: |\n  Batch 3: use-case homepage section, internal links from blog posts to categories. Pushed to GitHub.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "efb34c8575182d4bad94aa96c43bcc2f",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781691087,
+    "update_time": 1781691087,
+    "_id": "sessions::session-20260529-172614.md::79"
+  },
+  "sessions::session-20260529-171751.md::80": {
+    "content": "---\nid: 6d36c77e-0bee-478b-b516-0cdf96443e4d\ndate: 2026-05-29T17:17:51.906261+00:00\nskill: content-seo-phase2\nduration_min: 60\nrating: 9\nnotes: |\n  Phase 2 quick fixes + 5 blog posts: contact form WhatsApp, LocalBusiness+FAQ schema, footer social links. Batch 1-2 done, Batch 3-4 remaining. Pushed to GitHub.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "daff6b905c5d7db4c7366c660d71127b",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781691509,
+    "update_time": 1781691509,
+    "_id": "sessions::session-20260529-171751.md::80"
+  },
+  "sessions::session-20260528-170636.md::81": {
+    "content": "---\nid: ef333e19-b264-472b-bc9c-7b2006c40960\ndate: 2026-05-28T17:06:36.731706+00:00\nskill: hugo-web-dev\nduration_min: 15\nrating: 8\nnotes: |\n  Wrote complete home security system guide blog post, fixed Cloudflare build command, pushed to GitHub\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "cbb5b7c03642a414d2baadf53bb799d3",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781691927,
+    "update_time": 1781691927,
+    "_id": "sessions::session-20260528-170636.md::81"
+  },
+  "sessions::session-20260528-151058.md::82": {
+    "content": "---\nid: f24a9bf6-1185-4f3e-b934-3c1c82dcabe6\ndate: 2026-05-28T15:10:58.215363+00:00\nskill: hugo-web-dev\nduration_min: 20\nrating: 5\nnotes: |\n  Removed Audio/Cables from nav, wired Add to Cart -> WhatsApp on product page + cards, removed dead initCart() JS, created category _index.md with SEO descriptions, added .Content rendering to term template. Pushed to main.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "f6d5a9754c92734466a829ccc80e2023",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781692090,
+    "update_time": 1781692090,
+    "_id": "sessions::session-20260528-151058.md::82"
+  },
+  "sessions::session-20260528-143030.md::83": {
+    "content": "---\nid: 367ad2aa-c775-47a5-9a6d-979d29134893\ndate: 2026-05-28T14:30:30.334077+00:00\nskill: seo-batch\nduration_min: 90\nrating: 10\nnotes: |\n  Complete SEO batch: JSON-LD (Organization/Product/Article/BreadcrumbList), 178 product descriptions, fixed duplicate meta, rel=prev/next, robots.txt sitemap, lazy loading, minify config\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "1e8f0a9e72762f1dac82bbb2d430db76",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781692170,
+    "update_time": 1781692170,
+    "_id": "sessions::session-20260528-143030.md::83"
+  },
+  "sessions::session-20260528-142545.md::84": {
+    "content": "---\nid: 6b488eea-c336-435a-a4bd-febee9a5daa7\ndate: 2026-05-28T14:25:45.881016+00:00\nskill: cloudflare-deploy\nduration_min: 30\nrating: 10\nnotes: |\n  Deployed AsliElectronics Hugo site to Cloudflare Pages. Fix: build output was set to / instead of public. Domain aslielectronics.com live.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "e3b30f9f1ef347ae6440dc16ae16f33c",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781692273,
+    "update_time": 1781692273,
+    "_id": "sessions::session-20260528-142545.md::84"
+  },
+  "sessions::session-20260528-104700.md::85": {
+    "content": "---\nid: 62656d16-834e-4e5c-9f2e-2b04e2665bc5\ndate: 2026-05-28T10:47:00.092772+00:00\nskill: safehome-rebrand-to-aslielectronics\nduration_min: 45\nrating: 10\nnotes: |\n  Rebranded SafeHOME site to AsliElectronics: updated config, header, footer, about, contact, blog, index, product titles/alt text, logo, favicon, phone/email. Removed all secuview/SafeHOME references from visible text.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "145a2617436859e52177ac619810ba13",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781692456,
+    "update_time": 1781692456,
+    "_id": "sessions::session-20260528-104700.md::85"
+  },
+  "sessions::session-20260528-103026.md::86": {
+    "content": "---\nid: 90f57569-77d6-454b-8dee-3df3ed45aabc\ndate: 2026-05-28T10:30:26.347842+00:00\nskill: domain-setup\nduration_min: 15\nrating: 10\nnotes: |\n  Set up aslielectronics.com domain — bought from Hstinger, configured to point to Cloudflare nameservers\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "d897f99f19dad99a85888883dc7407b8",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781692489,
+    "update_time": 1781692489,
+    "_id": "sessions::session-20260528-103026.md::86"
+  },
+  "sessions::session-20260527-182934.md::87": {
+    "content": "---\nid: f8a7f867-8175-48b9-8fa5-1791ad4f970f\ndate: 2026-05-27T18:29:34.506442+00:00\nskill: hugo-product-page-enhance\nduration_min: 75\nrating: 9\nnotes: |\n  Fixed frontmatter leak in Description tab. Enhanced overview section. Replaced dev blog with 4 niche posts. Fixed OG image fallback chain. SEO audit completed — saved 7-item batch to checkpoint for later.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "932ffc2a9dfd6ce0da327917bf40207a",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781692527,
+    "update_time": 1781692527,
+    "_id": "sessions::session-20260527-182934.md::87"
+  },
+  "sessions::session-20260527-173554.md::88": {
+    "content": "---\nid: 9e6a43bb-848e-4598-b07a-3c0f290c1208\ndate: 2026-05-27T17:35:54.333116+00:00\nskill: hugo-product-page-enhance\nduration_min: 60\nrating: 9\nnotes: |\n  Fixed frontmatter leak in Description tab (strip YAML from RawContent). Enhanced overview section to show full description. Replaced 3 dev blog posts with 4 real niche posts: security camera guide, smart lock guide, PA systems guide, network cabling guide. Pushed to GitHub.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "6acb90a9c400504df804f9f1f58939f1",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781692591,
+    "update_time": 1781692591,
+    "_id": "sessions::session-20260527-173554.md::88"
+  },
+  "sessions::session-20260526-194821.md::89": {
+    "content": "---\nid: 8634e752-b909-4794-a495-95e7ee5e0884\ndate: 2026-05-26T19:48:21.352128+00:00\nskill: hugo-product-page-fix\nduration_min: 30\nrating: 9\nnotes: |\n  Fixed 3 bugs: 1) Moved single.html from layouts/products/ to layouts/product/ to match type:product frontmatter 2) Fixed related products query (complement needs slice) 3) Stripped gallery images from description tab using regex\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "bf3a198b4829ae1410631c79489254b9",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781692647,
+    "update_time": 1781692647,
+    "_id": "sessions::session-20260526-194821.md::89"
+  },
+  "sessions::session-20260526-193517.md::90": {
+    "content": "---\nid: df5c4504-5ed1-4236-a5a9-eeffe4f62546\ndate: 2026-05-26T19:35:17.817432+00:00\nskill: roadmap-planning\nduration_min: 30\nrating: 9\nnotes: |\n  Built full income roadmap with 5 phases. Deprecated agent.py, user now talks to opencode directly.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "3fcd62748450099d2be28fb132fb80e5",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781692765,
+    "update_time": 1781692765,
+    "_id": "sessions::session-20260526-193517.md::90"
+  },
+  "sessions::session-20260526-130304.md::91": {
+    "content": "---\nid: 889b479e-dd08-4a42-8f72-d92c45ad2659\ndate: 2026-05-26T13:03:04.984223+00:00\nskill: hugo-product-page-redesign\nduration_min: 25\nrating: 8\nnotes: |\n  Redesigned single product page template: fixed image URL using strings.TrimPrefix, removed duplicate gallery images from description tab, improved summary display with accent border, better trust badges grid layout\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "05316eaaa80e8142ca9d86ed892759e0",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781692826,
+    "update_time": 1781692826,
+    "_id": "sessions::session-20260526-130304.md::91"
+  },
+  "sessions::session-20260526-125038.md::92": {
+    "content": "---\nid: a11c44ab-b681-4c8a-a971-38e88cc59169\ndate: 2026-05-26T12:50:38.720477+00:00\nskill: hugo-price-bug\nduration_min: 20\nrating: 9\nnotes: |\n  Fixed Hugo price bug: added float() wrapper in 3 templates (single.html, product-card.html, index.html). Added missing price fields to 4 products (outdoor 4G router, 200W PoE switch, 300W PoE switch, 4G LTE router).\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "5cf3e99418346abe402ee6e597f0d115",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781692854,
+    "update_time": 1781692854,
+    "_id": "sessions::session-20260526-125038.md::92"
+  },
+  "sessions::session-20260526-124106.md::93": {
+    "content": "---\nid: 07d6bc47-2dc5-4d8e-9a2e-b70c0b73a4cc\ndate: 2026-05-26T12:41:06.783098+00:00\nskill: cloudflare-ssh-client-setup\nduration_min: 15\nrating: 9\nnotes: |\n  Wrote cloudflare-ssh-client-setup.md guide for client PC setup. Diagnosed SSH tunnel issue: Cloudflare proxy rejects raw TCP, needs cloudflared on client side.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "9c9f0e9aaadf34ecd74e88519c96bb3f",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781693027,
+    "update_time": 1781693027,
+    "_id": "sessions::session-20260526-124106.md::93"
+  },
+  "sessions::session-20260526-122335.md::94": {
+    "content": "---\nid: a42a5cb5-dd48-4c7a-af13-256ee202212c\ndate: 2026-05-26T12:23:35.778104+00:00\nskill: n8n-meta-api-setup\nduration_min: 15\nrating: 8\nnotes: |\n  Updated n8n-credentials-setup.md with step-by-step beginner guide for Meta Graph API token setup & credential linking\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "173127b1856dda695c93172b50e56373",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781693075,
+    "update_time": 1781693075,
+    "_id": "sessions::session-20260526-122335.md::94"
+  },
+  "sessions::session-20260526-095002.md::95": {
+    "content": "---\nid: 215306db-4043-479b-9961-4bdc8927c991\ndate: 2026-05-26T09:50:02.395437+00:00\nskill: content-writing\nduration_min: 45\nrating: 10\nnotes: |\n  Wrote Smart Home Security Guide Qatar blog post (same style as WiFi Starter Kit). Covers fingerprint locks, video doorbells, WiFi switches, IR controller. Includes pricing table, competitor comparison, installation guide, FAQ schema. Written to coach/work/smart-home-security-guide-qatar.md ready for publishing.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "616778c9eea1a10c041ba445e33ec779",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781693102,
+    "update_time": 1781693102,
+    "_id": "sessions::session-20260526-095002.md::95"
+  },
+  "sessions::session-20260526-084411.md::96": {
+    "content": "---\nid: 4bada4d1-4534-4fb0-ba28-9e13145c68fd\ndate: 2026-05-26T08:44:11.260066+00:00\nskill: content-writing\nduration_min: 50\nrating: 9\nnotes: |\n  Published 'PoE Switch Qatar: Complete Buying Guide' blog post on Secuview. SEO-optimized for Qatar market keywords.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "5d814d6346e0323e3b30b308112c28bb",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781693222,
+    "update_time": 1781693222,
+    "_id": "sessions::session-20260526-084411.md::96"
+  },
+  "sessions::session-20260526-074507.md::97": {
+    "content": "---\nid: 65dbef4d-8a1c-4faa-9c6a-d4a74512c63e\ndate: 2026-05-26T07:45:07.302241+00:00\nskill: seo-optimization\nduration_min: 60\nrating: 9\nnotes: |\n  Full SEO audit of all non-CCTV category pages on Secuview. Analyzed 22 pages total. Already optimized: Cable, Network Communications, Access Point Router, Smart Home, Audio Products. Added optimized title+meta for: Network Cable (Cat6/Cat7 Qatar), Cable (Professional Cables Qatar), Smart Home (Best Smart Home Devices Qatar), Audio Products (PA Systems & Commercial Audio Qatar), Access Point Router (Wi-Fi 6 Routers Qatar). Minor tweaks applied to Smart Locks (added Fingerprint), Background Music, Smart Lights. 15 pages confirmed good as-is.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "2471781b805b5b971a4f1df8c98031b8",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781693259,
+    "update_time": 1781693259,
+    "_id": "sessions::session-20260526-074507.md::97"
+  },
+  "sessions::session-20260525-142400.md::98": {
+    "content": "---\nid: e4751f10-dbb2-4b99-b912-7fc4a575d8f9\ndate: 2026-05-25T14:24:00.505392+00:00\nskill: content-writing\nduration_min: 45\nrating: 9\nnotes: |\n  Wrote PoE Switch buying guide blog post for Secuview. Simple English for Qatar audience. Includes product recommendations with SKUs and pricing.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "724d94f4e6100373c7a34348a0b60ab0",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781693633,
+    "update_time": 1781693633,
+    "_id": "sessions::session-20260525-142400.md::98"
+  },
+  "sessions::session-20260525-142015.md::99": {
+    "content": "---\nid: d1c7e5d0-8bb9-4364-9ad1-47272a7683ea\ndate: 2026-05-25T14:20:15.868603+00:00\nskill: seo-keyword-research\nduration_min: 30\nrating: 8\nnotes: |\n  Researched 5 blog post ideas with keyword research for Secuview. Gaps found: PoE switches, PA systems, 4G LTE routers, access control, home security pillar post.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "228810487b3bb1378c27336fb4d28b6e",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781694162,
+    "update_time": 1781694162,
+    "_id": "sessions::session-20260525-142015.md::99"
+  },
+  "sessions::session-20260525-141739.md::100": {
+    "content": "---\nid: 67b8d450-b76c-404f-81d7-de82bbec37b3\ndate: 2026-05-25T14:17:39.068067+00:00\nskill: seo-optimization\nduration_min: 45\nrating: 8\nnotes: |\n  SEO work on product pages (meta tags, descriptions). Site submitted to Google Search Console.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "3adaeaf2f1139c855f34bccf2ee056fa",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781694577,
+    "update_time": 1781694577,
+    "_id": "sessions::session-20260525-141739.md::100"
+  },
+  "sessions::session-20260525-141427.md::101": {
+    "content": "---\nid: 2e3be218-45db-4175-9bcb-bcf7df6c400b\ndate: 2026-05-25T14:14:27.110450+00:00\nskill: reddit-marketing\nduration_min: 30\nrating: 8\nnotes: |\n  Posted Day 1 Reddit content on r/qatar and r/network. Using simple English for Qatar audience. Secuview indirect promotion.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "2c112c25deed2f6fa902ed619d08cb98",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781694938,
+    "update_time": 1781694938,
+    "_id": "sessions::session-20260525-141427.md::101"
+  },
+  "sessions::session-20260524-135605.md::102": {
+    "content": "---\nid: 5632a1c4-99f6-4ba7-9d15-a185e80d33e2\ndate: 2026-05-24T13:56:05.364055+00:00\nskill: n8n-meta-api-setup\nduration_min: 20\nrating: 7\nnotes: |\n  Imported 3 n8n Instagram workflows. Researched Meta Graph API — can generate token without business verification for own account via App Dashboard. Will add credentials next session.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "de522807988480195132142be489f975",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781695128,
+    "update_time": 1781695128,
+    "_id": "sessions::session-20260524-135605.md::102"
+  },
+  "sessions::session-20260524-134511.md::103": {
+    "content": "---\nid: 858cbcc4-d87c-4f23-bfd1-850e4bbc051c\ndate: 2026-05-24T13:45:11.248979+00:00\nskill: content-publishing\nduration_min: 15\nrating: 8\nnotes: |\n  Posted smart-lock-guide-qatar-blog.md to secuview.com\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "57b677ef2e6eb973282daf17a72182eb",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781695323,
+    "update_time": 1781695323,
+    "_id": "sessions::session-20260524-134511.md::103"
+  },
+  "sessions::session-20260524-101017.md::104": {
+    "content": "---\nid: e72e0796-6e8e-4615-908c-971cb952a1d6\ndate: 2026-05-24T10:10:17.119174+00:00\nskill: n8n workflow design\nduration_min: 45\nrating: 9\nnotes: |\n  Designed 3 free n8n workflows for Instagram automation: (1) Comment-to-DM lead gen, (2) Content pipeline with Ollama, (3) Daily analytics tracker with spike alerts. All use free tools only — no paid APIs.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "92c760e70c52a6a8f95672307dbe664a",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781695344,
+    "update_time": 1781695344,
+    "_id": "sessions::session-20260524-101017.md::104"
+  },
+  "sessions::session-20260524-093705.md::105": {
+    "content": "---\nid: e03eb4d1-3f8e-451f-8dbe-599b44c46a16\ndate: 2026-05-24T09:37:05.107377+00:00\nskill: n8n LAN access fix\nduration_min: 5\nrating: 10\nnotes: |\n  Fixed secure cookie error on LAN access by setting N8N_SECURE_COOKIE=false\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "ff1084bdecb842457ef563f769c8d505",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781695404,
+    "update_time": 1781695404,
+    "_id": "sessions::session-20260524-093705.md::105"
+  },
+  "sessions::session-20260524-092944.md::106": {
+    "content": "---\nid: f9d5140d-fa42-4806-8759-1f9af93a7a3b\ndate: 2026-05-24T09:29:44.170771+00:00\nskill: n8n setup & docker\nduration_min: 25\nrating: 9\nnotes: |\n  Fixed container crash (permission issue: UID 1001 vs 1000). Added user: 1001, HOME, cache volume mount. Updated N8N_HOST/WEBHOOK_URL to LAN IP 192.168.1.147 for local network access.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "83f2ceeb7c1cd2699df459d2dffe58bc",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781695525,
+    "update_time": 1781695525,
+    "_id": "sessions::session-20260524-092944.md::106"
+  },
+  "sessions::session-20260524-085007.md::107": {
+    "content": "---\nid: 8e10346f-0db0-4765-96cb-2479503fdbef\ndate: 2026-05-24T08:50:07.694836+00:00\nskill: social media automation planning\nduration_min: 20\nrating: 7\nnotes: |\n  Discussed n8n approach for social media automation. Decided to configure n8n first then build automation workflows.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "4eaa23e25c5a53f37e1478cdac79bd04",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781695581,
+    "update_time": 1781695581,
+    "_id": "sessions::session-20260524-085007.md::107"
+  },
+  "sessions::session-20260523-202900.md::108": {
+    "content": "agent_one_improvement: TODO",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "a07bbc2a10c761dc61e574e486484948",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781695610,
+    "update_time": 1781695610,
+    "_id": "sessions::session-20260523-202900.md::108"
+  },
+  "sessions::session-20260523-134410.md::110": {
+    "content": "---\nid: b44a8519-dbc9-4487-b738-2977c487c21b\ndate: 2026-05-23T13:44:10.437060+00:00\nskill: secuview seo planning and wrap up\nduration_min: 5\nrating: 9\nnotes: |\n  Day summary: Smart Home SEO audit, FAQ schema MU plugin deployed (5 categories live), WiFi Starter Kit blog confirmed live, Smart Lock guide drafted. Tomorrow: full SEO/AEO audit of secuview.com, then Social Media Automation recommendations.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "31081b45ebfcf28df822876b743d156f",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781695650,
+    "update_time": 1781695650,
+    "_id": "sessions::session-20260523-134410.md::110"
+  },
+  "sessions::session-20260523-133003.md::111": {
+    "content": "---\nid: 72d9fc99-dbe3-4a6d-8dfc-761bf71ce4aa\ndate: 2026-05-23T13:30:03.684602+00:00\nskill: secuview smart lock blog guide draft\nduration_min: 20\nrating: 9\nnotes: |\n  Drafted complete Smart Locks in Qatar guide blog post. Covers fingerprint, mobile, and glass door locks with buying guide, FAQ, comparison table, and product links. Saved to work/smart-lock-guide-qatar-blog.md — not yet posted to site.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "ceb3ad8f7951cd6c6596a306db5b232d",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781695702,
+    "update_time": 1781695702,
+    "_id": "sessions::session-20260523-133003.md::111"
+  },
+  "sessions::session-20260523-125113.md::112": {
+    "content": "---\nid: 7eba34ae-281c-4091-a4a5-972804eb93e4\ndate: 2026-05-23T12:51:13.088438+00:00\nskill: secuview wifi starter kit blog publish\nduration_min: 15\nrating: 8\nnotes: |\n  Uploaded Home WiFi Starter Kit blog post to secuview.com/blog/ — previously unpublished, now live.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "6e1775ecf718d49a7a931fd4d4990f7a",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781695812,
+    "update_time": 1781695812,
+    "_id": "sessions::session-20260523-125113.md::112"
+  },
+  "sessions::session-20260523-125017.md::113": {
+    "content": "---\nid: 6237505d-3f58-48ae-a81e-0cf3ecc4c813\ndate: 2026-05-23T12:50:17.889753+00:00\nskill: secuview seo category faq schema\nduration_min: 25\nrating: 9\nnotes: |\n  Analyzed Smart Home category page SEO. Boss blocks visible descriptions — implemented invisible FAQ schema via MU plugin. Expanded to all 5 main categories (Smart Home, Security Surveillance, Network & Communications, Audio Products, Cable). Created consolidated MU plugin file. Saved to work/ for copy-paste.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "8adda9543d44e6b7bff0a725a03e6631",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781695854,
+    "update_time": 1781695854,
+    "_id": "sessions::session-20260523-125017.md::113"
+  },
+  "sessions::session-20260523-084302.md::114": {
+    "content": "---\nid: fe52976a-b9dd-4a50-83f3-ac4f23d1da56\ndate: 2026-05-23T08:43:02.460655+00:00\nskill: secuview seo content planning\nduration_min: 10\nrating: 9\nnotes: |\n  Reviewed secuview.com/blog — found 10 existing posts, identified gaps (Smart Home, PoE switches, Audio categories uncovered). Home WiFi Starter Kit blog not yet published. Suggested next blog directions. Updated agent identity to work-agent mode.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "75d638803ef1bae8dff9459021ca4dc8",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781695943,
+    "update_time": 1781695943,
+    "_id": "sessions::session-20260523-084302.md::114"
+  },
+  "sessions::session-20260521-135009.md::115": {
+    "content": "---\nid: a93fe2ea-477b-49a7-b40e-0f043016c12d\ndate: 2026-05-21T13:50:09.554276+00:00\nskill: secuview seo optimizations\nduration_min: 15\nrating: 9\nnotes: |\n  Added alt text to 20+ product images in WooCommerce. Added internal links between products and blog pages.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "37f3c6a23264e0021ccdee5717022016",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781696353,
+    "update_time": 1781696353,
+    "_id": "sessions::session-20260521-135009.md::115"
+  },
+  "sessions::session-20260521-090747.md::116": {
+    "content": "---\nid: 6dc508a3-4c64-4f99-bd0b-61b84ba05604\ndate: 2026-05-21T09:07:47.607847+00:00\nskill: hugo site audit\nduration_min: 30\nrating: 8\nnotes: |\n  Audited safehome Hugo site on GitHub Pages. Found price bug, missing SEO meta, no schema, no sitemap, wrong blog content. Created production readiness checklist in work/hugo-site-audit-safehome.md\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "ecc1b48e9ca2bece8a753d1c08462f10",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781696436,
+    "update_time": 1781696436,
+    "_id": "sessions::session-20260521-090747.md::116"
+  },
+  "sessions::session-20260521-083657.md::117": {
+    "content": "---\nid: 617758bb-2a90-43c4-8ff7-08727ab2f388\ndate: 2026-05-21T08:36:57.732850+00:00\nskill: content writing\nduration_min: 45\nrating: 9\nnotes: |\n  Wrote Home WiFi Starter Kit promotional blog post. SEO/AEO optimized, competitor comparison, internal links, FAQ schema ready. Next: another product category blog.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "1d8e2fc0fb7cbdbdbfc23479e20036e9",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781696482,
+    "update_time": 1781696482,
+    "_id": "sessions::session-20260521-083657.md::117"
+  },
+  "sessions::session-20260521-070031.md::118": {
+    "content": "---\nid: 6b6fcd0d-6944-4a91-9773-c005c0d63fa7\ndate: 2026-05-21T07:00:31.444128+00:00\nskill: seo competitive analysis\nduration_min: 30\nrating: 9\nnotes: |\n  Analyzed secuview.com vs aman.qa: identified 10 keyword opportunities, content gaps, created action plan. Practical prompt engineering with real business case.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "8ef39cf0cc062dacd7aa572bb0054ee6",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781696532,
+    "update_time": 1781696532,
+    "_id": "sessions::session-20260521-070031.md::118"
+  },
+  "sessions::session-20260521-062419.md::119": {
+    "content": "---\nid: c4ab62a3-9a98-42ce-bf50-fa1152192588\ndate: 2026-05-21T06:24:19.033397+00:00\nskill: prompt engineering\nduration_min: 20\nrating: 8\nnotes: |\n  Learned prompt review criteria: role clarity, task specificity, constraints, examples, output structure. Got a 4/10 review and improved version. Will continue.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "ae40523f6d056115f9f9a0867391a28e",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781696663,
+    "update_time": 1781696663,
+    "_id": "sessions::session-20260521-062419.md::119"
+  },
+  "sessions::session-20260521-054016.md::120": {
+    "content": "---\nid: dbade895-1a1c-4ab0-89ed-3715b6cab891\ndate: 2026-05-21T05:40:16.325540\nskill: chess tactics\nduration_min: 45\nrating: 6\nnotes: |\n  worked on pins and forks\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "e423234c8b1e58a35fd97097d5b29e7a",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781696712,
+    "update_time": 1781696712,
+    "_id": "sessions::session-20260521-054016.md::120"
+  },
+  "daily::2026-06-03.md::121": {
+    "content": "## Brain Dump\n*Quick capture — tasks, thoughts, meetings, ideas.*\n-",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "31e6e6369c8496fc84a3cc27d2eb625b",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781696748,
+    "update_time": 1781696748,
+    "_id": "daily::2026-06-03.md::121"
+  },
+  "daily::2026-06-03.md::122": {
+    "content": "## Tasks\n\n### Active Projects\n- [ ] more marketing for solar 4G camera campaign - product page SEO fixed, 2 blogs posted, Quora posts done, Reddit filtered (new account created), 3 days left to see results more marketing for solar 4G camera campaign - product page SEO fixed, 2 blogs posted, Quora posts done, Reddit filtered (new account created), 3 days left to see results\n\n### Areas\n- [ ]\n\n### Quick Wins\n- [ ]",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "54e83e59199b4cbbf231edbd89b7c015",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781696873,
+    "update_time": 1781696873,
+    "_id": "daily::2026-06-03.md::122"
+  },
+  "daily::2026-06-03.md::123": {
+    "content": "## Notes\n*Reflections, meeting minutes, or ideas.*\n-",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "ec4476afea505d9eb695c04130b81f1f",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781697233,
+    "update_time": 1781697233,
+    "_id": "daily::2026-06-03.md::123"
+  },
+  "daily::2026-06-03.md::124": {
+    "content": "## Session Log\n| Skill | Duration | Rating | Notes |\n|-------|----------|--------|-------|\n| | | | |",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "84f2544375b2aff261f54eb3339a28ff",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781697271,
+    "update_time": 1781697271,
+    "_id": "daily::2026-06-03.md::124"
+  },
+  "daily::2026-06-03.md::125": {
+    "content": "## Daily Summary\n*Generated by daily review*",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "f54b00ea860e28c75b10c6c36884476b",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781697328,
+    "update_time": 1781697328,
+    "_id": "daily::2026-06-03.md::125"
+  },
+  "daily::2026-06-01.md::126": {
+    "content": "## Tasks\n\n### Migrated from 2026-05-31\n- [ ] Need to finish the Facebook shop setup. Check secuview.com analytics. Send the product catalog to the team.\n- [ ] \n- [ ]",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "f509e39edd699cf6eb31d1c7d6679200",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781697573,
+    "update_time": 1781697573,
+    "_id": "daily::2026-06-01.md::126"
+  },
+  "daily::2026-05-31.md::128": {
+    "content": "## Tasks\n\n### Active Projects\n- [>] Need to finish the Facebook shop setup. Check secuview.com analytics. Send the product catalog to the team.\n\n### Areas\n- [>]\n\n### Quick Wins\n- [>]",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "f74a27ad9d034fec879f9a0f30b0f59b",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781697591,
+    "update_time": 1781697591,
+    "_id": "daily::2026-05-31.md::128"
+  },
+  "daily::2026-05-31.md::131": {
+    "content": "## Daily Summary\nLight day — no tasks or sessions logged.\nToday I migrated 3 tasks to tomorrow.\n*Generated by daily review*",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "b50be5ad4e9675006b35fd14fd903974",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781697621,
+    "update_time": 1781697621,
+    "_id": "daily::2026-05-31.md::131"
+  },
+  "conversations::conv-20260609-160350.md::132": {
+    "content": "# Conversation — 2026-06-09\n\n## Key Points\n- User wants `--prompt enhance` suffix to trigger intent rephrasing before proceeding\n- Without suffix, take input literally\n- User expects all chat sessions to be auto-saved for future context/reference\n- This decision saved to `coach/memory/decisions.md` under \"prompt-enhance-protocol\"\n\n## What Got Built\n- `coach/tools/web_search.py` — DuckDuckGo web search (--max, --site flags)\n- `coach/tools/web_fetch.py` — URL fetch + extract readable text (--selector flag)\n- `coach/tools/deep_research.py` — multi-query research agent (search → fetch → LLM/raw synthesis → save brief)\n- All three wired into `mcp_server.py` as MCP tools\n- `coach/memory/patterns.md` — behavioral pattern tracking file created\n- `coach/requirements.txt` updated with ddgs, beautifulsoup4, lxml\n\n## Action Items\n- [x] Proactively save conversations to `coach/memory/conversations/` going forward\n- [ ] Auto-save important context from each interaction",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "ce5675b7635bd4cf07bac4b2096bb3dc",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781697633,
+    "update_time": 1781697633,
+    "_id": "conversations::conv-20260609-160350.md::132"
+  },
+  "conversations::conv-20260605-221323.md::133": {
+    "content": "# Conversation: I want to earn extra money in Qatar alongside my j\n\n## Problem\nI want to earn extra money in Qatar alongside my job. I'm considering creating a classified/business listing website where companies can list themselves and post ads. Is this a good opportunity?\n\n## Questions Asked\n1. What does done look like? Be specific.\n2. What's the smallest version of this you could do today?\n3. Who else has done this? What can you learn from them?\n\n## Key Points\n- (to be filled after discussion)\n\n## Decision\n- (to be filled when decided)\n\n## Outcome\n- (to be filled after implementation)",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "471c05d8ffcb85242ad9a33a1b34bf85",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781697648,
+    "update_time": 1781697648,
+    "_id": "conversations::conv-20260605-221323.md::133"
+  },
+  "conversations::conv-20260531-114202.md::134": {
+    "content": "# Conversation: Should I focus on Facebook shop or website SEO fir\n\n## Problem\nShould I focus on Facebook shop or website SEO first?\n\n## Questions Asked\n1. What does your gut say before you overthink it?\n2. What's the worst that happens if you pick the wrong one?\n3. Which option excites you more, even slightly?\n\n## Key Points\n- (to be filled after discussion)\n\n## Decision\n- (to be filled when decided)\n\n## Outcome\n- (to be filled after implementation)",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "23f30ff3eeebcd1f480529c3abcff3c0",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781697665,
+    "update_time": 1781697665,
+    "_id": "conversations::conv-20260531-114202.md::134"
+  },
+  "goals::goals.md::135": {
+    "content": "Become a skilled prompt engineer",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "f315e38983b9941361d421b7a8d889bc",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781697685,
+    "update_time": 1781697685,
+    "_id": "goals::goals.md::135"
+  },
+  "goals::goals.md::136": {
+    "content": "Become an AI Engineer — build income-generating product",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "a20c3d2d550450ffcd774511c51fce8c",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781697707,
+    "update_time": 1781697707,
+    "_id": "goals::goals.md::136"
+  },
+  "goals::goals.md::137": {
+    "content": "Launch Qatar Business Directory website",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "4c213a1ed1b1725daf809c1441042bb1",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781697732,
+    "update_time": 1781697732,
+    "_id": "goals::goals.md::137"
+  },
+  "goals::goals.md::138": {
+    "content": "Hugo SEO website — production ready + ranking",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "69a2b459ba32368b994fda2f8627b19c",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781697759,
+    "update_time": 1781697759,
+    "_id": "goals::goals.md::138"
+  },
+  "habits::habits.md::139": {
+    "content": "Daily Arabic vocab",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "f11af3e82a0ae2f5088abec59bc4d6a8",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781697788,
+    "update_time": 1781697788,
+    "_id": "habits::habits.md::139"
+  },
+  "habits::habits.md::140": {
+    "content": "Evening run",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "da9c6cb392ecf8833f6d89a452fc39bc",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781697946,
+    "update_time": 1781697946,
+    "_id": "habits::habits.md::140"
+  },
+  "habits::habits.md::141": {
+    "content": "Read 20 pages",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "a29a03103e8abb8d7d6f1d8ad6fc2ae3",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781697980,
+    "update_time": 1781697980,
+    "_id": "habits::habits.md::141"
+  },
+  "checkpoint::checkpoint.md::142": {
+    "content": "---\nlast_updated: 2026-06-05T00:00:00+00:00\nphase: \"No active campaign\"\ncurrent_topic: \"Idle\"\nnext_task: \"\"\nnotes: \"Solar 4G Camera campaign closed by user.\"\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "26d302ab2ca4ebc81d7f021c34515f61",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781698016,
+    "update_time": 1781698016,
+    "_id": "checkpoint::checkpoint.md::142"
+  },
+  "profile::profile.md::143": {
+    "content": "# Profile\n\n**Role:** Engineer @ Starfox Security System (strafoxsecu.com, est. 2005)\n**Physical Store:** Salwa Road, Doha, Qatar\n**Supply Chain:** Manufacture in China → Ship to Qatar → Sell locally + install\n**Services:** Product sales + installation + projects (Starfox brand)\n\n**Current work:**\n- AutoCAD drawings for CCTV camera installation designs\n- Quotations for Starfox Security System\n- Own websites & projects (aslielectronics, Hugo site, directory idea)\n\n**Past work (no longer active):**\n- Secuview website (WordPress/WooCommerce SEO, content, optimization)\n\n**Known languages:** Java, Python, React, Node.js, Next.js\n**Automation:** Beginner — building capability with personal coach\n**Work hours:** 8:30/9:00 AM — 5:00 PM\n\n**Own Projects:**\n- **Aslielectronics** — own website/project\n- **Hugo website** — built with Hugo, deployed on GitHub Pages, not yet production-ready\n- **Business Directory idea** — platform for Qatari companies to list; lead gen model\n\n**Aspiration:**\n- Become an AI Engineer\n- Build something of my own to earn independent income\n- Use prompt engineering + AI to build and ship products faster\n\n**Learning style:** Build-first. Prefers a quick overview from reading, then jumps into building and exploring.\n\n**Availability:** Starfox 8am–5pm. Free after 5pm. Sometimes works on side projects during downtime at work. Weekends are the main block.\n\n**Income situation (June 2026):**\n- **Only source:** Starfox salary (not enough)\n- **Aslielectronics:** Site published, but not visible — no organic traffic, no customers buying\n- **Khaleej / Freetoolz:** Domains not purchased yet\n- **Looking for:** A better-paying job matching his tech skills\n\n**Long-term vision (independent income):**\n- Build a SaaS product for recurring revenue\n- Offer AI automation/engineering as a service (freelance)\n- Use AI to scale the existing security business operations\n- Multiple income streams from all of the above\n\n**Skillset for job search:** Java, Python, React, Node.js, Next.js, Automation/AI engineering (building)\n\n**Training Roadmap:**\n1. Phase 1: Prompt foundations + SEO content writing (mostly done)\n2. Phase 2: Code generation — build directory site + Hugo site with AI\n3. Phase 3: AI Engineering — ship own product for independent income\n4. Phase 4: Automation + lead gen pipeline",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "b8be76fb691d391579820d339da9609c",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781698055,
+    "update_time": 1781698055,
+    "_id": "profile::profile.md::143"
+  },
+  "insights::insights.md::144": {
+    "content": "# Insights\n\nAuto-extracted patterns from session history.\n\n- id: 18973d29d8b6\n  pattern: frequent_deep-research-tool\n  category: frequency\n  confidence: 0.75\n  evidence_count: 3\n  sessions: [session-20260616-124211.md, session-20260616-115736.md, session-20260616-103344.md]\n  summary: Practiced deep-research-tool 3 times — most practiced skill\n  suggestion: Consider setting a mastery goal for deep-research-tool\n\n- id: 331096a55811\n  pattern: frequent_build\n  category: frequency\n  confidence: 0.75\n  evidence_count: 3\n  sessions: [session-20260616-062403.md, session-20260615-123817.md, session-20260615-123253.md]\n  summary: Practiced build 3 times — most practiced skill\n  suggestion: Consider setting a mastery goal for build\n\n- id: 4f2d4f3ad7b4\n  pattern: frequent_web-development\n  category: frequency\n  confidence: 0.75\n  evidence_count: 3\n  sessions: [session-20260605-203104.md, session-20260605-203042.md, session-20260605-172556.md]\n  summary: Practiced web-development 3 times — most practiced skill\n  suggestion: Consider setting a mastery goal for web-development\n\n- id: 25c1413d65e1\n  pattern: frequent_content-writing\n  category: frequency\n  confidence: 0.75\n  evidence_count: 3\n  sessions: [session-20260526-095002.md, session-20260526-084411.md, session-20260525-142400.md]\n  summary: Practiced content-writing 3 times — most practiced skill\n  suggestion: Consider setting a mastery goal for content-writing\n\n- id: a90ff45a4fb5\n  pattern: struggles_with_deep-research-tool\n  category: struggle\n  confidence: 0.7\n  evidence_count: 3\n  sessions: [session-20260616-124211.md, session-20260616-115736.md, session-20260616-103344.md]\n  summary: Rated deep-research-tool avg 4.0/10 across 3 sessions (0 struggle keywords)\n  suggestion: Review deep-research-tool fundamentals, practice with simpler exercises\n\n- id: 6fcb49fbf6bc\n  pattern: struggles_with_build\n  category: struggle\n  confidence: 0.7\n  evidence_count: 3\n  sessions: [session-20260616-062403.md, session-20260615-123817.md, session-20260615-123253.md]\n  summary: Rated build avg 5.0/10 across 3 sessions (0 struggle keywords)\n  suggestion: Review build fundamentals, practice with simpler exercises\n\n- id: 5235488c17a3\n  pattern: strong_at_content-writing\n  category: strength\n  confidence: 0.7\n  evidence_count: 3\n  sessions: [session-20260526-095002.md, session-20260526-084411.md, session-20260525-142400.md]\n  summary: Rated content-writing avg 9.3/10 across 3 sessions (0 win keywords)\n  suggestion: Leverage content-writing strength — consider mentoring or deeper exploration\n\n- id: 5f77faabd57a\n  pattern: struggles_with_system-setup\n  category: struggle\n  confidence: 0.6\n  evidence_count: 2\n  sessions: [session-20260616-140538.md, session-20260616-134824.md]\n  summary: Rated system-setup avg 5.0/10 across 2 sessions (0 struggle keywords)\n  suggestion: Review system-setup fundamentals, practice with simpler exercises\n\n- id: 8035a3e25e26\n  pattern: struggles_with_dev-utils\n  category: struggle\n  confidence: 0.6\n  evidence_count: 2\n  sessions: [session-20260616-083548.md, session-20260616-083238.md]\n  summary: Rated dev-utils avg 5.0/10 across 2 sessions (0 struggle keywords)\n  suggestion: Review dev-utils fundamentals, practice with simpler exercises\n\n- id: 6db6b3738d3c\n  pattern: struggles_with_research\n  category: struggle\n  confidence: 0.6\n  evidence_count: 2\n  sessions: [session-20260616-061147.md, session-20260616-055705.md]\n  summary: Rated research avg 4.0/10 across 2 sessions (0 struggle keywords)\n  suggestion: Review research fundamentals, practice with simpler exercises\n\n- id: c3364979b4c5\n  pattern: struggles_with_deploy\n  category: struggle\n  confidence: 0.6\n  evidence_count: 2\n  sessions: [session-20260615-113526.md, session-20260615-110223.md]\n  summary: Rated deploy avg 5.0/10 across 2 sessions (0 struggle keywords)\n  suggestion: Review deploy fundamentals, practice with simpler exercises\n\n- id: 70ec971acbb3\n  pattern: strong_at_blog-publishing-solar-4g\n  category: strength\n  confidence: 0.6\n  evidence_count: 2\n  sessions: [session-20260602-094327.md, session-20260602-084642.md]\n  summary: Rated blog-publishing-solar-4g avg 9.0/10 across 2 sessions (0 win keywords)\n  suggestion: Leverage blog-publishing-solar-4g strength — consider mentoring or deeper exploration\n\n- id: 35a8c92f4846\n  pattern: strong_at_content-seo-phase2\n  category: strength\n  confidence: 0.6\n  evidence_count: 2\n  sessions: [session-20260529-172614.md, session-20260529-171751.md]\n  summary: Rated content-seo-phase2 avg 9.0/10 across 2 sessions (0 win keywords)\n  suggestion: Leverage content-seo-phase2 strength — consider mentoring or deeper exploration\n\n- id: e889f3d86139\n  pattern: strong_at_hugo-product-page-enhance\n  category: strength\n  confidence: 0.6\n  evidence_count: 2\n  sessions: [session-20260527-182934.md, session-20260527-173554.md]\n  summary: Rated hugo-product-page-enhance avg 9.0/10 across 2 sessions (0 win keywords)\n  suggestion: Leverage hugo-product-page-enhance strength — consider mentoring or deeper exploration\n\n- id: 99bd34eb4760\n  pattern: strong_at_seo-optimization\n  category: strength\n  confidence: 0.6\n  evidence_count: 2\n  sessions: [session-20260526-074507.md, session-20260525-141739.md]\n  summary: Rated seo-optimization avg 8.5/10 across 2 sessions (0 win keywords)\n  suggestion: Leverage seo-optimization strength — consider mentoring or deeper exploration",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "ce52d3e47f32594890ce381af32c55a2",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781698096,
+    "update_time": 1781698096,
+    "_id": "insights::insights.md::144"
+  },
+  "decisions::decisions.md::145": {
+    "content": "# Decisions Log\n\nAll decisions made during sessions, thinking partner conversations, and planning.\nFormat: `## [date] — [topic]`\n\n---\n\n\n## 2026-05-31 — coach-system-upgrade (session)\n- Upgraded coach from 8.5/10 to 10/10\n\n## 2026-05-31 — skill-development (session)\n- Expanded from 48 to 63 skills covering marketing, coding, design, research\n\n## 2026-05-31 — automation-setup (session)\n- Daily auto-push to GitHub at 4:50 PM\n\n## 2026-06-09 — prompt-enhance-protocol (session)\n- `--prompt enhance` suffix on any command means: rephrase/enhance user's intent first, show it, then proceed.\n- Without `--prompt enhance`, take input literally (current behavior).\n\n## 2026-05-31 — secuview-schema-markup (session)\n- All 4 schema types ready for upload\n\n## 2026-06-02 — coach-vector-memory (session)\n- Added TF-IDF vector search index (zero ML models, pure math)\n- Built MCP server exposing coach memory over stdio protocol\n- Built ask_memory.py CLI for semantic search + optional Ollama QA\n- memory_search.py now tries vector search first, falls back to keyword\n- Auto-indexing on every session store\n\n## 2026-06-02 — coach-improvement (session)\n- Proactively prompt user for 15-min prompt engineering drills during lulls\n---\\ndate: 2026-06-05T22:13:00+03:00\\ndecision: Start building a business/classified listing website for Qatar\\ncontext: User wants financial freedom, a full side business alongside current job\\napproach: Build website first, then promote via WhatsApp and Facebook\\ncompetitor_strategy: Find gaps in existing classified sites (mzadqatar, qatarliving, qatarclassifieds) and outperform\\ntags: [business, qatar, classifieds, entrepreneurship]\\n---\n\n## 2026-06-16 — research (session)\n- Evaluated addyosmani/agent-skills repo (60k stars). Reviewed DDD, Context Engineering, Source-Driven Development skills. Decided to distill only Doubt-Driven Development — cherry-picked CLAIM→EXTRACT→DOUBT→RECONCILE→STOP protocol into process/context/doubt-driven-development.md. Skipped the other two (redundant or too narrow). Added reference to context router.\n\n## 2026-06-16 — skill-evolution (session)\n- Created insight_ledger.py as foundation for all tool instrumentation. Every new tool should call log_insight() after its main flow.",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "a62f733da8f0c9290f3b3601428db8bb",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1781698141,
+    "update_time": 1781698141,
+    "_id": "decisions::decisions.md::145"
   }
 }

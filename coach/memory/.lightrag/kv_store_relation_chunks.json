@@ -1,0 +1,3026 @@
+{
+  "Artifact<SEP>Tool": {
+    "chunk_ids": [
+      "sessions::session-20260616-115736.md::1-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781620085,
+    "update_time": 1781620085,
+    "_id": "Artifact<SEP>Tool"
+  },
+  "Artifact<SEP>Ollama": {
+    "chunk_ids": [
+      "sessions::session-20260616-115736.md::1-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781620085,
+    "update_time": 1781620085,
+    "_id": "Artifact<SEP>Ollama"
+  },
+  "Developer Utility<SEP>Tool": {
+    "chunk_ids": [
+      "sessions::session-20260616-083238.md::5-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781673595,
+    "update_time": 1781673595,
+    "_id": "Developer Utility<SEP>Tool"
+  },
+  "List<SEP>Utility": {
+    "chunk_ids": [
+      "sessions::session-20260616-083238.md::5-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781673595,
+    "update_time": 1781673595,
+    "_id": "List<SEP>Utility"
+  },
+  "Document<SEP>Tool": {
+    "chunk_ids": [
+      "sessions::session-20260616-083238.md::5-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781673595,
+    "update_time": 1781673595,
+    "_id": "Document<SEP>Tool"
+  },
+  "Checker<SEP>Utility": {
+    "chunk_ids": [
+      "sessions::session-20260616-083238.md::5-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781673595,
+    "update_time": 1781673595,
+    "_id": "Checker<SEP>Utility"
+  },
+  "Generator<SEP>Tool": {
+    "chunk_ids": [
+      "sessions::session-20260616-083238.md::5-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781673595,
+    "update_time": 1781673595,
+    "_id": "Generator<SEP>Tool"
+  },
+  "Other<SEP>tool": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "Other<SEP>tool"
+  },
+  "freetoolz<SEP>tool": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "freetoolz<SEP>tool"
+  },
+  "category<SEP>freetoolz": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "category<SEP>freetoolz"
+  },
+  "freetoolz<SEP>storage": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "freetoolz<SEP>storage"
+  },
+  "Other<SEP>category": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "Other<SEP>category"
+  },
+  "Other<SEP>storage": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "Other<SEP>storage"
+  },
+  "bandwidth<SEP>freetoolz": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "bandwidth<SEP>freetoolz"
+  },
+  "freetoolz<SEP>power": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "freetoolz<SEP>power"
+  },
+  "Other<SEP>bandwidth": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "Other<SEP>bandwidth"
+  },
+  "Other<SEP>power": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "Other<SEP>power"
+  },
+  "freetoolz<SEP>runtime": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "freetoolz<SEP>runtime"
+  },
+  "Other<SEP>runtime": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "Other<SEP>runtime"
+  },
+  "camera<SEP>freetoolz": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "camera<SEP>freetoolz"
+  },
+  "cctv<SEP>freetoolz": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "cctv<SEP>freetoolz"
+  },
+  "Other<SEP>camera": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "Other<SEP>camera"
+  },
+  "Other<SEP>cctv": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "Other<SEP>cctv"
+  },
+  "freetoolz<SEP>security": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "freetoolz<SEP>security"
+  },
+  "Other<SEP>security": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "Other<SEP>security"
+  },
+  "Other<SEP>organization": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "Other<SEP>organization"
+  },
+  "<Skill<SEP>rating": {
+    "chunk_ids": [
+      "sessions::session-20260616-064311.md::10-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674697,
+    "update_time": 1781674697,
+    "_id": "<Skill<SEP>rating"
+  },
+  "Person<SEP>addyosmani": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675378,
+    "update_time": 1781675378,
+    "_id": "Person<SEP>addyosmani"
+  },
+  "Organization<SEP>agent-skills": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675378,
+    "update_time": 1781675378,
+    "_id": "Organization<SEP>agent-skills"
+  },
+  "Concept<SEP>ddd": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675378,
+    "update_time": 1781675378,
+    "_id": "Concept<SEP>ddd"
+  },
+  "Method<SEP>context-engineering": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675378,
+    "update_time": 1781675378,
+    "_id": "Method<SEP>context-engineering"
+  },
+  "Concept<SEP>source-driven-development": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675378,
+    "update_time": 1781675378,
+    "_id": "Concept<SEP>source-driven-development"
+  },
+  "Location<SEP>process": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675378,
+    "update_time": 1781675378,
+    "_id": "Location<SEP>process"
+  },
+  "evaluated<SEP>source-driven-development": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675378,
+    "update_time": 1781675378,
+    "_id": "evaluated<SEP>source-driven-development"
+  },
+  "Concept<SEP>doubt-driven-development": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675378,
+    "update_time": 1781675378,
+    "_id": "Concept<SEP>doubt-driven-development"
+  },
+  "distilled<SEP>process": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675378,
+    "update_time": 1781675378,
+    "_id": "distilled<SEP>process"
+  },
+  "Concept<SEP>claim→extract→doubt→reconcile→stop": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675378,
+    "update_time": 1781675378,
+    "_id": "Concept<SEP>claim→extract→doubt→reconcile→stop"
+  },
+  "Build<SEP>Method": {
+    "chunk_ids": [
+      "sessions::session-20260615-123817.md::15-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675419,
+    "update_time": 1781675419,
+    "_id": "Build<SEP>Method"
+  },
+  "calendar<SEP>date": {
+    "chunk_ids": [
+      "sessions::session-20260615-100908.md::20-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676452,
+    "update_time": 1781676452,
+    "_id": "calendar<SEP>date"
+  },
+  "guide<SEP>tools": {
+    "chunk_ids": [
+      "sessions::session-20260615-100908.md::20-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676452,
+    "update_time": 1781676452,
+    "_id": "guide<SEP>tools"
+  },
+  "calculator<SEP>tool": {
+    "chunk_ids": [
+      "sessions::session-20260615-100908.md::20-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676452,
+    "update_time": 1781676452,
+    "_id": "calculator<SEP>tool"
+  },
+  "paint<SEP>tools": {
+    "chunk_ids": [
+      "sessions::session-20260615-100908.md::20-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676452,
+    "update_time": 1781676452,
+    "_id": "paint<SEP>tools"
+  },
+  "guide<SEP>paint": {
+    "chunk_ids": [
+      "sessions::session-20260615-100908.md::20-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676452,
+    "update_time": 1781676452,
+    "_id": "guide<SEP>paint"
+  },
+  "body<SEP>paint": {
+    "chunk_ids": [
+      "sessions::session-20260615-100908.md::20-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676452,
+    "update_time": 1781676452,
+    "_id": "body<SEP>paint"
+  },
+  "Organization<SEP>setup": {
+    "chunk_ids": [
+      "sessions::session-20260616-134824.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676611,
+    "update_time": 1781676611,
+    "_id": "Organization<SEP>setup"
+  },
+  "Person<SEP>user": {
+    "chunk_ids": [
+      "sessions::session-20260616-134824.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676611,
+    "update_time": 1781676611,
+    "_id": "Person<SEP>user"
+  },
+  "setup<SEP>user": {
+    "chunk_ids": [
+      "sessions::session-20260616-134824.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676611,
+    "update_time": 1781676611,
+    "_id": "setup<SEP>user"
+  },
+  "pc<SEP>setup": {
+    "chunk_ids": [
+      "sessions::session-20260616-134824.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676611,
+    "update_time": 1781676611,
+    "_id": "pc<SEP>setup"
+  },
+  "new_machine<SEP>setup": {
+    "chunk_ids": [
+      "sessions::session-20260616-134824.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676612,
+    "update_time": 1781676612,
+    "_id": "new_machine<SEP>setup"
+  },
+  "pc<SEP>user": {
+    "chunk_ids": [
+      "sessions::session-20260616-134824.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676612,
+    "update_time": 1781676612,
+    "_id": "pc<SEP>user"
+  },
+  "Location<SEP>pc": {
+    "chunk_ids": [
+      "sessions::session-20260616-134824.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676612,
+    "update_time": 1781676612,
+    "_id": "Location<SEP>pc"
+  },
+  "new_machine<SEP>user": {
+    "chunk_ids": [
+      "sessions::session-20260616-134824.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676612,
+    "update_time": 1781676612,
+    "_id": "new_machine<SEP>user"
+  },
+  "insight_ledger<SEP>pc": {
+    "chunk_ids": [
+      "sessions::session-20260616-134824.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676612,
+    "update_time": 1781676612,
+    "_id": "insight_ledger<SEP>pc"
+  },
+  "Location<SEP>new_machine": {
+    "chunk_ids": [
+      "sessions::session-20260616-134824.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676612,
+    "update_time": 1781676612,
+    "_id": "Location<SEP>new_machine"
+  },
+  "Creature<SEP>task_manager": {
+    "chunk_ids": [
+      "sessions::session-20260616-140538.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676642,
+    "update_time": 1781676642,
+    "_id": "Creature<SEP>task_manager"
+  },
+  "Organized Tools<SEP>User": {
+    "chunk_ids": [
+      "sessions::session-20260615-095329.md::27-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781677050,
+    "update_time": 1781677050,
+    "_id": "Organized Tools<SEP>User"
+  },
+  "Category<SEP>Tool": {
+    "chunk_ids": [
+      "sessions::session-20260615-095329.md::27-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781677050,
+    "update_time": 1781677050,
+    "_id": "Category<SEP>Tool"
+  },
+  "HomePage<SEP>Tools": {
+    "chunk_ids": [
+      "sessions::session-20260615-095329.md::27-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781677050,
+    "update_time": 1781677050,
+    "_id": "HomePage<SEP>Tools"
+  },
+  "Hugo<SEP>Organized Tools": {
+    "chunk_ids": [
+      "sessions::session-20260615-095329.md::27-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781677050,
+    "update_time": 1781677050,
+    "_id": "Hugo<SEP>Organized Tools"
+  },
+  "Hugo<SEP>Tool": {
+    "chunk_ids": [
+      "sessions::session-20260615-095329.md::27-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781677050,
+    "update_time": 1781677050,
+    "_id": "Hugo<SEP>Tool"
+  },
+  "<Developer Utility><SEP><uuid_generator>": {
+    "chunk_ids": [
+      "sessions::session-20260616-083548.md::4-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781677474,
+    "update_time": 1781677474,
+    "_id": "<Developer Utility><SEP><uuid_generator>"
+  },
+  "<Developer Utility><SEP><Lorem Ipsum Generator>": {
+    "chunk_ids": [
+      "sessions::session-20260616-083548.md::4-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781677474,
+    "update_time": 1781677474,
+    "_id": "<Developer Utility><SEP><Lorem Ipsum Generator>"
+  },
+  "<freetoolz><SEP><uuid_generator>": {
+    "chunk_ids": [
+      "sessions::session-20260616-083548.md::4-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781677474,
+    "update_time": 1781677474,
+    "_id": "<freetoolz><SEP><uuid_generator>"
+  },
+  "<Developer Utility><SEP><List Randomizer>": {
+    "chunk_ids": [
+      "sessions::session-20260616-083548.md::4-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781677474,
+    "update_time": 1781677474,
+    "_id": "<Developer Utility><SEP><List Randomizer>"
+  },
+  "<Lorem Ipsum Generator><SEP><freetoolz>": {
+    "chunk_ids": [
+      "sessions::session-20260616-083548.md::4-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781677474,
+    "update_time": 1781677474,
+    "_id": "<Lorem Ipsum Generator><SEP><freetoolz>"
+  },
+  "<Developer Utility><SEP><Password Strength Checker>": {
+    "chunk_ids": [
+      "sessions::session-20260616-083548.md::4-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781677474,
+    "update_time": 1781677474,
+    "_id": "<Developer Utility><SEP><Password Strength Checker>"
+  },
+  "<List Randomizer><SEP><freetoolz>": {
+    "chunk_ids": [
+      "sessions::session-20260616-083548.md::4-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781677474,
+    "update_time": 1781677474,
+    "_id": "<List Randomizer><SEP><freetoolz>"
+  },
+  "<Password Strength Checker><SEP><freetoolz>": {
+    "chunk_ids": [
+      "sessions::session-20260616-083548.md::4-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781677474,
+    "update_time": 1781677474,
+    "_id": "<Password Strength Checker><SEP><freetoolz>"
+  },
+  "<Developer Utility><SEP><freetoolz>": {
+    "chunk_ids": [
+      "sessions::session-20260616-083548.md::4-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781677474,
+    "update_time": 1781677474,
+    "_id": "<Developer Utility><SEP><freetoolz>"
+  },
+  "<freetoolz><SEP><github.com/ashim-khan-root/freetoolz>": {
+    "chunk_ids": [
+      "sessions::session-20260615-110223.md::18-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678281,
+    "update_time": 1781678281,
+    "_id": "<freetoolz><SEP><github.com/ashim-khan-root/freetoolz>"
+  },
+  "Article<SEP>Blog Post": {
+    "chunk_ids": [
+      "sessions::session-20260615-101806.md::19-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678347,
+    "update_time": 1781678347,
+    "_id": "Article<SEP>Blog Post"
+  },
+  "Blog Post<SEP>FAQ Section": {
+    "chunk_ids": [
+      "sessions::session-20260615-101806.md::19-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678347,
+    "update_time": 1781678347,
+    "_id": "Blog Post<SEP>FAQ Section"
+  },
+  "Blog Post<SEP>Post Title": {
+    "chunk_ids": [
+      "sessions::session-20260615-101806.md::19-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678347,
+    "update_time": 1781678347,
+    "_id": "Blog Post<SEP>Post Title"
+  },
+  "Blog Post<SEP>Post Description": {
+    "chunk_ids": [
+      "sessions::session-20260615-101806.md::19-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678347,
+    "update_time": 1781678347,
+    "_id": "Blog Post<SEP>Post Description"
+  },
+  "Blog Post<SEP>Image": {
+    "chunk_ids": [
+      "sessions::session-20260615-101806.md::19-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678347,
+    "update_time": 1781678347,
+    "_id": "Blog Post<SEP>Image"
+  },
+  "Blog Post<SEP>Image Frontmatter": {
+    "chunk_ids": [
+      "sessions::session-20260615-101806.md::19-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678347,
+    "update_time": 1781678347,
+    "_id": "Blog Post<SEP>Image Frontmatter"
+  },
+  "deep_research_model<SEP>end_to_end_test": {
+    "chunk_ids": [
+      "sessions::session-20260616-130012.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678428,
+    "update_time": 1781678428,
+    "_id": "deep_research_model<SEP>end_to_end_test"
+  },
+  "clean_query<SEP>end_to_end_test": {
+    "chunk_ids": [
+      "sessions::session-20260616-130012.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678428,
+    "update_time": 1781678428,
+    "_id": "clean_query<SEP>end_to_end_test"
+  },
+  "_clean_query<SEP>clean_query": {
+    "chunk_ids": [
+      "sessions::session-20260616-130012.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678428,
+    "update_time": 1781678428,
+    "_id": "_clean_query<SEP>clean_query"
+  },
+  "Ollama<SEP>gpt-oss": {
+    "chunk_ids": [
+      "sessions::session-20260616-132907.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678746,
+    "update_time": 1781678746,
+    "_id": "Ollama<SEP>gpt-oss"
+  },
+  "Method<SEP>session_analytics": {
+    "chunk_ids": [
+      "sessions::session-20260616-132907.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678746,
+    "update_time": 1781678746,
+    "_id": "Method<SEP>session_analytics"
+  },
+  "Concept<SEP>tool_heavy": {
+    "chunk_ids": [
+      "sessions::session-20260616-132907.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678746,
+    "update_time": 1781678746,
+    "_id": "Concept<SEP>tool_heavy"
+  },
+  "Method<SEP>pipeline_builder": {
+    "chunk_ids": [
+      "sessions::session-20260616-132907.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678746,
+    "update_time": 1781678746,
+    "_id": "Method<SEP>pipeline_builder"
+  },
+  "Concept<SEP>tool_gaps": {
+    "chunk_ids": [
+      "sessions::session-20260616-132907.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678746,
+    "update_time": 1781678746,
+    "_id": "Concept<SEP>tool_gaps"
+  },
+  "Method<SEP>prompt_auditor": {
+    "chunk_ids": [
+      "sessions::session-20260616-132907.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678746,
+    "update_time": 1781678746,
+    "_id": "Method<SEP>prompt_auditor"
+  },
+  "Concept<SEP>skill_gaps": {
+    "chunk_ids": [
+      "sessions::session-20260616-132907.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678746,
+    "update_time": 1781678746,
+    "_id": "Concept<SEP>skill_gaps"
+  },
+  "Space GroteskFonts<SEP>project": {
+    "chunk_ids": [
+      "sessions::session-20260615-100322.md::26-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678835,
+    "update_time": 1781678835,
+    "_id": "Space GroteskFonts<SEP>project"
+  },
+  "glassmorphismCards<SEP>project": {
+    "chunk_ids": [
+      "sessions::session-20260615-100322.md::26-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678835,
+    "update_time": 1781678835,
+    "_id": "glassmorphismCards<SEP>project"
+  },
+  "project<SEP>staggeredScrollAnimations": {
+    "chunk_ids": [
+      "sessions::session-20260615-100322.md::26-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678835,
+    "update_time": 1781678835,
+    "_id": "project<SEP>staggeredScrollAnimations"
+  },
+  "project<SEP>searchFilterBar": {
+    "chunk_ids": [
+      "sessions::session-20260615-100322.md::26-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678835,
+    "update_time": 1781678835,
+    "_id": "project<SEP>searchFilterBar"
+  },
+  "blogSection<SEP>project": {
+    "chunk_ids": [
+      "sessions::session-20260615-100322.md::26-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678835,
+    "update_time": 1781678835,
+    "_id": "blogSection<SEP>project"
+  },
+  "component<SEP>glassmorphismCards": {
+    "chunk_ids": [
+      "sessions::session-20260615-100322.md::26-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678835,
+    "update_time": 1781678835,
+    "_id": "component<SEP>glassmorphismCards"
+  },
+  "cleanBuildPages<SEP>project": {
+    "chunk_ids": [
+      "sessions::session-20260615-100322.md::26-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678835,
+    "update_time": 1781678835,
+    "_id": "cleanBuildPages<SEP>project"
+  },
+  "animatedGradientHero<SEP>component": {
+    "chunk_ids": [
+      "sessions::session-20260615-100322.md::26-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678835,
+    "update_time": 1781678835,
+    "_id": "animatedGradientHero<SEP>component"
+  },
+  "SpaceGroteskFonts<SEP>project": {
+    "chunk_ids": [
+      "sessions::session-20260615-100322.md::26-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678835,
+    "update_time": 1781678835,
+    "_id": "SpaceGroteskFonts<SEP>project"
+  },
+  "fix<SEP>system": {
+    "chunk_ids": [
+      "sessions::session-20260616-103344.md::2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679505,
+    "update_time": 1781679505,
+    "_id": "fix<SEP>system"
+  },
+  "Bayt<SEP>Lucknow University": {
+    "chunk_ids": [
+      "sessions::session-20260616-073632.md::9-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781680379,
+    "update_time": 1781680379,
+    "_id": "Bayt<SEP>Lucknow University"
+  },
+  "Bayt<SEP>GNIIT NIIT": {
+    "chunk_ids": [
+      "sessions::session-20260616-073632.md::9-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781680379,
+    "update_time": 1781680379,
+    "_id": "Bayt<SEP>GNIIT NIIT"
+  },
+  "GitHub<SEP>github.com": {
+    "chunk_ids": [
+      "sessions::session-20260616-095723.md::3-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781681383,
+    "update_time": 1781681383,
+    "_id": "GitHub<SEP>github.com"
+  },
+  "freetoolz-development<SEP>github.com/ashim-khan-root<freetoolz/": {
+    "chunk_ids": [
+      "sessions::session-20260616-095723.md::3-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781681383,
+    "update_time": 1781681383,
+    "_id": "freetoolz-development<SEP>github.com/ashim-khan-root<freetoolz/"
+  },
+  "freetoolz-development<SEP>github.com/ashim-khan-root/freetoolz": {
+    "chunk_ids": [
+      "sessions::session-20260616-095723.md::3-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781681383,
+    "update_time": 1781681383,
+    "_id": "freetoolz-development<SEP>github.com/ashim-khan-root/freetoolz"
+  },
+  "Date<SEP>Tool": {
+    "chunk_ids": [
+      "sessions::session-20260615-094813.md::28-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781681817,
+    "update_time": 1781681817,
+    "_id": "Date<SEP>Tool"
+  },
+  "Duration<SEP>Tool": {
+    "chunk_ids": [
+      "sessions::session-20260615-094813.md::28-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781681817,
+    "update_time": 1781681817,
+    "_id": "Duration<SEP>Tool"
+  },
+  "Notes<SEP>Tool": {
+    "chunk_ids": [
+      "sessions::session-20260615-094813.md::28-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781681817,
+    "update_time": 1781681817,
+    "_id": "Notes<SEP>Tool"
+  },
+  "HTML Minifier<SEP>Tools": {
+    "chunk_ids": [
+      "sessions::session-20260615-094555.md::30-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781681926,
+    "update_time": 1781681926,
+    "_id": "HTML Minifier<SEP>Tools"
+  },
+  "(uses US Navy BMI method)<SEP><health-calculators><body-fat percentage calculation": {
+    "chunk_ids": [
+      "sessions::session-20260615-094159.md::31-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682135,
+    "update_time": 1781682135,
+    "_id": "(uses US Navy BMI method)<SEP><health-calculators><body-fat percentage calculation"
+  },
+  "<calorie intake calculation<SEP><tools": {
+    "chunk_ids": [
+      "sessions::session-20260615-094159.md::31-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682135,
+    "update_time": 1781682135,
+    "_id": "<calorie intake calculation<SEP><tools"
+  },
+  "<tools<SEP><water intake calculation": {
+    "chunk_ids": [
+      "sessions::session-20260615-094159.md::31-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682135,
+    "update_time": 1781682135,
+    "_id": "<tools<SEP><water intake calculation"
+  },
+  "<due date calculation<SEP><tools": {
+    "chunk_ids": [
+      "sessions::session-20260615-094159.md::31-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682135,
+    "update_time": 1781682135,
+    "_id": "<due date calculation<SEP><tools"
+  },
+  "bmi-calculator<SEP>tools/": {
+    "chunk_ids": [
+      "sessions::session-20260615-093927.md::33-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682264,
+    "update_time": 1781682264,
+    "_id": "bmi-calculator<SEP>tools/"
+  },
+  "2026-06-15T09:39:27.982831+00:00<SEP>date": {
+    "chunk_ids": [
+      "sessions::session-20260615-093927.md::33-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682264,
+    "update_time": 1781682264,
+    "_id": "2026-06-15T09:39:27.982831+00:00<SEP>date"
+  },
+  "tools/<SEP>tools/bmi-calculator": {
+    "chunk_ids": [
+      "sessions::session-20260615-093927.md::33-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682264,
+    "update_time": 1781682264,
+    "_id": "tools/<SEP>tools/bmi-calculator"
+  },
+  "Concrete<SEP>construction-calculator": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Concrete<SEP>construction-calculator"
+  },
+  "Rebar<SEP>construction-calculator": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Rebar<SEP>construction-calculator"
+  },
+  "Roofing<SEP>construction-calculator": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Roofing<SEP>construction-calculator"
+  },
+  "Paint<SEP>construction-calculator": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Paint<SEP>construction-calculator"
+  },
+  "Flooring<SEP>construction-calculator": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Flooring<SEP>construction-calculator"
+  },
+  "Construction Calculator<SEP>Construction Project": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Construction Calculator<SEP>Construction Project"
+  },
+  "Brick<SEP>construction-calculator": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Brick<SEP>construction-calculator"
+  },
+  "Construction Calculator<SEP>Construction Methodology": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Construction Calculator<SEP>Construction Methodology"
+  },
+  "Stair<SEP>construction-calculator": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Stair<SEP>construction-calculator"
+  },
+  "Construction Calculator<SEP>Industry Standard": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Construction Calculator<SEP>Industry Standard"
+  },
+  "Construction Project<SEP>tool": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Construction Project<SEP>tool"
+  },
+  "Construction Methodology<SEP>tool": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Construction Methodology<SEP>tool"
+  },
+  "Industry Standard<SEP>tool": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Industry Standard<SEP>tool"
+  },
+  "/roofing-calculator<SEP>Tools/": {
+    "chunk_ids": [
+      "sessions::session-20260615-092836.md::38-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683168,
+    "update_time": 1781683168,
+    "_id": "/roofing-calculator<SEP>Tools/"
+  },
+  "Concrete Calculator<SEP>Tool": {
+    "chunk_ids": [
+      "sessions::session-20260615-075416.md::39-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683243,
+    "update_time": 1781683243,
+    "_id": "Concrete Calculator<SEP>Tool"
+  },
+  "Rebar Calculator<SEP>Tool": {
+    "chunk_ids": [
+      "sessions::session-20260615-075416.md::39-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683243,
+    "update_time": 1781683243,
+    "_id": "Rebar Calculator<SEP>Tool"
+  },
+  "Construction Calculators<SEP>Tool": {
+    "chunk_ids": [
+      "sessions::session-20260615-075416.md::39-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683243,
+    "update_time": 1781683243,
+    "_id": "Construction Calculators<SEP>Tool"
+  },
+  "<CCTV Security Systems><SEP><ELV>": {
+    "chunk_ids": [
+      "sessions::session-20260614-124559.md::44-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684067,
+    "update_time": 1781684067,
+    "_id": "<CCTV Security Systems><SEP><ELV>"
+  },
+  "<Ashim Ahmad><SEP><Samtech Security Systems>": {
+    "chunk_ids": [
+      "sessions::session-20260614-124559.md::44-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684067,
+    "update_time": 1781684067,
+    "_id": "<Ashim Ahmad><SEP><Samtech Security Systems>"
+  },
+  "<Ashim Ahmad><SEP><Qatar Job Market>": {
+    "chunk_ids": [
+      "sessions::session-20260614-124559.md::44-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684067,
+    "update_time": 1781684067,
+    "_id": "<Ashim Ahmad><SEP><Qatar Job Market>"
+  },
+  "<CCTV Security Systems><SEP><Samtech Security Systems>": {
+    "chunk_ids": [
+      "sessions::session-20260614-124559.md::44-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684067,
+    "update_time": 1781684067,
+    "_id": "<CCTV Security Systems><SEP><Samtech Security Systems>"
+  },
+  "skill<SEP>source_entity": {
+    "chunk_ids": [
+      "sessions::session-20260614-120024.md::45-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684169,
+    "update_time": 1781684169,
+    "_id": "skill<SEP>source_entity"
+  },
+  "Requirement,<SEP>relationship_keywords": {
+    "chunk_ids": [
+      "sessions::session-20260614-120024.md::45-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684169,
+    "update_time": 1781684169,
+    "_id": "Requirement,<SEP>relationship_keywords"
+  },
+  "Value,<SEP>relationship_keywords": {
+    "chunk_ids": [
+      "sessions::session-20260614-120024.md::45-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684169,
+    "update_time": 1781684169,
+    "_id": "Value,<SEP>relationship_keywords"
+  },
+  "researched<SEP>target_entity": {
+    "chunk_ids": [
+      "sessions::session-20260614-120024.md::45-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684169,
+    "update_time": 1781684169,
+    "_id": "researched<SEP>target_entity"
+  },
+  "Creation,<SEP>relationship_keywords": {
+    "chunk_ids": [
+      "sessions::session-20260614-120024.md::45-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684169,
+    "update_time": 1781684169,
+    "_id": "Creation,<SEP>relationship_keywords"
+  },
+  "None,<SEP>relationship_keywords": {
+    "chunk_ids": [
+      "sessions::session-20260614-120024.md::45-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684169,
+    "update_time": 1781684169,
+    "_id": "None,<SEP>relationship_keywords"
+  },
+  "Research,<SEP>relationship_keywords": {
+    "chunk_ids": [
+      "sessions::session-20260614-120024.md::45-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684169,
+    "update_time": 1781684169,
+    "_id": "Research,<SEP>relationship_keywords"
+  },
+  "learn_quotation.py<SEP>quotation-learner": {
+    "chunk_ids": [
+      "sessions::session-20260609-135823.md::48-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "learn_quotation.py<SEP>quotation-learner"
+  },
+  "CEO mindset<SEP>quotation-learner": {
+    "chunk_ids": [
+      "sessions::session-20260609-135823.md::48-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "CEO mindset<SEP>quotation-learner"
+  },
+  "learn_quotation.py<SEP>rates.json": {
+    "chunk_ids": [
+      "sessions::session-20260609-135823.md::48-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "learn_quotation.py<SEP>rates.json"
+  },
+  "ceo mindset<SEP>quotation-learner": {
+    "chunk_ids": [
+      "sessions::session-20260609-135823.md::48-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "ceo mindset<SEP>quotation-learner"
+  },
+  "learn_quotation.py<SEP>web search/fetch/deep research tools": {
+    "chunk_ids": [
+      "sessions::session-20260609-135823.md::48-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "learn_quotation.py<SEP>web search/fetch/deep research tools"
+  },
+  "ceo mindset<SEP>quotation-coach": {
+    "chunk_ids": [
+      "sessions::session-20260609-135823.md::48-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "ceo mindset<SEP>quotation-coach"
+  },
+  "quotation-learner<SEP>web search/fetch/deep research tools": {
+    "chunk_ids": [
+      "sessions::session-20260609-135823.md::48-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "quotation-learner<SEP>web search/fetch/deep research tools"
+  },
+  "quotation-learner<SEP>ratings": {
+    "chunk_ids": [
+      "sessions::session-20260609-135823.md::48-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "quotation-learner<SEP>ratings"
+  },
+  "ceo mindset<SEP>learn_quotation.py": {
+    "chunk_ids": [
+      "sessions::session-20260609-135823.md::48-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "ceo mindset<SEP>learn_quotation.py"
+  },
+  "learn_quotation.py<SEP>quotation-coach": {
+    "chunk_ids": [
+      "sessions::session-20260609-135823.md::48-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "learn_quotation.py<SEP>quotation-coach"
+  },
+  "ratings<SEP>web search/fetch/deep research tools": {
+    "chunk_ids": [
+      "sessions::session-20260609-135823.md::48-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "ratings<SEP>web search/fetch/deep research tools"
+  },
+  "quotation-coach<SEP>web search/fetch/deep research tools": {
+    "chunk_ids": [
+      "sessions::session-20260609-135823.md::48-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "quotation-coach<SEP>web search/fetch/deep research tools"
+  },
+  "ceo mindset<SEP>ratings": {
+    "chunk_ids": [
+      "sessions::session-20260609-135823.md::48-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "ceo mindset<SEP>ratings"
+  },
+  "XLSX<SEP>learn_quotation.py": {
+    "chunk_ids": [
+      "sessions::session-20260609-135823.md::48-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "XLSX<SEP>learn_quotation.py"
+  },
+  "secuview<SEP>user": {
+    "chunk_ids": [
+      "sessions::session-20260609-133431.md::49-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684687,
+    "update_time": 1781684687,
+    "_id": "secuview<SEP>user"
+  },
+  "CEO<SEP>aslielectronics": {
+    "chunk_ids": [
+      "sessions::session-20260609-133431.md::49-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684687,
+    "update_time": 1781684687,
+    "_id": "CEO<SEP>aslielectronics"
+  },
+  "Starfox<SEP>user": {
+    "chunk_ids": [
+      "sessions::session-20260609-133431.md::49-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684687,
+    "update_time": 1781684687,
+    "_id": "Starfox<SEP>user"
+  },
+  "CEO<SEP>Hugo site": {
+    "chunk_ids": [
+      "sessions::session-20260609-133431.md::49-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684687,
+    "update_time": 1781684687,
+    "_id": "CEO<SEP>Hugo site"
+  },
+  "AutoCAD<SEP>user": {
+    "chunk_ids": [
+      "sessions::session-20260609-133431.md::49-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684687,
+    "update_time": 1781684687,
+    "_id": "AutoCAD<SEP>user"
+  },
+  "MOI Industrial Workshop<SEP>Quotation Coach": {
+    "chunk_ids": [
+      "sessions::session-20260609-062409.md::50-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684755,
+    "update_time": 1781684755,
+    "_id": "MOI Industrial Workshop<SEP>Quotation Coach"
+  },
+  "Camera Type<SEP>Quotation Coach": {
+    "chunk_ids": [
+      "sessions::session-20260609-062409.md::50-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684755,
+    "update_time": 1781684755,
+    "_id": "Camera Type<SEP>Quotation Coach"
+  },
+  "Added 4mp_varifocal camera type<SEP>Quotation Coach": {
+    "chunk_ids": [
+      "sessions::session-20260609-062409.md::50-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684755,
+    "update_time": 1781684755,
+    "_id": "Added 4mp_varifocal camera type<SEP>Quotation Coach"
+  },
+  "Camera Type<SEP>MOI Industrial Workshop": {
+    "chunk_ids": [
+      "sessions::session-20260609-062409.md::50-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684755,
+    "update_time": 1781684755,
+    "_id": "Camera Type<SEP>MOI Industrial Workshop"
+  },
+  "Quotation Coach<SEP>Refactored quotation tool": {
+    "chunk_ids": [
+      "sessions::session-20260609-062409.md::50-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684755,
+    "update_time": 1781684755,
+    "_id": "Quotation Coach<SEP>Refactored quotation tool"
+  },
+  "Orphan Hugo Ghost Page<SEP>Robots.txt": {
+    "chunk_ids": [
+      "sessions::session-20260605-172556.md::53-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781685147,
+    "update_time": 1781685147,
+    "_id": "Orphan Hugo Ghost Page<SEP>Robots.txt"
+  },
+  "Product Page<SEP>Robots.txt": {
+    "chunk_ids": [
+      "sessions::session-20260605-172556.md::53-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781685147,
+    "update_time": 1781685147,
+    "_id": "Product Page<SEP>Robots.txt"
+  },
+  "<aslielectronics.com><SEP>safehome": {
+    "chunk_ids": [
+      "sessions::session-20260602-094327.md::55-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781685292,
+    "update_time": 1781685292,
+    "_id": "<aslielectronics.com><SEP>safehome"
+  },
+  "<aslielectronics.com><SEP>GitHub": {
+    "chunk_ids": [
+      "sessions::session-20260602-094327.md::55-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781685292,
+    "update_time": 1781685292,
+    "_id": "<aslielectronics.com><SEP>GitHub"
+  },
+  "content<SEP>safehome": {
+    "chunk_ids": [
+      "sessions::session-20260601-133723.md::59-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688066,
+    "update_time": 1781688066,
+    "_id": "content<SEP>safehome"
+  },
+  "AsliElectronics<SEP>blog": {
+    "chunk_ids": [
+      "sessions::session-20260601-133723.md::59-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688066,
+    "update_time": 1781688066,
+    "_id": "AsliElectronics<SEP>blog"
+  },
+  "content/<SEP>safehome/": {
+    "chunk_ids": [
+      "sessions::session-20260601-133723.md::59-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688066,
+    "update_time": 1781688066,
+    "_id": "content/<SEP>safehome/"
+  },
+  "AsliElectronics<SEP>content-strategy": {
+    "chunk_ids": [
+      "sessions::session-20260601-134653.md::58-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688423,
+    "update_time": 1781688423,
+    "_id": "AsliElectronics<SEP>content-strategy"
+  },
+  "<secuview>< [#|]<channel<SEP>channel< [#|]<FB": {
+    "chunk_ids": [
+      "sessions::session-20260601-065711.md::62-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688463,
+    "update_time": 1781688463,
+    "_id": "<secuview>< [#|]<channel<SEP>channel< [#|]<FB"
+  },
+  "<ranking<SEP><secuview>< [#|]<issue": {
+    "chunk_ids": [
+      "sessions::session-20260601-065711.md::62-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688463,
+    "update_time": 1781688463,
+    "_id": "<ranking<SEP><secuview>< [#|]<issue"
+  },
+  "LocalBusiness<SEP>secuview-schema-markup": {
+    "chunk_ids": [
+      "sessions::session-20260531-100743.md::63-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688636,
+    "update_time": 1781688636,
+    "_id": "LocalBusiness<SEP>secuview-schema-markup"
+  },
+  "Breadcrumb<SEP>secuview-schema-markup": {
+    "chunk_ids": [
+      "sessions::session-20260531-100743.md::63-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688636,
+    "update_time": 1781688636,
+    "_id": "Breadcrumb<SEP>secuview-schema-markup"
+  },
+  "Organization<SEP>server": {
+    "chunk_ids": [
+      "sessions::session-20260531-095425.md::65-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688922,
+    "update_time": 1781688922,
+    "_id": "Organization<SEP>server"
+  },
+  "Location<SEP>github": {
+    "chunk_ids": [
+      "sessions::session-20260531-095425.md::65-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688922,
+    "update_time": 1781688922,
+    "_id": "Location<SEP>github"
+  },
+  "Content<SEP>agtmd": {
+    "chunk_ids": [
+      "sessions::session-20260531-095425.md::65-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688922,
+    "update_time": 1781688922,
+    "_id": "Content<SEP>agtmd"
+  },
+  "Method<SEP>cron": {
+    "chunk_ids": [
+      "sessions::session-20260531-095425.md::65-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688922,
+    "update_time": 1781688922,
+    "_id": "Method<SEP>cron"
+  },
+  "agtmd<SEP>github": {
+    "chunk_ids": [
+      "sessions::session-20260531-095425.md::65-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688922,
+    "update_time": 1781688922,
+    "_id": "agtmd<SEP>github"
+  },
+  "dev<SEP>pm": {
+    "chunk_ids": [
+      "sessions::session-20260531-095425.md::65-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688922,
+    "update_time": 1781688922,
+    "_id": "dev<SEP>pm"
+  },
+  "agtmd<SEP>server": {
+    "chunk_ids": [
+      "sessions::session-20260531-095425.md::65-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688922,
+    "update_time": 1781688922,
+    "_id": "agtmd<SEP>server"
+  },
+  "source_entity:Coach<SEP>target_entity:Conversation Memory": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "source_entity:Coach<SEP>target_entity:Conversation Memory"
+  },
+  "source_entity:System<SEP>target_entity:Coach": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "source_entity:System<SEP>target_entity:Coach"
+  },
+  "source_entity:Coach<SEP>target_entity:Decision Tracking": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "source_entity:Coach<SEP>target_entity:Decision Tracking"
+  },
+  "source_entity:PARA Template<SEP>target_entity:Coach": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "source_entity:PARA Template<SEP>target_entity:Coach"
+  },
+  "source_entity:Coach<SEP>target_entity:Memory Search": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "source_entity:Coach<SEP>target_entity:Memory Search"
+  },
+  "source_entity:Coach<SEP>target_entity:Recap Tool": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "source_entity:Coach<SEP>target_entity:Recap Tool"
+  },
+  "source_entity:Coach<SEP>target_entity:Inbox": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "source_entity:Coach<SEP>target_entity:Inbox"
+  },
+  "source_entity:Coach<SEP>target_entity:Weekly Synthesis": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "source_entity:Coach<SEP>target_entity:Weekly Synthesis"
+  },
+  "source_entity:Coach<SEP>target_entity:Daily Notes": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "source_entity:Coach<SEP>target_entity:Daily Notes"
+  },
+  "source_entity:Coach<SEP>target_entity:System": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "source_entity:Coach<SEP>target_entity:System"
+  },
+  "source_entity:Coach<SEP>target_entity:Talking Partner": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "source_entity:Coach<SEP>target_entity:Talking Partner"
+  },
+  "source_entity:Coach<SEP>target_entity:Integrated Notes": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "source_entity:Coach<SEP>target_entity:Integrated Notes"
+  },
+  "Secuview<SEP>product": {
+    "chunk_ids": [
+      "sessions::session-20260531-074533.md::68-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689686,
+    "update_time": 1781689686,
+    "_id": "Secuview<SEP>product"
+  },
+  "script<SEP>work/scripts/scrape_secuview.py": {
+    "chunk_ids": [
+      "sessions::session-20260531-074533.md::68-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689686,
+    "update_time": 1781689686,
+    "_id": "script<SEP>work/scripts/scrape_secuview.py"
+  },
+  "Organization<SEP>Skill Installation": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "Organization<SEP>Skill Installation"
+  },
+  "Corey Haines<SEP>Skill-Evolution": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "Corey Haines<SEP>Skill-Evolution"
+  },
+  "Awesome-Agent-Skills Repo<SEP>obra": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "Awesome-Agent-Skills Repo<SEP>obra"
+  },
+  "Corey Haines<SEP>Memory-Kit": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "Corey Haines<SEP>Memory-Kit"
+  },
+  "NVIDIA Skill-Evolution<SEP>obra": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "NVIDIA Skill-Evolution<SEP>obra"
+  },
+  "NVIDIA<SEP>Skill-Evolution": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "NVIDIA<SEP>Skill-Evolution"
+  },
+  "AGENTS.MD<SEP>opencode": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "AGENTS.MD<SEP>opencode"
+  },
+  "Memory-Kit<SEP>NVIDIA": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "Memory-Kit<SEP>NVIDIA"
+  },
+  "VoltAgent/awesome-agent-skills<SEP>opencode": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "VoltAgent/awesome-agent-skills<SEP>opencode"
+  },
+  "AGENTS.MD<SEP>VoltAgent/awesome-agent-skills": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "AGENTS.MD<SEP>VoltAgent/awesome-agent-skills"
+  },
+  "Corey Haines<SEP>VoltAgent/awesome-agent-skills": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "Corey Haines<SEP>VoltAgent/awesome-agent-skills"
+  },
+  "NVIDIA Skill-Evolution<SEP>VoltAgent/awesome-agent-skills": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "NVIDIA Skill-Evolution<SEP>VoltAgent/awesome-agent-skills"
+  },
+  "Corey Haines<SEP>obra": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "Corey Haines<SEP>obra"
+  },
+  "Delivery Information<SEP>Product Page": {
+    "chunk_ids": [
+      "sessions::session-20260530-133249.md::71-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689941,
+    "update_time": 1781689941,
+    "_id": "Delivery Information<SEP>Product Page"
+  },
+  "Optimized Fingerprint Smart Lock Product Page<SEP>Pricing Information": {
+    "chunk_ids": [
+      "sessions::session-20260530-133249.md::71-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689941,
+    "update_time": 1781689941,
+    "_id": "Optimized Fingerprint Smart Lock Product Page<SEP>Pricing Information"
+  },
+  "Feature Information<SEP>Product Page": {
+    "chunk_ids": [
+      "sessions::session-20260530-133249.md::71-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689941,
+    "update_time": 1781689941,
+    "_id": "Feature Information<SEP>Product Page"
+  },
+  "Feature Information,<SEP>Product Page": {
+    "chunk_ids": [
+      "sessions::session-20260530-133249.md::71-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689941,
+    "update_time": 1781689941,
+    "_id": "Feature Information,<SEP>Product Page"
+  },
+  "Access Control System<SEP>Time Attendance System": {
+    "chunk_ids": [
+      "sessions::session-20260530-120227.md::73-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690032,
+    "update_time": 1781690032,
+    "_id": "Access Control System<SEP>Time Attendance System"
+  },
+  "Qatar<SEP>Time Attendance System": {
+    "chunk_ids": [
+      "sessions::session-20260530-120227.md::73-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690032,
+    "update_time": 1781690032,
+    "_id": "Qatar<SEP>Time Attendance System"
+  },
+  "Access Control System<SEP>Qatar": {
+    "chunk_ids": [
+      "sessions::session-20260530-120227.md::73-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690032,
+    "update_time": 1781690032,
+    "_id": "Access Control System<SEP>Qatar"
+  },
+  "Access Control System<SEP>Qatar Guide": {
+    "chunk_ids": [
+      "sessions::session-20260530-120227.md::73-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690032,
+    "update_time": 1781690032,
+    "_id": "Access Control System<SEP>Qatar Guide"
+  },
+  "Access Control System<SEP>Product Link": {
+    "chunk_ids": [
+      "sessions::session-20260530-120227.md::73-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690032,
+    "update_time": 1781690032,
+    "_id": "Access Control System<SEP>Product Link"
+  },
+  "Access Control System<SEP>Venue Recommendation": {
+    "chunk_ids": [
+      "sessions::session-20260530-120227.md::73-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690032,
+    "update_time": 1781690032,
+    "_id": "Access Control System<SEP>Venue Recommendation"
+  },
+  "Organization<SEP>secuview": {
+    "chunk_ids": [
+      "sessions::session-20260530-090745.md::75-chunk-000",
+      "sessions::session-20260523-084302.md::114-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781696409,
+    "_id": "Organization<SEP>secuview"
+  },
+  "GBP,<SEP>Secuview": {
+    "chunk_ids": [
+      "sessions::session-20260530-090745.md::75-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690235,
+    "update_time": 1781690235,
+    "_id": "GBP,<SEP>Secuview"
+  },
+  "Google,<SEP>Secuview": {
+    "chunk_ids": [
+      "sessions::session-20260530-090745.md::75-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690235,
+    "update_time": 1781690235,
+    "_id": "Google,<SEP>Secuview"
+  },
+  "Secuview<SEP>WhatsApp,": {
+    "chunk_ids": [
+      "sessions::session-20260530-090745.md::75-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690235,
+    "update_time": 1781690235,
+    "_id": "Secuview<SEP>WhatsApp,"
+  },
+  "GBP,<SEP>secuview": {
+    "chunk_ids": [
+      "sessions::session-20260530-090745.md::75-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690235,
+    "update_time": 1781690235,
+    "_id": "GBP,<SEP>secuview"
+  },
+  "GitHub,<SEP>Secuview": {
+    "chunk_ids": [
+      "sessions::session-20260530-090745.md::75-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690235,
+    "update_time": 1781690235,
+    "_id": "GitHub,<SEP>Secuview"
+  },
+  "Other,<SEP>growth plans": {
+    "chunk_ids": [
+      "sessions::session-20260530-090745.md::75-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690235,
+    "update_time": 1781690235,
+    "_id": "Other,<SEP>growth plans"
+  },
+  "Secuview<SEP>boss,": {
+    "chunk_ids": [
+      "sessions::session-20260530-090745.md::75-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690235,
+    "update_time": 1781690235,
+    "_id": "Secuview<SEP>boss,"
+  },
+  "<4G LTE WiFi Router<SEP>Product Page": {
+    "chunk_ids": [
+      "sessions::session-20260530-071326.md::76-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690360,
+    "update_time": 1781690360,
+    "_id": "<4G LTE WiFi Router<SEP>Product Page"
+  },
+  "<GitHub<SEP>Content File": {
+    "chunk_ids": [
+      "sessions::session-20260530-071326.md::76-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690360,
+    "update_time": 1781690360,
+    "_id": "<GitHub<SEP>Content File"
+  },
+  "<Product Page<SEP>Product Page": {
+    "chunk_ids": [
+      "sessions::session-20260530-071326.md::76-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690360,
+    "update_time": 1781690360,
+    "_id": "<Product Page<SEP>Product Page"
+  },
+  "Blog Post<SEP>Category": {
+    "chunk_ids": [
+      "sessions::session-20260529-172614.md::79-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781691505,
+    "update_time": 1781691505,
+    "_id": "Blog Post<SEP>Category"
+  },
+  "Batch<SEP>Date": {
+    "chunk_ids": [
+      "sessions::session-20260529-172614.md::79-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781691505,
+    "update_time": 1781691505,
+    "_id": "Batch<SEP>Date"
+  },
+  "Batch<SEP>Content update": {
+    "chunk_ids": [
+      "sessions::session-20260529-171751.md::80-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781691922,
+    "update_time": 1781691922,
+    "_id": "Batch<SEP>Content update"
+  },
+  "Batch<SEP>Batch 3-4 remaining": {
+    "chunk_ids": [
+      "sessions::session-20260529-171751.md::80-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781691922,
+    "update_time": 1781691922,
+    "_id": "Batch<SEP>Batch 3-4 remaining"
+  },
+  "Event<SEP>Wrote home security system guide blog post": {
+    "chunk_ids": [
+      "sessions::session-20260528-170636.md::81-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692035,
+    "update_time": 1781692035,
+    "_id": "Event<SEP>Wrote home security system guide blog post"
+  },
+  "Cloudflare build command<SEP>Method": {
+    "chunk_ids": [
+      "sessions::session-20260528-170636.md::81-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692035,
+    "update_time": 1781692035,
+    "_id": "Cloudflare build command<SEP>Method"
+  },
+  "Cloudflare<SEP>Organization": {
+    "chunk_ids": [
+      "sessions::session-20260528-170636.md::81-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692035,
+    "update_time": 1781692035,
+    "_id": "Cloudflare<SEP>Organization"
+  },
+  "GitHub<SEP>Organization": {
+    "chunk_ids": [
+      "sessions::session-20260528-170636.md::81-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692035,
+    "update_time": 1781692035,
+    "_id": "GitHub<SEP>Organization"
+  },
+  "Other<SEP>Task": {
+    "chunk_ids": [
+      "sessions::session-20260529-190958.md::78-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692089,
+    "update_time": 1781692089,
+    "_id": "Other<SEP>Task"
+  },
+  "Deployed Site<SEP>Organization": {
+    "chunk_ids": [
+      "sessions::session-20260528-142545.md::84-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692453,
+    "update_time": 1781692453,
+    "_id": "Deployed Site<SEP>Organization"
+  },
+  "Domain<SEP>Location": {
+    "chunk_ids": [
+      "sessions::session-20260528-142545.md::84-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692453,
+    "update_time": 1781692453,
+    "_id": "Domain<SEP>Location"
+  },
+  "Cloudflare Pages<SEP>Content": {
+    "chunk_ids": [
+      "sessions::session-20260528-142545.md::84-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692453,
+    "update_time": 1781692453,
+    "_id": "Cloudflare Pages<SEP>Content"
+  },
+  "AsliElectronics<SEP>Organization": {
+    "chunk_ids": [
+      "sessions::session-20260528-142545.md::84-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692453,
+    "update_time": 1781692453,
+    "_id": "AsliElectronics<SEP>Organization"
+  },
+  "Concept<SEP>public": {
+    "chunk_ids": [
+      "sessions::session-20260528-142545.md::84-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692453,
+    "update_time": 1781692453,
+    "_id": "Concept<SEP>public"
+  },
+  "AsliElectronics<SEP>SafeHOME": {
+    "chunk_ids": [
+      "sessions::session-20260528-104700.md::85-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692487,
+    "update_time": 1781692487,
+    "_id": "AsliElectronics<SEP>SafeHOME"
+  },
+  "Domain<SEP>domain": {
+    "chunk_ids": [
+      "sessions::session-20260528-103026.md::86-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692525,
+    "update_time": 1781692525,
+    "_id": "Domain<SEP>domain"
+  },
+  "Description tab<SEP>hugo-product-page-enhance": {
+    "chunk_ids": [
+      "sessions::session-20260527-182934.md::87-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692589,
+    "update_time": 1781692589,
+    "_id": "Description tab<SEP>hugo-product-page-enhance"
+  },
+  "dev blog<SEP>hugo-product-page-enhance": {
+    "chunk_ids": [
+      "sessions::session-20260527-182934.md::87-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692589,
+    "update_time": 1781692589,
+    "_id": "dev blog<SEP>hugo-product-page-enhance"
+  },
+  "OG image<SEP>hugo-product-page-enhance": {
+    "chunk_ids": [
+      "sessions::session-20260527-182934.md::87-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692589,
+    "update_time": 1781692589,
+    "_id": "OG image<SEP>hugo-product-page-enhance"
+  },
+  "GitHub<SEP>Hugo Product Page Enhancement": {
+    "chunk_ids": [
+      "sessions::session-20260527-173554.md::88-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692644,
+    "update_time": 1781692644,
+    "_id": "GitHub<SEP>Hugo Product Page Enhancement"
+  },
+  "Hugo Product Page Enhancement<SEP>Security Camera Guide": {
+    "chunk_ids": [
+      "sessions::session-20260527-173554.md::88-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692644,
+    "update_time": 1781692644,
+    "_id": "Hugo Product Page Enhancement<SEP>Security Camera Guide"
+  },
+  "Hugo Product Page Enhancement<SEP>Smart Lock Guide": {
+    "chunk_ids": [
+      "sessions::session-20260527-173554.md::88-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692644,
+    "update_time": 1781692644,
+    "_id": "Hugo Product Page Enhancement<SEP>Smart Lock Guide"
+  },
+  "Hugo Product Page Enhancement<SEP>PA Systems Guide": {
+    "chunk_ids": [
+      "sessions::session-20260527-173554.md::88-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692644,
+    "update_time": 1781692644,
+    "_id": "Hugo Product Page Enhancement<SEP>PA Systems Guide"
+  },
+  "Hugo Product Page Enhancement<SEP>Network Cabling Guide": {
+    "chunk_ids": [
+      "sessions::session-20260527-173554.md::88-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692644,
+    "update_time": 1781692644,
+    "_id": "Hugo Product Page Enhancement<SEP>Network Cabling Guide"
+  },
+  "Description Tab<SEP>Hugo Product Page Enhancement": {
+    "chunk_ids": [
+      "sessions::session-20260527-173554.md::88-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692644,
+    "update_time": 1781692644,
+    "_id": "Description Tab<SEP>Hugo Product Page Enhancement"
+  },
+  "Duration<SEP>Hugo Product Page Enhancement": {
+    "chunk_ids": [
+      "sessions::session-20260527-173554.md::88-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692644,
+    "update_time": 1781692644,
+    "_id": "Duration<SEP>Hugo Product Page Enhancement"
+  },
+  "Dev Blog Posts<SEP>Hugo Product Page Enhancement": {
+    "chunk_ids": [
+      "sessions::session-20260527-173554.md::88-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692644,
+    "update_time": 1781692644,
+    "_id": "Dev Blog Posts<SEP>Hugo Product Page Enhancement"
+  },
+  "frontmatter,<SEP>patch": {
+    "chunk_ids": [
+      "sessions::session-20260526-194821.md::89-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692762,
+    "update_time": 1781692762,
+    "_id": "frontmatter,<SEP>patch"
+  },
+  "patch<SEP>related_products,": {
+    "chunk_ids": [
+      "sessions::session-20260526-194821.md::89-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692762,
+    "update_time": 1781692762,
+    "_id": "patch<SEP>related_products,"
+  },
+  "description,<SEP>patch": {
+    "chunk_ids": [
+      "sessions::session-20260526-194821.md::89-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692762,
+    "update_time": 1781692762,
+    "_id": "description,<SEP>patch"
+  },
+  "patch<SEP>products,": {
+    "chunk_ids": [
+      "sessions::session-20260526-194821.md::89-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692762,
+    "update_time": 1781692762,
+    "_id": "patch<SEP>products,"
+  },
+  "gallery,<SEP>patch": {
+    "chunk_ids": [
+      "sessions::session-20260526-194821.md::89-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692762,
+    "update_time": 1781692762,
+    "_id": "gallery,<SEP>patch"
+  },
+  "Agent.py<SEP>Software artifact": {
+    "chunk_ids": [
+      "sessions::session-20260526-193517.md::90-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692825,
+    "update_time": 1781692825,
+    "_id": "Agent.py<SEP>Software artifact"
+  },
+  "Talks to<SEP>user": {
+    "chunk_ids": [
+      "sessions::session-20260526-193517.md::90-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692825,
+    "update_time": 1781692825,
+    "_id": "Talks to<SEP>user"
+  },
+  "<#CloudflareProxyRejection><SEP><#diagnosed_issue>": {
+    "chunk_ids": [
+      "sessions::session-20260526-124106.md::93-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693073,
+    "update_time": 1781693073,
+    "_id": "<#CloudflareProxyRejection><SEP><#diagnosed_issue>"
+  },
+  "<#ClientSideSetup><SEP><#PC>": {
+    "chunk_ids": [
+      "sessions::session-20260526-124106.md::93-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693073,
+    "update_time": 1781693073,
+    "_id": "<#ClientSideSetup><SEP><#PC>"
+  },
+  "setup<SEP>token": {
+    "chunk_ids": [
+      "sessions::session-20260526-122335.md::94-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693101,
+    "update_time": 1781693101,
+    "_id": "setup<SEP>token"
+  },
+  "Smart Home Security Guide Qatar blog post<SEP>content-writing": {
+    "chunk_ids": [
+      "sessions::session-20260526-095002.md::95-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693220,
+    "update_time": 1781693220,
+    "_id": "Smart Home Security Guide Qatar blog post<SEP>content-writing"
+  },
+  "Competitor comparison<SEP>Content": {
+    "chunk_ids": [
+      "sessions::session-20260526-095002.md::95-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693220,
+    "update_time": 1781693220,
+    "_id": "Competitor comparison<SEP>Content"
+  },
+  "Faq<SEP>schema": {
+    "chunk_ids": [
+      "sessions::session-20260526-095002.md::95-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693220,
+    "update_time": 1781693220,
+    "_id": "Faq<SEP>schema"
+  },
+  "FAQ schema<SEP>Smart Home Security Guide Qatar blog post": {
+    "chunk_ids": [
+      "sessions::session-20260526-095002.md::95-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693220,
+    "update_time": 1781693220,
+    "_id": "FAQ schema<SEP>Smart Home Security Guide Qatar blog post"
+  },
+  "Smart Home Security Guide Qatar blog post<SEP>smart-home-security-guide-qatar.md": {
+    "chunk_ids": [
+      "sessions::session-20260526-095002.md::95-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693220,
+    "update_time": 1781693220,
+    "_id": "Smart Home Security Guide Qatar blog post<SEP>smart-home-security-guide-qatar.md"
+  },
+  "Content Writing<SEP>Post": {
+    "chunk_ids": [
+      "sessions::session-20260526-084411.md::96-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693257,
+    "update_time": 1781693257,
+    "_id": "Content Writing<SEP>Post"
+  },
+  "Blog Post<SEP>Content Writing": {
+    "chunk_ids": [
+      "sessions::session-20260526-084411.md::96-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693257,
+    "update_time": 1781693257,
+    "_id": "Blog Post<SEP>Content Writing"
+  },
+  "PoE Switch<SEP>Secuview": {
+    "chunk_ids": [
+      "sessions::session-20260525-142400.md::98-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693827,
+    "update_time": 1781693827,
+    "_id": "PoE Switch<SEP>Secuview"
+  },
+  "Concept<SEP>Secuview": {
+    "chunk_ids": [
+      "sessions::session-20260525-142015.md::99-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781694569,
+    "update_time": 1781694569,
+    "_id": "Concept<SEP>Secuview"
+  },
+  "Access Control<SEP>Concept": {
+    "chunk_ids": [
+      "sessions::session-20260525-142015.md::99-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781694569,
+    "update_time": 1781694569,
+    "_id": "Access Control<SEP>Concept"
+  },
+  "Concept<SEP>PoE Switches": {
+    "chunk_ids": [
+      "sessions::session-20260525-142015.md::99-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781694569,
+    "update_time": 1781694569,
+    "_id": "Concept<SEP>PoE Switches"
+  },
+  "Concept<SEP>PA Systems": {
+    "chunk_ids": [
+      "sessions::session-20260525-142015.md::99-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781694569,
+    "update_time": 1781694569,
+    "_id": "Concept<SEP>PA Systems"
+  },
+  "Blog Post Idea<SEP>Secuview": {
+    "chunk_ids": [
+      "sessions::session-20260525-142015.md::99-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781694569,
+    "update_time": 1781694569,
+    "_id": "Blog Post Idea<SEP>Secuview"
+  },
+  "4G LTE Routers<SEP>Concept": {
+    "chunk_ids": [
+      "sessions::session-20260525-142015.md::99-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781694569,
+    "update_time": 1781694569,
+    "_id": "4G LTE Routers<SEP>Concept"
+  },
+  "Content Creation<SEP>Secuview": {
+    "chunk_ids": [
+      "sessions::session-20260525-142015.md::99-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781694569,
+    "update_time": 1781694569,
+    "_id": "Content Creation<SEP>Secuview"
+  },
+  "Concept<SEP>Home Security": {
+    "chunk_ids": [
+      "sessions::session-20260525-142015.md::99-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781694569,
+    "update_time": 1781694569,
+    "_id": "Concept<SEP>Home Security"
+  },
+  "Product<SEP>Secuview": {
+    "chunk_ids": [
+      "sessions::session-20260525-142015.md::99-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781694569,
+    "update_time": 1781694569,
+    "_id": "Product<SEP>Secuview"
+  },
+  "Networking Equipment<SEP>PoE Switches": {
+    "chunk_ids": [
+      "sessions::session-20260525-142015.md::99-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781694569,
+    "update_time": 1781694569,
+    "_id": "Networking Equipment<SEP>PoE Switches"
+  },
+  "Concept<SEP>Keyword Research": {
+    "chunk_ids": [
+      "sessions::session-20260525-142015.md::99-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781694569,
+    "update_time": 1781694569,
+    "_id": "Concept<SEP>Keyword Research"
+  },
+  "Audio Equipment<SEP>PA Systems": {
+    "chunk_ids": [
+      "sessions::session-20260525-142015.md::99-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781694569,
+    "update_time": 1781694569,
+    "_id": "Audio Equipment<SEP>PA Systems"
+  },
+  "Entity<SEP>Post": {
+    "chunk_ids": [
+      "sessions::session-20260525-141427.md::101-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695102,
+    "update_time": 1781695102,
+    "_id": "Entity<SEP>Post"
+  },
+  "Platform<SEP>Reddit": {
+    "chunk_ids": [
+      "sessions::session-20260525-141427.md::101-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695102,
+    "update_time": 1781695102,
+    "_id": "Platform<SEP>Reddit"
+  },
+  "Instagram<SEP>n8n workflow": {
+    "chunk_ids": [
+      "sessions::session-20260524-135605.md::102-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695320,
+    "update_time": 1781695320,
+    "_id": "Instagram<SEP>n8n workflow"
+  },
+  "App Dashboard<SEP>n8n workflow": {
+    "chunk_ids": [
+      "sessions::session-20260524-135605.md::102-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695320,
+    "update_time": 1781695320,
+    "_id": "App Dashboard<SEP>n8n workflow"
+  },
+  "Meta Graph API<SEP>n8n workflow": {
+    "chunk_ids": [
+      "sessions::session-20260524-135605.md::102-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695320,
+    "update_time": 1781695320,
+    "_id": "Meta Graph API<SEP>n8n workflow"
+  },
+  "<Entity Name><SEP><Skill>": {
+    "chunk_ids": [
+      "sessions::session-20260524-134511.md::103-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695342,
+    "update_time": 1781695342,
+    "_id": "<Entity Name><SEP><Skill>"
+  },
+  "N8N Workflow,<SEP>Workflow design": {
+    "chunk_ids": [
+      "sessions::session-20260524-101017.md::104-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695402,
+    "update_time": 1781695402,
+    "_id": "N8N Workflow,<SEP>Workflow design"
+  },
+  "Automation use case<SEP>Instagram,": {
+    "chunk_ids": [
+      "sessions::session-20260524-101017.md::104-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695402,
+    "update_time": 1781695402,
+    "_id": "Automation use case<SEP>Instagram,"
+  },
+  "Design skill<SEP>N8N Workflow,": {
+    "chunk_ids": [
+      "sessions::session-20260524-101017.md::104-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695402,
+    "update_time": 1781695402,
+    "_id": "Design skill<SEP>N8N Workflow,"
+  },
+  "Automation use case corrected<SEP>Instagram,": {
+    "chunk_ids": [
+      "sessions::session-20260524-101017.md::104-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695402,
+    "update_time": 1781695402,
+    "_id": "Automation use case corrected<SEP>Instagram,"
+  },
+  "<secuview<SEP>secuview": {
+    "chunk_ids": [
+      "sessions::session-20260523-134410.md::110-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695700,
+    "update_time": 1781695700,
+    "_id": "<secuview<SEP>secuview"
+  },
+  "<Day<SEP>WiFi Starter Kit Blog": {
+    "chunk_ids": [
+      "sessions::session-20260523-134410.md::110-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695700,
+    "update_time": 1781695700,
+    "_id": "<Day<SEP>WiFi Starter Kit Blog"
+  },
+  "<secuview<SEP>Day": {
+    "chunk_ids": [
+      "sessions::session-20260523-134410.md::110-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695700,
+    "update_time": 1781695700,
+    "_id": "<secuview<SEP>Day"
+  },
+  "<Day<SEP>FAQ Schema MU Plugin Deployment": {
+    "chunk_ids": [
+      "sessions::session-20260523-134410.md::110-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695700,
+    "update_time": 1781695700,
+    "_id": "<Day<SEP>FAQ Schema MU Plugin Deployment"
+  },
+  "<secuview<SEP>WiFi Starter Kit Blog": {
+    "chunk_ids": [
+      "sessions::session-20260523-134410.md::110-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695700,
+    "update_time": 1781695700,
+    "_id": "<secuview<SEP>WiFi Starter Kit Blog"
+  },
+  "<Day<SEP>Full SEO/AEO Audit": {
+    "chunk_ids": [
+      "sessions::session-20260523-134410.md::110-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695700,
+    "update_time": 1781695700,
+    "_id": "<Day<SEP>Full SEO/AEO Audit"
+  },
+  "<secuview<SEP>SEO Planning": {
+    "chunk_ids": [
+      "sessions::session-20260523-134410.md::110-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695700,
+    "update_time": 1781695700,
+    "_id": "<secuview<SEP>SEO Planning"
+  },
+  "Audio<SEP>PoE switches": {
+    "chunk_ids": [
+      "sessions::session-20260523-084302.md::114-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696409,
+    "update_time": 1781696409,
+    "_id": "Audio<SEP>PoE switches"
+  },
+  "Smart Home<SEP>secuview": {
+    "chunk_ids": [
+      "sessions::session-20260523-084302.md::114-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696409,
+    "update_time": 1781696409,
+    "_id": "Smart Home<SEP>secuview"
+  },
+  "Home WiFi Starter Kit<SEP>secuview": {
+    "chunk_ids": [
+      "sessions::session-20260523-084302.md::114-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696409,
+    "update_time": 1781696409,
+    "_id": "Home WiFi Starter Kit<SEP>secuview"
+  },
+  "secuview<SEP>work-agent": {
+    "chunk_ids": [
+      "sessions::session-20260523-084302.md::114-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696409,
+    "update_time": 1781696409,
+    "_id": "secuview<SEP>work-agent"
+  },
+  "Home WiFi Starter Kit<SEP>Smart Home": {
+    "chunk_ids": [
+      "sessions::session-20260523-084302.md::114-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696409,
+    "update_time": 1781696409,
+    "_id": "Home WiFi Starter Kit<SEP>Smart Home"
+  },
+  "Audio<SEP>secuview": {
+    "chunk_ids": [
+      "sessions::session-20260523-084302.md::114-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696409,
+    "update_time": 1781696409,
+    "_id": "Audio<SEP>secuview"
+  },
+  "secuview<SEP>secuview.com": {
+    "chunk_ids": [
+      "sessions::session-20260523-084302.md::114-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696409,
+    "update_time": 1781696409,
+    "_id": "secuview<SEP>secuview.com"
+  },
+  "Entity<SEP>Product Image": {
+    "chunk_ids": [
+      "sessions::session-20260521-135009.md::115-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696435,
+    "update_time": 1781696435,
+    "_id": "Entity<SEP>Product Image"
+  },
+  "Entity<SEP>WooCommerce Blog Page": {
+    "chunk_ids": [
+      "sessions::session-20260521-135009.md::115-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696435,
+    "update_time": 1781696435,
+    "_id": "Entity<SEP>WooCommerce Blog Page"
+  },
+  "Date<SEP>Entity": {
+    "chunk_ids": [
+      "sessions::session-20260521-135009.md::115-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696435,
+    "update_time": 1781696435,
+    "_id": "Date<SEP>Entity"
+  },
+  "example<SEP>prompt": {
+    "chunk_ids": [
+      "sessions::session-20260521-062419.md::119-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696710,
+    "update_time": 1781696710,
+    "_id": "example<SEP>prompt"
+  },
+  "duration<SEP>engineer": {
+    "chunk_ids": [
+      "sessions::session-20260521-062419.md::119-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696710,
+    "update_time": 1781696710,
+    "_id": "duration<SEP>engineer"
+  },
+  "rating<SEP>rating,": {
+    "chunk_ids": [
+      "sessions::session-20260521-062419.md::119-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696710,
+    "update_time": 1781696710,
+    "_id": "rating<SEP>rating,"
+  },
+  "Method<SEP>Skill": {
+    "chunk_ids": [
+      "sessions::session-20260521-054016.md::120-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696746,
+    "update_time": 1781696746,
+    "_id": "Method<SEP>Skill"
+  },
+  "Rating<SEP>Skill": {
+    "chunk_ids": [
+      "sessions::session-20260521-054016.md::120-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696746,
+    "update_time": 1781696746,
+    "_id": "Rating<SEP>Skill"
+  },
+  "Duration<SEP>Skill": {
+    "chunk_ids": [
+      "sessions::session-20260521-054016.md::120-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696746,
+    "update_time": 1781696746,
+    "_id": "Duration<SEP>Skill"
+  },
+  "Duration<SEP>Method": {
+    "chunk_ids": [
+      "sessions::session-20260521-054016.md::120-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696746,
+    "update_time": 1781696746,
+    "_id": "Duration<SEP>Method"
+  },
+  "<source_entity>Brain Dump<SEP><target_entity>Tasks": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<source_entity>Brain Dump<SEP><target_entity>Tasks"
+  },
+  "<source_entity>Brain Dump<SEP><target_entity>Thoughts": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<source_entity>Brain Dump<SEP><target_entity>Thoughts"
+  },
+  "<source_entity>Meetings<SEP><target_entity>Tasks": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<source_entity>Meetings<SEP><target_entity>Tasks"
+  },
+  "<source_entity>Brain Dump<SEP><target_entity>Meetings": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<source_entity>Brain Dump<SEP><target_entity>Meetings"
+  },
+  "<source_entity>Meetings<SEP><target_entity>Ideas": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<source_entity>Meetings<SEP><target_entity>Ideas"
+  },
+  "<target_entity>Brain Dump<SEP><target_entity>Tasks": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<target_entity>Brain Dump<SEP><target_entity>Tasks"
+  },
+  "<source_entity>Brain Dump<SEP><target_entity>Ideas": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<source_entity>Brain Dump<SEP><target_entity>Ideas"
+  },
+  "<target_entity>Brain Dump<SEP><target_entity>Thoughts": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<target_entity>Brain Dump<SEP><target_entity>Thoughts"
+  },
+  "<source_entity>Scheduling<SEP><target_entity>Meetings": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<source_entity>Scheduling<SEP><target_entity>Meetings"
+  },
+  "<source_entity>Notes<SEP><target_entity>Brain Dump": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<source_entity>Notes<SEP><target_entity>Brain Dump"
+  },
+  "<source_entity>Idea generation<SEP><target_entity>Ideas": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<source_entity>Idea generation<SEP><target_entity>Ideas"
+  },
+  "<source_entity>Resource Allocation<SEP><target_entity>Meetings": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<source_entity>Resource Allocation<SEP><target_entity>Meetings"
+  },
+  "<target_entity>Brain Dump<SEP><target_entity>Scheduling": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<target_entity>Brain Dump<SEP><target_entity>Scheduling"
+  },
+  "<source_entity>Brain Dump<SEP><target_entity>Notes": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<source_entity>Brain Dump<SEP><target_entity>Notes"
+  }
+}

@@ -1,0 +1,5742 @@
+{
+  "Ollama": {
+    "chunk_ids": [
+      "sessions::session-20260616-124211.md::0-chunk-000",
+      "sessions::session-20260616-115736.md::1-chunk-000",
+      "sessions::session-20260616-130012.md::0-chunk-000",
+      "sessions::session-20260616-132907.md::0-chunk-000"
+    ],
+    "count": 4,
+    "update_time": 1781678746,
+    "_id": "Ollama"
+  },
+  "Gemini": {
+    "chunk_ids": [
+      "sessions::session-20260616-124211.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781620025,
+    "update_time": 1781620025,
+    "_id": "Gemini"
+  },
+  "Deep Research": {
+    "chunk_ids": [
+      "sessions::session-20260616-124211.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781620025,
+    "update_time": 1781620025,
+    "_id": "Deep Research"
+  },
+  "Ollama Cloud Model": {
+    "chunk_ids": [
+      "sessions::session-20260616-124211.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781620025,
+    "update_time": 1781620025,
+    "_id": "Ollama Cloud Model"
+  },
+  "Gemini Cloud Model": {
+    "chunk_ids": [
+      "sessions::session-20260616-124211.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781620025,
+    "update_time": 1781620025,
+    "_id": "Gemini Cloud Model"
+  },
+  "Deep Research Cloud Integration": {
+    "chunk_ids": [
+      "sessions::session-20260616-124211.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781620025,
+    "update_time": 1781620025,
+    "_id": "Deep Research Cloud Integration"
+  },
+  "Gemini LLM Model": {
+    "chunk_ids": [
+      "sessions::session-20260616-124211.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781620025,
+    "update_time": 1781620025,
+    "_id": "Gemini LLM Model"
+  },
+  "OpenAI": {
+    "chunk_ids": [
+      "sessions::session-20260616-124211.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781620025,
+    "update_time": 1781620025,
+    "_id": "OpenAI"
+  },
+  "Ollama-ization": {
+    "chunk_ids": [
+      "sessions::session-20260616-124211.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781620025,
+    "update_time": 1781620025,
+    "_id": "Ollama-ization"
+  },
+  "Artifact": {
+    "chunk_ids": [
+      "sessions::session-20260616-115736.md::1-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781620085,
+    "update_time": 1781620085,
+    "_id": "Artifact"
+  },
+  "Tool": {
+    "chunk_ids": [
+      "sessions::session-20260616-115736.md::1-chunk-000",
+      "sessions::session-20260616-083238.md::5-chunk-000",
+      "sessions::session-20260615-095329.md::27-chunk-000",
+      "sessions::session-20260615-094813.md::28-chunk-000",
+      "sessions::session-20260615-093038.md::35-chunk-000",
+      "sessions::session-20260615-075416.md::39-chunk-000"
+    ],
+    "count": 6,
+    "update_time": 1781683243,
+    "_id": "Tool"
+  },
+  "Developer Utility": {
+    "chunk_ids": [
+      "sessions::session-20260616-083238.md::5-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781673595,
+    "update_time": 1781673595,
+    "_id": "Developer Utility"
+  },
+  "Freetoolz": {
+    "chunk_ids": [
+      "sessions::session-20260616-083238.md::5-chunk-000",
+      "sessions::session-20260615-123253.md::16-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781675477,
+    "_id": "Freetoolz"
+  },
+  "UUID Generator": {
+    "chunk_ids": [
+      "sessions::session-20260616-083238.md::5-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781673595,
+    "update_time": 1781673595,
+    "_id": "UUID Generator"
+  },
+  "Lorem Ipsum Generator": {
+    "chunk_ids": [
+      "sessions::session-20260616-083238.md::5-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781673595,
+    "update_time": 1781673595,
+    "_id": "Lorem Ipsum Generator"
+  },
+  "List Randomizer": {
+    "chunk_ids": [
+      "sessions::session-20260616-083238.md::5-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781673595,
+    "update_time": 1781673595,
+    "_id": "List Randomizer"
+  },
+  "List": {
+    "chunk_ids": [
+      "sessions::session-20260616-083238.md::5-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781673595,
+    "update_time": 1781673595,
+    "_id": "List"
+  },
+  "Utility": {
+    "chunk_ids": [
+      "sessions::session-20260616-083238.md::5-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781673595,
+    "update_time": 1781673595,
+    "_id": "Utility"
+  },
+  "Document": {
+    "chunk_ids": [
+      "sessions::session-20260616-083238.md::5-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781673595,
+    "update_time": 1781673595,
+    "_id": "Document"
+  },
+  "Checker": {
+    "chunk_ids": [
+      "sessions::session-20260616-083238.md::5-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781673595,
+    "update_time": 1781673595,
+    "_id": "Checker"
+  },
+  "Generator": {
+    "chunk_ids": [
+      "sessions::session-20260616-083238.md::5-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781673595,
+    "update_time": 1781673595,
+    "_id": "Generator"
+  },
+  "freetoolz": {
+    "chunk_ids": [
+      "sessions::session-20260616-082705.md::6-chunk-000",
+      "sessions::session-20260616-081327.md::7-chunk-000",
+      "sessions::session-20260615-110223.md::18-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1781678281,
+    "_id": "freetoolz"
+  },
+  "subnet calculator": {
+    "chunk_ids": [
+      "sessions::session-20260616-082705.md::6-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781673906,
+    "update_time": 1781673906,
+    "_id": "subnet calculator"
+  },
+  "mac vendor lookup": {
+    "chunk_ids": [
+      "sessions::session-20260616-082705.md::6-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781673906,
+    "update_time": 1781673906,
+    "_id": "mac vendor lookup"
+  },
+  "bandwidth converter": {
+    "chunk_ids": [
+      "sessions::session-20260616-082705.md::6-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781673906,
+    "update_time": 1781673906,
+    "_id": "bandwidth converter"
+  },
+  "port number lookup": {
+    "chunk_ids": [
+      "sessions::session-20260616-082705.md::6-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781673906,
+    "update_time": 1781673906,
+    "_id": "port number lookup"
+  },
+  "network tools": {
+    "chunk_ids": [
+      "sessions::session-20260616-082705.md::6-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781673906,
+    "update_time": 1781673906,
+    "_id": "network tools"
+  },
+  "Other": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000",
+      "sessions::session-20260529-190958.md::78-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781692089,
+    "_id": "Other"
+  },
+  "tool": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000",
+      "sessions::session-20260615-100908.md::20-chunk-000",
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1781682855,
+    "_id": "tool"
+  },
+  "category": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "category"
+  },
+  "storage": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "storage"
+  },
+  "bandwidth": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "bandwidth"
+  },
+  "power": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "power"
+  },
+  "runtime": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "runtime"
+  },
+  "camera": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "camera"
+  },
+  "cctv": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "cctv"
+  },
+  "security": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "security"
+  },
+  "organization": {
+    "chunk_ids": [
+      "sessions::session-20260616-081327.md::7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674109,
+    "update_time": 1781674109,
+    "_id": "organization"
+  },
+  "<Skill": {
+    "chunk_ids": [
+      "sessions::session-20260616-064311.md::10-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674697,
+    "update_time": 1781674697,
+    "_id": "<Skill"
+  },
+  "rating": {
+    "chunk_ids": [
+      "sessions::session-20260616-064311.md::10-chunk-000",
+      "sessions::session-20260615-094813.md::28-chunk-000",
+      "sessions::session-20260614-120024.md::45-chunk-000",
+      "sessions::session-20260521-062419.md::119-chunk-000"
+    ],
+    "count": 4,
+    "update_time": 1781696710,
+    "_id": "rating"
+  },
+  "Project": {
+    "chunk_ids": [
+      "sessions::session-20260616-063824.md::11-chunk-000",
+      "sessions::session-20260615-100322.md::26-chunk-000",
+      "sessions::session-20260526-125038.md::92-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1781693025,
+    "_id": "Project"
+  },
+  "Script": {
+    "chunk_ids": [
+      "sessions::session-20260616-063824.md::11-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674765,
+    "update_time": 1781674765,
+    "_id": "Script"
+  },
+  "Coach": {
+    "chunk_ids": [
+      "sessions::session-20260616-063824.md::11-chunk-000",
+      "sessions::session-20260531-095438.md::64-chunk-000",
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1781689640,
+    "_id": "Coach"
+  },
+  "Data File": {
+    "chunk_ids": [
+      "sessions::session-20260616-063824.md::11-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674765,
+    "update_time": 1781674765,
+    "_id": "Data File"
+  },
+  "Research Paper": {
+    "chunk_ids": [
+      "sessions::session-20260616-063824.md::11-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674765,
+    "update_time": 1781674765,
+    "_id": "Research Paper"
+  },
+  "Performance": {
+    "chunk_ids": [
+      "sessions::session-20260616-063824.md::11-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674765,
+    "update_time": 1781674765,
+    "_id": "Performance"
+  },
+  "LightRAG": {
+    "chunk_ids": [
+      "sessions::session-20260616-063824.md::11-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674765,
+    "update_time": 1781674765,
+    "_id": "LightRAG"
+  },
+  "TF-IDF": {
+    "chunk_ids": [
+      "sessions::session-20260616-063824.md::11-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674765,
+    "update_time": 1781674765,
+    "_id": "TF-IDF"
+  },
+  "Evolve_Skill": {
+    "chunk_ids": [
+      "sessions::session-20260616-063824.md::11-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674765,
+    "update_time": 1781674765,
+    "_id": "Evolve_Skill"
+  },
+  ".gitignore": {
+    "chunk_ids": [
+      "sessions::session-20260616-063824.md::11-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674765,
+    "update_time": 1781674765,
+    "_id": ".gitignore"
+  },
+  "Coach/work/research/secuview/": {
+    "chunk_ids": [
+      "sessions::session-20260616-063824.md::11-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674765,
+    "update_time": 1781674765,
+    "_id": "Coach/work/research/secuview/"
+  },
+  "session": {
+    "chunk_ids": [
+      "sessions::session-20260616-062403.md::12-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674881,
+    "update_time": 1781674881,
+    "_id": "session"
+  },
+  "session_hooks": {
+    "chunk_ids": [
+      "sessions::session-20260616-062403.md::12-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781674881,
+    "update_time": 1781674881,
+    "_id": "session_hooks"
+  },
+  "Person": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000",
+      "sessions::session-20260616-134824.md::0-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781676611,
+    "_id": "Person"
+  },
+  "Organization": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000",
+      "sessions::session-20260616-134824.md::0-chunk-000",
+      "sessions::session-20260531-095425.md::65-chunk-000",
+      "sessions::session-20260530-140356.md::69-chunk-000",
+      "sessions::session-20260530-090745.md::75-chunk-000",
+      "sessions::session-20260528-170636.md::81-chunk-000",
+      "sessions::session-20260528-142545.md::84-chunk-000",
+      "sessions::session-20260523-084302.md::114-chunk-000"
+    ],
+    "count": 8,
+    "update_time": 1781696409,
+    "_id": "Organization"
+  },
+  "Concept": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000",
+      "sessions::session-20260616-132907.md::0-chunk-000",
+      "sessions::session-20260528-142545.md::84-chunk-000",
+      "sessions::session-20260525-142015.md::99-chunk-000"
+    ],
+    "count": 4,
+    "update_time": 1781694569,
+    "_id": "Concept"
+  },
+  "Method": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000",
+      "sessions::session-20260615-123817.md::15-chunk-000",
+      "sessions::session-20260616-132907.md::0-chunk-000",
+      "sessions::session-20260531-095425.md::65-chunk-000",
+      "sessions::session-20260528-170636.md::81-chunk-000",
+      "sessions::session-20260521-054016.md::120-chunk-000"
+    ],
+    "count": 6,
+    "update_time": 1781696746,
+    "_id": "Method"
+  },
+  "addyosmani": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675378,
+    "update_time": 1781675378,
+    "_id": "addyosmani"
+  },
+  "agent-skills": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675378,
+    "update_time": 1781675378,
+    "_id": "agent-skills"
+  },
+  "ddd": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675378,
+    "update_time": 1781675378,
+    "_id": "ddd"
+  },
+  "context-engineering": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675378,
+    "update_time": 1781675378,
+    "_id": "context-engineering"
+  },
+  "Location": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000",
+      "sessions::session-20260616-134824.md::0-chunk-000",
+      "sessions::session-20260602-134913.md::54-chunk-000",
+      "sessions::session-20260531-095425.md::65-chunk-000",
+      "sessions::session-20260528-142545.md::84-chunk-000"
+    ],
+    "count": 5,
+    "update_time": 1781692453,
+    "_id": "Location"
+  },
+  "source-driven-development": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675378,
+    "update_time": 1781675378,
+    "_id": "source-driven-development"
+  },
+  "process": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675378,
+    "update_time": 1781675378,
+    "_id": "process"
+  },
+  "evaluated": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675378,
+    "update_time": 1781675378,
+    "_id": "evaluated"
+  },
+  "doubt-driven-development": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675378,
+    "update_time": 1781675378,
+    "_id": "doubt-driven-development"
+  },
+  "distilled": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675378,
+    "update_time": 1781675378,
+    "_id": "distilled"
+  },
+  "claim→extract→doubt→reconcile→stop": {
+    "chunk_ids": [
+      "sessions::session-20260616-055705.md::14-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675378,
+    "update_time": 1781675378,
+    "_id": "claim→extract→doubt→reconcile→stop"
+  },
+  "GitHub Pages": {
+    "chunk_ids": [
+      "sessions::session-20260615-123817.md::15-chunk-000",
+      "sessions::session-20260521-090747.md::116-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781696480,
+    "_id": "GitHub Pages"
+  },
+  "Build": {
+    "chunk_ids": [
+      "sessions::session-20260615-123817.md::15-chunk-000",
+      "sessions::session-20260615-123253.md::16-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781675477,
+    "_id": "Build"
+  },
+  "Header": {
+    "chunk_ids": [
+      "sessions::session-20260615-123253.md::16-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675477,
+    "update_time": 1781675477,
+    "_id": "Header"
+  },
+  "SearchBar": {
+    "chunk_ids": [
+      "sessions::session-20260615-123253.md::16-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675477,
+    "update_time": 1781675477,
+    "_id": "SearchBar"
+  },
+  "Toolz": {
+    "chunk_ids": [
+      "sessions::session-20260615-123253.md::16-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675477,
+    "update_time": 1781675477,
+    "_id": "Toolz"
+  },
+  "Section IDs": {
+    "chunk_ids": [
+      "sessions::session-20260615-123253.md::16-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675477,
+    "update_time": 1781675477,
+    "_id": "Section IDs"
+  },
+  "<freetoolz>": {
+    "chunk_ids": [
+      "sessions::session-20260615-113526.md::17-chunk-000",
+      "sessions::session-20260616-083548.md::4-chunk-000",
+      "sessions::session-20260615-110223.md::18-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1781678281,
+    "_id": "<freetoolz>"
+  },
+  "<GitHub Pages>": {
+    "chunk_ids": [
+      "sessions::session-20260615-113526.md::17-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781675886,
+    "update_time": 1781675886,
+    "_id": "<GitHub Pages>"
+  },
+  "blog-post": {
+    "chunk_ids": [
+      "sessions::session-20260615-100908.md::20-chunk-000",
+      "sessions::session-20260615-100705.md::25-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781676691,
+    "_id": "blog-post"
+  },
+  "calendar": {
+    "chunk_ids": [
+      "sessions::session-20260615-100908.md::20-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676452,
+    "update_time": 1781676452,
+    "_id": "calendar"
+  },
+  "calculator": {
+    "chunk_ids": [
+      "sessions::session-20260615-100908.md::20-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676452,
+    "update_time": 1781676452,
+    "_id": "calculator"
+  },
+  "guide": {
+    "chunk_ids": [
+      "sessions::session-20260615-100908.md::20-chunk-000",
+      "sessions::session-20260526-124106.md::93-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781693073,
+    "_id": "guide"
+  },
+  "paint": {
+    "chunk_ids": [
+      "sessions::session-20260615-100908.md::20-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676452,
+    "update_time": 1781676452,
+    "_id": "paint"
+  },
+  "body": {
+    "chunk_ids": [
+      "sessions::session-20260615-100908.md::20-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676452,
+    "update_time": 1781676452,
+    "_id": "body"
+  },
+  "date": {
+    "chunk_ids": [
+      "sessions::session-20260615-100908.md::20-chunk-000",
+      "sessions::session-20260615-094813.md::28-chunk-000",
+      "sessions::session-20260615-093927.md::33-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1781682264,
+    "_id": "date"
+  },
+  "page": {
+    "chunk_ids": [
+      "sessions::session-20260615-100908.md::20-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676452,
+    "update_time": 1781676452,
+    "_id": "page"
+  },
+  "roofing calculator guide": {
+    "chunk_ids": [
+      "sessions::session-20260615-100908.md::20-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676452,
+    "update_time": 1781676452,
+    "_id": "roofing calculator guide"
+  },
+  "due date guide": {
+    "chunk_ids": [
+      "sessions::session-20260615-100908.md::20-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676452,
+    "update_time": 1781676452,
+    "_id": "due date guide"
+  },
+  "tools": {
+    "chunk_ids": [
+      "sessions::session-20260615-100908.md::20-chunk-000",
+      "sessions::session-20260615-100705.md::25-chunk-000",
+      "sessions::session-20260615-094159.md::31-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1781682135,
+    "_id": "tools"
+  },
+  "setup": {
+    "chunk_ids": [
+      "sessions::session-20260616-134824.md::0-chunk-000",
+      "sessions::session-20260526-122335.md::94-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781693101,
+    "_id": "setup"
+  },
+  "user": {
+    "chunk_ids": [
+      "sessions::session-20260616-134824.md::0-chunk-000",
+      "sessions::session-20260609-133431.md::49-chunk-000",
+      "sessions::session-20260526-193517.md::90-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1781692825,
+    "_id": "user"
+  },
+  "pc": {
+    "chunk_ids": [
+      "sessions::session-20260616-134824.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676611,
+    "update_time": 1781676611,
+    "_id": "pc"
+  },
+  "new_machine": {
+    "chunk_ids": [
+      "sessions::session-20260616-134824.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676612,
+    "update_time": 1781676612,
+    "_id": "new_machine"
+  },
+  "insight_ledger": {
+    "chunk_ids": [
+      "sessions::session-20260616-134824.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676612,
+    "update_time": 1781676612,
+    "_id": "insight_ledger"
+  },
+  "session_analytics": {
+    "chunk_ids": [
+      "sessions::session-20260616-140538.md::0-chunk-000",
+      "sessions::session-20260616-132907.md::0-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781678746,
+    "_id": "session_analytics"
+  },
+  "setup_new_pc": {
+    "chunk_ids": [
+      "sessions::session-20260616-140538.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676642,
+    "update_time": 1781676642,
+    "_id": "setup_new_pc"
+  },
+  "Creature": {
+    "chunk_ids": [
+      "sessions::session-20260616-140538.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676642,
+    "update_time": 1781676642,
+    "_id": "Creature"
+  },
+  "task_manager": {
+    "chunk_ids": [
+      "sessions::session-20260616-140538.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781676642,
+    "update_time": 1781676642,
+    "_id": "task_manager"
+  },
+  "Organized Tools": {
+    "chunk_ids": [
+      "sessions::session-20260615-095329.md::27-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781677050,
+    "update_time": 1781677050,
+    "_id": "Organized Tools"
+  },
+  "Hugo": {
+    "chunk_ids": [
+      "sessions::session-20260615-095329.md::27-chunk-000",
+      "sessions::session-20260615-072330.md::40-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781683873,
+    "_id": "Hugo"
+  },
+  "Category": {
+    "chunk_ids": [
+      "sessions::session-20260615-095329.md::27-chunk-000",
+      "sessions::session-20260529-172614.md::79-chunk-000",
+      "sessions::session-20260528-151058.md::82-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1781692168,
+    "_id": "Category"
+  },
+  "User": {
+    "chunk_ids": [
+      "sessions::session-20260615-095329.md::27-chunk-000",
+      "sessions::session-20260524-092944.md::106-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781695580,
+    "_id": "User"
+  },
+  "HomePage": {
+    "chunk_ids": [
+      "sessions::session-20260615-095329.md::27-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781677050,
+    "update_time": 1781677050,
+    "_id": "HomePage"
+  },
+  "Tools": {
+    "chunk_ids": [
+      "sessions::session-20260615-095329.md::27-chunk-000",
+      "sessions::session-20260615-094555.md::30-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781681926,
+    "_id": "Tools"
+  },
+  "<uuid_generator>": {
+    "chunk_ids": [
+      "sessions::session-20260616-083548.md::4-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781677474,
+    "update_time": 1781677474,
+    "_id": "<uuid_generator>"
+  },
+  "<Lorem Ipsum Generator>": {
+    "chunk_ids": [
+      "sessions::session-20260616-083548.md::4-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781677474,
+    "update_time": 1781677474,
+    "_id": "<Lorem Ipsum Generator>"
+  },
+  "<List Randomizer>": {
+    "chunk_ids": [
+      "sessions::session-20260616-083548.md::4-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781677474,
+    "update_time": 1781677474,
+    "_id": "<List Randomizer>"
+  },
+  "<Password Strength Checker>": {
+    "chunk_ids": [
+      "sessions::session-20260616-083548.md::4-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781677474,
+    "update_time": 1781677474,
+    "_id": "<Password Strength Checker>"
+  },
+  "<Developers>": {
+    "chunk_ids": [
+      "sessions::session-20260616-083548.md::4-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781677474,
+    "update_time": 1781677474,
+    "_id": "<Developers>"
+  },
+  "<Tools>": {
+    "chunk_ids": [
+      "sessions::session-20260616-083548.md::4-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781677474,
+    "update_time": 1781677474,
+    "_id": "<Tools>"
+  },
+  "<Developer Utility>": {
+    "chunk_ids": [
+      "sessions::session-20260616-083548.md::4-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781677474,
+    "update_time": 1781677474,
+    "_id": "<Developer Utility>"
+  },
+  "hugo.toml": {
+    "chunk_ids": [
+      "sessions::session-20260615-110223.md::18-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678281,
+    "update_time": 1781678281,
+    "_id": "hugo.toml"
+  },
+  "<github.com/ashim-khan-root/freetoolz>": {
+    "chunk_ids": [
+      "sessions::session-20260615-110223.md::18-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678281,
+    "update_time": 1781678281,
+    "_id": "<github.com/ashim-khan-root/freetoolz>"
+  },
+  "Blog Post": {
+    "chunk_ids": [
+      "sessions::session-20260615-101806.md::19-chunk-000",
+      "sessions::session-20260529-172614.md::79-chunk-000",
+      "sessions::session-20260530-063605.md::77-chunk-000",
+      "sessions::session-20260526-084411.md::96-chunk-000"
+    ],
+    "count": 4,
+    "update_time": 1781693257,
+    "_id": "Blog Post"
+  },
+  "Article": {
+    "chunk_ids": [
+      "sessions::session-20260615-101806.md::19-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678347,
+    "update_time": 1781678347,
+    "_id": "Article"
+  },
+  "FAQ Section": {
+    "chunk_ids": [
+      "sessions::session-20260615-101806.md::19-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678347,
+    "update_time": 1781678347,
+    "_id": "FAQ Section"
+  },
+  "Post Title": {
+    "chunk_ids": [
+      "sessions::session-20260615-101806.md::19-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678347,
+    "update_time": 1781678347,
+    "_id": "Post Title"
+  },
+  "Post Description": {
+    "chunk_ids": [
+      "sessions::session-20260615-101806.md::19-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678347,
+    "update_time": 1781678347,
+    "_id": "Post Description"
+  },
+  "Image": {
+    "chunk_ids": [
+      "sessions::session-20260615-101806.md::19-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678347,
+    "update_time": 1781678347,
+    "_id": "Image"
+  },
+  "Image Frontmatter": {
+    "chunk_ids": [
+      "sessions::session-20260615-101806.md::19-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678347,
+    "update_time": 1781678347,
+    "_id": "Image Frontmatter"
+  },
+  "deep_research_model": {
+    "chunk_ids": [
+      "sessions::session-20260616-130012.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678428,
+    "update_time": 1781678428,
+    "_id": "deep_research_model"
+  },
+  "python-dev": {
+    "chunk_ids": [
+      "sessions::session-20260616-130012.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678428,
+    "update_time": 1781678428,
+    "_id": "python-dev"
+  },
+  "_clean_query": {
+    "chunk_ids": [
+      "sessions::session-20260616-130012.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678428,
+    "update_time": 1781678428,
+    "_id": "_clean_query"
+  },
+  "raw_search_snippets": {
+    "chunk_ids": [
+      "sessions::session-20260616-130012.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678428,
+    "update_time": 1781678428,
+    "_id": "raw_search_snippets"
+  },
+  "end_to_end_test": {
+    "chunk_ids": [
+      "sessions::session-20260616-130012.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678428,
+    "update_time": 1781678428,
+    "_id": "end_to_end_test"
+  },
+  "iterative_mode": {
+    "chunk_ids": [
+      "sessions::session-20260616-130012.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678428,
+    "update_time": 1781678428,
+    "_id": "iterative_mode"
+  },
+  "solid_report": {
+    "chunk_ids": [
+      "sessions::session-20260616-130012.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678428,
+    "update_time": 1781678428,
+    "_id": "solid_report"
+  },
+  "page_content": {
+    "chunk_ids": [
+      "sessions::session-20260616-130012.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678428,
+    "update_time": 1781678428,
+    "_id": "page_content"
+  },
+  "clean_query": {
+    "chunk_ids": [
+      "sessions::session-20260616-130012.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678428,
+    "update_time": 1781678428,
+    "_id": "clean_query"
+  },
+  "gpt-oss": {
+    "chunk_ids": [
+      "sessions::session-20260616-132907.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678746,
+    "update_time": 1781678746,
+    "_id": "gpt-oss"
+  },
+  "skill_evolution": {
+    "chunk_ids": [
+      "sessions::session-20260616-132907.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678746,
+    "update_time": 1781678746,
+    "_id": "skill_evolution"
+  },
+  "insight_ledger.py": {
+    "chunk_ids": [
+      "sessions::session-20260616-132907.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678746,
+    "update_time": 1781678746,
+    "_id": "insight_ledger.py"
+  },
+  "prompt_auditor": {
+    "chunk_ids": [
+      "sessions::session-20260616-132907.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678746,
+    "update_time": 1781678746,
+    "_id": "prompt_auditor"
+  },
+  "deep_research.py": {
+    "chunk_ids": [
+      "sessions::session-20260616-132907.md::0-chunk-000",
+      "sessions::session-20260616-103344.md::2-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781679505,
+    "_id": "deep_research.py"
+  },
+  "log_insight()": {
+    "chunk_ids": [
+      "sessions::session-20260616-132907.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678746,
+    "update_time": 1781678746,
+    "_id": "log_insight()"
+  },
+  "all_toolinstrumentation": {
+    "chunk_ids": [
+      "sessions::session-20260616-132907.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678746,
+    "update_time": 1781678746,
+    "_id": "all_toolinstrumentation"
+  },
+  "tool_heavy": {
+    "chunk_ids": [
+      "sessions::session-20260616-132907.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678746,
+    "update_time": 1781678746,
+    "_id": "tool_heavy"
+  },
+  "pipeline_builder": {
+    "chunk_ids": [
+      "sessions::session-20260616-132907.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678746,
+    "update_time": 1781678746,
+    "_id": "pipeline_builder"
+  },
+  "tool_gaps": {
+    "chunk_ids": [
+      "sessions::session-20260616-132907.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678746,
+    "update_time": 1781678746,
+    "_id": "tool_gaps"
+  },
+  "skill_gaps": {
+    "chunk_ids": [
+      "sessions::session-20260616-132907.md::0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678746,
+    "update_time": 1781678746,
+    "_id": "skill_gaps"
+  },
+  "uiFoundationOverhaulProject": {
+    "chunk_ids": [
+      "sessions::session-20260615-100322.md::26-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678835,
+    "update_time": 1781678835,
+    "_id": "uiFoundationOverhaulProject"
+  },
+  "UIComponent": {
+    "chunk_ids": [
+      "sessions::session-20260615-100322.md::26-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678835,
+    "update_time": 1781678835,
+    "_id": "UIComponent"
+  },
+  "Space GroteskFonts": {
+    "chunk_ids": [
+      "sessions::session-20260615-100322.md::26-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678835,
+    "update_time": 1781678835,
+    "_id": "Space GroteskFonts"
+  },
+  "project": {
+    "chunk_ids": [
+      "sessions::session-20260615-100322.md::26-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678835,
+    "update_time": 1781678835,
+    "_id": "project"
+  },
+  "glassmorphismCards": {
+    "chunk_ids": [
+      "sessions::session-20260615-100322.md::26-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678835,
+    "update_time": 1781678835,
+    "_id": "glassmorphismCards"
+  },
+  "staggeredScrollAnimations": {
+    "chunk_ids": [
+      "sessions::session-20260615-100322.md::26-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678835,
+    "update_time": 1781678835,
+    "_id": "staggeredScrollAnimations"
+  },
+  "searchFilterBar": {
+    "chunk_ids": [
+      "sessions::session-20260615-100322.md::26-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678835,
+    "update_time": 1781678835,
+    "_id": "searchFilterBar"
+  },
+  "blogSection": {
+    "chunk_ids": [
+      "sessions::session-20260615-100322.md::26-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678835,
+    "update_time": 1781678835,
+    "_id": "blogSection"
+  },
+  "component": {
+    "chunk_ids": [
+      "sessions::session-20260615-100322.md::26-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678835,
+    "update_time": 1781678835,
+    "_id": "component"
+  },
+  "cleanBuildPages": {
+    "chunk_ids": [
+      "sessions::session-20260615-100322.md::26-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678835,
+    "update_time": 1781678835,
+    "_id": "cleanBuildPages"
+  },
+  "animatedGradientHero": {
+    "chunk_ids": [
+      "sessions::session-20260615-100322.md::26-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678835,
+    "update_time": 1781678835,
+    "_id": "animatedGradientHero"
+  },
+  "SpaceGroteskFonts": {
+    "chunk_ids": [
+      "sessions::session-20260615-100322.md::26-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781678835,
+    "update_time": 1781678835,
+    "_id": "SpaceGroteskFonts"
+  },
+  "personal-coach": {
+    "chunk_ids": [
+      "sessions::session-20260616-073942.md::8-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679322,
+    "update_time": 1781679322,
+    "_id": "personal-coach"
+  },
+  "GitHub": {
+    "chunk_ids": [
+      "sessions::session-20260616-073942.md::8-chunk-000",
+      "sessions::session-20260616-095723.md::3-chunk-000",
+      "sessions::session-20260602-094327.md::55-chunk-000",
+      "sessions::session-20260530-071326.md::76-chunk-000",
+      "sessions::session-20260529-172614.md::79-chunk-000",
+      "sessions::session-20260529-171751.md::80-chunk-000",
+      "sessions::session-20260528-170636.md::81-chunk-000",
+      "sessions::session-20260527-173554.md::88-chunk-000"
+    ],
+    "count": 8,
+    "update_time": 1781692644,
+    "_id": "GitHub"
+  },
+  "gitignore": {
+    "chunk_ids": [
+      "sessions::session-20260616-073942.md::8-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679322,
+    "update_time": 1781679322,
+    "_id": "gitignore"
+  },
+  "Excel": {
+    "chunk_ids": [
+      "sessions::session-20260616-073942.md::8-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679322,
+    "update_time": 1781679322,
+    "_id": "Excel"
+  },
+  "gitrepo": {
+    "chunk_ids": [
+      "sessions::session-20260616-073942.md::8-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679322,
+    "update_time": 1781679322,
+    "_id": "gitrepo"
+  },
+  "tempfile": {
+    "chunk_ids": [
+      "sessions::session-20260616-073942.md::8-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679322,
+    "update_time": 1781679322,
+    "_id": "tempfile"
+  },
+  "nested_repos": {
+    "chunk_ids": [
+      "sessions::session-20260616-073942.md::8-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679322,
+    "update_time": 1781679322,
+    "_id": "nested_repos"
+  },
+  "Excel_temp_files": {
+    "chunk_ids": [
+      "sessions::session-20260616-073942.md::8-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679322,
+    "update_time": 1781679322,
+    "_id": "Excel_temp_files"
+  },
+  "personal-coach_repo": {
+    "chunk_ids": [
+      "sessions::session-20260616-073942.md::8-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679322,
+    "update_time": 1781679322,
+    "_id": "personal-coach_repo"
+  },
+  "gitignore_for_excel_temp_files": {
+    "chunk_ids": [
+      "sessions::session-20260616-073942.md::8-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679322,
+    "update_time": 1781679322,
+    "_id": "gitignore_for_excel_temp_files"
+  },
+  "repository": {
+    "chunk_ids": [
+      "sessions::session-20260616-073942.md::8-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679322,
+    "update_time": 1781679322,
+    "_id": "repository"
+  },
+  "github": {
+    "chunk_ids": [
+      "sessions::session-20260616-073942.md::8-chunk-000",
+      "sessions::session-20260531-095425.md::65-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781688922,
+    "_id": "github"
+  },
+  "MCP": {
+    "chunk_ids": [
+      "sessions::session-20260616-103344.md::2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679505,
+    "update_time": 1781679505,
+    "_id": "MCP"
+  },
+  "CLI": {
+    "chunk_ids": [
+      "sessions::session-20260616-103344.md::2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679505,
+    "update_time": 1781679505,
+    "_id": "CLI"
+  },
+  "deep_research": {
+    "chunk_ids": [
+      "sessions::session-20260616-103344.md::2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679505,
+    "update_time": 1781679505,
+    "_id": "deep_research"
+  },
+  "Windows": {
+    "chunk_ids": [
+      "sessions::session-20260616-103344.md::2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679505,
+    "update_time": 1781679505,
+    "_id": "Windows"
+  },
+  "MindMap": {
+    "chunk_ids": [
+      "sessions::session-20260616-103344.md::2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679505,
+    "update_time": 1781679505,
+    "_id": "MindMap"
+  },
+  "multi-provider LLM": {
+    "chunk_ids": [
+      "sessions::session-20260616-103344.md::2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679505,
+    "update_time": 1781679505,
+    "_id": "multi-provider LLM"
+  },
+  "trafilatura": {
+    "chunk_ids": [
+      "sessions::session-20260616-103344.md::2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679505,
+    "update_time": 1781679505,
+    "_id": "trafilatura"
+  },
+  "iterative agent loop": {
+    "chunk_ids": [
+      "sessions::session-20260616-103344.md::2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679505,
+    "update_time": 1781679505,
+    "_id": "iterative agent loop"
+  },
+  "arg_parsing": {
+    "chunk_ids": [
+      "sessions::session-20260616-103344.md::2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679505,
+    "update_time": 1781679505,
+    "_id": "arg_parsing"
+  },
+  "report_generation": {
+    "chunk_ids": [
+      "sessions::session-20260616-103344.md::2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679505,
+    "update_time": 1781679505,
+    "_id": "report_generation"
+  },
+  "MCP server": {
+    "chunk_ids": [
+      "sessions::session-20260616-103344.md::2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679505,
+    "update_time": 1781679505,
+    "_id": "MCP server"
+  },
+  "Windows encoding fix": {
+    "chunk_ids": [
+      "sessions::session-20260616-103344.md::2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679505,
+    "update_time": 1781679505,
+    "_id": "Windows encoding fix"
+  },
+  "Windows Encoding Fix": {
+    "chunk_ids": [
+      "sessions::session-20260616-103344.md::2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679505,
+    "update_time": 1781679505,
+    "_id": "Windows Encoding Fix"
+  },
+  "agent loop mechanism": {
+    "chunk_ids": [
+      "sessions::session-20260616-103344.md::2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679505,
+    "update_time": 1781679505,
+    "_id": "agent loop mechanism"
+  },
+  "CLIGeneration": {
+    "chunk_ids": [
+      "sessions::session-20260616-103344.md::2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679505,
+    "update_time": 1781679505,
+    "_id": "CLIGeneration"
+  },
+  "report generation": {
+    "chunk_ids": [
+      "sessions::session-20260616-103344.md::2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679505,
+    "update_time": 1781679505,
+    "_id": "report generation"
+  },
+  "iterative agent loop mechanism": {
+    "chunk_ids": [
+      "sessions::session-20260616-103344.md::2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679505,
+    "update_time": 1781679505,
+    "_id": "iterative agent loop mechanism"
+  },
+  "fix": {
+    "chunk_ids": [
+      "sessions::session-20260616-103344.md::2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679505,
+    "update_time": 1781679505,
+    "_id": "fix"
+  },
+  "system": {
+    "chunk_ids": [
+      "sessions::session-20260616-103344.md::2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781679505,
+    "update_time": 1781679505,
+    "_id": "system"
+  },
+  "Qatar": {
+    "chunk_ids": [
+      "sessions::session-20260616-073632.md::9-chunk-000",
+      "sessions::session-20260601-133723.md::59-chunk-000",
+      "sessions::session-20260601-124355.md::61-chunk-000",
+      "sessions::session-20260530-120227.md::73-chunk-000",
+      "sessions::session-20260530-063605.md::77-chunk-000",
+      "sessions::session-20260526-095002.md::95-chunk-000",
+      "sessions::session-20260526-074507.md::97-chunk-000",
+      "sessions::session-20260523-133003.md::111-chunk-000"
+    ],
+    "count": 8,
+    "update_time": 1781695791,
+    "_id": "Qatar"
+  },
+  "Lucknow University": {
+    "chunk_ids": [
+      "sessions::session-20260616-073632.md::9-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781680379,
+    "update_time": 1781680379,
+    "_id": "Lucknow University"
+  },
+  "GNIIT NIIT": {
+    "chunk_ids": [
+      "sessions::session-20260616-073632.md::9-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781680379,
+    "update_time": 1781680379,
+    "_id": "GNIIT NIIT"
+  },
+  "NaukriGulf": {
+    "chunk_ids": [
+      "sessions::session-20260616-073632.md::9-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781680379,
+    "update_time": 1781680379,
+    "_id": "NaukriGulf"
+  },
+  "Bayt": {
+    "chunk_ids": [
+      "sessions::session-20260616-073632.md::9-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781680379,
+    "update_time": 1781680379,
+    "_id": "Bayt"
+  },
+  "github.com/ashim-khan-root/freetoolz": {
+    "chunk_ids": [
+      "sessions::session-20260616-095723.md::3-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781681383,
+    "update_time": 1781681383,
+    "_id": "github.com/ashim-khan-root/freetoolz"
+  },
+  "30-day Blog Plan": {
+    "chunk_ids": [
+      "sessions::session-20260616-095723.md::3-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781681383,
+    "update_time": 1781681383,
+    "_id": "30-day Blog Plan"
+  },
+  "compound interest calculator": {
+    "chunk_ids": [
+      "sessions::session-20260616-095723.md::3-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781681383,
+    "update_time": 1781681383,
+    "_id": "compound interest calculator"
+  },
+  "ad slot templates": {
+    "chunk_ids": [
+      "sessions::session-20260616-095723.md::3-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781681383,
+    "update_time": 1781681383,
+    "_id": "ad slot templates"
+  },
+  "submodule": {
+    "chunk_ids": [
+      "sessions::session-20260616-095723.md::3-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781681383,
+    "update_time": 1781681383,
+    "_id": "submodule"
+  },
+  "blog post": {
+    "chunk_ids": [
+      "sessions::session-20260616-095723.md::3-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781681383,
+    "update_time": 1781681383,
+    "_id": "blog post"
+  },
+  "freetoolz-development": {
+    "chunk_ids": [
+      "sessions::session-20260616-095723.md::3-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781681383,
+    "update_time": 1781681383,
+    "_id": "freetoolz-development"
+  },
+  "github.com/ashim-khan-root<freetoolz/": {
+    "chunk_ids": [
+      "sessions::session-20260616-095723.md::3-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781681383,
+    "update_time": 1781681383,
+    "_id": "github.com/ashim-khan-root<freetoolz/"
+  },
+  "github.com": {
+    "chunk_ids": [
+      "sessions::session-20260616-095723.md::3-chunk-000",
+      "sessions::session-20260614-132412.md::43-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781684018,
+    "_id": "github.com"
+  },
+  "Repository": {
+    "chunk_ids": [
+      "sessions::session-20260616-061147.md::13-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781681682,
+    "update_time": 1781681682,
+    "_id": "Repository"
+  },
+  "id": {
+    "chunk_ids": [
+      "sessions::session-20260615-094813.md::28-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781681817,
+    "update_time": 1781681817,
+    "_id": "id"
+  },
+  "duration_min": {
+    "chunk_ids": [
+      "sessions::session-20260615-094813.md::28-chunk-000",
+      "sessions::session-20260614-120024.md::45-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781684169,
+    "_id": "duration_min"
+  },
+  "notes": {
+    "chunk_ids": [
+      "sessions::session-20260615-094813.md::28-chunk-000",
+      "sessions::session-20260614-120024.md::45-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781684169,
+    "_id": "notes"
+  },
+  "skill": {
+    "chunk_ids": [
+      "sessions::session-20260615-094813.md::28-chunk-000",
+      "sessions::session-20260614-120024.md::45-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781684169,
+    "_id": "skill"
+  },
+  "Date": {
+    "chunk_ids": [
+      "sessions::session-20260615-094813.md::28-chunk-000",
+      "sessions::session-20260615-094555.md::30-chunk-000",
+      "sessions::session-20260615-093038.md::35-chunk-000",
+      "sessions::session-20260530-133415.md::70-chunk-000",
+      "sessions::session-20260530-133249.md::71-chunk-000",
+      "sessions::session-20260529-172614.md::79-chunk-000",
+      "sessions::session-20260521-135009.md::115-chunk-000",
+      "sessions::session-20260521-062419.md::119-chunk-000"
+    ],
+    "count": 8,
+    "update_time": 1781696710,
+    "_id": "Date"
+  },
+  "Duration": {
+    "chunk_ids": [
+      "sessions::session-20260615-094813.md::28-chunk-000",
+      "sessions::session-20260602-061334.md::57-chunk-000",
+      "sessions::session-20260528-151058.md::82-chunk-000",
+      "sessions::session-20260527-173554.md::88-chunk-000",
+      "sessions::session-20260521-054016.md::120-chunk-000"
+    ],
+    "count": 5,
+    "update_time": 1781696746,
+    "_id": "Duration"
+  },
+  "Notes": {
+    "chunk_ids": [
+      "sessions::session-20260615-094813.md::28-chunk-000",
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781696867,
+    "_id": "Notes"
+  },
+  "minifier": {
+    "chunk_ids": [
+      "sessions::session-20260615-094704.md::29-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781681894,
+    "update_time": 1781681894,
+    "_id": "minifier"
+  },
+  "HTML Minifier": {
+    "chunk_ids": [
+      "sessions::session-20260615-094555.md::30-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781681926,
+    "update_time": 1781681926,
+    "_id": "HTML Minifier"
+  },
+  "health-calculators": {
+    "chunk_ids": [
+      "sessions::session-20260615-094159.md::31-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682135,
+    "update_time": 1781682135,
+    "_id": "health-calculators"
+  },
+  "BMI": {
+    "chunk_ids": [
+      "sessions::session-20260615-094159.md::31-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682135,
+    "update_time": 1781682135,
+    "_id": "BMI"
+  },
+  "LMP": {
+    "chunk_ids": [
+      "sessions::session-20260615-094159.md::31-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682135,
+    "update_time": 1781682135,
+    "_id": "LMP"
+  },
+  "trimester": {
+    "chunk_ids": [
+      "sessions::session-20260615-094159.md::31-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682135,
+    "update_time": 1781682135,
+    "_id": "trimester"
+  },
+  "BMR": {
+    "chunk_ids": [
+      "sessions::session-20260615-094159.md::31-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682135,
+    "update_time": 1781682135,
+    "_id": "BMR"
+  },
+  "US Navy": {
+    "chunk_ids": [
+      "sessions::session-20260615-094159.md::31-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682135,
+    "update_time": 1781682135,
+    "_id": "US Navy"
+  },
+  "activity": {
+    "chunk_ids": [
+      "sessions::session-20260615-094159.md::31-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682135,
+    "update_time": 1781682135,
+    "_id": "activity"
+  },
+  "climate": {
+    "chunk_ids": [
+      "sessions::session-20260615-094159.md::31-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682135,
+    "update_time": 1781682135,
+    "_id": "climate"
+  },
+  "macros": {
+    "chunk_ids": [
+      "sessions::session-20260615-094159.md::31-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682135,
+    "update_time": 1781682135,
+    "_id": "macros"
+  },
+  "weight": {
+    "chunk_ids": [
+      "sessions::session-20260615-094159.md::31-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682135,
+    "update_time": 1781682135,
+    "_id": "weight"
+  },
+  "macro": {
+    "chunk_ids": [
+      "sessions::session-20260615-094159.md::31-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682135,
+    "update_time": 1781682135,
+    "_id": "macro"
+  },
+  "daily intake": {
+    "chunk_ids": [
+      "sessions::session-20260615-094159.md::31-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682135,
+    "update_time": 1781682135,
+    "_id": "daily intake"
+  },
+  "(uses US Navy BMI method)": {
+    "chunk_ids": [
+      "sessions::session-20260615-094159.md::31-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682135,
+    "update_time": 1781682135,
+    "_id": "(uses US Navy BMI method)"
+  },
+  "<calorie intake calculation": {
+    "chunk_ids": [
+      "sessions::session-20260615-094159.md::31-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682135,
+    "update_time": 1781682135,
+    "_id": "<calorie intake calculation"
+  },
+  "<health-calculators><body-fat percentage calculation": {
+    "chunk_ids": [
+      "sessions::session-20260615-094159.md::31-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682135,
+    "update_time": 1781682135,
+    "_id": "<health-calculators><body-fat percentage calculation"
+  },
+  "<tools": {
+    "chunk_ids": [
+      "sessions::session-20260615-094159.md::31-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682135,
+    "update_time": 1781682135,
+    "_id": "<tools"
+  },
+  "<water intake calculation": {
+    "chunk_ids": [
+      "sessions::session-20260615-094159.md::31-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682135,
+    "update_time": 1781682135,
+    "_id": "<water intake calculation"
+  },
+  "<due date calculation": {
+    "chunk_ids": [
+      "sessions::session-20260615-094159.md::31-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682135,
+    "update_time": 1781682135,
+    "_id": "<due date calculation"
+  },
+  "BMR Calculator": {
+    "chunk_ids": [
+      "sessions::session-20260615-094032.md::32-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682191,
+    "update_time": 1781682191,
+    "_id": "BMR Calculator"
+  },
+  "US Navy Method": {
+    "chunk_ids": [
+      "sessions::session-20260615-094032.md::32-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682191,
+    "update_time": 1781682191,
+    "_id": "US Navy Method"
+  },
+  "Bulk/Cut Targets": {
+    "chunk_ids": [
+      "sessions::session-20260615-094032.md::32-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682191,
+    "update_time": 1781682191,
+    "_id": "Bulk/Cut Targets"
+  },
+  "bmi-calculator": {
+    "chunk_ids": [
+      "sessions::session-20260615-093927.md::33-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682264,
+    "update_time": 1781682264,
+    "_id": "bmi-calculator"
+  },
+  "2026-06-15T09:39:27.982831+00:00": {
+    "chunk_ids": [
+      "sessions::session-20260615-093927.md::33-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682264,
+    "update_time": 1781682264,
+    "_id": "2026-06-15T09:39:27.982831+00:00"
+  },
+  "tools/": {
+    "chunk_ids": [
+      "sessions::session-20260615-093927.md::33-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682264,
+    "update_time": 1781682264,
+    "_id": "tools/"
+  },
+  "tools/bmi-calculator": {
+    "chunk_ids": [
+      "sessions::session-20260615-093927.md::33-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682264,
+    "update_time": 1781682264,
+    "_id": "tools/bmi-calculator"
+  },
+  "MortarVolume": {
+    "chunk_ids": [
+      "sessions::session-20260615-093038.md::35-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682815,
+    "update_time": 1781682815,
+    "_id": "MortarVolume"
+  },
+  "MortarJoint": {
+    "chunk_ids": [
+      "sessions::session-20260615-093038.md::35-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682815,
+    "update_time": 1781682815,
+    "_id": "MortarJoint"
+  },
+  "Waste": {
+    "chunk_ids": [
+      "sessions::session-20260615-093038.md::35-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682815,
+    "update_time": 1781682815,
+    "_id": "Waste"
+  },
+  "DurationMin": {
+    "chunk_ids": [
+      "sessions::session-20260615-093038.md::35-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682815,
+    "update_time": 1781682815,
+    "_id": "DurationMin"
+  },
+  "ActivityType": {
+    "chunk_ids": [
+      "sessions::session-20260615-093038.md::35-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682815,
+    "update_time": 1781682815,
+    "_id": "ActivityType"
+  },
+  "ToolType": {
+    "chunk_ids": [
+      "sessions::session-20260615-093038.md::35-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682815,
+    "update_time": 1781682815,
+    "_id": "ToolType"
+  },
+  "ToolManufacturer": {
+    "chunk_ids": [
+      "sessions::session-20260615-093038.md::35-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682815,
+    "update_time": 1781682815,
+    "_id": "ToolManufacturer"
+  },
+  "Construction Calculator": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Construction Calculator"
+  },
+  "Concrete": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Concrete"
+  },
+  "construction-calculator": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "construction-calculator"
+  },
+  "Rebar": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Rebar"
+  },
+  "Roofing": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Roofing"
+  },
+  "Paint": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Paint"
+  },
+  "Flooring": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Flooring"
+  },
+  "Construction Project": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Construction Project"
+  },
+  "Brick": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Brick"
+  },
+  "Construction Methodology": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Construction Methodology"
+  },
+  "Stair": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Stair"
+  },
+  "Industry Standard": {
+    "chunk_ids": [
+      "sessions::session-20260615-093125.md::34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682855,
+    "update_time": 1781682855,
+    "_id": "Industry Standard"
+  },
+  "Paint Calculator": {
+    "chunk_ids": [
+      "sessions::session-20260615-092916.md::37-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682966,
+    "update_time": 1781682966,
+    "_id": "Paint Calculator"
+  },
+  "Wall": {
+    "chunk_ids": [
+      "sessions::session-20260615-092916.md::37-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781682966,
+    "update_time": 1781682966,
+    "_id": "Wall"
+  },
+  "Roofing Calculator": {
+    "chunk_ids": [
+      "sessions::session-20260615-092836.md::38-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683168,
+    "update_time": 1781683168,
+    "_id": "Roofing Calculator"
+  },
+  "Pitch Factor": {
+    "chunk_ids": [
+      "sessions::session-20260615-092836.md::38-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683168,
+    "update_time": 1781683168,
+    "_id": "Pitch Factor"
+  },
+  "Shingle Bundles": {
+    "chunk_ids": [
+      "sessions::session-20260615-092836.md::38-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683168,
+    "update_time": 1781683168,
+    "_id": "Shingle Bundles"
+  },
+  "Underlayment Rolls": {
+    "chunk_ids": [
+      "sessions::session-20260615-092836.md::38-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683168,
+    "update_time": 1781683168,
+    "_id": "Underlayment Rolls"
+  },
+  "Ridge Cap": {
+    "chunk_ids": [
+      "sessions::session-20260615-092836.md::38-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683168,
+    "update_time": 1781683168,
+    "_id": "Ridge Cap"
+  },
+  "Squares": {
+    "chunk_ids": [
+      "sessions::session-20260615-092836.md::38-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683168,
+    "update_time": 1781683168,
+    "_id": "Squares"
+  },
+  "Rating": {
+    "chunk_ids": [
+      "sessions::session-20260615-092836.md::38-chunk-000",
+      "sessions::session-20260521-062419.md::119-chunk-000",
+      "sessions::session-20260521-054016.md::120-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1781696746,
+    "_id": "Rating"
+  },
+  "/roofing-calculator": {
+    "chunk_ids": [
+      "sessions::session-20260615-092836.md::38-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683168,
+    "update_time": 1781683168,
+    "_id": "/roofing-calculator"
+  },
+  "Tools/": {
+    "chunk_ids": [
+      "sessions::session-20260615-092836.md::38-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683168,
+    "update_time": 1781683168,
+    "_id": "Tools/"
+  },
+  "Concrete Calculator": {
+    "chunk_ids": [
+      "sessions::session-20260615-075416.md::39-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683243,
+    "update_time": 1781683243,
+    "_id": "Concrete Calculator"
+  },
+  "Rebar Calculator": {
+    "chunk_ids": [
+      "sessions::session-20260615-075416.md::39-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683243,
+    "update_time": 1781683243,
+    "_id": "Rebar Calculator"
+  },
+  "Freetools": {
+    "chunk_ids": [
+      "sessions::session-20260615-075416.md::39-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683243,
+    "update_time": 1781683243,
+    "_id": "Freetools"
+  },
+  "Construction Calculators": {
+    "chunk_ids": [
+      "sessions::session-20260615-075416.md::39-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683243,
+    "update_time": 1781683243,
+    "_id": "Construction Calculators"
+  },
+  "Job search research": {
+    "chunk_ids": [
+      "sessions::session-20260614-133017.md::41-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683819,
+    "update_time": 1781683819,
+    "_id": "Job search research"
+  },
+  "Ashim": {
+    "chunk_ids": [
+      "sessions::session-20260614-133017.md::41-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683819,
+    "update_time": 1781683819,
+    "_id": "Ashim"
+  },
+  "Qatar ELV/CCTV market": {
+    "chunk_ids": [
+      "sessions::session-20260614-133017.md::41-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683819,
+    "update_time": 1781683819,
+    "_id": "Qatar ELV/CCTV market"
+  },
+  "PoE switch": {
+    "chunk_ids": [
+      "sessions::session-20260614-133017.md::41-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683819,
+    "update_time": 1781683819,
+    "_id": "PoE switch"
+  },
+  "Safehome repo": {
+    "chunk_ids": [
+      "sessions::session-20260614-133017.md::41-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683819,
+    "update_time": 1781683819,
+    "_id": "Safehome repo"
+  },
+  "Aslielectronics.com": {
+    "chunk_ids": [
+      "sessions::session-20260614-133017.md::41-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683819,
+    "update_time": 1781683819,
+    "_id": "Aslielectronics.com"
+  },
+  "AGENTS.md": {
+    "chunk_ids": [
+      "sessions::session-20260614-133017.md::41-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683819,
+    "update_time": 1781683819,
+    "_id": "AGENTS.md"
+  },
+  "SETUP-NEW-PC.md": {
+    "chunk_ids": [
+      "sessions::session-20260614-133017.md::41-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683819,
+    "update_time": 1781683819,
+    "_id": "SETUP-NEW-PC.md"
+  },
+  "New PC setup": {
+    "chunk_ids": [
+      "sessions::session-20260614-133017.md::41-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683819,
+    "update_time": 1781683819,
+    "_id": "New PC setup"
+  },
+  "aslielectronics.com→blog post": {
+    "chunk_ids": [
+      "sessions::session-20260614-133017.md::41-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683819,
+    "update_time": 1781683819,
+    "_id": "aslielectronics.com→blog post"
+  },
+  "absURL": {
+    "chunk_ids": [
+      "sessions::session-20260615-072330.md::40-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683873,
+    "update_time": 1781683873,
+    "_id": "absURL"
+  },
+  "relURL": {
+    "chunk_ids": [
+      "sessions::session-20260615-072330.md::40-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683873,
+    "update_time": 1781683873,
+    "_id": "relURL"
+  },
+  "head.html": {
+    "chunk_ids": [
+      "sessions::session-20260615-072330.md::40-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683873,
+    "update_time": 1781683873,
+    "_id": "head.html"
+  },
+  "header.html": {
+    "chunk_ids": [
+      "sessions::session-20260615-072330.md::40-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683873,
+    "update_time": 1781683873,
+    "_id": "header.html"
+  },
+  "single.html": {
+    "chunk_ids": [
+      "sessions::session-20260615-072330.md::40-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683873,
+    "update_time": 1781683873,
+    "_id": "single.html"
+  },
+  "404.html": {
+    "chunk_ids": [
+      "sessions::session-20260615-072330.md::40-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683873,
+    "update_time": 1781683873,
+    "_id": "404.html"
+  },
+  "winget": {
+    "chunk_ids": [
+      "sessions::session-20260615-072330.md::40-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683873,
+    "update_time": 1781683873,
+    "_id": "winget"
+  },
+  "dev mode": {
+    "chunk_ids": [
+      "sessions::session-20260615-072330.md::40-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683873,
+    "update_time": 1781683873,
+    "_id": "dev mode"
+  },
+  "css/JS": {
+    "chunk_ids": [
+      "sessions::session-20260615-072330.md::40-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683873,
+    "update_time": 1781683873,
+    "_id": "css/JS"
+  },
+  "Agents,": {
+    "chunk_ids": [
+      "sessions::session-20260614-132632.md::42-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683955,
+    "update_time": 1781683955,
+    "_id": "Agents,"
+  },
+  "Cloudflare,": {
+    "chunk_ids": [
+      "sessions::session-20260614-132632.md::42-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781683955,
+    "update_time": 1781683955,
+    "_id": "Cloudflare,"
+  },
+  "aslielectronics.com": {
+    "chunk_ids": [
+      "sessions::session-20260614-132412.md::43-chunk-000",
+      "sessions::session-20260602-094327.md::55-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781685292,
+    "_id": "aslielectronics.com"
+  },
+  "<Ashim Ahmad>": {
+    "chunk_ids": [
+      "sessions::session-20260614-124559.md::44-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684067,
+    "update_time": 1781684067,
+    "_id": "<Ashim Ahmad>"
+  },
+  "<ELV/CCTV/MOI Security Jobs>": {
+    "chunk_ids": [
+      "sessions::session-20260614-124559.md::44-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684067,
+    "update_time": 1781684067,
+    "_id": "<ELV/CCTV/MOI Security Jobs>"
+  },
+  "<CCTV Security Systems>": {
+    "chunk_ids": [
+      "sessions::session-20260614-124559.md::44-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684067,
+    "update_time": 1781684067,
+    "_id": "<CCTV Security Systems>"
+  },
+  "<Samtech Security Systems>": {
+    "chunk_ids": [
+      "sessions::session-20260614-124559.md::44-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684067,
+    "update_time": 1781684067,
+    "_id": "<Samtech Security Systems>"
+  },
+  "<ELV>": {
+    "chunk_ids": [
+      "sessions::session-20260614-124559.md::44-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684067,
+    "update_time": 1781684067,
+    "_id": "<ELV>"
+  },
+  "<Qatar Job Market>": {
+    "chunk_ids": [
+      "sessions::session-20260614-124559.md::44-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684067,
+    "update_time": 1781684067,
+    "_id": "<Qatar Job Market>"
+  },
+  "prompt-master": {
+    "chunk_ids": [
+      "sessions::session-20260614-120024.md::45-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684169,
+    "update_time": 1781684169,
+    "_id": "prompt-master"
+  },
+  "understand-anything": {
+    "chunk_ids": [
+      "sessions::session-20260614-120024.md::45-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684169,
+    "update_time": 1781684169,
+    "_id": "understand-anything"
+  },
+  "Requirement,": {
+    "chunk_ids": [
+      "sessions::session-20260614-120024.md::45-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684169,
+    "update_time": 1781684169,
+    "_id": "Requirement,"
+  },
+  "source_entity": {
+    "chunk_ids": [
+      "sessions::session-20260614-120024.md::45-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684169,
+    "update_time": 1781684169,
+    "_id": "source_entity"
+  },
+  "relationship_keywords": {
+    "chunk_ids": [
+      "sessions::session-20260614-120024.md::45-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684169,
+    "update_time": 1781684169,
+    "_id": "relationship_keywords"
+  },
+  "Value,": {
+    "chunk_ids": [
+      "sessions::session-20260614-120024.md::45-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684169,
+    "update_time": 1781684169,
+    "_id": "Value,"
+  },
+  "researched": {
+    "chunk_ids": [
+      "sessions::session-20260614-120024.md::45-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684169,
+    "update_time": 1781684169,
+    "_id": "researched"
+  },
+  "target_entity": {
+    "chunk_ids": [
+      "sessions::session-20260614-120024.md::45-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684169,
+    "update_time": 1781684169,
+    "_id": "target_entity"
+  },
+  "Creation,": {
+    "chunk_ids": [
+      "sessions::session-20260614-120024.md::45-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684169,
+    "update_time": 1781684169,
+    "_id": "Creation,"
+  },
+  "None,": {
+    "chunk_ids": [
+      "sessions::session-20260614-120024.md::45-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684169,
+    "update_time": 1781684169,
+    "_id": "None,"
+  },
+  "Research,": {
+    "chunk_ids": [
+      "sessions::session-20260614-120024.md::45-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684169,
+    "update_time": 1781684169,
+    "_id": "Research,"
+  },
+  "SEO Audit Tool": {
+    "chunk_ids": [
+      "sessions::session-20260614-095604.md::46-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684301,
+    "update_time": 1781684301,
+    "_id": "SEO Audit Tool"
+  },
+  "MCP Server": {
+    "chunk_ids": [
+      "sessions::session-20260614-095604.md::46-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684301,
+    "update_time": 1781684301,
+    "_id": "MCP Server"
+  },
+  "AI Crawler": {
+    "chunk_ids": [
+      "sessions::session-20260614-095604.md::46-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684301,
+    "update_time": 1781684301,
+    "_id": "AI Crawler"
+  },
+  "v3.0": {
+    "chunk_ids": [
+      "sessions::session-20260614-095604.md::46-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684301,
+    "update_time": 1781684301,
+    "_id": "v3.0"
+  },
+  "ssl": {
+    "chunk_ids": [
+      "sessions::session-20260614-095604.md::46-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684301,
+    "update_time": 1781684301,
+    "_id": "ssl"
+  },
+  "Skill": {
+    "chunk_ids": [
+      "sessions::session-20260614-095029.md::47-chunk-000",
+      "sessions::session-20260521-054016.md::120-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781696746,
+    "_id": "Skill"
+  },
+  "quotation-learner": {
+    "chunk_ids": [
+      "sessions::session-20260609-135823.md::48-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "quotation-learner"
+  },
+  "learn_quotation.py": {
+    "chunk_ids": [
+      "sessions::session-20260609-135823.md::48-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "learn_quotation.py"
+  },
+  "XLSX": {
+    "chunk_ids": [
+      "sessions::session-20260609-135823.md::48-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "XLSX"
+  },
+  "CEO mindset": {
+    "chunk_ids": [
+      "sessions::session-20260609-135823.md::48-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "CEO mindset"
+  },
+  "rates.json": {
+    "chunk_ids": [
+      "sessions::session-20260609-135823.md::48-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "rates.json"
+  },
+  "ceo mindset": {
+    "chunk_ids": [
+      "sessions::session-20260609-135823.md::48-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "ceo mindset"
+  },
+  "web search/fetch/deep research tools": {
+    "chunk_ids": [
+      "sessions::session-20260609-135823.md::48-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "web search/fetch/deep research tools"
+  },
+  "quotation-coach": {
+    "chunk_ids": [
+      "sessions::session-20260609-135823.md::48-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "quotation-coach"
+  },
+  "ratings": {
+    "chunk_ids": [
+      "sessions::session-20260609-135823.md::48-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684545,
+    "update_time": 1781684545,
+    "_id": "ratings"
+  },
+  "CEO": {
+    "chunk_ids": [
+      "sessions::session-20260609-133431.md::49-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684687,
+    "update_time": 1781684687,
+    "_id": "CEO"
+  },
+  "entreprenor": {
+    "chunk_ids": [
+      "sessions::session-20260609-133431.md::49-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684687,
+    "update_time": 1781684687,
+    "_id": "entreprenor"
+  },
+  "secuview": {
+    "chunk_ids": [
+      "sessions::session-20260609-133431.md::49-chunk-000",
+      "sessions::session-20260601-065711.md::62-chunk-000",
+      "sessions::session-20260530-090745.md::75-chunk-000",
+      "sessions::session-20260523-134410.md::110-chunk-000",
+      "sessions::session-20260523-084302.md::114-chunk-000"
+    ],
+    "count": 5,
+    "update_time": 1781696409,
+    "_id": "secuview"
+  },
+  "AutoCAD": {
+    "chunk_ids": [
+      "sessions::session-20260609-133431.md::49-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684687,
+    "update_time": 1781684687,
+    "_id": "AutoCAD"
+  },
+  "Starfox": {
+    "chunk_ids": [
+      "sessions::session-20260609-133431.md::49-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684687,
+    "update_time": 1781684687,
+    "_id": "Starfox"
+  },
+  "aslielectronics": {
+    "chunk_ids": [
+      "sessions::session-20260609-133431.md::49-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684687,
+    "update_time": 1781684687,
+    "_id": "aslielectronics"
+  },
+  "Hugo site": {
+    "chunk_ids": [
+      "sessions::session-20260609-133431.md::49-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684687,
+    "update_time": 1781684687,
+    "_id": "Hugo site"
+  },
+  "directory idea": {
+    "chunk_ids": [
+      "sessions::session-20260609-133431.md::49-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684687,
+    "update_time": 1781684687,
+    "_id": "directory idea"
+  },
+  "Secuview": {
+    "chunk_ids": [
+      "sessions::session-20260609-133431.md::49-chunk-000",
+      "sessions::session-20260602-084642.md::56-chunk-000",
+      "sessions::session-20260531-074533.md::68-chunk-000",
+      "sessions::session-20260530-090745.md::75-chunk-000",
+      "sessions::session-20260525-142400.md::98-chunk-000",
+      "sessions::session-20260525-142015.md::99-chunk-000",
+      "sessions::session-20260526-074507.md::97-chunk-000"
+    ],
+    "count": 7,
+    "update_time": 1781695050,
+    "_id": "Secuview"
+  },
+  "Quotation Coach": {
+    "chunk_ids": [
+      "sessions::session-20260609-062409.md::50-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684755,
+    "update_time": 1781684755,
+    "_id": "Quotation Coach"
+  },
+  "Camera Type": {
+    "chunk_ids": [
+      "sessions::session-20260609-062409.md::50-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684755,
+    "update_time": 1781684755,
+    "_id": "Camera Type"
+  },
+  "QAR": {
+    "chunk_ids": [
+      "sessions::session-20260609-062409.md::50-chunk-000",
+      "sessions::session-20260602-094327.md::55-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781685292,
+    "_id": "QAR"
+  },
+  "Mixed Camera Types": {
+    "chunk_ids": [
+      "sessions::session-20260609-062409.md::50-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684755,
+    "update_time": 1781684755,
+    "_id": "Mixed Camera Types"
+  },
+  "MOI Industrial Workshop": {
+    "chunk_ids": [
+      "sessions::session-20260609-062409.md::50-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684755,
+    "update_time": 1781684755,
+    "_id": "MOI Industrial Workshop"
+  },
+  "Added 4mp_varifocal camera type": {
+    "chunk_ids": [
+      "sessions::session-20260609-062409.md::50-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684755,
+    "update_time": 1781684755,
+    "_id": "Added 4mp_varifocal camera type"
+  },
+  "Refactored quotation tool": {
+    "chunk_ids": [
+      "sessions::session-20260609-062409.md::50-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684755,
+    "update_time": 1781684755,
+    "_id": "Refactored quotation tool"
+  },
+  "Khaleej List": {
+    "chunk_ids": [
+      "sessions::session-20260605-203104.md::51-chunk-000",
+      "sessions::session-20260605-203042.md::52-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781685090,
+    "_id": "Khaleej List"
+  },
+  "Asli Electronics": {
+    "chunk_ids": [
+      "sessions::session-20260605-203104.md::51-chunk-000",
+      "sessions::session-20260605-203042.md::52-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781685090,
+    "_id": "Asli Electronics"
+  },
+  "real Asli Electronics": {
+    "chunk_ids": [
+      "sessions::session-20260605-203104.md::51-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781684849,
+    "update_time": 1781684849,
+    "_id": "real Asli Electronics"
+  },
+  "Built Khaleej List MVP": {
+    "chunk_ids": [
+      "sessions::session-20260605-203042.md::52-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781685090,
+    "update_time": 1781685090,
+    "_id": "Built Khaleej List MVP"
+  },
+  "Gulf-wide": {
+    "chunk_ids": [
+      "sessions::session-20260605-203042.md::52-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781685090,
+    "update_time": 1781685090,
+    "_id": "Gulf-wide"
+  },
+  "Qatar-specific": {
+    "chunk_ids": [
+      "sessions::session-20260605-203042.md::52-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781685090,
+    "update_time": 1781685090,
+    "_id": "Qatar-specific"
+  },
+  "Product Page": {
+    "chunk_ids": [
+      "sessions::session-20260605-172556.md::53-chunk-000",
+      "sessions::session-20260530-133249.md::71-chunk-000",
+      "sessions::session-20260530-071326.md::76-chunk-000",
+      "sessions::session-20260528-151058.md::82-chunk-000",
+      "sessions::session-20260526-130304.md::91-chunk-000"
+    ],
+    "count": 5,
+    "update_time": 1781692853,
+    "_id": "Product Page"
+  },
+  "Hugo Ghost Page": {
+    "chunk_ids": [
+      "sessions::session-20260605-172556.md::53-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781685147,
+    "update_time": 1781685147,
+    "_id": "Hugo Ghost Page"
+  },
+  "Safehome": {
+    "chunk_ids": [
+      "sessions::session-20260605-172556.md::53-chunk-000",
+      "sessions::session-20260521-090747.md::116-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781696480,
+    "_id": "Safehome"
+  },
+  "Orphan Hugo Ghost Page": {
+    "chunk_ids": [
+      "sessions::session-20260605-172556.md::53-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781685147,
+    "update_time": 1781685147,
+    "_id": "Orphan Hugo Ghost Page"
+  },
+  "Robots.txt": {
+    "chunk_ids": [
+      "sessions::session-20260605-172556.md::53-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781685147,
+    "update_time": 1781685147,
+    "_id": "Robots.txt"
+  },
+  "Task": {
+    "chunk_ids": [
+      "sessions::session-20260602-134913.md::54-chunk-000",
+      "sessions::session-20260529-190958.md::78-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781692089,
+    "_id": "Task"
+  },
+  "safehome": {
+    "chunk_ids": [
+      "sessions::session-20260602-094327.md::55-chunk-000",
+      "sessions::session-20260601-133723.md::59-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781688066,
+    "_id": "safehome"
+  },
+  "<aslielectronics.com>": {
+    "chunk_ids": [
+      "sessions::session-20260602-094327.md::55-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781685292,
+    "update_time": 1781685292,
+    "_id": "<aslielectronics.com>"
+  },
+  "solar 4G camera": {
+    "chunk_ids": [
+      "sessions::session-20260602-084642.md::56-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781685506,
+    "update_time": 1781685506,
+    "_id": "solar 4G camera"
+  },
+  "secuview.com": {
+    "chunk_ids": [
+      "sessions::session-20260602-084642.md::56-chunk-000",
+      "sessions::session-20260601-065711.md::62-chunk-000",
+      "sessions::session-20260531-100743.md::63-chunk-000",
+      "sessions::session-20260531-074533.md::68-chunk-000",
+      "sessions::session-20260530-071326.md::76-chunk-000",
+      "sessions::session-20260523-084302.md::114-chunk-000",
+      "sessions::session-20260521-070031.md::118-chunk-000"
+    ],
+    "count": 7,
+    "update_time": 1781696661,
+    "_id": "secuview.com"
+  },
+  "Prompts": {
+    "chunk_ids": [
+      "sessions::session-20260602-061334.md::57-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781685577,
+    "update_time": 1781685577,
+    "_id": "Prompts"
+  },
+  "IP-PBX": {
+    "chunk_ids": [
+      "sessions::session-20260601-131343.md::60-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781687474,
+    "update_time": 1781687474,
+    "_id": "IP-PBX"
+  },
+  "Local Calling": {
+    "chunk_ids": [
+      "sessions::session-20260601-131343.md::60-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781687474,
+    "update_time": 1781687474,
+    "_id": "Local Calling"
+  },
+  "Outside Calling": {
+    "chunk_ids": [
+      "sessions::session-20260601-131343.md::60-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781687474,
+    "update_time": 1781687474,
+    "_id": "Outside Calling"
+  },
+  "Wrote IP PBX Phone System Guide for AsliElectronics blog": {
+    "chunk_ids": [
+      "sessions::session-20260601-133723.md::59-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688066,
+    "update_time": 1781688066,
+    "_id": "Wrote IP PBX Phone System Guide for AsliElectronics blog"
+  },
+  "AsliElectronics": {
+    "chunk_ids": [
+      "sessions::session-20260601-133723.md::59-chunk-000",
+      "sessions::session-20260601-134653.md::58-chunk-000",
+      "sessions::session-20260528-142545.md::84-chunk-000",
+      "sessions::session-20260528-104700.md::85-chunk-000"
+    ],
+    "count": 4,
+    "update_time": 1781692487,
+    "_id": "AsliElectronics"
+  },
+  "VoIP": {
+    "chunk_ids": [
+      "sessions::session-20260601-133723.md::59-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688066,
+    "update_time": 1781688066,
+    "_id": "VoIP"
+  },
+  "Qatar.md": {
+    "chunk_ids": [
+      "sessions::session-20260601-133723.md::59-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688066,
+    "update_time": 1781688066,
+    "_id": "Qatar.md"
+  },
+  "AsliElectronics blog": {
+    "chunk_ids": [
+      "sessions::session-20260601-133723.md::59-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688066,
+    "update_time": 1781688066,
+    "_id": "AsliElectronics blog"
+  },
+  "ip-pbx-phone-system-guide-qatar.md": {
+    "chunk_ids": [
+      "sessions::session-20260601-133723.md::59-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688066,
+    "update_time": 1781688066,
+    "_id": "ip-pbx-phone-system-guide-qatar.md"
+  },
+  "Qatar.": {
+    "chunk_ids": [
+      "sessions::session-20260601-133723.md::59-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688066,
+    "update_time": 1781688066,
+    "_id": "Qatar."
+  },
+  "content": {
+    "chunk_ids": [
+      "sessions::session-20260601-133723.md::59-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688066,
+    "update_time": 1781688066,
+    "_id": "content"
+  },
+  "content/": {
+    "chunk_ids": [
+      "sessions::session-20260601-133723.md::59-chunk-000",
+      "sessions::session-20260531-074533.md::68-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781689686,
+    "_id": "content/"
+  },
+  "blog": {
+    "chunk_ids": [
+      "sessions::session-20260601-133723.md::59-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688066,
+    "update_time": 1781688066,
+    "_id": "blog"
+  },
+  "safehome/": {
+    "chunk_ids": [
+      "sessions::session-20260601-133723.md::59-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688066,
+    "update_time": 1781688066,
+    "_id": "safehome/"
+  },
+  "AEO": {
+    "chunk_ids": [
+      "sessions::session-20260601-134653.md::58-chunk-000",
+      "sessions::session-20260601-124355.md::61-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781688519,
+    "_id": "AEO"
+  },
+  "content-strategy": {
+    "chunk_ids": [
+      "sessions::session-20260601-134653.md::58-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688423,
+    "update_time": 1781688423,
+    "_id": "content-strategy"
+  },
+  "<secuview>< [#|]<channel": {
+    "chunk_ids": [
+      "sessions::session-20260601-065711.md::62-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688463,
+    "update_time": 1781688463,
+    "_id": "<secuview>< [#|]<channel"
+  },
+  "<ranking": {
+    "chunk_ids": [
+      "sessions::session-20260601-065711.md::62-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688463,
+    "update_time": 1781688463,
+    "_id": "<ranking"
+  },
+  "channel< [#|]<FB": {
+    "chunk_ids": [
+      "sessions::session-20260601-065711.md::62-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688463,
+    "update_time": 1781688463,
+    "_id": "channel< [#|]<FB"
+  },
+  "<secuview>< [#|]<issue": {
+    "chunk_ids": [
+      "sessions::session-20260601-065711.md::62-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688463,
+    "update_time": 1781688463,
+    "_id": "<secuview>< [#|]<issue"
+  },
+  "Solar 4G Camera": {
+    "chunk_ids": [
+      "sessions::session-20260601-124355.md::61-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688519,
+    "update_time": 1781688519,
+    "_id": "Solar 4G Camera"
+  },
+  "SecuView": {
+    "chunk_ids": [
+      "sessions::session-20260601-124355.md::61-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688519,
+    "update_time": 1781688519,
+    "_id": "SecuView"
+  },
+  "Google": {
+    "chunk_ids": [
+      "sessions::session-20260531-100743.md::63-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688636,
+    "update_time": 1781688636,
+    "_id": "Google"
+  },
+  "Secuview.com": {
+    "chunk_ids": [
+      "sessions::session-20260531-100743.md::63-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688636,
+    "update_time": 1781688636,
+    "_id": "Secuview.com"
+  },
+  "Wp admin": {
+    "chunk_ids": [
+      "sessions::session-20260531-100743.md::63-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688636,
+    "update_time": 1781688636,
+    "_id": "Wp admin"
+  },
+  "LocalBusiness": {
+    "chunk_ids": [
+      "sessions::session-20260531-100743.md::63-chunk-000",
+      "sessions::session-20260529-171751.md::80-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781691922,
+    "_id": "LocalBusiness"
+  },
+  "secuview-schema-markup": {
+    "chunk_ids": [
+      "sessions::session-20260531-100743.md::63-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688636,
+    "update_time": 1781688636,
+    "_id": "secuview-schema-markup"
+  },
+  "Breadcrumb": {
+    "chunk_ids": [
+      "sessions::session-20260531-100743.md::63-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688636,
+    "update_time": 1781688636,
+    "_id": "Breadcrumb"
+  },
+  "Web-development-skills": {
+    "chunk_ids": [
+      "sessions::session-20260531-095438.md::64-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688787,
+    "update_time": 1781688787,
+    "_id": "Web-development-skills"
+  },
+  "pm": {
+    "chunk_ids": [
+      "sessions::session-20260531-095425.md::65-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688922,
+    "update_time": 1781688922,
+    "_id": "pm"
+  },
+  "dev": {
+    "chunk_ids": [
+      "sessions::session-20260531-095425.md::65-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688922,
+    "update_time": 1781688922,
+    "_id": "dev"
+  },
+  "Content": {
+    "chunk_ids": [
+      "sessions::session-20260531-095425.md::65-chunk-000",
+      "sessions::session-20260528-142545.md::84-chunk-000",
+      "sessions::session-20260526-095002.md::95-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1781693220,
+    "_id": "Content"
+  },
+  "agtmd": {
+    "chunk_ids": [
+      "sessions::session-20260531-095425.md::65-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688922,
+    "update_time": 1781688922,
+    "_id": "agtmd"
+  },
+  "server": {
+    "chunk_ids": [
+      "sessions::session-20260531-095425.md::65-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688922,
+    "update_time": 1781688922,
+    "_id": "server"
+  },
+  "cron": {
+    "chunk_ids": [
+      "sessions::session-20260531-095425.md::65-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781688922,
+    "update_time": 1781688922,
+    "_id": "cron"
+  },
+  "System": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "System"
+  },
+  "PARA Template": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "PARA Template"
+  },
+  "Conversation Memory": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "Conversation Memory"
+  },
+  "Decision Tracking": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "Decision Tracking"
+  },
+  "Memory Search": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "Memory Search"
+  },
+  "Recap Tool": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "Recap Tool"
+  },
+  "Inbox": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "Inbox"
+  },
+  "Weekly Synthesis": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "Weekly Synthesis"
+  },
+  "Daily Notes": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "Daily Notes"
+  },
+  "Talking Partner": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "Talking Partner"
+  },
+  "Integrated Notes": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "Integrated Notes"
+  },
+  "source_entity:Coach": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "source_entity:Coach"
+  },
+  "source_entity:System": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "source_entity:System"
+  },
+  "target_entity:Conversation Memory": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "target_entity:Conversation Memory"
+  },
+  "target_entity:Coach": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "target_entity:Coach"
+  },
+  "source_entity:PARA Template": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "source_entity:PARA Template"
+  },
+  "target_entity:Decision Tracking": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "target_entity:Decision Tracking"
+  },
+  "target_entity:Memory Search": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "target_entity:Memory Search"
+  },
+  "target_entity:Recap Tool": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "target_entity:Recap Tool"
+  },
+  "target_entity:Inbox": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "target_entity:Inbox"
+  },
+  "target_entity:Weekly Synthesis": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "target_entity:Weekly Synthesis"
+  },
+  "target_entity:Daily Notes": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "target_entity:Daily Notes"
+  },
+  "target_entity:System": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "target_entity:System"
+  },
+  "target_entity:Talking Partner": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "target_entity:Talking Partner"
+  },
+  "target_entity:Integrated Notes": {
+    "chunk_ids": [
+      "sessions::session-20260531-095408.md::67-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689640,
+    "update_time": 1781689640,
+    "_id": "target_entity:Integrated Notes"
+  },
+  "Facebook Commerce Manager": {
+    "chunk_ids": [
+      "sessions::session-20260531-074533.md::68-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689686,
+    "update_time": 1781689686,
+    "_id": "Facebook Commerce Manager"
+  },
+  "Work": {
+    "chunk_ids": [
+      "sessions::session-20260531-074533.md::68-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689686,
+    "update_time": 1781689686,
+    "_id": "Work"
+  },
+  "work": {
+    "chunk_ids": [
+      "sessions::session-20260531-074533.md::68-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689686,
+    "update_time": 1781689686,
+    "_id": "work"
+  },
+  "script": {
+    "chunk_ids": [
+      "sessions::session-20260531-074533.md::68-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689686,
+    "update_time": 1781689686,
+    "_id": "script"
+  },
+  "product": {
+    "chunk_ids": [
+      "sessions::session-20260531-074533.md::68-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689686,
+    "update_time": 1781689686,
+    "_id": "product"
+  },
+  "work/scripts/scrape_secuview.py": {
+    "chunk_ids": [
+      "sessions::session-20260531-074533.md::68-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689686,
+    "update_time": 1781689686,
+    "_id": "work/scripts/scrape_secuview.py"
+  },
+  "AGENTS.MD": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "AGENTS.MD"
+  },
+  "memory-kit": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "memory-kit"
+  },
+  "awesome-agent-skills": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "awesome-agent-skills"
+  },
+  "Corey Haines": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "Corey Haines"
+  },
+  "Awesome-Agent-Skills Repo": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "Awesome-Agent-Skills Repo"
+  },
+  "Skill-Evolution": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "Skill-Evolution"
+  },
+  "Skill Installation": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "Skill Installation"
+  },
+  "obra": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "obra"
+  },
+  "Memory-Kit": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "Memory-Kit"
+  },
+  "NVIDIA Skill-Evolution": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "NVIDIA Skill-Evolution"
+  },
+  "NVIDIA": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "NVIDIA"
+  },
+  "opencode": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "opencode"
+  },
+  "VoltAgent/awesome-agent-skills": {
+    "chunk_ids": [
+      "sessions::session-20260530-140356.md::69-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689815,
+    "update_time": 1781689815,
+    "_id": "VoltAgent/awesome-agent-skills"
+  },
+  "Report": {
+    "chunk_ids": [
+      "sessions::session-20260530-133415.md::70-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689884,
+    "update_time": 1781689884,
+    "_id": "Report"
+  },
+  "Period": {
+    "chunk_ids": [
+      "sessions::session-20260530-133415.md::70-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689884,
+    "update_time": 1781689884,
+    "_id": "Period"
+  },
+  "Interval": {
+    "chunk_ids": [
+      "sessions::session-20260530-133415.md::70-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689884,
+    "update_time": 1781689884,
+    "_id": "Interval"
+  },
+  "Unit": {
+    "chunk_ids": [
+      "sessions::session-20260530-133415.md::70-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689884,
+    "update_time": 1781689884,
+    "_id": "Unit"
+  },
+  "Feature Information,": {
+    "chunk_ids": [
+      "sessions::session-20260530-133249.md::71-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689941,
+    "update_time": 1781689941,
+    "_id": "Feature Information,"
+  },
+  "Delivery Information": {
+    "chunk_ids": [
+      "sessions::session-20260530-133249.md::71-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689941,
+    "update_time": 1781689941,
+    "_id": "Delivery Information"
+  },
+  "Optimized Fingerprint Smart Lock Product Page": {
+    "chunk_ids": [
+      "sessions::session-20260530-133249.md::71-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689941,
+    "update_time": 1781689941,
+    "_id": "Optimized Fingerprint Smart Lock Product Page"
+  },
+  "Pricing Information": {
+    "chunk_ids": [
+      "sessions::session-20260530-133249.md::71-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689941,
+    "update_time": 1781689941,
+    "_id": "Pricing Information"
+  },
+  "Feature Information": {
+    "chunk_ids": [
+      "sessions::session-20260530-133249.md::71-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689941,
+    "update_time": 1781689941,
+    "_id": "Feature Information"
+  },
+  "Category FAQ": {
+    "chunk_ids": [
+      "sessions::session-20260530-130250.md::72-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689968,
+    "update_time": 1781689968,
+    "_id": "Category FAQ"
+  },
+  "MU Plugin": {
+    "chunk_ids": [
+      "sessions::session-20260530-130250.md::72-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781689968,
+    "update_time": 1781689968,
+    "_id": "MU Plugin"
+  },
+  "Access Control System": {
+    "chunk_ids": [
+      "sessions::session-20260530-120227.md::73-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690032,
+    "update_time": 1781690032,
+    "_id": "Access Control System"
+  },
+  "Time Attendance System": {
+    "chunk_ids": [
+      "sessions::session-20260530-120227.md::73-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690032,
+    "update_time": 1781690032,
+    "_id": "Time Attendance System"
+  },
+  "Qatar Guide": {
+    "chunk_ids": [
+      "sessions::session-20260530-120227.md::73-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690032,
+    "update_time": 1781690032,
+    "_id": "Qatar Guide"
+  },
+  "Product Link": {
+    "chunk_ids": [
+      "sessions::session-20260530-120227.md::73-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690032,
+    "update_time": 1781690032,
+    "_id": "Product Link"
+  },
+  "Venue Recommendation": {
+    "chunk_ids": [
+      "sessions::session-20260530-120227.md::73-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690032,
+    "update_time": 1781690032,
+    "_id": "Venue Recommendation"
+  },
+  "Guide": {
+    "chunk_ids": [
+      "sessions::session-20260530-115304.md::74-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690070,
+    "update_time": 1781690070,
+    "_id": "Guide"
+  },
+  "Coach/Work/Content": {
+    "chunk_ids": [
+      "sessions::session-20260530-115304.md::74-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690070,
+    "update_time": 1781690070,
+    "_id": "Coach/Work/Content"
+  },
+  "guides": {
+    "chunk_ids": [
+      "sessions::session-20260530-090745.md::75-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690235,
+    "update_time": 1781690235,
+    "_id": "guides"
+  },
+  "boss": {
+    "chunk_ids": [
+      "sessions::session-20260530-090745.md::75-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690235,
+    "update_time": 1781690235,
+    "_id": "boss"
+  },
+  "GBP,": {
+    "chunk_ids": [
+      "sessions::session-20260530-090745.md::75-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690235,
+    "update_time": 1781690235,
+    "_id": "GBP,"
+  },
+  "Google,": {
+    "chunk_ids": [
+      "sessions::session-20260530-090745.md::75-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690235,
+    "update_time": 1781690235,
+    "_id": "Google,"
+  },
+  "WhatsApp,": {
+    "chunk_ids": [
+      "sessions::session-20260530-090745.md::75-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690235,
+    "update_time": 1781690235,
+    "_id": "WhatsApp,"
+  },
+  "GitHub,": {
+    "chunk_ids": [
+      "sessions::session-20260530-090745.md::75-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690235,
+    "update_time": 1781690235,
+    "_id": "GitHub,"
+  },
+  "Other,": {
+    "chunk_ids": [
+      "sessions::session-20260530-090745.md::75-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690235,
+    "update_time": 1781690235,
+    "_id": "Other,"
+  },
+  "growth plans": {
+    "chunk_ids": [
+      "sessions::session-20260530-090745.md::75-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690235,
+    "update_time": 1781690235,
+    "_id": "growth plans"
+  },
+  "boss,": {
+    "chunk_ids": [
+      "sessions::session-20260530-090745.md::75-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690235,
+    "update_time": 1781690235,
+    "_id": "boss,"
+  },
+  "WordPress": {
+    "chunk_ids": [
+      "sessions::session-20260530-071326.md::76-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690360,
+    "update_time": 1781690360,
+    "_id": "WordPress"
+  },
+  "<4G LTE WiFi Router": {
+    "chunk_ids": [
+      "sessions::session-20260530-071326.md::76-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690360,
+    "update_time": 1781690360,
+    "_id": "<4G LTE WiFi Router"
+  },
+  "<GitHub": {
+    "chunk_ids": [
+      "sessions::session-20260530-071326.md::76-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690360,
+    "update_time": 1781690360,
+    "_id": "<GitHub"
+  },
+  "Content File": {
+    "chunk_ids": [
+      "sessions::session-20260530-071326.md::76-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690360,
+    "update_time": 1781690360,
+    "_id": "Content File"
+  },
+  "<Product Page": {
+    "chunk_ids": [
+      "sessions::session-20260530-071326.md::76-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781690360,
+    "update_time": 1781690360,
+    "_id": "<Product Page"
+  },
+  "Batch": {
+    "chunk_ids": [
+      "sessions::session-20260529-172614.md::79-chunk-000",
+      "sessions::session-20260529-171751.md::80-chunk-000",
+      "sessions::session-20260528-143030.md::83-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1781692271,
+    "_id": "Batch"
+  },
+  "Content update": {
+    "chunk_ids": [
+      "sessions::session-20260529-171751.md::80-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781691922,
+    "update_time": 1781691922,
+    "_id": "Content update"
+  },
+  "PersonalName": {
+    "chunk_ids": [
+      "sessions::session-20260529-171751.md::80-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781691922,
+    "update_time": 1781691922,
+    "_id": "PersonalName"
+  },
+  "WhatsApp": {
+    "chunk_ids": [
+      "sessions::session-20260529-171751.md::80-chunk-000",
+      "sessions::session-20260528-151058.md::82-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781692168,
+    "_id": "WhatsApp"
+  },
+  "Batch 3-4 remaining": {
+    "chunk_ids": [
+      "sessions::session-20260529-171751.md::80-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781691922,
+    "update_time": 1781691922,
+    "_id": "Batch 3-4 remaining"
+  },
+  "Event": {
+    "chunk_ids": [
+      "sessions::session-20260528-170636.md::81-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692035,
+    "update_time": 1781692035,
+    "_id": "Event"
+  },
+  "Cloudflare build command": {
+    "chunk_ids": [
+      "sessions::session-20260528-170636.md::81-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692035,
+    "update_time": 1781692035,
+    "_id": "Cloudflare build command"
+  },
+  "Cloudflare": {
+    "chunk_ids": [
+      "sessions::session-20260528-170636.md::81-chunk-000",
+      "sessions::session-20260529-190958.md::78-chunk-000",
+      "sessions::session-20260528-103026.md::86-chunk-000",
+      "sessions::session-20260526-124106.md::93-chunk-000"
+    ],
+    "count": 4,
+    "update_time": 1781693073,
+    "_id": "Cloudflare"
+  },
+  "Wrote home security system guide blog post": {
+    "chunk_ids": [
+      "sessions::session-20260528-170636.md::81-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692035,
+    "update_time": 1781692035,
+    "_id": "Wrote home security system guide blog post"
+  },
+  "IR Controller": {
+    "chunk_ids": [
+      "sessions::session-20260530-063605.md::77-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692062,
+    "update_time": 1781692062,
+    "_id": "IR Controller"
+  },
+  "Main": {
+    "chunk_ids": [
+      "sessions::session-20260528-151058.md::82-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692168,
+    "update_time": 1781692168,
+    "_id": "Main"
+  },
+  "/": {
+    "chunk_ids": [
+      "sessions::session-20260528-142545.md::84-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692453,
+    "update_time": 1781692453,
+    "_id": "/"
+  },
+  "Deployed Site": {
+    "chunk_ids": [
+      "sessions::session-20260528-142545.md::84-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692453,
+    "update_time": 1781692453,
+    "_id": "Deployed Site"
+  },
+  "Domain": {
+    "chunk_ids": [
+      "sessions::session-20260528-142545.md::84-chunk-000",
+      "sessions::session-20260528-103026.md::86-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781692525,
+    "_id": "Domain"
+  },
+  "Cloudflare Pages": {
+    "chunk_ids": [
+      "sessions::session-20260528-142545.md::84-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692453,
+    "update_time": 1781692453,
+    "_id": "Cloudflare Pages"
+  },
+  "public": {
+    "chunk_ids": [
+      "sessions::session-20260528-142545.md::84-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692453,
+    "update_time": 1781692453,
+    "_id": "public"
+  },
+  "SafeHOME": {
+    "chunk_ids": [
+      "sessions::session-20260528-104700.md::85-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692487,
+    "update_time": 1781692487,
+    "_id": "SafeHOME"
+  },
+  "Hstinger": {
+    "chunk_ids": [
+      "sessions::session-20260528-103026.md::86-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692525,
+    "update_time": 1781692525,
+    "_id": "Hstinger"
+  },
+  "domain": {
+    "chunk_ids": [
+      "sessions::session-20260528-103026.md::86-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692525,
+    "update_time": 1781692525,
+    "_id": "domain"
+  },
+  "hugo-product-page-enhance": {
+    "chunk_ids": [
+      "sessions::session-20260527-182934.md::87-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692589,
+    "update_time": 1781692589,
+    "_id": "hugo-product-page-enhance"
+  },
+  "Description tab": {
+    "chunk_ids": [
+      "sessions::session-20260527-182934.md::87-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692589,
+    "update_time": 1781692589,
+    "_id": "Description tab"
+  },
+  "dev blog": {
+    "chunk_ids": [
+      "sessions::session-20260527-182934.md::87-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692589,
+    "update_time": 1781692589,
+    "_id": "dev blog"
+  },
+  "OG image": {
+    "chunk_ids": [
+      "sessions::session-20260527-182934.md::87-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692589,
+    "update_time": 1781692589,
+    "_id": "OG image"
+  },
+  "Hugo Product Page Enhancement": {
+    "chunk_ids": [
+      "sessions::session-20260527-173554.md::88-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692644,
+    "update_time": 1781692644,
+    "_id": "Hugo Product Page Enhancement"
+  },
+  "Security Camera Guide": {
+    "chunk_ids": [
+      "sessions::session-20260527-173554.md::88-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692644,
+    "update_time": 1781692644,
+    "_id": "Security Camera Guide"
+  },
+  "Smart Lock Guide": {
+    "chunk_ids": [
+      "sessions::session-20260527-173554.md::88-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692644,
+    "update_time": 1781692644,
+    "_id": "Smart Lock Guide"
+  },
+  "PA Systems Guide": {
+    "chunk_ids": [
+      "sessions::session-20260527-173554.md::88-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692644,
+    "update_time": 1781692644,
+    "_id": "PA Systems Guide"
+  },
+  "Network Cabling Guide": {
+    "chunk_ids": [
+      "sessions::session-20260527-173554.md::88-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692644,
+    "update_time": 1781692644,
+    "_id": "Network Cabling Guide"
+  },
+  "Description Tab": {
+    "chunk_ids": [
+      "sessions::session-20260527-173554.md::88-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692644,
+    "update_time": 1781692644,
+    "_id": "Description Tab"
+  },
+  "Dev Blog Posts": {
+    "chunk_ids": [
+      "sessions::session-20260527-173554.md::88-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692644,
+    "update_time": 1781692644,
+    "_id": "Dev Blog Posts"
+  },
+  "patch": {
+    "chunk_ids": [
+      "sessions::session-20260526-194821.md::89-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692762,
+    "update_time": 1781692762,
+    "_id": "patch"
+  },
+  "frontmatter,": {
+    "chunk_ids": [
+      "sessions::session-20260526-194821.md::89-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692762,
+    "update_time": 1781692762,
+    "_id": "frontmatter,"
+  },
+  "related_products,": {
+    "chunk_ids": [
+      "sessions::session-20260526-194821.md::89-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692762,
+    "update_time": 1781692762,
+    "_id": "related_products,"
+  },
+  "description,": {
+    "chunk_ids": [
+      "sessions::session-20260526-194821.md::89-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692762,
+    "update_time": 1781692762,
+    "_id": "description,"
+  },
+  "products,": {
+    "chunk_ids": [
+      "sessions::session-20260526-194821.md::89-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692762,
+    "update_time": 1781692762,
+    "_id": "products,"
+  },
+  "gallery,": {
+    "chunk_ids": [
+      "sessions::session-20260526-194821.md::89-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692762,
+    "update_time": 1781692762,
+    "_id": "gallery,"
+  },
+  "roadmap": {
+    "chunk_ids": [
+      "sessions::session-20260526-193517.md::90-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692825,
+    "update_time": 1781692825,
+    "_id": "roadmap"
+  },
+  "Agent.py": {
+    "chunk_ids": [
+      "sessions::session-20260526-193517.md::90-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692825,
+    "update_time": 1781692825,
+    "_id": "Agent.py"
+  },
+  "Talks to": {
+    "chunk_ids": [
+      "sessions::session-20260526-193517.md::90-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692825,
+    "update_time": 1781692825,
+    "_id": "Talks to"
+  },
+  "Software artifact": {
+    "chunk_ids": [
+      "sessions::session-20260526-193517.md::90-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781692825,
+    "update_time": 1781692825,
+    "_id": "Software artifact"
+  },
+  "Template": {
+    "chunk_ids": [
+      "sessions::session-20260526-130304.md::91-chunk-000",
+      "sessions::session-20260526-125038.md::92-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781693025,
+    "_id": "Template"
+  },
+  "Bug": {
+    "chunk_ids": [
+      "sessions::session-20260526-125038.md::92-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693025,
+    "update_time": 1781693025,
+    "_id": "Bug"
+  },
+  "Product": {
+    "chunk_ids": [
+      "sessions::session-20260526-125038.md::92-chunk-000",
+      "sessions::session-20260525-142015.md::99-chunk-000",
+      "sessions::session-20260525-141739.md::100-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1781695127,
+    "_id": "Product"
+  },
+  "Router": {
+    "chunk_ids": [
+      "sessions::session-20260526-125038.md::92-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693025,
+    "update_time": 1781693025,
+    "_id": "Router"
+  },
+  "Switch": {
+    "chunk_ids": [
+      "sessions::session-20260526-125038.md::92-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693025,
+    "update_time": 1781693025,
+    "_id": "Switch"
+  },
+  "PoE Switch": {
+    "chunk_ids": [
+      "sessions::session-20260526-125038.md::92-chunk-000",
+      "sessions::session-20260525-142400.md::98-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781693827,
+    "_id": "PoE Switch"
+  },
+  "client": {
+    "chunk_ids": [
+      "sessions::session-20260526-124106.md::93-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693073,
+    "update_time": 1781693073,
+    "_id": "client"
+  },
+  "PC": {
+    "chunk_ids": [
+      "sessions::session-20260526-124106.md::93-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693073,
+    "update_time": 1781693073,
+    "_id": "PC"
+  },
+  "proxy": {
+    "chunk_ids": [
+      "sessions::session-20260526-124106.md::93-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693073,
+    "update_time": 1781693073,
+    "_id": "proxy"
+  },
+  "client_side": {
+    "chunk_ids": [
+      "sessions::session-20260526-124106.md::93-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693073,
+    "update_time": 1781693073,
+    "_id": "client_side"
+  },
+  "<#CloudflareProxyRejection>": {
+    "chunk_ids": [
+      "sessions::session-20260526-124106.md::93-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693073,
+    "update_time": 1781693073,
+    "_id": "<#CloudflareProxyRejection>"
+  },
+  "<#ClientSideSetup>": {
+    "chunk_ids": [
+      "sessions::session-20260526-124106.md::93-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693073,
+    "update_time": 1781693073,
+    "_id": "<#ClientSideSetup>"
+  },
+  "<#diagnosed_issue>": {
+    "chunk_ids": [
+      "sessions::session-20260526-124106.md::93-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693073,
+    "update_time": 1781693073,
+    "_id": "<#diagnosed_issue>"
+  },
+  "<#PC>": {
+    "chunk_ids": [
+      "sessions::session-20260526-124106.md::93-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693073,
+    "update_time": 1781693073,
+    "_id": "<#PC>"
+  },
+  "Meta Graph API": {
+    "chunk_ids": [
+      "sessions::session-20260526-122335.md::94-chunk-000",
+      "sessions::session-20260524-135605.md::102-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781695320,
+    "_id": "Meta Graph API"
+  },
+  "n8n-meta-api-setup": {
+    "chunk_ids": [
+      "sessions::session-20260526-122335.md::94-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693101,
+    "update_time": 1781693101,
+    "_id": "n8n-meta-api-setup"
+  },
+  "token": {
+    "chunk_ids": [
+      "sessions::session-20260526-122335.md::94-chunk-000",
+      "sessions::session-20260524-135605.md::102-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781695320,
+    "_id": "token"
+  },
+  "WiFi Starter Kit": {
+    "chunk_ids": [
+      "sessions::session-20260526-095002.md::95-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693220,
+    "update_time": 1781693220,
+    "_id": "WiFi Starter Kit"
+  },
+  "smart-home-security-guide-qatar.md": {
+    "chunk_ids": [
+      "sessions::session-20260526-095002.md::95-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693220,
+    "update_time": 1781693220,
+    "_id": "smart-home-security-guide-qatar.md"
+  },
+  "2026-05-26": {
+    "chunk_ids": [
+      "sessions::session-20260526-095002.md::95-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693220,
+    "update_time": 1781693220,
+    "_id": "2026-05-26"
+  },
+  "Smart Home Security Guide Qatar blog post": {
+    "chunk_ids": [
+      "sessions::session-20260526-095002.md::95-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693220,
+    "update_time": 1781693220,
+    "_id": "Smart Home Security Guide Qatar blog post"
+  },
+  "Competitor comparison": {
+    "chunk_ids": [
+      "sessions::session-20260526-095002.md::95-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693220,
+    "update_time": 1781693220,
+    "_id": "Competitor comparison"
+  },
+  "Faq": {
+    "chunk_ids": [
+      "sessions::session-20260526-095002.md::95-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693220,
+    "update_time": 1781693220,
+    "_id": "Faq"
+  },
+  "content-writing": {
+    "chunk_ids": [
+      "sessions::session-20260526-095002.md::95-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693220,
+    "update_time": 1781693220,
+    "_id": "content-writing"
+  },
+  "schema": {
+    "chunk_ids": [
+      "sessions::session-20260526-095002.md::95-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693220,
+    "update_time": 1781693220,
+    "_id": "schema"
+  },
+  "FAQ schema": {
+    "chunk_ids": [
+      "sessions::session-20260526-095002.md::95-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693220,
+    "update_time": 1781693220,
+    "_id": "FAQ schema"
+  },
+  "Content Writing": {
+    "chunk_ids": [
+      "sessions::session-20260526-084411.md::96-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693257,
+    "update_time": 1781693257,
+    "_id": "Content Writing"
+  },
+  "Post": {
+    "chunk_ids": [
+      "sessions::session-20260526-084411.md::96-chunk-000",
+      "sessions::session-20260525-141427.md::101-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781695102,
+    "_id": "Post"
+  },
+  "SKUs,": {
+    "chunk_ids": [
+      "sessions::session-20260525-142400.md::98-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781693827,
+    "update_time": 1781693827,
+    "_id": "SKUs,"
+  },
+  "Blog Post Idea": {
+    "chunk_ids": [
+      "sessions::session-20260525-142015.md::99-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781694569,
+    "update_time": 1781694569,
+    "_id": "Blog Post Idea"
+  },
+  "Access Control": {
+    "chunk_ids": [
+      "sessions::session-20260525-142015.md::99-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781694569,
+    "update_time": 1781694569,
+    "_id": "Access Control"
+  },
+  "PoE Switches": {
+    "chunk_ids": [
+      "sessions::session-20260525-142015.md::99-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781694569,
+    "update_time": 1781694569,
+    "_id": "PoE Switches"
+  },
+  "PA Systems": {
+    "chunk_ids": [
+      "sessions::session-20260525-142015.md::99-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781694569,
+    "update_time": 1781694569,
+    "_id": "PA Systems"
+  },
+  "4G LTE Routers": {
+    "chunk_ids": [
+      "sessions::session-20260525-142015.md::99-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781694569,
+    "update_time": 1781694569,
+    "_id": "4G LTE Routers"
+  },
+  "Content Creation": {
+    "chunk_ids": [
+      "sessions::session-20260525-142015.md::99-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781694569,
+    "update_time": 1781694569,
+    "_id": "Content Creation"
+  },
+  "Home Security": {
+    "chunk_ids": [
+      "sessions::session-20260525-142015.md::99-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781694569,
+    "update_time": 1781694569,
+    "_id": "Home Security"
+  },
+  "Networking Equipment": {
+    "chunk_ids": [
+      "sessions::session-20260525-142015.md::99-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781694569,
+    "update_time": 1781694569,
+    "_id": "Networking Equipment"
+  },
+  "Keyword Research": {
+    "chunk_ids": [
+      "sessions::session-20260525-142015.md::99-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781694569,
+    "update_time": 1781694569,
+    "_id": "Keyword Research"
+  },
+  "Audio Equipment": {
+    "chunk_ids": [
+      "sessions::session-20260525-142015.md::99-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781694569,
+    "update_time": 1781694569,
+    "_id": "Audio Equipment"
+  },
+  "Entity": {
+    "chunk_ids": [
+      "sessions::session-20260525-141427.md::101-chunk-000",
+      "sessions::session-20260521-135009.md::115-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781696435,
+    "_id": "Entity"
+  },
+  "Platform": {
+    "chunk_ids": [
+      "sessions::session-20260525-141427.md::101-chunk-000",
+      "sessions::session-20260524-135605.md::102-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781695320,
+    "_id": "Platform"
+  },
+  "Reddit": {
+    "chunk_ids": [
+      "sessions::session-20260525-141427.md::101-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695102,
+    "update_time": 1781695102,
+    "_id": "Reddit"
+  },
+  "Google Console": {
+    "chunk_ids": [
+      "sessions::session-20260525-141739.md::100-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695127,
+    "update_time": 1781695127,
+    "_id": "Google Console"
+  },
+  "Google Search": {
+    "chunk_ids": [
+      "sessions::session-20260525-141739.md::100-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695127,
+    "update_time": 1781695127,
+    "_id": "Google Search"
+  },
+  "workflow": {
+    "chunk_ids": [
+      "sessions::session-20260524-135605.md::102-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695320,
+    "update_time": 1781695320,
+    "_id": "workflow"
+  },
+  "credential": {
+    "chunk_ids": [
+      "sessions::session-20260524-135605.md::102-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695320,
+    "update_time": 1781695320,
+    "_id": "credential"
+  },
+  "business verification": {
+    "chunk_ids": [
+      "sessions::session-20260524-135605.md::102-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695320,
+    "update_time": 1781695320,
+    "_id": "business verification"
+  },
+  "Instagram": {
+    "chunk_ids": [
+      "sessions::session-20260524-135605.md::102-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695320,
+    "update_time": 1781695320,
+    "_id": "Instagram"
+  },
+  "App Dashboard": {
+    "chunk_ids": [
+      "sessions::session-20260524-135605.md::102-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695320,
+    "update_time": 1781695320,
+    "_id": "App Dashboard"
+  },
+  "credentials": {
+    "chunk_ids": [
+      "sessions::session-20260524-135605.md::102-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695320,
+    "update_time": 1781695320,
+    "_id": "credentials"
+  },
+  "n8n workflow": {
+    "chunk_ids": [
+      "sessions::session-20260524-135605.md::102-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695320,
+    "update_time": 1781695320,
+    "_id": "n8n workflow"
+  },
+  "Session": {
+    "chunk_ids": [
+      "sessions::session-20260524-135605.md::102-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695320,
+    "update_time": 1781695320,
+    "_id": "Session"
+  },
+  "<Entity Name>": {
+    "chunk_ids": [
+      "sessions::session-20260524-134511.md::103-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695342,
+    "update_time": 1781695342,
+    "_id": "<Entity Name>"
+  },
+  "<Skill>": {
+    "chunk_ids": [
+      "sessions::session-20260524-134511.md::103-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695342,
+    "update_time": 1781695342,
+    "_id": "<Skill>"
+  },
+  "Designer": {
+    "chunk_ids": [
+      "sessions::session-20260524-101017.md::104-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695402,
+    "update_time": 1781695402,
+    "_id": "Designer"
+  },
+  "Tools and resources used to automate workflow,": {
+    "chunk_ids": [
+      "sessions::session-20260524-101017.md::104-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695402,
+    "update_time": 1781695402,
+    "_id": "Tools and resources used to automate workflow,"
+  },
+  "N8N Workflow,": {
+    "chunk_ids": [
+      "sessions::session-20260524-101017.md::104-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695402,
+    "update_time": 1781695402,
+    "_id": "N8N Workflow,"
+  },
+  "Automation use case": {
+    "chunk_ids": [
+      "sessions::session-20260524-101017.md::104-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695402,
+    "update_time": 1781695402,
+    "_id": "Automation use case"
+  },
+  "Workflow design": {
+    "chunk_ids": [
+      "sessions::session-20260524-101017.md::104-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695402,
+    "update_time": 1781695402,
+    "_id": "Workflow design"
+  },
+  "Instagram,": {
+    "chunk_ids": [
+      "sessions::session-20260524-101017.md::104-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695402,
+    "update_time": 1781695402,
+    "_id": "Instagram,"
+  },
+  "Design skill": {
+    "chunk_ids": [
+      "sessions::session-20260524-101017.md::104-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695402,
+    "update_time": 1781695402,
+    "_id": "Design skill"
+  },
+  "Automation use case corrected": {
+    "chunk_ids": [
+      "sessions::session-20260524-101017.md::104-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695402,
+    "update_time": 1781695402,
+    "_id": "Automation use case corrected"
+  },
+  "LAN Access": {
+    "chunk_ids": [
+      "sessions::session-20260524-093705.md::105-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695523,
+    "update_time": 1781695523,
+    "_id": "LAN Access"
+  },
+  "N8N Secure Cookie": {
+    "chunk_ids": [
+      "sessions::session-20260524-093705.md::105-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695523,
+    "update_time": 1781695523,
+    "_id": "N8N Secure Cookie"
+  },
+  "Secure Cookie": {
+    "chunk_ids": [
+      "sessions::session-20260524-093705.md::105-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695523,
+    "update_time": 1781695523,
+    "_id": "Secure Cookie"
+  },
+  "Error": {
+    "chunk_ids": [
+      "sessions::session-20260524-093705.md::105-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695523,
+    "update_time": 1781695523,
+    "_id": "Error"
+  },
+  "Cookie": {
+    "chunk_ids": [
+      "sessions::session-20260524-093705.md::105-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695523,
+    "update_time": 1781695523,
+    "_id": "Cookie"
+  },
+  "N8N Secure Cookie Setting": {
+    "chunk_ids": [
+      "sessions::session-20260524-093705.md::105-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695523,
+    "update_time": 1781695523,
+    "_id": "N8N Secure Cookie Setting"
+  },
+  "Secure Authentication": {
+    "chunk_ids": [
+      "sessions::session-20260524-093705.md::105-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695523,
+    "update_time": 1781695523,
+    "_id": "Secure Authentication"
+  },
+  "Network Error": {
+    "chunk_ids": [
+      "sessions::session-20260524-093705.md::105-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695523,
+    "update_time": 1781695523,
+    "_id": "Network Error"
+  },
+  "LAN Access Problem": {
+    "chunk_ids": [
+      "sessions::session-20260524-093705.md::105-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695523,
+    "update_time": 1781695523,
+    "_id": "LAN Access Problem"
+  },
+  "Network Issue": {
+    "chunk_ids": [
+      "sessions::session-20260524-093705.md::105-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695523,
+    "update_time": 1781695523,
+    "_id": "Network Issue"
+  },
+  "N8N Sec Cookie Fix": {
+    "chunk_ids": [
+      "sessions::session-20260524-093705.md::105-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695523,
+    "update_time": 1781695523,
+    "_id": "N8N Sec Cookie Fix"
+  },
+  "container": {
+    "chunk_ids": [
+      "sessions::session-20260524-092944.md::106-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695580,
+    "update_time": 1781695580,
+    "_id": "container"
+  },
+  "docker": {
+    "chunk_ids": [
+      "sessions::session-20260524-092944.md::106-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695580,
+    "update_time": 1781695580,
+    "_id": "docker"
+  },
+  "n8n": {
+    "chunk_ids": [
+      "sessions::session-20260524-085007.md::107-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695609,
+    "update_time": 1781695609,
+    "_id": "n8n"
+  },
+  "social media": {
+    "chunk_ids": [
+      "sessions::session-20260524-085007.md::107-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695609,
+    "update_time": 1781695609,
+    "_id": "social media"
+  },
+  "Day": {
+    "chunk_ids": [
+      "sessions::session-20260523-134410.md::110-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695700,
+    "update_time": 1781695700,
+    "_id": "Day"
+  },
+  "<secuview": {
+    "chunk_ids": [
+      "sessions::session-20260523-134410.md::110-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695700,
+    "update_time": 1781695700,
+    "_id": "<secuview"
+  },
+  "<Day": {
+    "chunk_ids": [
+      "sessions::session-20260523-134410.md::110-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695700,
+    "update_time": 1781695700,
+    "_id": "<Day"
+  },
+  "WiFi Starter Kit Blog": {
+    "chunk_ids": [
+      "sessions::session-20260523-134410.md::110-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695700,
+    "update_time": 1781695700,
+    "_id": "WiFi Starter Kit Blog"
+  },
+  "FAQ Schema MU Plugin Deployment": {
+    "chunk_ids": [
+      "sessions::session-20260523-134410.md::110-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695700,
+    "update_time": 1781695700,
+    "_id": "FAQ Schema MU Plugin Deployment"
+  },
+  "Full SEO/AEO Audit": {
+    "chunk_ids": [
+      "sessions::session-20260523-134410.md::110-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695700,
+    "update_time": 1781695700,
+    "_id": "Full SEO/AEO Audit"
+  },
+  "SEO Planning": {
+    "chunk_ids": [
+      "sessions::session-20260523-134410.md::110-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695700,
+    "update_time": 1781695700,
+    "_id": "SEO Planning"
+  },
+  "smart-lock-guide-qatar-blog.md": {
+    "chunk_ids": [
+      "sessions::session-20260523-133003.md::111-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695791,
+    "update_time": 1781695791,
+    "_id": "smart-lock-guide-qatar-blog.md"
+  },
+  "secuview smart lock": {
+    "chunk_ids": [
+      "sessions::session-20260523-133003.md::111-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695791,
+    "update_time": 1781695791,
+    "_id": "secuview smart lock"
+  },
+  "fingerprint, mobile, glass door locks": {
+    "chunk_ids": [
+      "sessions::session-20260523-133003.md::111-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695791,
+    "update_time": 1781695791,
+    "_id": "fingerprint, mobile, glass door locks"
+  },
+  "Smart Home": {
+    "chunk_ids": [
+      "sessions::session-20260523-125017.md::113-chunk-000",
+      "sessions::session-20260523-084302.md::114-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1781696409,
+    "_id": "Smart Home"
+  },
+  "Security Surveillance": {
+    "chunk_ids": [
+      "sessions::session-20260523-125017.md::113-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695941,
+    "update_time": 1781695941,
+    "_id": "Security Surveillance"
+  },
+  "Network & Communications": {
+    "chunk_ids": [
+      "sessions::session-20260523-125017.md::113-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695941,
+    "update_time": 1781695941,
+    "_id": "Network & Communications"
+  },
+  "Audio Products": {
+    "chunk_ids": [
+      "sessions::session-20260523-125017.md::113-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695941,
+    "update_time": 1781695941,
+    "_id": "Audio Products"
+  },
+  "Cable": {
+    "chunk_ids": [
+      "sessions::session-20260523-125017.md::113-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781695941,
+    "update_time": 1781695941,
+    "_id": "Cable"
+  },
+  "PoE switches": {
+    "chunk_ids": [
+      "sessions::session-20260523-084302.md::114-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696409,
+    "update_time": 1781696409,
+    "_id": "PoE switches"
+  },
+  "Audio": {
+    "chunk_ids": [
+      "sessions::session-20260523-084302.md::114-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696409,
+    "update_time": 1781696409,
+    "_id": "Audio"
+  },
+  "Home WiFi Starter Kit": {
+    "chunk_ids": [
+      "sessions::session-20260523-084302.md::114-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696409,
+    "update_time": 1781696409,
+    "_id": "Home WiFi Starter Kit"
+  },
+  "work-agent": {
+    "chunk_ids": [
+      "sessions::session-20260523-084302.md::114-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696409,
+    "update_time": 1781696409,
+    "_id": "work-agent"
+  },
+  "Product Image": {
+    "chunk_ids": [
+      "sessions::session-20260521-135009.md::115-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696435,
+    "update_time": 1781696435,
+    "_id": "Product Image"
+  },
+  "WooCommerce Blog Page": {
+    "chunk_ids": [
+      "sessions::session-20260521-135009.md::115-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696435,
+    "update_time": 1781696435,
+    "_id": "WooCommerce Blog Page"
+  },
+  "<Content Writer>": {
+    "chunk_ids": [
+      "sessions::session-20260521-083657.md::117-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696530,
+    "update_time": 1781696530,
+    "_id": "<Content Writer>"
+  },
+  "<Blog Post Category>": {
+    "chunk_ids": [
+      "sessions::session-20260521-083657.md::117-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696530,
+    "update_time": 1781696530,
+    "_id": "<Blog Post Category>"
+  },
+  "aman.qa": {
+    "chunk_ids": [
+      "sessions::session-20260521-070031.md::118-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696661,
+    "update_time": 1781696661,
+    "_id": "aman.qa"
+  },
+  "action plan": {
+    "chunk_ids": [
+      "sessions::session-20260521-070031.md::118-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696661,
+    "update_time": 1781696661,
+    "_id": "action plan"
+  },
+  "promotional engineering": {
+    "chunk_ids": [
+      "sessions::session-20260521-070031.md::118-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696661,
+    "update_time": 1781696661,
+    "_id": "promotional engineering"
+  },
+  "business case": {
+    "chunk_ids": [
+      "sessions::session-20260521-070031.md::118-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696661,
+    "update_time": 1781696661,
+    "_id": "business case"
+  },
+  "Review": {
+    "chunk_ids": [
+      "sessions::session-20260521-062419.md::119-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696710,
+    "update_time": 1781696710,
+    "_id": "Review"
+  },
+  "example": {
+    "chunk_ids": [
+      "sessions::session-20260521-062419.md::119-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696710,
+    "update_time": 1781696710,
+    "_id": "example"
+  },
+  "duration": {
+    "chunk_ids": [
+      "sessions::session-20260521-062419.md::119-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696710,
+    "update_time": 1781696710,
+    "_id": "duration"
+  },
+  "prompt": {
+    "chunk_ids": [
+      "sessions::session-20260521-062419.md::119-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696710,
+    "update_time": 1781696710,
+    "_id": "prompt"
+  },
+  "engineer": {
+    "chunk_ids": [
+      "sessions::session-20260521-062419.md::119-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696710,
+    "update_time": 1781696710,
+    "_id": "engineer"
+  },
+  "rating,": {
+    "chunk_ids": [
+      "sessions::session-20260521-062419.md::119-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696710,
+    "update_time": 1781696710,
+    "_id": "rating,"
+  },
+  "Brain Dump": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "Brain Dump"
+  },
+  "Scheduling": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "Scheduling"
+  },
+  "<source_entity>Brain Dump": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<source_entity>Brain Dump"
+  },
+  "<target_entity>Tasks": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<target_entity>Tasks"
+  },
+  "<source_entity>Meetings": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<source_entity>Meetings"
+  },
+  "<target_entity>Thoughts": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<target_entity>Thoughts"
+  },
+  "<target_entity>Meetings": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<target_entity>Meetings"
+  },
+  "<target_entity>Brain Dump": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<target_entity>Brain Dump"
+  },
+  "<target_entity>Ideas": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<target_entity>Ideas"
+  },
+  "<source_entity>Scheduling": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<source_entity>Scheduling"
+  },
+  "<source_entity>Notes": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<source_entity>Notes"
+  },
+  "<source_entity>Idea generation": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<source_entity>Idea generation"
+  },
+  "<source_entity>Resource Allocation": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<source_entity>Resource Allocation"
+  },
+  "<target_entity>Scheduling": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<target_entity>Scheduling"
+  },
+  "<target_entity>Notes": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::121-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781696867,
+    "update_time": 1781696867,
+    "_id": "<target_entity>Notes"
+  },
+  "Idea": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::123-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781697326,
+    "update_time": 1781697326,
+    "_id": "Idea"
+  },
+  "Reflection": {
+    "chunk_ids": [
+      "daily::2026-06-03.md::123-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1781697326,
+    "update_time": 1781697326,
+    "_id": "Reflection"
+  }
+}
