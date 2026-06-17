@@ -1,5 +1,21 @@
 # Personal Coach — Agent Instructions
 
+## New PC setup — one-command migration
+
+When user says "set me up" or "set up new PC" on a fresh machine:
+```bash
+py -3 coach/tools/setup_new_pc.py
+```
+
+This installs dependencies, restores latest ZIP backup, pulls Ollama models, rebuilds memory index, and verifies the pipeline.
+
+If `setup_new_pc.py` isn't present yet (first run), do it manually:
+1. `pip install -r coach/requirements.txt`
+2. `py -3 coach/tools/restore_memory.py --from-zip <backup.zip>` (copy ZIP from old PC)
+3. Install Ollama from https://ollama.com/download, then `ollama pull bge-m3`
+4. `py -3 coach/tools/index_memory.py`
+5. `py -3 coach/tools/session_hooks.py pre`
+
 ## Run context
 
 - **Always run commands from the project root (`personal-coach/`)** — all tools use absolute path resolution internally.
@@ -16,6 +32,38 @@ py -3 coach/tools/read_context.py 10
 ```
 
 This loads checkpoint, goals, habits, last session, and full memory summary. Without this, the agent has no context of the user and will produce low-quality responses. This is mandatory. Do not skip or assume context is already loaded.
+
+## Context Window Management — CRITICAL for 200K-token model
+
+This model has a **200K token context window**. Once it fills up, oldest messages are dropped and context is lost. You MUST proactively manage this.
+
+### When to snapshot context
+Save a snapshot at these logical boundaries:
+- After completing a major task or milestone
+- Before switching to a different task
+- When the conversation has been long (25+ exchanges)
+- After any important decision or discovery
+
+### How to snapshot
+```bash
+py -3 coach/tools/save_context_snapshot.py "<current task>" "<files involved>" "<key decisions made>" "<what to do next>"
+```
+
+If you feel context slipping or responses becoming less coherent, immediately:
+1. Save a snapshot (above)
+2. Ask user: "I'm hitting context limits. Want me to save a checkpoint and start fresh?"
+3. If yes: save session → user can restart with full context loaded
+
+### How to restore on fresh start
+```bash
+py -3 coach/tools/load_context_snapshot.py
+```
+
+Also run the normal session start commands:
+```bash
+py -3 coach/tools/session_hooks.py pre
+py -3 coach/tools/read_context.py 10
+```
 
 ## Mandatory session end — save conversation summary
 
@@ -46,6 +94,8 @@ Proactively save when:
 | `py -3 coach/tools/add_goal.py "<title>" <target_date> <metric> [notes]` | Add goal |
 | `py -3 coach/tools/add_habit.py "<title>" "<cue>" "<action>" [reward]` | Add habit |
 | `py -3 coach/tools/write_checkpoint.py "<phase>" "<topic>" "<next_task>" [notes]` | Save checkpoint |
+| `py -3 coach/tools/save_context_snapshot.py "<task>" "<files>" "<decisions>" "<next>"` | Save a context snapshot to prevent data loss on context overflow |
+| `py -3 coach/tools/load_context_snapshot.py` | Load the most recent context snapshot |
 | `py -3 coach/tools/new_plan.py "<title>"` | Create a new plan file from template in `process/plans/active/` |
 | `py -3 coach/tools/extract_insights.py [--min-confidence 0.5]` | Extract patterns from sessions into scored insights |
 | `py -3 coach/tools/evolve_skill.py [--min-cluster 3] [--min-confidence 0.7]` | Cluster high-confidence insights into new skill suggestions |

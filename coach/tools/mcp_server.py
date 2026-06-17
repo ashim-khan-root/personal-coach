@@ -225,6 +225,40 @@ def run_stdio():
         return buf.getvalue()
 
     @mcp.tool()
+    def deep_research(topic: str, max_per_query: int = 5, iterative: bool = False, no_llm: bool = False) -> str:
+        """Deep research on any topic using web search + optional LLM synthesis.
+        
+        Args:
+            topic: The topic to research
+            max_per_query: Max results per search query (default 5)
+            iterative: Use iterative mode with follow-up queries (default False)
+            no_llm: Skip LLM synthesis, use raw compilation (default False)
+        """
+        import asyncio
+        from tools.deep_research import simple_research
+        if iterative:
+            from tools.deep_research import agent_loop, DEFAULT_MAX_ITERATIONS
+            report, state = asyncio.run(agent_loop(
+                query=topic, provider=None, model=None,
+                max_iterations=DEFAULT_MAX_ITERATIONS, verbose=False,
+            ))
+            summary = (
+                f"## Deep Research: {topic}\n\n"
+                f"**Topics covered:** {len(state.mind_map.findings)}\n"
+                f"**Sources:** {state.mind_map.source_count()}\n"
+                f"**Iterations:** {state.iteration}\n\n"
+                f"---\n\n{report[:3000]}"
+            )
+            if len(report) > 3000:
+                summary += f"\n\n*(truncated, full report saved to `coach/work/research/`)*"
+            return summary
+        else:
+            report = asyncio.run(simple_research(
+                topic=topic, max_per_query=max_per_query, try_llm=not no_llm,
+            ))
+            return report[:3000] + ("\n\n*(truncated)*" if len(report) > 3000 else "")
+
+    @mcp.tool()
     def site_survey(action: str, client: str = "", location: str = "", contact: str = "", notes: str = "", survey_id: str = "", summary: str = "") -> str:
         """Track MOI site survey visits. Actions: add, list, view, close.
         
@@ -293,6 +327,12 @@ def run_interactive():
             break
         if cmd == "context":
             print(_get_context_summary())
+        elif cmd.startswith("deep"):
+            import asyncio
+            from tools.deep_research import simple_research
+            topic = cmd[4:].strip()
+            report = asyncio.run(simple_research(topic))
+            print(report[:2000])
         elif cmd.startswith("seo"):
             from tools.seo_audit import audit_url, format_report
             parts = cmd.split(maxsplit=1)

@@ -1,5 +1,5 @@
 ---
-saved: 2026-06-16
+saved: 2026-06-17
 ---
 # Profile
 
@@ -8,13 +8,13 @@ saved: 2026-06-16
 **Supply Chain:** Manufacture in China → Ship to Qatar → Sell locally + install
 **Services:** Product sales + installation + projects (Starfox brand)
 
-**Current work:**
-- AutoCAD drawings for CCTV camera installation designs
-- Quotations for Starfox Security System
-- Own websites & projects (aslielectronics, Hugo site, directory idea)
+**Current focus:**
+- Independent AI Engineering & Side Projects
+- AutoCAD drawings & Starfox Security projects (work hours)
+- Own websites: aslielectronics, Hugo site, Freetoolz, Qatar Directory idea
 
-**Past work (no longer active):**
-- Secuview website (WordPress/WooCommerce SEO, content, optimization)
+**Past work (Archived):**
+- Secuview website (All work stopped as of June 2026)
 
 **Known languages:** Java, Python, React, Node.js, Next.js
 **Automation:** Beginner — building capability with personal coach
@@ -23,6 +23,7 @@ saved: 2026-06-16
 **Own Projects:**
 - **Aslielectronics** — own website/project
 - **Hugo website** — built with Hugo, deployed on GitHub Pages, not yet production-ready
+- **FreeToolz / Khaleej** — Tool platform and domain ideas
 - **Business Directory idea** — platform for Qatari companies to list; lead gen model
 
 **Aspiration:**

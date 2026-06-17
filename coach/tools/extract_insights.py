@@ -6,6 +6,9 @@ import sys, uuid, datetime, re, argparse
 from pathlib import Path
 from collections import defaultdict
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from insight_ledger import log_insight
+
 MEM_DIR = Path(__file__).resolve().parent.parent / "memory"
 SESS_DIR = MEM_DIR / "sessions"
 INSIGHTS_PATH = MEM_DIR / "insights.md"
@@ -200,6 +203,12 @@ def main():
     insights = [i for i in insights if i["confidence"] >= args.min_confidence]
     count = write_insights(insights)
     write_observation("extract_insights", {"sessions_scanned": len(sessions), "insights_found": count})
+    log_insight("insights_extracted", {
+        "sessions_scanned": len(sessions),
+        "insights_found": count,
+        "min_confidence": args.min_confidence,
+        "skills_covered": len(set(s.get("skill", "") for s in sessions)),
+    })
     print(f"Scanned {len(sessions)} sessions, extracted {count} insights (min confidence {args.min_confidence})")
 
 

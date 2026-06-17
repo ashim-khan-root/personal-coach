@@ -159,6 +159,11 @@
       "type": "local",
       "command": ["py", "-3", "coach/tools/mcp_server.py"],
       "description": "Personal coach MCP server with memory, goals, habits, sessions"
+    },
+    "chrome-devtools": {
+      "type": "local",
+      "command": ["npx", "-y", "chrome-devtools-mcp@latest"],
+      "description": "Chrome DevTools MCP for browser inspection, debugging, and automation"
     }
   },
   "permission": {

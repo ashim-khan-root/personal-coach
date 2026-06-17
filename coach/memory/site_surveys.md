@@ -1,21 +1,7 @@
-# MOI Site Surveys
+# MOI Site Surveys (Archived)
 
-Records of site survey visits for quotation and installation projects.
-- id: survey-1
-  client: "Al Thani Palace"
-  location: "Doha, West Bay"
-  date: 2026-06-14
-  contact: Ahmed +974 5555 1234
-  status: closed
-  notes: "MOI compliance inspection 120-day storage, initial walkthrough completed"
-  summary: "All requirements documented. Quotation sent to client."
-- id: survey-2
-  client: "Grand Mosque"
-  location: "Al Rayyan"
-  date: 2026-06-14
-  contact: N/A
-  status: open
-  notes: "Need 8 PA zones, 16 cameras, UPS backup"
+*Note: Previous Secuview/Starfox site surveys archived as of 2026-06-17.*
+
 - id: survey-3
   client: "MCP Test Client"
   location: "Test Location"

@@ -17,11 +17,11 @@
   created: 2026-05-21
   target_date: 2026-09-01
   metric: "Site live with first 10 company listings"
-  notes: "Directory where Qatari companies list their existence. Generate leads → send to Secuview → earn commission margin."
+  notes: "Directory where Qatari companies list their existence. Generate leads and monetize via directory listings or ads."
 
 - id: goal-4
   title: "Hugo SEO website — production ready + ranking"
   created: 2026-05-21
   target_date: 2026-08-15
   metric: "Deployed on custom domain with organic traffic"
-  notes: "Built with Hugo framework, currently on GitHub Pages. Need to host, optimize SEO, rank for keywords, generate customer leads for Secuview commission model."
+  notes: "Built with Hugo framework, currently on GitHub Pages. Need to host, optimize SEO, rank for keywords, and monetize independently."

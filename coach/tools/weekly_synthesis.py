@@ -6,6 +6,9 @@ import sys, datetime, re
 from pathlib import Path
 from collections import Counter
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from insight_ledger import log_insight
+
 MEM_DIR = Path(__file__).resolve().parent.parent / "memory"
 DAILY_DIR = MEM_DIR / "daily"
 SESSIONS_DIR = MEM_DIR / "sessions"
@@ -115,6 +118,7 @@ def main():
     if not daily_notes and not sessions:
         print("No data found for the past 7 days.")
         print("Start using daily notes and logging sessions to get weekly insights.")
+        log_insight("weekly_synthesis_empty", {"days_empty": len(days)})
         return
 
     report = analyze(daily_notes, sessions)
@@ -122,6 +126,13 @@ def main():
 
     report_path = MEM_DIR / f"weekly-{datetime.date.today().isoformat()}.md"
     report_path.write_text(report, encoding="utf-8")
+    total_mins = sum(int(s["duration"]) for s in sessions if s["duration"].isdigit()) if sessions else 0
+    log_insight("weekly_synthesis_complete", {
+        "days_with_notes": len(daily_notes),
+        "sessions": len(sessions),
+        "total_mins": total_mins,
+        "skills": list(set(s["skill"] for s in sessions)),
+    })
     print(f"\nSaved to: {report_path}")
 
 

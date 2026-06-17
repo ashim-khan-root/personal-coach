@@ -7,6 +7,9 @@
 import sys, datetime, re, shlex
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from insight_ledger import log_insight
+
 MEM_DIR = Path(__file__).resolve().parent.parent / "memory"
 fp = MEM_DIR / "tasks.md"
 
@@ -98,6 +101,7 @@ def cmd_add(title, priority="medium", notes=""):
     tasks.append(task)
     _save_tasks(tasks)
     print(f"Task added: [{new_id}] {title} (priority: {task['priority']})")
+    log_insight("task_added", {"task_id": new_id, "title": title[:60], "priority": task["priority"]})
 
 
 def cmd_list(filter_mode="pending"):
@@ -131,7 +135,9 @@ def cmd_done(task_id):
             t["status"] = "done"
             _save_tasks(tasks)
             print(f"Task completed: [{task_id}] {t['title']}")
+            log_insight("task_completed", {"task_id": task_id, "title": t["title"][:60]})
             return
+    log_insight("task_not_found", {"task_id": task_id})
     print(f"Task not found: {task_id}")
 
 
@@ -142,7 +148,9 @@ def cmd_delete(task_id):
     if len(tasks) < before:
         _save_tasks(tasks)
         print(f"Task deleted: {task_id}")
+        log_insight("task_deleted", {"task_id": task_id})
     else:
+        log_insight("task_not_found", {"task_id": task_id})
         print(f"Task not found: {task_id}")
 
 

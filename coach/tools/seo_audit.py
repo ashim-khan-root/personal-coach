@@ -14,8 +14,13 @@ Usage:
 import sys, json, re, time
 from urllib.parse import urlparse, urljoin
 from collections import Counter, defaultdict
+from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
+
+_SA_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(_SA_DIR))
+from insight_ledger import log_insight
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -539,6 +544,14 @@ def audit_url(url: str, with_crawl: bool = False, max_pages: int = 5, with_backl
     results["low"] = sum(1 for i in issues if i["severity"] == "low")
     results["info"] = sum(1 for i in issues if i["severity"] == "info")
 
+    log_insight("seo_audit_complete", {
+        "url": url[:80],
+        "issues": results["issue_count"],
+        "critical": results["critical"],
+        "crawled_pages": len(results.get("crawled_pages", [])),
+        "has_backlinks": with_backlinks,
+        "has_speed": with_speed,
+    })
     return results
 
 
