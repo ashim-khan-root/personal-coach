@@ -13,3 +13,7 @@
 - title: "Design Resources"
   items:
     - "logos.lndev.me — free logos, icons, and SVGs"
+
+- title: "Developer Free Tiers"
+  items:
+    - "free-for.dev — curated list of free SaaS, PaaS, and IaaS tiers for developers"
