@@ -1,0 +1,20 @@
+[project]
+name = "personal-coach"
+version = "0.1.0"
+description = "AI-powered personal coaching system"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W"]
+
+[tool.pyright]
+include = ["coach"]
+pythonVersion = "3.11"
+typeCheckingMode = "basic"

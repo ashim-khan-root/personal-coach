@@ -6,8 +6,6 @@ __pycache__/
 dist/
 build/
 
-
-
 # Environment
 .env
 .venv/
@@ -21,8 +19,24 @@ venv/
 Thumbs.db
 .DS_Store
 
+# Logs
+*.log
+
 # Excel temp/lock files
 ~$*
+*.xlsx
 
 # Hugo build output
 freetoolz/public/
+
+# Temp scripts
+tmp_*.py
+
+# Adsense
+adsense.txt
+
+# Generated images
+og-image.png
+
+# Coach memory (auto-generated)
+coach/memory/insight_ledger.json

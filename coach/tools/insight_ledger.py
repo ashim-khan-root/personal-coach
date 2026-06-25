@@ -33,7 +33,6 @@ def _save(entries: list[dict]):
 
 
 def log_insight(event: str, payload: dict | None = None):
-    """Log a single event. Thread-safe for CLI use (no concurrency)."""
     entries = _load()
     entries.append({
         "event": event,
@@ -46,13 +45,6 @@ def log_insight(event: str, payload: dict | None = None):
 def query_insights(event: str | None = None,
                    since: str | None = None,
                    limit: int = 50) -> list[dict]:
-    """Query the insight ledger.
-
-    Args:
-        event: Filter by event name (exact match).
-        since: ISO date string, e.g. "2026-06-01" — only entries after this.
-        limit: Max results. Default 50, use 0 for all.
-    """
     entries = _load()
     if event:
         entries = [e for e in entries if e["event"] == event]
@@ -65,7 +57,6 @@ def query_insights(event: str | None = None,
 
 
 def get_stats() -> dict:
-    """Return aggregate stats: total events, unique event types, date range."""
     entries = _load()
     if not entries:
         return {"total": 0, "event_types": [], "earliest": None, "latest": None}
@@ -79,62 +70,39 @@ def get_stats() -> dict:
     }
 
 
+
 def main():
-    """CLI entry point."""
-    args = sys.argv[1:]
-    if not args or args[0] == "--help":
-        print("Usage:")
-        print("  py -3 insight_ledger.py log <event> [--payload '{\"key\":\"val\"}']")
-        print("  py -3 insight_ledger.py query [--event <name>] [--since <date>] [--limit N]")
-        print("  py -3 insight_ledger.py stats")
-        return
+    import argparse
+    parser = argparse.ArgumentParser(description="Insight Ledger — event logging")
+    sub = parser.add_subparsers(dest="command", required=True)
 
-    cmd = args[0]
-    if cmd == "log" and len(args) >= 2:
-        event = args[1]
-        payload = {}
-        if "--payload" in args:
-            idx = args.index("--payload")
-            if idx + 1 < len(args):
-                try:
-                    payload = json.loads(args[idx + 1])
-                except json.JSONDecodeError:
-                    print(f"Invalid payload JSON: {args[idx + 1]}")
-                    sys.exit(1)
-        log_insight(event, payload)
-        print(f"[OK] Logged '{event}'")
+    p_log = sub.add_parser("log", help="Log an event")
+    p_log.add_argument("event", help="Event name")
+    p_log.add_argument("--payload", help="JSON payload string")
 
-    elif cmd == "query":
-        event = None
-        since = None
-        limit = 50
-        if "--event" in args:
-            idx = args.index("--event")
-            if idx + 1 < len(args):
-                event = args[idx + 1]
-        if "--since" in args:
-            idx = args.index("--since")
-            if idx + 1 < len(args):
-                since = args[idx + 1]
-        if "--limit" in args:
-            idx = args.index("--limit")
-            if idx + 1 < len(args):
-                limit = int(args[idx + 1])
-        results = query_insights(event=event, since=since, limit=limit)
+    p_query = sub.add_parser("query", help="Query events")
+    p_query.add_argument("--event", help="Filter by event name")
+    p_query.add_argument("--since", help="ISO date filter")
+    p_query.add_argument("--limit", type=int, default=50, help="Max results")
+
+    sub.add_parser("stats", help="Show aggregate stats")
+
+    args = parser.parse_args()
+
+    if args.command == "log":
+        payload = json.loads(args.payload) if args.payload else {}
+        log_insight(args.event, payload)
+        print(f"[OK] Logged '{args.event}'")
+    elif args.command == "query":
+        results = query_insights(event=args.event, since=args.since, limit=args.limit)
         print(f"[OK] {len(results)} entries:")
         for r in results:
             ts = r.get("timestamp", "?")[11:19]
             ev = r["event"]
             pl = json.dumps(r.get("payload", {}), ensure_ascii=False)
             print(f"  {ts}  {ev}  {pl[:120]}")
-
-    elif cmd == "stats":
-        stats = get_stats()
-        print(json.dumps(stats, indent=2))
-
-    else:
-        print(f"Unknown command: {cmd}")
-        sys.exit(1)
+    elif args.command == "stats":
+        print(json.dumps(get_stats(), indent=2))
 
 
 if __name__ == "__main__":

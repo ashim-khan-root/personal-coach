@@ -10,40 +10,43 @@ MEM_DIR = Path(__file__).resolve().parent.parent / "memory"
 SKILLS_DIR = Path(__file__).resolve().parent.parent / "skills"
 EVOLVE_PATH = MEM_DIR / "evolution_suggestions.md"
 
+_FIELD_PARSERS = {
+    "pattern": ("pattern", str),
+    "category": ("category", str),
+    "confidence": ("confidence", float),
+    "evidence_count": ("evidence_count", int),
+    "summary": ("summary", str),
+    "suggestion": ("suggestion", str),
+}
 
-def parse_insights():
-    insights = []
-    path = MEM_DIR / "insights.md"
-    if not path.exists():
-        return insights
-    text = path.read_text(encoding="utf-8")
+
+def _parse_keyvalue_lines(text: str, field_map: dict) -> list[dict]:
+    items = []
     current = {}
     for line in text.splitlines():
         if line.startswith("- id:"):
             if current:
-                insights.append(current)
+                items.append(current)
             current = {"id": line.split(":", 1)[1].strip()}
-        elif line.startswith("  pattern:"):
-            current["pattern"] = line.split(":", 1)[1].strip()
-        elif line.startswith("  category:"):
-            current["category"] = line.split(":", 1)[1].strip()
-        elif line.startswith("  confidence:"):
-            try:
-                current["confidence"] = float(line.split(":", 1)[1].strip())
-            except ValueError:
-                current["confidence"] = 0.0
-        elif line.startswith("  evidence_count:"):
-            try:
-                current["evidence_count"] = int(line.split(":", 1)[1].strip())
-            except ValueError:
-                current["evidence_count"] = 0
-        elif line.startswith("  summary:"):
-            current["summary"] = line.split(":", 1)[1].strip()
-        elif line.startswith("  suggestion:"):
-            current["suggestion"] = line.split(":", 1)[1].strip()
+        elif current:
+            for prefix, (key, typ) in field_map.items():
+                if line.startswith(f"  {prefix}:"):
+                    raw = line.split(":", 1)[1].strip()
+                    try:
+                        current[key] = typ(raw) if typ != str else raw
+                    except (ValueError, TypeError):
+                        current[key] = typ() if typ else raw
+                    break
     if current:
-        insights.append(current)
-    return insights
+        items.append(current)
+    return items
+
+
+def parse_insights():
+    path = MEM_DIR / "insights.md"
+    if not path.exists():
+        return []
+    return _parse_keyvalue_lines(path.read_text(encoding="utf-8"), _FIELD_PARSERS)
 
 
 def cluster_for_evolution(insights, min_confidence, min_cluster):
@@ -52,7 +55,6 @@ def cluster_for_evolution(insights, min_confidence, min_cluster):
         if ins.get("confidence", 0) < min_confidence:
             continue
         pattern = ins.get("pattern", "")
-        # Group by domain prefix (e.g., "struggles_with_X" -> "X" domain)
         match = re.match(r"(struggles_with|strong_at|frequent|topic)_(.+)", pattern)
         if match:
             domain = match.group(2)

@@ -11,6 +11,28 @@ SESSIONS_DIR = MEM_DIR / "sessions"
 CONV_DIR = MEM_DIR / "conversations"
 DAILY_DIR = MEM_DIR / "daily"
 
+_FIELD_PARSERS = {
+    "date": ("date", str),
+    "skill": ("skill", str),
+    "rating": ("rating", str),
+    "duration_min": ("duration", str),
+    "notes": ("notes", str),
+}
+
+def _parse_session_file(text: str) -> dict:
+    data = {}
+    decisions = []
+    for line in text.splitlines():
+        for prefix, (key, _) in _FIELD_PARSERS.items():
+            if line.startswith(f"{prefix}:"):
+                data[key] = line.split(":", 1)[1].strip().strip('"')
+                break
+        else:
+            if line.startswith("- decision:"):
+                decisions.append(line.split(":", 1)[1].strip().strip('"'))
+    data["decisions"] = decisions
+    return data
+
 
 def load_recent_sessions(days):
     cutoff = datetime.date.today() - datetime.timedelta(days=days)
@@ -18,29 +40,11 @@ def load_recent_sessions(days):
     if not SESSIONS_DIR.exists():
         return sessions
     for fp in sorted(SESSIONS_DIR.glob("session-*.md"), reverse=True):
-        text = fp.read_text(encoding="utf-8")
-        date = skill = rating = duration = notes = ""
-        decisions = []
-        for line in text.splitlines():
-            if line.startswith("date:"):
-                date = line.split(":", 1)[1].strip().strip('"')
-            elif line.startswith("skill:"):
-                skill = line.split(":", 1)[1].strip()
-            elif line.startswith("rating:"):
-                rating = line.split(":", 1)[1].strip()
-            elif line.startswith("duration_min:"):
-                duration = line.split(":", 1)[1].strip()
-            elif line.startswith("notes:"):
-                notes = line.split(":", 1)[1].strip().strip('"')
-            elif line.startswith("- decision:"):
-                decisions.append(line.split(":", 1)[1].strip().strip('"'))
+        data = _parse_session_file(fp.read_text(encoding="utf-8"))
         try:
-            d = datetime.date.fromisoformat(date.split("T")[0])
+            d = datetime.date.fromisoformat(data.get("date", "").split("T")[0])
             if d >= cutoff:
-                sessions.append({
-                    "date": date, "skill": skill, "rating": rating,
-                    "duration": duration, "notes": notes, "decisions": decisions
-                })
+                sessions.append(data)
         except (ValueError, IndexError):
             pass
     return sessions
@@ -61,14 +65,12 @@ def load_recent_conversations(days):
             elif line.startswith("topic:"):
                 topic = line.split(":", 1)[1].strip().strip('"')
             elif line.startswith("- ") and "key_point" in line.lower():
-                key_points.append(line.split(":", 1)[1].strip().strip('"') if ":" in line else line[2:].strip())
+                val = line.split(":", 1)[1].strip().strip('"') if ":" in line else line[2:].strip()
+                key_points.append(val)
         try:
             d = datetime.date.fromisoformat(date)
             if d >= cutoff:
-                convos.append({
-                    "date": date, "topic": topic,
-                    "key_points": key_points, "file": fp.name
-                })
+                convos.append({"date": date, "topic": topic, "key_points": key_points, "file": fp.name})
         except (ValueError, IndexError):
             pass
     return convos
@@ -80,9 +82,9 @@ def load_recent_decisions(days):
     fp = MEM_DIR / "decisions.md"
     if not fp.exists():
         return decisions
-    content = fp.read_text(encoding="utf-8")
     current_date = ""
-    for line in content.splitlines():
+    topic = ""
+    for line in fp.read_text(encoding="utf-8").splitlines():
         if line.startswith("## "):
             match = re.match(r"## (\d{4}-\d{2}-\d{2}) — (.+)", line)
             if match:
@@ -90,12 +92,8 @@ def load_recent_decisions(days):
                 topic = match.group(2)
         elif line.startswith("- ") and current_date:
             try:
-                d = datetime.date.fromisoformat(current_date)
-                if d >= cutoff:
-                    decisions.append({
-                        "date": current_date, "topic": topic,
-                        "decision": line[2:].strip()
-                    })
+                if datetime.date.fromisoformat(current_date) >= cutoff:
+                    decisions.append({"date": current_date, "topic": topic, "decision": line[2:].strip()})
             except ValueError:
                 pass
     return decisions
@@ -121,8 +119,9 @@ def generate_recap(days=7):
         for s in sessions:
             by_skill.setdefault(s["skill"], []).append(s)
         for skill, skill_sessions in sorted(by_skill.items(), key=lambda x: -len(x[1])):
-            avg = sum(float(s["rating"]) for s in skill_sessions if s["rating"]) / len(skill_sessions)
-            total = sum(int(s["duration"]) for s in skill_sessions if s["duration"].isdigit())
+            ratings = [float(s["rating"]) for s in skill_sessions if s["rating"] and s["rating"].replace(".", "", 1).isdigit()]
+            avg = sum(ratings) / len(ratings) if ratings else 0
+            total = sum(int(s["duration"]) for s in skill_sessions if s["duration"] and s["duration"].isdigit())
             report.append(f"- **{skill}**: {len(skill_sessions)} sessions, avg {avg:.1f}/10, {total} min total")
 
     if convos:
@@ -151,12 +150,16 @@ def generate_recap(days=7):
 
 
 def main():
-    days = int(sys.argv[1]) if len(sys.argv) > 1 else 7
-    recap = generate_recap(days)
-    print(recap)
+    import argparse
+    parser = argparse.ArgumentParser(description="Recap recent activity")
+    parser.add_argument("days", nargs="?", type=int, default=7, help="Number of days to look back")
+    args = parser.parse_args()
+
+    recap_text = generate_recap(args.days)
+    print(recap_text)
 
     recap_path = MEM_DIR / f"recap-{datetime.date.today().isoformat()}.md"
-    recap_path.write_text(recap, encoding="utf-8")
+    recap_path.write_text(recap_text, encoding="utf-8")
     print(f"\nSaved to: {recap_path}")
 
 

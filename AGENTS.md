@@ -10,7 +10,7 @@ If missing, do manually: `pip install -r coach/requirements.txt`, restore ZIP, i
 
 ## Run context
 - **Always run commands from the project root** — all tools use absolute path resolution internally.
-- **Python**: `py -3` on Windows (`C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\python.exe`)
+- **Python**: `py -3` on Windows (`C:\Users\ashim\AppData\Local\Programs\Python\Python311\python.exe`)
 - Deps: `pip install -r coach/requirements.txt`
 
 ## Mandatory session start
@@ -152,9 +152,18 @@ Trivial tasks skip to EXECUTE. FAST MODE: compressed RESEARCH+PLAN, still pause 
 | `thinking_partner.py` | Structured thinking session |
 | `index_memory.py` | Rebuild memory index |
 | `insight_ledger.py` | Extract session insights |
+| `tests/` | pytest unit tests (37 tests) |
+
+## Testing
+
+- Framework: pytest (`py -3 -m pytest`)
+- Run all tests: `py -3 -m pytest coach/tests/ -v`
+- Run single file: `py -3 -m pytest coach/tests/test_seo_audit.py -v`
+- Test directory: `coach/tests/`
 
 ## Verification
 
-No test framework, no CI, no linting. Pure Python CLI app. After changes:
+No linting. After changes:
+- Run `py -3 -m pytest coach/tests/ -v --tb=short` to verify
 - Run the script/file once to confirm it works (`py -3 path/to/file.py`)
 - For freetoolz changes, commit → push → GH Actions auto-deploys
