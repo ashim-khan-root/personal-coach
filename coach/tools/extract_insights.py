@@ -7,10 +7,10 @@ from pathlib import Path
 from collections import defaultdict
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from db import get_db, init_db
 from insight_ledger import log_insight
 
 MEM_DIR = Path(__file__).resolve().parent.parent / "memory"
-SESS_DIR = MEM_DIR / "sessions"
 INSIGHTS_PATH = MEM_DIR / "insights.md"
 OBS_PATH = MEM_DIR / "observations.jsonl"
 
@@ -19,37 +19,19 @@ WIN_KEYWORDS = ["learned", "understood", "clicked", "finally", "got it", "easy",
 
 
 def load_sessions():
+    init_db()
+    rows = get_db().execute("SELECT * FROM sessions ORDER BY date DESC").fetchall()
     sessions = []
-    if not SESS_DIR.exists():
-        return sessions
-    for f in sorted(SESS_DIR.glob("session-*.md"), reverse=True):
-        text = f.read_text(encoding="utf-8")
-        front = {}
-        body_lines = []
-        in_front = False
-        in_body = False
-        for line in text.splitlines():
-            if line.strip() == "---":
-                if not in_front:
-                    in_front = True
-                elif in_front:
-                    in_front = False
-                    in_body = True
-                continue
-            if in_front and ":" in line:
-                k, _, v = line.partition(":")
-                front[k.strip()] = v.strip()
-            elif in_body:
-                body_lines.append(line)
+    for r in rows:
         sessions.append({
-            "file": f.name,
-            "skill": front.get("skill", ""),
-            "rating": int(front.get("rating", 0)),
-            "duration": int(front.get("duration_min", 0)),
-            "notes": front.get("notes", ""),
-            "body": "\n".join(body_lines).strip(),
-            "date": front.get("date", ""),
-            "tags": front.get("tags", "[]"),
+            "file": r["id"],
+            "skill": r.get("skill", ""),
+            "rating": r.get("rating", 0),
+            "duration": r.get("duration_min", 0),
+            "notes": r.get("notes", ""),
+            "body": r.get("notes", ""),
+            "date": r.get("date", ""),
+            "tags": "[]",
         })
     return sessions
 

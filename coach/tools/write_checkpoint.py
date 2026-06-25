@@ -4,8 +4,8 @@
 import sys, datetime
 from pathlib import Path
 
-MEM_DIR = Path(__file__).resolve().parent.parent / "memory"
-fp = MEM_DIR / "checkpoint.md"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from db import init_db, set_checkpoint
 
 def main():
     if len(sys.argv) < 4:
@@ -16,16 +16,12 @@ def main():
     next_task = sys.argv[3]
     notes = sys.argv[4] if len(sys.argv) > 4 else ""
     now = datetime.datetime.now(datetime.timezone.utc).isoformat()
-    content = (
-        f"---\n"
-        f"last_updated: {now}\n"
-        f"phase: \"{phase}\"\n"
-        f"current_topic: \"{topic}\"\n"
-        f"next_task: \"{next_task}\"\n"
-        f"notes: \"{notes}\"\n"
-        f"---\n"
-    )
-    fp.write_text(content, encoding="utf-8")
+    init_db()
+    set_checkpoint("last_updated", now)
+    set_checkpoint("phase", phase)
+    set_checkpoint("current_topic", topic)
+    set_checkpoint("next_task", next_task)
+    set_checkpoint("notes", notes)
     print(f"Checkpoint saved: {topic} (phase: {phase})")
 
 if __name__ == "__main__":

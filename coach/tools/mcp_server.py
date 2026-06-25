@@ -12,6 +12,7 @@ MEM_DIR = Path(__file__).resolve().parent.parent / "memory"
 
 sys.path.insert(0, str(MEM_DIR.parent))
 from tools.index_memory import load_index
+from tools.db import init_db, load_goals, load_habits, get_checkpoint
 
 _IDX = None
 
@@ -30,23 +31,22 @@ def _read_file(path):
         return ""
 
 def _get_checkpoint_text():
-    fp = MEM_DIR / "checkpoint.md"
-    if not fp.exists():
+    init_db()
+    cp = get_checkpoint()
+    if not cp:
         return "No checkpoint set."
-    return _read_file(fp)
+    lines = ["---"]
+    for k, v in cp.items():
+        lines.append(f'{k}: "{v}"')
+    lines.append("---")
+    return "\n".join(lines)
 
 def _get_goals_text():
-    fp = MEM_DIR / "goals.md"
-    if not fp.exists():
+    init_db()
+    goals = load_goals()
+    if not goals:
         return "No goals set."
-    text = _read_file(fp)
-    goals = []
-    for line in text.splitlines():
-        line = line.strip()
-        if line.startswith("- title:"):
-            title = line.split(":", 1)[1].strip().strip('"')
-            goals.append(f"- {title}")
-    return "\n".join(goals) if goals else text[:500]
+    return "\n".join(f"- {g['title']}" for g in goals)
 
 def _get_recent_sessions(n=5):
     sess_dir = MEM_DIR / "sessions"
@@ -138,10 +138,14 @@ def _tool_get_recent_sessions(n: int = 5) -> str:
     return "\n".join(lines)
 
 def _tool_get_habits() -> str:
-    fp = MEM_DIR / "habits.md"
-    if not fp.exists():
+    init_db()
+    habits = load_habits()
+    if not habits:
         return "No habits tracked."
-    return _read_file(fp)
+    lines = []
+    for h in habits:
+        lines.append(f"- {h['title']} ({h['status']})")
+    return "\n".join(lines)
 
 def _tool_web_search(query: str, max_results: int = 10) -> str:
     from tools.web_search import search_web

@@ -8,6 +8,7 @@ SESS_DIR = MEM_DIR / "sessions"
 
 sys.path.insert(0, str(BASE))
 from tools.index_memory import load_index as load_tfidf_index
+from tools.db import init_db, load_recent_sessions, load_goals, get_checkpoint
 
 class MemoryManager:
     """Unified memory manager for Personal Coach 2.0.
@@ -44,21 +45,38 @@ class MemoryManager:
                 context_parts.append(f"- [{r['meta'].get('source', 'unknown')}] {snippet}")
 
         # 2. Hard-coded critical context
-        goals = self.read_md(MEM_DIR / "goals.md")
+        init_db()
+        goals_data = load_goals()
         profile = self.read_md(MEM_DIR / "profile.md")
-        checkpoint = self.read_md(MEM_DIR / "checkpoint.md")
+        checkpoint_data = get_checkpoint()
 
-        if goals: context_parts.append(f"\nACTIVE GOALS:\n{goals}")
+        if goals_data:
+            glines = ["\nACTIVE GOALS:"]
+            for g in goals_data:
+                glines.append(f"- {g['title']} ({g['status']})")
+            context_parts.append("\n".join(glines))
         if profile: context_parts.append(f"\nUSER PROFILE:\n{profile}")
-        if checkpoint: context_parts.append(f"\nCURRENT CHECKPOINT:\n{checkpoint}")
+        if checkpoint_data:
+            clines = ["\nCURRENT CHECKPOINT:"]
+            for k, v in checkpoint_data.items():
+                clines.append(f"{k}: {v}")
+            context_parts.append("\n".join(clines))
 
         # 3. Recent Sessions (Temporal Context)
-        sessions = sorted(SESS_DIR.glob("session-*.md"), key=lambda p: p.stem, reverse=True)[:self.max_items]
-        if sessions:
+        init_db()
+        db_sessions = load_recent_sessions(days=self.max_items)
+        if db_sessions:
             context_parts.append("\nRECENT SESSIONS:")
-            for s in sessions:
-                txt = self.read_md(s).splitlines()[:10]
-                context_parts.append("\n".join(txt))
+            for s in db_sessions:
+                lines = []
+                lines.append(f"date: {s.get('date', '')}")
+                lines.append(f"skill: {s.get('skill', '')}")
+                lines.append(f"duration_min: {s.get('duration_min', '')}")
+                lines.append(f"rating: {s.get('rating', '')}")
+                notes = s.get('notes', '')
+                if notes:
+                    lines.append(f"notes: {notes[:200]}")
+                context_parts.append("\n".join(lines))
 
         return "\n\n".join(context_parts)[:6000]
 

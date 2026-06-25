@@ -6,6 +6,9 @@ Usage:
 import sys, datetime, re, shutil
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from db import init_db, add_goal, add_habit, load_goals, load_habits
+
 MEM_DIR = Path(__file__).resolve().parent.parent / "memory"
 INBOX_DIR = MEM_DIR / "inbox" / "captures"
 INBOX_ARCHIVE = MEM_DIR / "inbox" / "processed"
@@ -122,29 +125,23 @@ def _add_to_daily_task(filepath, content):
 
 
 def _add_to_habits(filepath, content):
-    """Append to habits.md."""
-    habits = MEM_DIR / "habits.md"
+    """Add item to habits via DB."""
+    init_db()
+    existing = load_habits()
+    nums = [int(h["id"].split("-")[1]) for h in existing if h["id"].startswith("habit-")]
+    next_id = f"habit-{(max(nums) + 1) if nums else 1}"
     title = content.split("\n")[0].strip() if content else filepath.stem
-    entry = f'\n- id: "habit-{datetime.date.today().isoformat()}"\n  title: "{title}"\n  cue: ""\n  action: ""\n  reward: ""\n'
-    if habits.exists():
-        text = habits.read_text(encoding="utf-8")
-        text += entry
-        habits.write_text(text, encoding="utf-8")
-    else:
-        habits.write_text(f"# Habits\n{entry}", encoding="utf-8")
+    add_habit(next_id, title)
 
 
 def _add_to_goals(filepath, content):
-    """Append to goals.md."""
-    goals = MEM_DIR / "goals.md"
+    """Add item to goals via DB."""
+    init_db()
+    existing = load_goals()
+    nums = [int(g["id"].split("-")[1]) for g in existing if g["id"].startswith("goal-")]
+    next_id = f"goal-{(max(nums) + 1) if nums else 1}"
     title = content.split("\n")[0].strip() if content else filepath.stem
-    entry = f'\n- id: "goal-{datetime.date.today().isoformat()}"\n  title: "{title}"\n  created: "{datetime.date.today().isoformat()}"\n  target_date: ""\n  metric: ""\n  notes: ""\n'
-    if goals.exists():
-        text = goals.read_text(encoding="utf-8")
-        text += entry
-        goals.write_text(text, encoding="utf-8")
-    else:
-        goals.write_text(f"# Goals\n{entry}", encoding="utf-8")
+    add_goal(next_id, title)
 
 
 def main():

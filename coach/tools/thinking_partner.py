@@ -7,7 +7,9 @@ from pathlib import Path
 
 MEM_DIR = Path(__file__).resolve().parent.parent / "memory"
 CONV_DIR = MEM_DIR / "conversations"
-SESSIONS_DIR = MEM_DIR / "sessions"
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from db import init_db, load_recent_sessions
 
 
 def load_context():
@@ -48,25 +50,18 @@ def load_recent_decisions(limit=5):
 
 
 def load_related_sessions(topic, limit=3):
-    sessions = []
-    if not SESSIONS_DIR.exists():
-        return sessions
+    init_db()
+    sessions = load_recent_sessions(days=7)
     topic_lower = topic.lower()
-    for fp in sorted(SESSIONS_DIR.glob("session-*.md"), reverse=True):
-        text = fp.read_text(encoding="utf-8")
-        skill = notes = date = ""
-        for line in text.splitlines():
-            if line.startswith("skill:"):
-                skill = line.split(":", 1)[1].strip()
-            elif line.startswith("notes:"):
-                notes = line.split(":", 1)[1].strip().strip('"')
-            elif line.startswith("date:"):
-                date = line.split(":", 1)[1].strip().strip('"')
+    result = []
+    for s in sessions:
+        skill = s.get("skill", "")
+        notes = s.get("notes", "")
         if topic_lower in skill.lower() or topic_lower in notes.lower():
-            sessions.append({"date": date, "skill": skill, "notes": notes})
-            if len(sessions) >= limit:
+            result.append({"date": s.get("date", ""), "skill": skill, "notes": notes})
+            if len(result) >= limit:
                 break
-    return sessions
+    return result
 
 
 def load_past_conversations(topic, limit=2):

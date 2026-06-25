@@ -7,46 +7,32 @@ import sys, datetime, re
 from pathlib import Path
 
 MEM_DIR = Path(__file__).resolve().parent.parent / "memory"
-SESSIONS_DIR = MEM_DIR / "sessions"
 CONV_DIR = MEM_DIR / "conversations"
 DAILY_DIR = MEM_DIR / "daily"
 
-_FIELD_PARSERS = {
-    "date": ("date", str),
-    "skill": ("skill", str),
-    "rating": ("rating", str),
-    "duration_min": ("duration", str),
-    "notes": ("notes", str),
-}
-
-def _parse_session_file(text: str) -> dict:
-    data = {}
-    decisions = []
-    for line in text.splitlines():
-        for prefix, (key, _) in _FIELD_PARSERS.items():
-            if line.startswith(f"{prefix}:"):
-                data[key] = line.split(":", 1)[1].strip().strip('"')
-                break
-        else:
-            if line.startswith("- decision:"):
-                decisions.append(line.split(":", 1)[1].strip().strip('"'))
-    data["decisions"] = decisions
-    return data
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from db import init_db, get_db
 
 
 def load_recent_sessions(days):
-    cutoff = datetime.date.today() - datetime.timedelta(days=days)
+    init_db()
+    cutoff = (datetime.date.today() - datetime.timedelta(days=days)).isoformat()
+    rows = get_db().execute(
+        "SELECT * FROM sessions WHERE date >= ? ORDER BY date DESC", (cutoff,)
+    ).fetchall()
     sessions = []
-    if not SESSIONS_DIR.exists():
-        return sessions
-    for fp in sorted(SESSIONS_DIR.glob("session-*.md"), reverse=True):
-        data = _parse_session_file(fp.read_text(encoding="utf-8"))
-        try:
-            d = datetime.date.fromisoformat(data.get("date", "").split("T")[0])
-            if d >= cutoff:
-                sessions.append(data)
-        except (ValueError, IndexError):
-            pass
+    for r in rows:
+        decisions = [d["decision"] for d in get_db().execute(
+            "SELECT decision FROM session_decisions WHERE session_id = ?", (r["id"],)
+        ).fetchall()]
+        sessions.append({
+            "skill": r["skill"],
+            "rating": str(r["rating"]),
+            "duration": str(r["duration_min"]),
+            "notes": r.get("notes", ""),
+            "date": r["date"],
+            "decisions": decisions,
+        })
     return sessions
 
 

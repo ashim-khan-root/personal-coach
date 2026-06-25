@@ -1,15 +1,15 @@
 """Store a practice session. Usage:
   python store_session.py <skill> <duration_min> <rating> [notes] [--no-hooks] [--decision "what you decided"]
 """
-import sys, uuid, datetime, re
+import sys, uuid, datetime
 from pathlib import Path
 
-MEM_DIR = Path(__file__).resolve().parent.parent / "memory"
-SESS_DIR = MEM_DIR / "sessions"
-SESS_DIR.mkdir(parents=True, exist_ok=True)
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from db import init_db, store_session as db_store_session
+from insight_ledger import log_insight
+
 
 def extract_decisions_from_notes(notes):
-    """Auto-detect decisions in session notes."""
     decisions = []
     for line in notes.split("\n"):
         low = line.lower().strip()
@@ -17,21 +17,10 @@ def extract_decisions_from_notes(notes):
             decisions.append(line.strip().lstrip("- "))
     return decisions
 
-def log_decision_to_file(skill, decisions):
-    """Append decisions to decisions.md."""
-    fp = MEM_DIR / "decisions.md"
-    today = datetime.date.today().isoformat()
-    entry = f"\n## {today} — {skill} (session)\n"
-    for d in decisions:
-        entry += f"- {d}\n"
-    if fp.exists():
-        content = fp.read_text(encoding="utf-8")
-        content += entry
-        fp.write_text(content, encoding="utf-8")
-    else:
-        fp.write_text(f"# Decisions Log\n{entry}", encoding="utf-8")
 
 def main():
+    init_db()
+
     no_hooks = "--no-hooks" in sys.argv
     args = [a for a in sys.argv[1:] if a != "--no-hooks"]
 
@@ -46,43 +35,31 @@ def main():
         print("Usage: python store_session.py <skill> <duration_min> <rating> [notes] [--no-hooks] [--decision \"what\"]")
         sys.exit(1)
     skill = args[0]
-    duration_min = args[1]
-    rating = args[2]
+    duration_min = int(args[1])
+    rating = int(args[2])
     notes = args[3] if len(args) > 3 else ""
-    sid = str(uuid.uuid4())
-    now = datetime.datetime.now(datetime.timezone.utc)
-    timestamp = now.isoformat()
-    filename = now.strftime("session-%Y%m%d-%H%M%S") + ".md"
 
+    now = datetime.datetime.now(datetime.timezone.utc)
+    session_id = str(uuid.uuid4())
     auto_decisions = extract_decisions_from_notes(notes) if notes else []
     all_decisions = explicit_decisions + auto_decisions
-    decision_block = ""
-    if all_decisions:
-        decision_block = "decisions:\n" + "".join(f'  - "{d}"\n' for d in all_decisions)
 
-    content = (
-        f"---\n"
-        f"id: {sid}\n"
-        f"date: {timestamp}\n"
-        f"skill: {skill}\n"
-        f"duration_min: {duration_min}\n"
-        f"rating: {rating}\n"
-        f"notes: |\n"
-        f"  {notes}\n"
-        f"{decision_block}"
-        f"tags: []\n"
-        f"---\n"
-    )
-    fpath = SESS_DIR / filename
-    fpath.write_text(content, encoding="utf-8")
-    print(f"Session stored: {fpath.name}")
-    print(f"skill: {skill} | duration: {duration_min}min | rating: {rating}/10")
+    session_data = {
+        "id": session_id,
+        "date": now.isoformat(),
+        "skill": skill,
+        "duration_min": duration_min,
+        "rating": rating,
+        "notes": notes,
+        "decisions": all_decisions,
+    }
+    db_store_session(session_data)
+    print(f"Session stored: {skill} | {duration_min}min | {rating}/10")
 
     if all_decisions:
-        log_decision_to_file(skill, all_decisions)
-        print(f"Decisions logged: {len(all_decisions)}")
+        log_insight("session_decisions", {"count": len(all_decisions), "skill": skill})
 
-    meta_path = MEM_DIR / "meta.md"
+    meta_path = Path(__file__).resolve().parent.parent / "memory" / "meta.md"
     if meta_path.exists():
         meta = meta_path.read_text(encoding="utf-8")
         lines = meta.splitlines()
@@ -103,7 +80,7 @@ def main():
             import sys as _sys
             _sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
             from tools.session_hooks import post_session
-            post_session(skill, duration_min, rating, notes)
+            post_session(skill, str(duration_min), str(rating), notes)
         except Exception as e:
             print(f"[hooks] post-session analysis skipped: {e}")
 
@@ -115,6 +92,7 @@ def main():
             print("[backup] Memory backed up to git")
     except Exception:
         pass
+
 
 if __name__ == "__main__":
     main()

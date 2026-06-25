@@ -5,8 +5,10 @@ from pathlib import Path
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from db import init_db, load_recent_sessions, load_goals, load_habits
+
 MEM_DIR = Path(__file__).resolve().parent.parent / "memory"
-SESS_DIR = MEM_DIR / "sessions"
 
 def read_md(file):
     if not file.exists():
@@ -15,24 +17,34 @@ def read_md(file):
 
 def main(max_items=5):
     meta = read_md(MEM_DIR / "meta.md")
-    goals = read_md(MEM_DIR / "goals.md")
-    habits = read_md(MEM_DIR / "habits.md")
     resources = read_md(MEM_DIR / "resources.md")
-    sessions = sorted(SESS_DIR.glob("session-*.md"), key=lambda p: p.stem, reverse=True)[:max_items]
+    init_db()
+    goals = load_goals()
+    habits = load_habits()
+    recent_sessions = load_recent_sessions(days=10)
     recent = []
-    for s in sessions:
-        txt = read_md(s).splitlines()[:10]
-        recent.append("\n".join(txt) + f"\n  (file: {s.name})")
+    for s in recent_sessions[:max_items]:
+        lines = []
+        lines.append(f"date: {s.get('date', '')}")
+        lines.append(f"skill: {s.get('skill', '')}")
+        lines.append(f"duration_min: {s.get('duration_min', '')}")
+        lines.append(f"rating: {s.get('rating', '')}")
+        notes = s.get('notes', '')
+        if notes:
+            lines.append(f"notes: {notes}")
+        recent.append("\n".join(lines))
     parts = []
     if meta:
         parts.append("=== META ===")
         parts.append(meta)
     if goals:
         parts.append("=== GOALS ===")
-        parts.append(goals)
+        for g in goals:
+            parts.append(f"- {g['title']} ({g['status']})")
     if habits:
         parts.append("=== HABITS ===")
-        parts.append(habits)
+        for h in habits:
+            parts.append(f"- {h['title']} ({h['status']})")
     if resources:
         parts.append("=== RESOURCES ===")
         parts.append(resources)

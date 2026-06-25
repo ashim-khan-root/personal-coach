@@ -1,6 +1,6 @@
 """Insight Ledger — lightweight event logging for every tool.
 Each tool can log runtime, quality, and outcome data. The ledger
-accumulates into a JSON file that weekly_synthesis, session_analytics,
+accumulates into a SQLite database that weekly_synthesis, session_analytics,
 and other reflective tools can query.
 
 Usage:
@@ -9,66 +9,11 @@ Usage:
   log_insight("tool_run", {"tool": "uuid_generator", "runtime_ms": 12})
   recent = query_insights(event="tool_run", limit=10)
 """
-import datetime
-import json
-import sys
+import json, sys
 from pathlib import Path
 
-MEM_DIR = Path(__file__).resolve().parent.parent / "memory"
-LEDGER_FILE = MEM_DIR / "insight_ledger.json"
-
-
-def _load() -> list[dict]:
-    if not LEDGER_FILE.exists():
-        return []
-    try:
-        raw = LEDGER_FILE.read_text(encoding="utf-8")
-        return json.loads(raw) if raw else []
-    except (json.JSONDecodeError, OSError):
-        return []
-
-
-def _save(entries: list[dict]):
-    LEDGER_FILE.write_text(json.dumps(entries, indent=2, ensure_ascii=False), encoding="utf-8")
-
-
-def log_insight(event: str, payload: dict | None = None):
-    entries = _load()
-    entries.append({
-        "event": event,
-        "timestamp": datetime.datetime.now(datetime.timezone.utc).isoformat(),
-        "payload": payload or {},
-    })
-    _save(entries)
-
-
-def query_insights(event: str | None = None,
-                   since: str | None = None,
-                   limit: int = 50) -> list[dict]:
-    entries = _load()
-    if event:
-        entries = [e for e in entries if e["event"] == event]
-    if since:
-        entries = [e for e in entries if e.get("timestamp", "") >= since]
-    entries.sort(key=lambda e: e.get("timestamp", ""), reverse=True)
-    if limit > 0:
-        entries = entries[:limit]
-    return entries
-
-
-def get_stats() -> dict:
-    entries = _load()
-    if not entries:
-        return {"total": 0, "event_types": [], "earliest": None, "latest": None}
-    types = list({e["event"] for e in entries})
-    timestamps = [e["timestamp"] for e in entries if e.get("timestamp")]
-    return {
-        "total": len(entries),
-        "event_types": sorted(types),
-        "earliest": min(timestamps) if timestamps else None,
-        "latest": max(timestamps) if timestamps else None,
-    }
-
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from db import log_insight, query_insights, get_insight_stats as get_stats
 
 
 def main():
@@ -106,4 +51,6 @@ def main():
 
 
 if __name__ == "__main__":
+    from db import init_db
+    init_db()
     main()

@@ -8,10 +8,10 @@ from collections import Counter
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from insight_ledger import log_insight
+from db import init_db, load_recent_sessions
 
 MEM_DIR = Path(__file__).resolve().parent.parent / "memory"
 DAILY_DIR = MEM_DIR / "daily"
-SESSIONS_DIR = MEM_DIR / "sessions"
 
 
 def last_7_days():
@@ -29,29 +29,19 @@ def load_daily_notes(days):
 
 
 def load_sessions(days):
-    sessions = []
-    if not SESSIONS_DIR.exists():
-        return sessions
-    for fp in sorted(SESSIONS_DIR.glob("session-*.md"), reverse=True):
-        text = fp.read_text(encoding="utf-8")
-        date = skill = rating = duration = notes = ""
-        for line in text.splitlines():
-            if line.startswith("date:"):
-                date = line.split(":", 1)[1].strip().strip('"')
-            elif line.startswith("skill:"):
-                skill = line.split(":", 1)[1].strip()
-            elif line.startswith("rating:"):
-                rating = line.split(":", 1)[1].strip()
-            elif line.startswith("duration_min:"):
-                duration = line.split(":", 1)[1].strip()
-            elif line.startswith("notes:"):
-                notes = line.split(":", 1)[1].strip().strip('"')
-        if date in days and skill:
-            sessions.append({
-                "date": date, "skill": skill,
-                "rating": rating, "duration": duration, "notes": notes
+    init_db()
+    sessions = load_recent_sessions(days=7)
+    result = []
+    for s in sessions:
+        if s["date"] in days and s["skill"]:
+            result.append({
+                "date": s["date"],
+                "skill": s["skill"],
+                "rating": str(s.get("rating") or ""),
+                "duration": str(s.get("duration_min") or ""),
+                "notes": s.get("notes") or ""
             })
-    return sessions
+    return result
 
 
 def analyze(daily_notes, sessions):

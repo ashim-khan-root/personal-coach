@@ -1,8 +1,21 @@
 """Print current goals."""
+import sys
 from pathlib import Path
-MEM_DIR = Path(__file__).resolve().parent.parent / "memory"
-fp = MEM_DIR / "goals.md"
-if fp.exists():
-    print(fp.read_text(encoding="utf-8"))
-else:
-    print("No goals file found.")
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from db import init_db, load_goals
+
+def main():
+    init_db()
+    goals = load_goals()
+    if not goals:
+        print("No goals found.")
+        return
+    for g in goals:
+        print(f"- id: {g['id']}")
+        print(f'  title: "{g["title"]}"')
+        print(f"  status: {g['status']}")
+        print(f"  created: {g['created']}")
+
+if __name__ == "__main__":
+    main()

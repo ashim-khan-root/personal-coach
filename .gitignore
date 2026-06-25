@@ -40,3 +40,6 @@ og-image.png
 
 # Coach memory (auto-generated)
 coach/memory/insight_ledger.json
+coach/memory/coach.db
+coach/memory/coach.db-wal
+coach/memory/coach.db-shm

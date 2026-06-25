@@ -1,8 +1,22 @@
 """Print current habits."""
+import sys
 from pathlib import Path
-MEM_DIR = Path(__file__).resolve().parent.parent / "memory"
-fp = MEM_DIR / "habits.md"
-if fp.exists():
-    print(fp.read_text(encoding="utf-8"))
-else:
-    print("No habits file found.")
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from db import init_db, load_habits
+
+def main():
+    init_db()
+    habits = load_habits()
+    if not habits:
+        print("No habits found.")
+        return
+    for h in habits:
+        print(f"- id: {h['id']}")
+        print(f'  title: "{h["title"]}"')
+        print(f"  status: {h['status']}")
+        print(f"  streak: {h['streak']}")
+        print(f"  created: {h['created']}")
+
+if __name__ == "__main__":
+    main()

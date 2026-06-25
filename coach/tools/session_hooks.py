@@ -3,7 +3,7 @@ Usage:
   python tools/session_hooks.py pre
   python tools/session_hooks.py post <skill> <duration> <rating> [notes]
 """
-import sys, datetime, re, io
+import sys, datetime, re
 from pathlib import Path
 
 COACH_DIR = Path(__file__).resolve().parent.parent
@@ -15,6 +15,9 @@ if sys.platform == "win32" and sys.stdout.encoding and sys.stdout.encoding.lower
 MEM_DIR = COACH_DIR / "memory"
 SESS_DIR = MEM_DIR / "sessions"
 CONV_DIR = MEM_DIR / "conversations"
+
+sys.path.insert(0, str(COACH_DIR / "tools"))
+from db import init_db, get_db
 
 
 def _load_evolution_suggestions():
@@ -116,20 +119,11 @@ def _read_habits_count():
 
 
 def _read_last_session_summary():
-    last_sesh = sorted(SESS_DIR.glob("session-*.md"), reverse=True)
-    if not last_sesh:
+    init_db()
+    row = get_db().execute("SELECT skill, rating FROM sessions ORDER BY date DESC LIMIT 1").fetchone()
+    if not row:
         return None
-    text = last_sesh[0].read_text(encoding="utf-8")
-    skill = ""
-    rating = ""
-    for line in text.splitlines():
-        if line.startswith("skill:"):
-            skill = line.split(":", 1)[1].strip()
-        elif line.startswith("rating:"):
-            rating = line.split(":", 1)[1].strip()
-    if not skill:
-        return None
-    return f"Last session: {skill} ({rating}/10)"
+    return f"Last session: {row['skill']} ({row['rating']}/10)"
 
 
 def _read_recent_decisions():

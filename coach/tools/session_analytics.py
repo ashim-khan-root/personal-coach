@@ -14,42 +14,18 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 MEM_DIR = Path(__file__).resolve().parent.parent / "memory"
-SESS_DIR = MEM_DIR / "sessions"
 WORK_DIR = Path(__file__).resolve().parent.parent / "work"
 WORK_DIR.mkdir(parents=True, exist_ok=True)
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from insight_ledger import _load as load_ledger
+from db import init_db, load_recent_sessions
 
 
 def load_sessions(days: int) -> list[dict]:
-    """Load session files from the last N days."""
-    cutoff = (datetime.date.today() - datetime.timedelta(days=days)).isoformat()
-    sessions = []
-    if not SESS_DIR.exists():
-        return sessions
-    for fp in sorted(SESS_DIR.glob("session-*.md"), reverse=True):
-        text = fp.read_text(encoding="utf-8")
-        entry = {}
-        body = []
-        in_front, in_body = False, False
-        for line in text.splitlines():
-            if line.strip() == "---":
-                if not in_front:
-                    in_front = True
-                elif in_front:
-                    in_front, in_body = False, True
-                continue
-            if in_front and ":" in line:
-                k, _, v = line.partition(":")
-                entry[k.strip()] = v.strip().strip('"').strip("'")
-            elif in_body:
-                body.append(line)
-        date_str = entry.get("date", "")[:10]
-        if date_str >= cutoff:
-            entry["_body"] = "\n".join(body)
-            sessions.append(entry)
-    return sessions
+    """Load session data from the last N days via DB."""
+    init_db()
+    return load_recent_sessions(days)
 
 
 def compute_skill_breakdown(sessions: list[dict]) -> list[dict]:
