@@ -39,7 +39,7 @@ Restore: `py -3 coach/tools/load_context_snapshot.py`
 | Mode | When | Behavior |
 |---|---|---|
 | **Think** | Ambiguous request, strategic decision | Clarify goal → identify constraints → compare options → recommend |
-| **Code** | Write/edit/debug/refactor code | Read first, edit clean, no mutation, no comments unless asked |
+| **Code** | Write/edit/debug/refactor code | Read first, edit clean, no mutation, no comments unless asked. Prefer many small targeted edits over rewriting whole files. Use subagents for multi-file work. Run tests after every change. |
 | **SEO** | Audit, schema, rankings, technical issues | Crawlability → indexation → rendering → architecture → schema → intent |
 | **Automation** | n8n, scripts, integrations | Modular, observable, error-handled, secrets-safe |
 | **Research** | Compare tools, learn new tech, investigate | Web search → synthesize → cite → recommend |
@@ -80,6 +80,14 @@ Trivial tasks skip to EXECUTE. FAST MODE: compressed RESEARCH+PLAN, still pause 
 4. **Update AGENTS.md** if the gap is structural (repo layout, deployment, preference, project) so it never happens again.
 5. **Carry on.** No dwelling, no excuses.
 
+## Execution Patterns (from experience)
+
+- **Refactoring**: extract pure helpers first, verify tests pass, then wire callers. One function at a time.
+- **Multi-file changes**: delegate batches to subagents (general type) with exact edit instructions. Verify with import check + pytest after.
+- **Storage migration**: never delete legacy files during migration — keep as fallback. Migrate one domain at a time, verify after each.
+- **Commit cadence**: one logical change per commit. Don't mix refactoring with feature work or migration with cleanup.
+- **When blocked**: ask the user immediately. Never guess at intent or work around a missing dependency.
+
 ## Repo Structure
 
 - `freetoolz/` — **separate git repo** (github.com/ashim-khan-root/freetoolz). Hugo static site (73+ tools). Deploys via GitHub Actions → GitHub Pages on push to main.
@@ -99,8 +107,8 @@ Trivial tasks skip to EXECUTE. FAST MODE: compressed RESEARCH+PLAN, still pause 
 | freetoolz | JavaScript | Yes (submodule) | Hugo tool site (freetoolz.in) |
 | portfolio | HTML | Yes (submodule) | Personal portfolio site |
 | safehome | HTML | Yes (submodule) | Security/smart home site |
-| starfoxsecu | CSS | Yes (dir, no own git) | Hugo test site |
-| quotation-coach | — | Yes (dir, no own git) | Quotation tool |
+| starfoxsecu | CSS | No (moved out) | Hugo test site |
+| quotation-coach | — | No (moved out) | Quotation tool |
 | ai-leads-chatbot | JavaScript | No | Lead gen chatbot |
 | hermespentest | Python | No | Pentest tooling |
 | jobhunt | Python | No | Job hunting tool |
@@ -116,8 +124,8 @@ Trivial tasks skip to EXECUTE. FAST MODE: compressed RESEARCH+PLAN, still pause 
 | freetoolz | `freetoolz/` | Hugo site | GH Pages | Active |
 | portfolio | `portfolio/` | Site | GH Pages | Active |
 | safehome | `safehome/` | Site/app | — | Active |
-| starfoxsecu | `starfoxsecu/` | Security business site | — | Active |
-| quotation-coach | `quotation-coach/` | Quotation tool | — | Active |
+| starfoxsecu | `starfoxsecu/` | Security business site | — | Moved out |
+| quotation-coach | `quotation-coach/` | Quotation tool | — | Moved out |
 
 ## User Background (persistent)
 
@@ -144,6 +152,7 @@ Trivial tasks skip to EXECUTE. FAST MODE: compressed RESEARCH+PLAN, still pause 
 |---|---|
 | `deep_research.py` | Multi-source research on any topic |
 | `session_hooks.py` | Session start/end lifecycle |
+| `recap.py` | Generate session recap (daily/weekly) |
 | `store_session.py` | Log session summary to memory |
 | `save_context_snapshot.py` | Context window checkpoint |
 | `task_manager.py` | Add/list/done/delete tasks |
@@ -155,7 +164,26 @@ Trivial tasks skip to EXECUTE. FAST MODE: compressed RESEARCH+PLAN, still pause 
 | `thinking_partner.py` | Structured thinking session |
 | `index_memory.py` | Rebuild memory index |
 | `insight_ledger.py` | Extract session insights |
-| `tests/` | pytest unit tests (37 tests) |
+| `db.py` | SQLite storage backend (shared by 15+ tools) |
+| `tests/` | pytest unit tests (36 tests) |
+
+## SQLite Storage Architecture
+
+All persistent data lives in `coach/memory/coach.db` (auto-generated, .gitignored). The schema is managed by `coach/tools/db.py`.
+
+| Table | Domain | Migrated from |
+|---|---|---|
+| `insight_events` | Event logging (every tool) | `insight_ledger.json` |
+| `tasks` | Task CRUD | `tasks.md` |
+| `sessions` | Practice sessions | `sessions/*.md` |
+| `session_decisions` | Decisions per session | inline in sessions |
+| `goals` | Active goals | `goals.md` |
+| `habits` | Tracked habits | `habits.md` |
+| `checkpoint` | Key-value state | `checkpoint.md` |
+
+**Pattern:** `init_db()` once at entry, then use `db.get_db().execute(...)` or domain helpers. Markdown originals still exist as read-only fallback.
+
+**Not migrated** (stay as markdown): daily notes, conversations, snapshots, insights.md, evolution suggestions, profile/meta/resources, site surveys, reports.
 
 ## Testing
 
