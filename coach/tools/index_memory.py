@@ -39,16 +39,17 @@ def _extract_date(text, filename):
 
 def _chunk_sessions():
     entries = []
-    sess_dir = MEM_DIR / "sessions"
-    for fp in sorted(sess_dir.glob("session-*.md"), reverse=True):
-        text = _read_file(fp)
-        if not text.strip():
-            continue
-        date = _extract_date(text, fp.name)
-        body = _strip_yaml(text)
+    import sys as _sys
+    _sys.path.insert(0, str(MEM_DIR.parent / "tools"))
+    from db import init_db, get_db
+    init_db()
+    rows = get_db().execute("SELECT id, date, skill, duration_min, rating, notes FROM sessions ORDER BY date DESC").fetchall()
+    for r in rows:
+        date = r["date"][:10] if r["date"] else ""
+        body = f"Skill: {r['skill']}\nDuration: {r['duration_min']}min\nRating: {r['rating']}/10\n{r['notes']}"
         entries.append({
-            "text": body or text,
-            "meta": {"source": "sessions", "filename": fp.name, "date": date, "path": str(fp.relative_to(MEM_DIR))}
+            "text": body,
+            "meta": {"source": "sessions", "filename": r["id"], "date": date, "path": f"sessions/{r['id']}"}
         })
     return entries
 

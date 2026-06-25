@@ -12,12 +12,15 @@ If missing, do manually: `pip install -r coach/requirements.txt`, restore ZIP, i
 - **Always run commands from the project root** — all tools use absolute path resolution internally.
 - **Python**: `py -3` on Windows (`C:\Users\ashim\AppData\Local\Programs\Python\Python311\python.exe`)
 - Deps: `pip install -r coach/requirements.txt`
+- **Startup script**: `.\start-session.ps1` (loads context + launches opencode)
 
-## Mandatory session start
+## Mandatory session start — RUN THIS FIRST EVERY TIME
+I MUST run these two commands at the start of every fresh session before doing anything else:
 ```bash
 py -3 coach/tools/session_hooks.py pre
 py -3 coach/tools/read_context.py 10
 ```
+(Or use `.\start-session.ps1` which does both + launches opencode.)
 
 ## Mandatory session end
 ```bash
