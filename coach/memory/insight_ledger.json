@@ -86,5 +86,17 @@
       "has_backlinks": true,
       "has_speed": true
     }
+  },
+  {
+    "event": "seo_audit_complete",
+    "timestamp": "2026-06-24T12:21:41.776615+00:00",
+    "payload": {
+      "url": "https://freetoolz.in",
+      "issues": 3,
+      "critical": 0,
+      "crawled_pages": 0,
+      "has_backlinks": true,
+      "has_speed": true
+    }
   }
 ]

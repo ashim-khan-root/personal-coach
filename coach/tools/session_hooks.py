@@ -273,13 +273,14 @@ def post_session(skill, duration, rating, notes=""):
         from tools.index_memory_lightrag import build_index as _lr_build
         _lr_build()
         print("[hooks] Index refreshed")
-    except Exception:
+    except Exception as e:
+        print(f"[hooks] LightRAG failed: {e}. Falling back to TF-IDF.")
         try:
             from tools.index_memory import build_index
             build_index()
             print("[hooks] Index refreshed (TF-IDF fallback)")
-        except Exception as e:
-            print(f"[hooks] Index refresh skipped: {e}")
+        except Exception as e2:
+            print(f"[hooks] Index refresh failed: {e2}")
 
     return count
 

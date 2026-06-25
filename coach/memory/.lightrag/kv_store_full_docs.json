@@ -2412,5 +2412,22 @@
     "create_time": 1781698141,
     "update_time": 1781698141,
     "_id": "decisions::decisions.md::145"
+  },
+  "sessions::session-20260624-105632.md::0": {
+    "content": "---\nid: bf2cea6c-098b-479b-9e5a-cafd0cf0c762\ndate: 2026-06-24T10:56:32.557258+00:00\nskill: MOI-KPOI-NVR-Selection\nduration_min: 45\nrating: 5\nnotes: |\n  Compared DS-9632NI-I8(STD) vs DS-9632NXI-I8/S vs DS-8632NXI-I8/24P/S vs DS-7732NXI-K4/16P against RFP spec. Confirmed DS-9632NXI-I8/S as the best match (passes all specs except PoE). STD model fails on alarm I/O (16/4) and no on-board AI. Collected pricing data for maglocks, break-glass buttons, fire alarm buzzer, and Hikvision DS-K2M061 fire module. Saved datasheets locally.\ntags: []\n---",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "507d90ac08b3ccee1b1a1baf23011571",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1782299128,
+    "update_time": 1782299128,
+    "_id": "sessions::session-20260624-105632.md::0"
   }
 }

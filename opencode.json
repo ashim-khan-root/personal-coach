@@ -164,6 +164,11 @@
       "type": "local",
       "command": ["npx", "-y", "chrome-devtools-mcp@latest"],
       "description": "Chrome DevTools MCP for browser inspection, debugging, and automation"
+    },
+    "codebase-memory": {
+      "type": "local",
+      "command": ["C:\\Users\\Lenovo\\AppData\\Local\\Programs\\codebase-memory-mcp\\codebase-memory-mcp.exe"],
+      "description": "Codebase knowledge graph MCP for structural code queries"
     }
   },
   "permission": {
